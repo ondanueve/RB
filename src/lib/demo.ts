@@ -65,13 +65,14 @@ export const PAREJAS_DEMO: ParejaDemo[] = [
     inicioRelacion: "1932",
     inicioAproximado: false,
     relacion:
-      "Amigos íntimos y colaboradores literarios desde 1932; cenaron juntos casi todas las noches durante décadas en el departamento de la calle Posadas.",
+      "Amigos íntimos y colaboradores literarios desde 1932; en este diario apócrifo cenan en el departamento de la calle Posadas en octubre de 2026 y comentan el Premio Nobel de Literatura concedido a Anne Carson.",
     ambito: "literatura",
-    fechaEjemplo: "1968-06-14",
+    fechaEjemplo: "2026-10-08",
     escenaEjemplo: "Come en casa Borges",
     fuentes: [
       wiki("Jorge Luis Borges", "Jorge_Luis_Borges"),
       wiki("Adolfo Bioy Casares", "Adolfo_Bioy_Casares"),
+      wiki("Anne Carson", "Anne_Carson"),
     ],
   },
   {
@@ -337,35 +338,6 @@ export const PAREJAS_DEMO: ParejaDemo[] = [
     fechaEjemplo: "2023-05-19",
     escenaEjemplo: "Almuerzo en el hotel de Cannes antes del estreno",
     fuentes: [wiki("Martin Scorsese", "Martin_Scorsese"), wiki("Robert De Niro", "Robert_De_Niro")],
-  },
-  {
-    id: "alcaraz-ferrero",
-    borges: {
-      nombre: "Carlos Alcaraz",
-      corto: "Alcaraz",
-      apodos: ["Carlitos", "Charly"],
-      alias: ["alcaraz", "carlos alcaraz"],
-      nacimiento: "2003-05-05",
-      muerte: null,
-      descripcion: "tenista español",
-    },
-    bioy: {
-      nombre: "Juan Carlos Ferrero",
-      corto: "Ferrero",
-      apodos: ["Juanki", "el Mosquito"],
-      alias: ["ferrero", "juan carlos ferrero"],
-      nacimiento: "1980-02-12",
-      muerte: null,
-      descripcion: "entrenador y extenista español",
-    },
-    inicioRelacion: "2018",
-    inicioAproximado: false,
-    relacion:
-      "Ferrero entrena a Alcaraz en su academia de Villena desde 2018 y lo acompaña en todo el circuito ATP.",
-    ambito: "tenis",
-    fechaEjemplo: "2024-07-12",
-    escenaEjemplo: "Cena en la casa alquilada en Wimbledon",
-    fuentes: [wiki("Carlos Alcaraz", "Carlos_Alcaraz"), wiki("Juan Carlos Ferrero", "Juan_Carlos_Ferrero")],
   },
 ];
 

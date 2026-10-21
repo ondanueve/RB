@@ -88,61 +88,61 @@ interface DiarioPreescrito {
 const DIARIOS_POR_ID: Record<string, DiarioPreescrito> = {
   "borges-bioy": {
     resumen:
-      "Junio de 1968 en Buenos Aires. Jorge Luis Borges y Adolfo Bioy Casares cenan casi todas las noches en el departamento de la calle Posadas, corrigen borradores, revisan antologías y comentan con malicia el ambiente literario porteño.",
+      "Octubre de 2026 en Buenos Aires. Jorge Luis Borges y Adolfo Bioy Casares cenan en el departamento de la calle Posadas y comentan con ironía el Premio Nobel de Literatura concedido a la poeta y helenista canadiense Anne Carson, sus traducciones de Safo y el oportunismo de los suplementos porteños.",
     recientes: [
-      { fecha: "1968-05-30", descripcion: "Conferencia de Borges sobre poesía anglosajona en el Instituto Cultural." },
+      { fecha: "2026-10-08", descripcion: "Anuncio en Estocolmo del Premio Nobel de Literatura 2026 otorgado a la poeta y helenista canadiense Anne Carson." },
     ],
     proximos: [
-      { fecha: "1968-06-25", descripcion: "Entrega de pruebas de imprenta de una nueva edición en Emecé." },
+      { fecha: "2026-12-10", descripcion: "Ceremonia de entrega del Premio Nobel en el Konserthuset de Estocolmo." },
     ],
     saltosDias: [0, 1, 3, 5, 8, 11],
-    criticados: ["Ernesto Sabato", "Eduardo Mallea"],
-    alabados: ["Robert Louis Stevenson", "Alfonso Reyes"],
+    criticados: ["la Academia Sueca", "Arturo Capdevila"],
+    alabados: ["Anne Carson", "Catulo"],
     notas: [
-      "Eduardo Mallea había publicado el año anterior La barca de hielo (Buenos Aires, Sudamericana, 1967).",
-      "H. Bustos Domecq, seudónimo conjunto de Borges y Bioy Casares; en 1967 habían dado a conocer Crónicas de Bustos Domecq.",
+      "El 8 de octubre de 2026 la Academia Sueca otorgó el Premio Nobel de Literatura a la poeta, ensayista y helenista canadiense Anne Carson (Toronto, 1950), autora de Autobiography of Red (1998) y Nox (2010).",
+      "En If Not, Winter: Fragments of Sappho (2002), Anne Carson emplea corchetes para señalar las lagunas y deterioros materiales de los papiros originales.",
     ],
     dias: [
       {
         situacion: "Come en casa {B}.",
         parrafos: [
-          "Trae del brazo un volumen desencuadernado de una enciclopedia escocesa y se niega a dejarlo en el vestíbulo. Durante la sopa comentamos el último suplemento literario del domingo y una novela extensa de Mallea¹; {B} toma una cucharada mínima. {BU}: «Ha descubierto el arte de escribir trescientas páginas sin que ocurra un solo sustantivo concreto. Uno lee dos capítulos y siente que está esperando el tren en una estación de provincia».",
-          "{YU}: «En el jurado municipal dicen que este año le toca el primer premio por antigüedad». {BU}: «Los premios municipales existen para consolar a quienes confunden la gravedad con el estilo. Si un libro pesa más de medio kilo, los académicos suponen que contiene ideas». Pide medio vaso de leche fría y repite el postre.",
+          "Trae bajo el brazo un volumen de lírica arcaica y comenta la noticia del día: la Academia Sueca acaba de darle el Premio Nobel a la helenista canadiense Anne Carson¹. Durante la sopa le leo el cable de las agencias sobre su novela en verso acerca de Gerión; {B} toma una cucharada mínima. {BU}: «Los caballeros de Estocolmo mantienen conmigo una cortesía escandinava: prefieren premiar a una profesora de griego de Toronto antes que ceder a la superstición de mi apellido. Además, ponerle alas coloradas a un monstruo de Estesícoro es un rasgo de buena educación clásica».",
+          "{YU}: «En los diarios de acá ya la llaman la poeta más original del siglo». {BU}: «La originalidad en Buenos Aires consiste en enterarse el jueves a las cinco de la tarde de un libro publicado hace veinticinco años. Mañana todos los suplementos van a descubrir el griego antiguo por decreto municipal». Pide medio vaso de leche fría y repite el postre.",
         ],
       },
       {
         situacion: "Caminamos por la avenida Quintana.",
         parrafos: [
-          "Frío húmedo de invierno entre los árboles de la Recoleta. Un joven desconocido nos detiene en la esquina para pedirle opinión sobre una tragedia en verso dedicada a los caudillos federales; {B} le estrecha la mano con excesiva cortesía. {BU}: «Le aconsejo suprimir los primeros cuatro actos para ganar misterio. Si además suprime el quinto, el lector le agradecerá la discreción».",
-          "Apenas el muchacho cruza la calle, le reprocho tanta crueldad con un principiante. {BU}: «Más cruel sería alentarlo a publicar. Ahora por lo menos nos odiará con energía, que es una pasión mucho más higiénica que el endecasílabo patriótico». Al llegar a la puerta tropieza con el escalón de mármol y se ríe de su propia torpeza.",
+          "Frío húmedo entre los plátanos de la Recoleta. Un cronista nos intercepta en la esquina para preguntarle qué opina del fallo sueco y de los ensayos de Carson sobre Simónides y Virginia Woolf; {B} apoya las dos manos en el bastón. {BU}: «Me alegra que premien a alguien que lee a los antiguos sin obligación de cátedra, aunque sospecho que mezclar a un griego con una señora de Bloomsbury es una coquetería universitaria. La erudición, cuando quiere parecer moderna, suele vestirse con ropa prestada».",
+          "Apenas el periodista cruza la bocacalle, le observo que estuvo casi indulgente con la ganadora. {BU}: «Es que tiene el mérito incalculable de no ser un novelista comprometido de trescientas páginas. En Estocolmo suelen confundir la literatura con el informe de una comisión de beneficencia». Al llegar al zaguán tropieza con el escalón de mármol y se ríe solo.",
         ],
       },
       {
         situacion: "Hablamos por teléfono, tarde.",
         parrafos: [
-          "Me llama desde la Biblioteca Nacional porque alguien dejó sobre su escritorio un artículo de Sabato acerca de la angustia metafísica del escritor rioplatense. {BU}: «Cree que sufrir en público es una obligación gremial. Escribe cada frase como si estuviera posando de perfil para una estatua ecuestre en Chivilcoy».",
-          "{YU}: «La semana pasada declaró en una revista que la literatura humorística es un género menor». {BU}: «Llama menores a los géneros que no dependen del ceño fruncido. Stevenson le parecería frívolo porque tenía la mala costumbre de entretener al lector en la primera página». Quedamos en vernos a las nueve para corregir dos páginas.",
+          "Llama desde la Biblioteca porque le leyeron dos artículos del suplemento cultural dedicados a la premiada. {BU}: «Tres poetas locales ya declararon que Carson es su influencia secreta desde la infancia. Hasta ayer a la mañana la confundían con la autora de un libro sobre pesticidas o con un presentador de la televisión norteamericana».",
+          "{YU}: «Al menos escribe poemas breves y ahorra adjetivos sentimentales». {BU}: «La brevedad actual suele ser pereza tipográfica: cortan una frase de prosa en cuatro escalones y esperan que el espacio en blanco haga el trabajo de Browning. De todos modos, cualquier página que cite a Homero merece nuestra gratitud». Corta porque entra el secretario con el correo.",
         ],
       },
       {
         situacion: "Sobremesa del martes.",
         parrafos: [
-          "Revisamos un soneto de un poeta español contemporáneo muy elogiado en Madrid; leemos el primer cuarteto en voz alta. {YU}: «El segundo verso tiene cierta música verbal». {BU}: «Tiene el ruido de una mudanza por la escalera. Usa palabras prestigiosas como quien alquila un frac demasiado grande para ir al cinematógrafo».",
-          "Probamos cambiar dos adjetivos por otros más llanos y el poema desaparece por completo. {BU}: «Ahí está la prueba: cuando le quitás la bisutería, abajo no había ni siquiera una equivocación interesante. Alfonso Reyes con tres palabras comunes te dejaba una cortesía inolvidable». Anoto que a las once me dolía el estómago por el dulce de membrillo.",
+          "Traigo una versión española de los fragmentos de Safo traducidos por la canadiense², llenos de corchetes que indican las roturas del papiro. Leo en voz alta una página donde quedan apenas tres palabras sueltas entre signos tipográficos. {YU}: «Con tantos agujeros en la hoja, el poema parece un telegrama cifrado o una broma vanguardista». {BU}: «El tiempo es el mejor antólogo que existe: destruye los ripios y deja un sustantivo aislado que parece genial por pura casualidad arqueológica. Si a los poetas de la calle Corrientes les comieran la mitad del libro las polillas, ganarían muchísimo en misterio».",
+          "Probamos aplicar el método de la laguna a un soneto de Capdevila, suprimiendo tres versos de cada cuarteto. {BU}: «Inútil: aun entre corchetes se oye el tambor escolar. Hay autores cuya mediocridad sobrevive hasta al incendio de Alejandría». Anoto que a las once me dolía el estómago por el dulce de membrillo.",
         ],
       },
       {
         situacion: "En la librería de la calle Florida.",
         parrafos: [
-          "Pasamos a buscar una edición inglesa de De Quincey y encontramos en la vidriera una faja colorada que anuncia «la novela definitiva de nuestra generación». {B} se acerca el cartel a dos centímetros del ojo sano. {BU}: «Cada seis meses aparece la obra definitiva de una generación que todavía no aprendió a usar el punto y coma. La posteridad suele ser bastante más distraída que las editoriales».",
-          "{YU}: «El autor nos mandó el libro dedicado el mes pasado con tres adjetivos entusiastas». {BU}: «Conté cuatro en el sobre. Cuando una dedicatoria pasa de dos líneas, ya es un intento de soborno o una amenaza». Salimos rápido por temor a cruzarnos con el novelista en la vereda.",
+          "Pasamos a buscar una edición inglesa de De Quincey y vemos en la vidriera una pila de libros de Carson con faja dorada recién impresa. {B} se acerca uno de los tomos a dos centímetros del ojo sano. {BU}: «Ayer no tenían un solo ejemplar ni en el sótano y hoy tapizaron la marquesina como para una liquidación de tienda. Los editores poseen el olfato comercial de los sepultureros: llegan siempre después del telegrama».",
+          "{YU}: «El librero asegura que se agotaron las traducciones en veinte minutos». {BU}: «En esta ciudad nadie lee a los premiados, pero todos necesitan tener el lomo a la vista sobre la mesita de la sala. Dentro de quince días esos volúmenes van a descansar invictos al lado de Rabindranath Tagore». Salimos rápido para esquivar a un conocido que viene buscando recomendaciones.",
         ],
       },
       {
-        situacion: "Cena del viernes.",
+        situacion: "Cena del lunes.",
         parrafos: [
-          "Trabajamos dos horas en un cuento policial de Bustos Domecq²; pasamos cuarenta minutos discutiendo el apellido de un escribano de Lomas de Zamora. {YU}: «Si le ponemos un apellido demasiado raro, el lector sospecha del personaje antes del crimen». {BU}: «El lector ya sospecha de nosotros desde la tapa. Pongámosle un apellido gris de guía telefónica, que es donde se esconden los verdaderos monstruos».",
-          "Antes de irse recuerda una frase que leyó por la mañana en el diccionario de la Academia. {BU}: «Los gramáticos españoles creen que el idioma es un museo de cera vigilado por gendarmes. Uno abre una página al azar y huele a naftalina de sacristía». Baja en el ascensor recitando de memoria cuatro versos de Browning.",
+          "Revisamos un libro de Carson compuesto como un fichero en acordeón por la muerte de su hermano, con definiciones del diccionario latino de Catulo en la página izquierda. {YU}: «Armar una elegía copiando las acepciones de un léxico escolar tiene cierta nobleza seca». {BU}: «Un diccionario nunca es sentimental, porque pone la palabra desdicha entre dos verbos de carpintería. Catulo sabía que el dolor verdadero cabe en un dístico y no necesita fotografías borrosas ni papel plegado».",
+          "Antes de irse vuelve sobre la Academia Sueca mientras busca el sombrero en el recibidor. {BU}: «A mí me convirtieron en el eterno candidato, que es una profesión mucho más cómoda y menos ruidosa que la de premiado. A esta señora de Canadá ya la condenaron al banquete con el rey; a nosotros nos queda la ventaja de corregir un cuento policial en paz». Baja en el ascensor recitando cuatro hexámetros griegos.",
         ],
       },
     ],
@@ -710,70 +710,6 @@ const DIARIOS_POR_ID: Record<string, DiarioPreescrito> = {
         parrafos: [
           "Cenamos en mi departamento de Tribeca con las ventanas cerradas por la humedad del río. {B} revisa la fuente de pasta y se sirve una porción mínima. {BU}: «La cocina moderna consiste en poner una hoja de albahaca parada en el medio de un plato vacío. Mi madre con dos tomates en conserva daba de comer a seis personas y sobraba para el domingo».",
           "{YU}: «El médico te prohibió la salsa pesada después de las nueve». {BU}: «Los médicos quieren que uno viva cien años comiendo papel secante. Para eso prefiero quedarme en el primer corte de montaje». Se va a las once y media llevándose prestado un libro sobre barcos del siglo dieciocho.",
-        ],
-      },
-    ],
-  },
-
-  "alcaraz-ferrero": {
-    resumen:
-      "Julio de 2024 en Londres. Carlos Alcaraz y su entrenador Juan Carlos Ferrero conviven en una casa alquilada en Wimbledon Village durante la segunda semana del campeonato, antes y después de vencer a Daniil Medvédev en semifinales y a Novak Djokovic en la final.",
-    recientes: [
-      { fecha: "2024-06-09", descripcion: "Alcaraz conquista su primer Roland Garros en París venciendo a Alexander Zverev en cinco sets." },
-      { fecha: "2024-07-09", descripcion: "Triunfo en cuartos de final de Wimbledon ante Tommy Paul en cuatro parciales." },
-    ],
-    proximos: [
-      { fecha: "2024-07-12", descripcion: "Semifinal de Wimbledon ante Daniil Medvédev en la cancha central (6-7, 6-3, 6-4, 6-4)." },
-      { fecha: "2024-07-14", descripcion: "Final de Wimbledon contra Novak Djokovic con victoria por 6-2, 6-2 y 7-6." },
-    ],
-    saltosDias: [0, 1, 2, 3, 4, 6],
-    criticados: ["Alexander Zverev", "un comentarista británico"],
-    alabados: ["Roger Federer", "Rafael Nadal"],
-    notas: [
-      "Durante el torneo de Wimbledon el equipo de Alcaraz alquila cada año una vivienda a pocas cuadras del All England Club.",
-      "La final del 14 de julio de 2024 repitió el cruce del año anterior en Wimbledon ante Novak Djokovic.",
-    ],
-    dias: [
-      {
-        situacion: "Cena en la casa alquilada en Wimbledon.",
-        parrafos: [
-          "Arroz blanco con pescado y las raquetas recién encordadas apoyadas contra el sillón del comedor¹. {YU}: «Mañana contra Medvédev no abuses de la dejada desde tres metros atrás de la línea». {BU}: «Él espera la devolución tan lejos que casi paga entrada en la primera fila. Si no le tiro una corta en el primer juego, se instala en el telón de fondo toda la tarde».",
-          "{YU}: «El ruso corre hacia adelante mucho mejor de lo que parece por televisión». {BU}: «Corre rápido, pero llega enojado. Cuando un tipo alto tiene que agacharse dos veces seguidas, el tercer tiro lo manda a la red por orgullo». Se levanta a buscar helado a la cocina; tras mi mirada vuelve con una manzana verde.",
-        ],
-      },
-      {
-        situacion: "Vestuario del club, tarde.",
-        parrafos: [
-          "Acaba de ganarle a Medvédev después de regalar el primer set por apurarse en el desempate. Mientras el fisioterapeuta le estira el gemelo, le reprocho esos quince minutos de distracción en los que miraba hacia nuestro palco. {BU}: «No pedía socorro, buscaba a alguien que tuviera cara de tranquilo. Vos tenías el ceño tan fruncido que daban ganas de tirar otra dejada para aflojarte».",
-          "En el televisor sin sonido un exjugador inglés señala un gráfico de errores no forzados. {BU}: «Para los ingleses la madurez táctica consiste en perder en cuartos de final sin mancharse las medias. Prefiero equivocarme subiendo a la red».",
-        ],
-      },
-      {
-        situacion: "Peloteo matinal sobre césped.",
-        parrafos: [
-          "Cancha de entrenamiento número cuatro, con el pasto ya gastado en el medio y olor a tierra húmeda. Ensayamos el saque abierto del lado de la ventaja para mover la rodilla operada de Djokovic; {B} clava cuatro seguidos sobre el fleje de cal. {BU}: «Si le das ritmo al centro, juega sentado desde el sillón de su casa. Hay que hacerlo pensar con los pies antes que con la muñeca».",
-          "{YU}: «En esta misma cancha Federer parecía no hacer ruido al pisar». {BU}: «Federer jugaba como si el aire no pesara nada. Al resto nos toca empujar la pelota con el hombro». Guarda tres pelotas nuevas en el bolsillo del pantalón corto para seguir probando globos.",
-        ],
-      },
-      {
-        situacion: "Balcón de los campeones, domingo.",
-        parrafos: [
-          "Tres sets limpios contra Djokovic², salvo esos diez minutos del cinco-cuatro en que se le encogió el brazo con tres pelotas de campeonato. Antes de salir a saludar con el trofeo dorado, le pregunto qué pensó en el cuarenta-iguales. {BU}: «Pensé que si perdía ese juego me ibas a hablar del primer saque durante todo el vuelo a Madrid. Gané el desempate por defensa propia».",
-          "Abajo aplauden socios con corbata violeta y sombrero de paja. {BU}: «Tienen cara de haber aplaudido igual en mil novecientos veinte. Por suerte hoy no nos hicieron esperar bajo el paraguas».",
-        ],
-      },
-      {
-        situacion: "Aeropuerto de Heathrow, mañana.",
-        parrafos: [
-          "Pasamos los controles con los bolsos de raquetas y la réplica de la copa envuelta en papel de burbujas dentro de una caja de cartón. Un empleado de seguridad pregunta si llevamos algún objeto punzante; {B} señala mi libreta de notas. {BU}: «Ahí adentro hay planillas de porcentajes de saque que lastiman más que cualquier tijera».",
-          "{YU}: «Zverev volvió a quejarse en prensa del peso de las pelotas de este mes». {BU}: «Cuando uno gana, la pelota es redonda; cuando pierde, siempre tiene pelos de más. Nadal ganó catorce veces en París con pelotas de plomo, de corcho y de barro sin preguntar la marca». Compra dos bolsas de gomitas en el quiosco creyendo que no lo veo.",
-        ],
-      },
-      {
-        situacion: "Academia de Villena, mediodía.",
-        parrafos: [
-          "Treinta y seis grados al sol en Alicante; pasamos del césped londinense al polvo de ladrillo seco en cuarenta y ocho horas. Los chicos de la escuela dejan de pelotear para mirarlo pasar, pero {B} va directo a su banco de sombra. {BU}: «Acá la pelota pica a la altura de la oreja y nadie te alcanza la toalla en bandeja. En cinco minutos se te pasa el traje de etiqueta».",
-          "{YU}: «Mañana arrancamos a las ocho y media con pasadas largas de fondo». {BU}: «A las nueve. Los campeones de Wimbledon tienen media hora de descuento en julio». Anoto que mañana a las ocho y veinte va a estar esperando en la puerta con las zapatillas puestas.",
         ],
       },
     ],
