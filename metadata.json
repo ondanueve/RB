@@ -1,0 +1,6 @@
+{
+  "name": "Ondanueve GitHub Index",
+  "description": "Diarios apócrifos al estilo de las anotaciones de Adolfo Bioy Casares sobre Jorge Luis Borges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

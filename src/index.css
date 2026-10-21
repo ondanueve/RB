@@ -1,0 +1,205 @@
+@import "tailwindcss";
+
+:root {
+  --papel: #f4ecdc;
+  --papel-claro: #fbf6ea;
+  --papel-oscuro: #e8dcc4;
+  --borde-papel: #d4c5a6;
+  --tinta: #1d1a16;
+  --tinta-suave: #5b5246;
+  --tinta-tenue: #7b7060;
+  --acento: #7a1f1f;
+  --acento-hover: #5e1616;
+  --verde-archivo: #2f5d34;
+  --serif: "EB Garamond", "Cormorant Garamond", Garamond, "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+  --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background-color: var(--papel);
+  background-image: radial-gradient(
+    ellipse at top,
+    #fbf6ea 0%,
+    var(--papel) 62%,
+    var(--papel-oscuro) 100%
+  );
+  background-attachment: fixed;
+  color: var(--tinta);
+  font-family: var(--serif);
+  font-size: 19px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Open-Book Spread & Typography */
+.libro {
+  display: grid;
+  gap: 0;
+  grid-template-columns: minmax(0, 34rem);
+  justify-content: center;
+  align-items: stretch;
+  margin: 1.5rem auto;
+}
+
+.libro.dos {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  max-width: 68rem;
+}
+
+.pagina-libro {
+  position: relative;
+  background-color: var(--papel-claro);
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.06),
+    rgba(0, 0, 0, 0) 8%,
+    rgba(0, 0, 0, 0) 94%,
+    rgba(0, 0, 0, 0.04)
+  );
+  border: 1px solid #dfd2b8;
+  box-shadow: 0 2px 5px rgba(29, 26, 22, 0.08), 0 18px 42px rgba(29, 26, 22, 0.14);
+  padding: 3.1rem 2.8rem 4.3rem 3rem;
+  min-height: 45rem;
+  min-width: 0;
+  overflow-wrap: break-word;
+  font-family: var(--serif);
+  font-size: 16.5px;
+  line-height: 1.46;
+  text-align: justify;
+  hyphens: auto;
+  color: var(--tinta);
+}
+
+.libro.dos .pagina-libro.izquierda {
+  border-right-color: #cbbba0;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.025),
+    rgba(0, 0, 0, 0) 7%,
+    rgba(0, 0, 0, 0) 89%,
+    rgba(0, 0, 0, 0.095)
+  );
+}
+
+.libro.dos .pagina-libro.derecha {
+  border-left: 0;
+  background-image: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.095),
+    rgba(0, 0, 0, 0) 11%,
+    rgba(0, 0, 0, 0) 93%,
+    rgba(0, 0, 0, 0.025)
+  );
+}
+
+.pagina-libro .cornisa {
+  text-align: center;
+  font-variant: small-caps;
+  letter-spacing: 0.26em;
+  font-size: 0.78rem;
+  color: #6d6252;
+  margin-bottom: 1.8rem;
+}
+
+.pagina-libro .anio {
+  font-weight: 600;
+  text-align: center;
+  font-size: 1.05rem;
+  letter-spacing: 0.12em;
+  margin: 0 0 0.95rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.pagina-libro .entrada-dia {
+  margin: 0 0 0.95rem;
+}
+
+.pagina-libro .entrada-dia + .anio {
+  margin-top: 1.25rem;
+}
+
+.pagina-libro p {
+  margin: 0;
+  text-indent: 1.4em;
+}
+
+.pagina-libro p.sin-sangria {
+  text-indent: 0;
+}
+
+.pagina-libro .fecha {
+  margin: 0 0 0.12rem;
+}
+
+.pagina-libro .llamada-nota {
+  font-size: 0.72em;
+  line-height: 0;
+  vertical-align: super;
+  color: var(--acento);
+  font-weight: 600;
+  margin-left: 1px;
+}
+
+.pagina-libro .notas {
+  margin-top: 1.15rem;
+  border-top: 1px solid #bfb39b;
+  width: 40%;
+  padding-top: 0.35rem;
+}
+
+.pagina-libro .notas p {
+  font-size: 0.76rem;
+  text-indent: 0;
+  width: 250%;
+  color: #4a4238;
+}
+
+.pagina-libro .notas p sup {
+  color: var(--acento);
+  font-weight: 600;
+  margin-right: 2px;
+}
+
+.pagina-libro .folio {
+  position: absolute;
+  bottom: 1.45rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 0.82rem;
+  color: #6d6252;
+  font-variant-numeric: tabular-nums;
+}
+
+.pagina-libro .marca {
+  position: absolute;
+  bottom: 0.45rem;
+  right: 0.75rem;
+  font: 11px/1 Helvetica, Arial, sans-serif;
+  color: #8a7d68;
+}
+
+@media (max-width: 900px) {
+  .libro.dos {
+    grid-template-columns: minmax(0, 34rem);
+    gap: 1.5rem;
+  }
+  .libro.dos .pagina-libro.derecha {
+    border-left: 1px solid #dfd2b8;
+  }
+  .pagina-libro {
+    min-height: 0;
+    padding: 2.2rem 1.65rem 3.4rem 1.75rem;
+    font-size: 15.5px;
+  }
+}
