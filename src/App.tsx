@@ -4,7 +4,7 @@ import { ESCENAS_SUGERIDAS, TONOS } from './lib/schema';
 import { PAREJAS_DEMO } from './lib/demo';
 import type { ResultadoRechazo } from './lib/types';
 import type { PaginaPublica } from './lib/storage/tipos';
-import { MARCA, NOMBRE_SITIO } from './lib/sitio';
+import { MARCA, NOMBRE_SITIO, REPOSITORIO_GITHUB, SUPABASE_FUNCTIONS_API } from './lib/sitio';
 import { tituloDe } from './lib/paginas';
 import { generar } from './lib/pipeline';
 import { paginaPublica } from './lib/storage/tipos';
@@ -85,7 +85,18 @@ export default function App() {
           return;
         }
         try {
-          const pageRes = await fetch(`/api/page?id=${encodeURIComponent(idParam)}`);
+          const isStaticHub =
+            typeof window !== 'undefined' && window.location.hostname.endsWith('bitcoinizate.com');
+          let pageRes = await fetch(
+            isStaticHub
+              ? `${SUPABASE_FUNCTIONS_API}/page?id=${encodeURIComponent(idParam)}`
+              : `/api/page?id=${encodeURIComponent(idParam)}`
+          );
+          if (!pageRes.ok && !isStaticHub && (pageRes.status === 404 || pageRes.status === 405)) {
+            pageRes = await fetch(
+              `${SUPABASE_FUNCTIONS_API}/page?id=${encodeURIComponent(idParam)}`
+            );
+          }
           if (pageRes.ok) {
             const pageData = await pageRes.json();
             if (pageData?.pagina) {
@@ -143,22 +154,32 @@ export default function App() {
     setRechazo(null);
 
     try {
-      const res = await fetch('/api/generate', {
+      const payload = JSON.stringify({
+        borges: borges.trim(),
+        bioy: bioy.trim(),
+        fecha: fecha.trim(),
+        criticados: criticados.trim(),
+        alabados: alabados.trim(),
+        presentes: presentes.trim(),
+        escena: escena.trim() || undefined,
+        tema: tema.trim() || undefined,
+        tono: tono.trim() || undefined,
+        extension: 'media',
+      });
+      const isStaticHub =
+        typeof window !== 'undefined' && window.location.hostname.endsWith('bitcoinizate.com');
+      let res = await fetch(isStaticHub ? `${SUPABASE_FUNCTIONS_API}/generate` : '/api/generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          borges: borges.trim(),
-          bioy: bioy.trim(),
-          fecha: fecha.trim(),
-          criticados: criticados.trim(),
-          alabados: alabados.trim(),
-          presentes: presentes.trim(),
-          escena: escena.trim() || undefined,
-          tema: tema.trim() || undefined,
-          tono: tono.trim() || undefined,
-          extension: 'media',
-        }),
+        body: payload,
       });
+      if (!isStaticHub && (res.status === 404 || res.status === 405)) {
+        res = await fetch(`${SUPABASE_FUNCTIONS_API}/generate`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: payload,
+        });
+      }
 
       const data = await res.json();
       if (data.ok && data.pagina) {
@@ -516,7 +537,7 @@ export default function App() {
           Adolfo Bioy Casares, sus editoriales ni las personas representadas. Todo diálogo es
           inventado y no constituye declaraciones reales.{' '}
           <a
-            href="https://github.com/ondanueve/borgesdebioyizador/blob/main/DISCLAIMER.md"
+            href={`${REPOSITORIO_GITHUB}/blob/main/DISCLAIMER.md`}
             target="_blank"
             rel="noreferrer noopener"
             className="text-[#7a1f1f] underline"
@@ -525,7 +546,7 @@ export default function App() {
           </a>{' '}
           ·{' '}
           <a
-            href="https://github.com/ondanueve/borgesdebioyizador"
+            href={REPOSITORIO_GITHUB}
             target="_blank"
             rel="noreferrer noopener"
             className="text-[#7a1f1f] underline"

@@ -6,9 +6,10 @@
   "scripts": {
     "dev": "tsx server.ts",
     "start": "node server.ts",
-    "build": "vite build",
+    "build": "vite build && rm -rf out && cp -r dist out && mkdir -p out/p && printf '<!doctype html><meta charset=\"utf-8\"><script>location.replace(\"../\"+location.search+location.hash)</script>' > out/p/index.html",
     "preview": "vite preview",
-    "clean": "rm -rf dist server.js",
+    "clean": "rm -rf dist out server.js",
+    "test": "tsc --noEmit",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
@@ -29,7 +30,7 @@
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
     "autoprefixer": "^10.4.21",
-    "esbuild": "^0.25.0",
+    "esbuild": "^0.28.0",
     "tailwindcss": "^4.3.3",
     "tsx": "^4.21.0",
     "typescript": "^7.0.2",

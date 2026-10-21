@@ -17,7 +17,8 @@ function fuentesCSS(): Promise<string> {
   css ??= Promise.all(
     FUENTES.map(async ([fam, estilo, peso, archivo]) => {
       try {
-        const res = await fetch(`/fonts/${archivo}`);
+        let res = await fetch(`./fonts/${archivo}`);
+        if (!res.ok) res = await fetch(`/fonts/${archivo}`);
         if (!res.ok) return '';
         const b = await res.blob();
         const url = await new Promise<string>((ok, mal) => {
