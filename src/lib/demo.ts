@@ -9,7 +9,8 @@ export type AmbitoDemo =
   | "política"
   | "tenis"
   | "tecnología"
-  | "cine";
+  | "cine"
+  | "negocios";
 
 export interface PersonaDemo {
   nombre: string;
@@ -105,33 +106,37 @@ export const PAREJAS_DEMO: ParejaDemo[] = [
     fuentes: [wiki("Lionel Messi", "Lionel_Messi"), wiki("Lionel Scaloni", "Lionel_Scaloni")],
   },
   {
-    id: "milei-macri",
+    id: "buffett-munger",
     borges: {
-      nombre: "Javier Milei",
-      corto: "Milei",
-      apodos: ["el Peluca", "el León"],
-      alias: ["milei", "javier milei", "javier gerardo milei"],
-      nacimiento: "1970-10-22",
+      nombre: "Warren Buffett",
+      corto: "Buffett",
+      apodos: ["el Oráculo de Omaha"],
+      alias: ["buffett", "warren buffett", "warren edward buffett", "buffet", "warren buffet"],
+      nacimiento: "1930-08-30",
       muerte: null,
-      descripcion: "presidente de la Nación Argentina",
+      descripcion: "inversor estadounidense, presidente de Berkshire Hathaway",
     },
     bioy: {
-      nombre: "Mauricio Macri",
-      corto: "Macri",
-      apodos: ["el Gato"],
-      alias: ["macri", "mauricio macri"],
-      nacimiento: "1959-02-08",
-      muerte: null,
-      descripcion: "expresidente de la Nación Argentina",
+      nombre: "Charlie Munger",
+      corto: "Munger",
+      apodos: ["Charlie"],
+      alias: ["munger", "charlie munger", "charles munger", "charles thomas munger"],
+      nacimiento: "1924-01-01",
+      muerte: "2023-11-28",
+      descripcion: "inversor estadounidense, vicepresidente de Berkshire Hathaway",
     },
-    inicioRelacion: "2020",
-    inicioAproximado: true,
+    inicioRelacion: "1959",
+    inicioAproximado: false,
     relacion:
-      "Aliados políticos desde el pacto de Acassuso en 2023, con habituales cenas nocturnas de milanesas en la Quinta de Olivos durante 2024.",
-    ambito: "política",
-    fechaEjemplo: "2024-08-21",
-    escenaEjemplo: "Cena en la Quinta de Olivos",
-    fuentes: [wiki("Javier Milei", "Javier_Milei"), wiki("Mauricio Macri", "Mauricio_Macri")],
+      "Se conocieron en Omaha en 1959; socios durante más de seis décadas, Munger fue vicepresidente de Berkshire Hathaway desde 1978 hasta su muerte en 2023.",
+    ambito: "negocios",
+    fechaEjemplo: "2023-05-05",
+    escenaEjemplo: "Cena en Gorat's, en Omaha, la víspera de la asamblea",
+    fuentes: [
+      wiki("Warren Buffett", "Warren_Buffett"),
+      wiki("Charlie Munger", "Charlie_Munger"),
+      wiki("Berkshire Hathaway", "Berkshire_Hathaway"),
+    ],
   },
   {
     id: "riquelme-delgado",
@@ -272,14 +277,18 @@ export const PAREJAS_DEMO: ParejaDemo[] = [
       muerte: null,
       descripcion: "artista plástico argentino",
     },
-    inicioRelacion: "1969",
+    inicioRelacion: "1976",
     inicioAproximado: true,
     relacion:
-      "Amigos desde La Cofradía de la Flor Solar en La Plata; Rocambole diseñó el arte de Patricio Rey y sus Redonditos de Ricota.",
+      "Compañeros de la escena platense; Rocambole, que había integrado La Cofradía de la Flor Solar con Skay Beilinson, fue el artista gráfico de Patricio Rey y sus Redonditos de Ricota hasta la separación del grupo en 2001.",
     ambito: "música",
-    fechaEjemplo: "1986-08-20",
-    escenaEjemplo: "Taller de Rocambole en La Plata, con la tapa de Oktubre",
-    fuentes: [wiki("Indio Solari", "Indio_Solari"), wiki("Ricardo Cohen", "Ricardo_Cohen")],
+    fechaEjemplo: "2001-10-10",
+    escenaEjemplo: "Taller de Rocambole en La Plata, después del silencio de Córdoba",
+    fuentes: [
+      wiki("Indio Solari", "Indio_Solari"),
+      wiki("Ricardo Cohen", "Ricardo_Cohen"),
+      wiki("Patricio Rey y sus Redonditos de Ricota", "Patricio_Rey_y_sus_Redonditos_de_Ricota"),
+    ],
   },
   {
     id: "musk-trump",

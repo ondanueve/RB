@@ -81,7 +81,7 @@ interface DiarioPreescrito {
 /**
  * Diarios íntegros y exclusivos, uno por cada pareja de PAREJAS_DEMO.
  * Marcadores:
- *   {B}  = Apellido del rol "Borges" en narración ("Borges", "Messi", "Milei")
+ *   {B}  = Apellido del rol "Borges" en narración ("Borges", "Messi", "Buffett")
  *   {BU} = Apellido del rol "Borges" en MAYÚSCULAS para parlamentos ("BORGES", "MESSI")
  *   {YU} = Apellido del rol "Bioy" en MAYÚSCULAS para parlamentos ("BIOY", "SCALONI")
  */
@@ -212,68 +212,77 @@ const DIARIOS_POR_ID: Record<string, DiarioPreescrito> = {
     ],
   },
 
-  "milei-macri": {
+  "buffett-munger": {
     resumen:
-      "Agosto y septiembre de 2024 en la Quinta de Olivos y Buenos Aires. Javier Milei y Mauricio Macri mantienen sus habituales cenas nocturnas de milanesas con ensalada para discutir vetos parlamentarios, cargos pendientes en el Estado, la política monetaria de Luis Caputo y la interna del PRO.",
+      "Mayo y junio de 2023, entre Omaha y Los Ángeles. Berkshire Hathaway celebra su asamblea anual del 6 de mayo, la última a la que asiste Charlie Munger, con 99 años; días antes, la caída del First Republic Bank reavivó el miedo a una crisis bancaria. Buffett acaba de volver de Tokio, donde reforzó la apuesta de Berkshire por las grandes casas comerciales japonesas.",
     recientes: [
-      { fecha: "2024-08-01", descripcion: "Relanzamiento formal del partido PRO encabezado por Macri en el barrio de La Boca." },
+      {
+        fecha: "2023-04-11",
+        descripcion: "Buffett, de visita en Tokio, confirma que Berkshire aumentó su participación en las cinco grandes casas comerciales japonesas.",
+      },
+      {
+        fecha: "2023-05-01",
+        descripcion: "Los reguladores intervienen el First Republic Bank, que es vendido a JPMorgan Chase.",
+      },
     ],
     proximos: [
-      { fecha: "2024-09-15", descripcion: "Presentación del proyecto de Presupuesto 2025 ante el Congreso de la Nación." },
+      {
+        fecha: "2023-05-06",
+        descripcion: "Asamblea anual de accionistas de Berkshire Hathaway en el CHI Health Center de Omaha.",
+      },
     ],
-    saltosDias: [0, 2, 5, 9, 13, 18],
-    criticados: ["Martín Lousteau", "Horacio Rodríguez Larreta"],
-    alabados: ["Luis Caputo", "Federico Sturzenegger"],
+    saltosDias: [0, 1, 4, 10, 19, 28],
+    criticados: ["los promotores de criptomonedas", "los banqueros que se premian con bonos"],
+    alabados: ["Benjamin Graham", "Ajit Jain"],
     notas: [
-      "Las veladas en la residencia de Olivos solían extenderse hasta pasada la medianoche con grabaciones de ópera italiana.",
-      "Durante 2024 se hicieron frecuentes las cenas privadas en Olivos con menú fijo de milanesas y ensalada.",
+      "Buffett y Munger se conocieron en Omaha en 1959; Munger fue vicepresidente de Berkshire Hathaway desde 1978. En las asambleas anuales respondían preguntas durante horas, con Coca-Cola y caramelos de See's Candies —comprada por Berkshire en 1972— sobre la mesa. Los diálogos de este diario son imaginarios.",
+      "Charlie Munger murió el 28 de noviembre de 2023, a los 99 años, poco más de un mes antes de cumplir cien. La asamblea de mayo de 2023 fue la última a la que asistió.",
     ],
     dias: [
       {
-        situacion: "Cena en la Quinta de Olivos.",
+        situacion: "Cena en Gorat's, en Omaha, la víspera de la asamblea.",
         parrafos: [
-          "Llego a las nueve y media con una carpeta de candidatos para las secretarías vacantes; {B} me recibe en campera de cuero y pone un acto entero de Verdi¹ a un volumen que hace vibrar las copas de agua. {BU}: «Escuchá cómo entra el coro de los esclavos sin pedir permiso a ninguna comisión. Si los economistas keynesianos supieran medir el compás, no emitirían billetes fuera de tiempo».",
-          "Intento abrir la carpeta sobre el plato de ensalada para revisar los nombres de Transporte. {YU}: «Necesitamos cuadros con experiencia de gestión para que funcionen los expedientes». {BU}: «Tu gente confunde gestionar con comprar sillones nuevos para el directorio. Yo prefiero un funcionario que no sepa dónde queda el baño antes que un moderado con PowerPoint». Como la milanesa tibia y guardo la lista en el saco.",
+          "{B} pide lo de siempre sin mirar la carta: bife a punto, papas ralladas doradas y una Cherry Coke que la moza ya traía en la bandeja. Hablamos del First Republic, liquidado el lunes, y de los banqueros que ahora juran que nadie podía preverlo¹. {BU}: «Ningún banco se fundió por un ladrón que entró de noche por la ventana. Se funden por los genios que entran de día por la puerta principal, con traje y con un modelo en la computadora».",
+          "{YU}: «Si a mi edad un banquero todavía me sorprende, es que me estoy volviendo indulgente». {BU}: «Mañana van a ser cuarenta mil preguntando lo mismo, Charlie. Vamos a decirles la verdad, que es aburridísima: gastar menos de lo que se gana y no pedir prestado para apostar». Corta la carne en cuadraditos con una prolijidad de contador.",
         ],
       },
       {
-        situacion: "Hablamos por teléfono, medianoche.",
+        situacion: "Estrado de la asamblea, en el CHI Health Center.",
         parrafos: [
-          "Me despierta cuando ya tenía apagada la luz después del partido de bridge. Acaba de leer un hilo de diez mensajes sobre la curva de tasas del Banco Central; {B} habla sin tomar aire durante dos minutos. {BU}: «Los consultores de la City lloran por el tipo de cambio porque extrañan cobrar informes de diez páginas que nadie lee. Son parásitos del redondeo decimal».",
-          "{YU}: «Conviene cuidar las formas con la prensa económica para no asustar a los inversores». {BU}: «Los buenos modales nos dejaron con doscientos por ciento de inflación y tres ministerios de género. Cuando alguien te pide consenso en Buenos Aires, te está pidiendo la billetera». Corta a la una y veinte; veo que sigue publicando gráficos hasta las tres.",
+          "Seis horas de preguntas bajo los reflectores. {B} abre una caja de caramelos de See's y me la desliza por la mesa como si fuera un expediente reservado. Un muchacho de Ohio pregunta qué pasará con Berkshire cuando no estemos. {BU}: «Greg va a sentarse en esta silla y lo va a hacer mejor. La única diferencia es que no va a tomar tanta gaseosa delante de las cámaras».",
+          "Me toca contestar sobre la inteligencia artificial. {YU}: «Soy escéptico de casi todo lo que se publicita como revolución. Pero a los noventa y nueve también desconfío de mi escepticismo». {BU}: «Charlie no tiene nada que agregar, como siempre, y lo dice mejor que nadie». El estadio se ríe; yo mastico un caramelo de maní.",
         ],
       },
       {
-        situacion: "Caminata nocturna por los jardines.",
+        situacion: "Hablamos por teléfono, desde Los Ángeles.",
         parrafos: [
-          "Salimos después del café hacia el sector de los caniles con frío de agosto. Alguien menciona a Larreta y sus apariciones recientes en televisión; {B} se detiene junto a un farol de hierro. {BU}: «Se pasó cuatro años midiendo encuestas de baldosas y perdió hasta con el voto en blanco. Cree que la política es una reunión de consorcio en Barrio Parque donde gana el que sirve café descafeinado».",
-          "{YU}: «En su momento armó equipos técnicos que conocían cada repartición de memoria». {BU}: «Conocían las reparticiones para agrandarlas. Conocer el Estado por dentro sin querer cerrarlo es como estudiar medicina a favor de la bacteria». Me retiro a las once con dolor de cervicales por el frío húmedo del río.",
+          "Llama temprano, con la voz de quien leyó cinco diarios antes del desayuno. Le indigna un aviso de una plataforma de criptomonedas en pleno partido de béisbol. {BU}: «Venden un boleto de lotería con olor a ciencia. Si me ofrecieran todo el que existe en el mundo por veinticinco dólares, no sabría qué hacer con él al día siguiente».",
+          "{YU}: «Yo ya dije lo que pienso en público y me acusaron de anciano gruñón». {BU}: «Te acusaron bien. Lo grave sería que tuvieras noventa y nueve años y estuvieras entusiasmado con eso». Antes de cortar me pregunta por el Daily Journal y por mis nietos, en ese orden, que es su manera de ser cariñoso.",
         ],
       },
       {
-        situacion: "Despacho de la Casa Rosada, tarde.",
+        situacion: "Su oficina de Omaha, tarde.",
         parrafos: [
-          "Pasa Caputo con una planilla de vencimientos de deuda y se queda diez minutos parado junto al escritorio. {B} mira la fila de números de superávit como quien contempla un cuadro del Renacimiento. {BU}: «Toto corta los giros discrecionales con la frialdad de un cirujano inglés. Los gobernadores entran pidiendo una autopista y salen agradeciendo que les paguemos el café».",
-          "{YU}: «En el Senado varios gobernadores amenazan con votar junto a la oposición esta semana». {BU}: «Que voten lo que quieran: el veto tarda treinta segundos en firmarse y no gasta tinta colorada. Lousteau levanta la mano en el recinto como si estuviera presentando un libro en la Facultad». Pide un té edulcorado y me muestra una miniatura en bronce.",
+          "Paso unas horas por Omaha antes de volver a California. La oficina sigue igual: informes anuales apilados, un ejemplar gastado de El inversor inteligente y ninguna pantalla que distraiga. {B} lee un balance con un lápiz detrás de la oreja. {BU}: «Graham me enseñó a comprar un dólar por cincuenta centavos. Vos me enseñaste a pagar un dólar por una empresa maravillosa. Todavía no sé cuál de los dos me costó más caro aprenderlo».",
+          "{YU}: «A mí me costó mucho menos: solo tuve que esperar que te dieras cuenta». {BU}: «Tardé unos quince años. Para un hombre de Omaha, es casi un impulso». Llama a Ajit Jain por un seguro enorme contra huracanes, escucha dos minutos y dice que sí. Después vuelve al balance como si nada.",
         ],
       },
       {
-        situacion: "Sobremesa del martes.",
+        situacion: "Leemos por teléfono las noticias de Japón.",
         parrafos: [
-          "Otra vez milanesa de carne con lechuga²; es la cuarta vez en el mes que comemos exactamente el mismo plato. {YU}: «Podríamos decirle al cocinero que la semana que viene prepare un pescado al horno». {BU}: «Cambiar un menú que funciona es el primer síntoma del socialismo europeo. Si empezás pidiendo merluza los martes, en seis meses estás regulando el precio del limón».",
-          "Llega Sturzenegger con una pila de trescientas derogaciones impresas en papel oficio. {BU}: «Federico encuentra un reglamento de mil novecientos treinta sobre carruajes a caballo y se emociona como un chico en juguetería. Es el único hombre del país que lee el Boletín Oficial para divertirse». A la medianoche me vence el sueño en el sillón.",
+          "Le divierte que los diarios de Tokio todavía hablen de su visita de abril. {BU}: «Compramos cinco casas comerciales que hacen de todo, desde cobre hasta fideos instantáneos. Es como comprar la ferretería, el almacén y el puerto del pueblo al mismo tiempo, y encima con gerentes que no se compran aviones».",
+          "{YU}: «Lo extraño es que nadie más lo haya visto antes». {BU}: «Lo vieron todos, Charlie. Lo que no tenían era paciencia para esperar diez años sin que nadie los felicitara». Se oye de fondo un partido de béisbol y una lata de gaseosa abriéndose.",
         ],
       },
       {
-        situacion: "Mensajes después del domingo.",
+        situacion: "Mensajes del viernes, al final del día.",
         parrafos: [
-          "Vengo de perder dos sets seguidos al pádel y me encuentro con catorce audios suyos comentando un discurso de un premio Nobel norteamericano. Lo llamo desde el auto para no escucharlos uno por uno. {BU}: «A ese profesor le dieron la medalla en Estocolmo por demostrar en pizarrón que el agua moja hacia arriba. En una verdulería de Once se funde antes del mediodía».",
-          "{YU}: «No te pelees con las universidades extranjeras que el mes que viene tenés gira en Nueva York». {BU}: «En Nueva York van a escuchar tres horas de teoría del capital austríaco sin intervalo. El que quiera discursos redondos que contrate a un embajador de carrera». Anoto que el jueves que viene llevo mi propia vianda en el asiento trasero.",
+          "Me escribe con su puntuación de telegrama que en enero cumplo cien y que piensa venir a Los Ángeles a comer una torta sin preguntarle el precio a nadie. {BU}: «Sesenta y cuatro años sin una pelea seria. La gente no lo cree, pero es fácil: vos tenés razón la mitad de las veces y yo finjo que la tengo la otra mitad»².",
+          "{YU}: «Si llego, la torta la pago yo. No quiero que el Oráculo de Omaha la deduzca como gasto». {BU}: «Trato hecho. Pero las velas las compramos en See's: salen caras y duran poco, como los buenos consejos». Apago la lámpara pensando que fue un buen trato, como casi todos los que hicimos.",
         ],
       },
     ],
   },
-
   "riquelme-delgado": {
     resumen:
       "Mayo de 2024 en el predio de Ezeiza y la Bombonera. Con Juan Román Riquelme ya al frente de la presidencia de Boca Juniors y Marcelo «el Chelo» Delgado como ladero y confidente en el Consejo de Fútbol, las sobremesas de asado y mate se extienden hasta la madrugada entre dardos a Martín Palermo, los programas deportivos y la oposición.",
@@ -527,67 +536,79 @@ const DIARIOS_POR_ID: Record<string, DiarioPreescrito> = {
 
   "solari-rocambole": {
     resumen:
-      "Agosto y septiembre de 1986 entre La Plata y Buenos Aires. Mientras Patricio Rey y sus Redonditos de Ricota terminan de mezclar «Oktubre», el Indio Solari y Rocambole definen en el taller platense el arte de tapa en rojo, negro y gris antes de las presentaciones en Paladium.",
+      "Octubre y noviembre de 2001, entre La Plata y Buenos Aires. Después del recital del 4 de agosto en el estadio Chateau Carreras de Córdoba, el último de Patricio Rey y sus Redonditos de Ricota, empañado por la muerte de un joven que cayó de la tribuna, la banda entra en un silencio que el 2 de noviembre se confirma como separación. Rocambole, amigo del Indio Solari y de Skay Beilinson desde los años platenses, mira la ruptura desde el medio.",
     recientes: [
-      { fecha: "1986-07-25", descripcion: "Cierre de las sesiones de grabación de «Oktubre» en los estudios Panda con Osvaldo Fattoruso como invitado." },
+      {
+        fecha: "2001-04-22",
+        descripcion: "Dos noches ante unas 65.000 personas cada una en el estadio Centenario de Montevideo.",
+      },
+      {
+        fecha: "2001-08-04",
+        descripcion: "Recital en el estadio Chateau Carreras de Córdoba ante unas 40.000 personas; un joven muere al caer de la tribuna. Será el último show de la banda.",
+      },
     ],
     proximos: [
-      { fecha: "1986-10-04", descripcion: "Salida a la calle del segundo álbum de la banda, «Oktubre»." },
-      { fecha: "1986-10-18", descripcion: "Presentación oficial de «Oktubre» en dos funciones en la discoteca Paladium de Buenos Aires." },
+      {
+        fecha: "2001-11-02",
+        descripcion: "Se oficializa la separación de Patricio Rey y sus Redonditos de Ricota.",
+      },
+      {
+        fecha: "2001-12-08",
+        descripcion: "Recital previsto en el estadio de Unión, en Santa Fe, que termina suspendido.",
+      },
     ],
-    saltosDias: [0, 3, 6, 10, 14, 19],
-    criticados: ["un cronista del suplemento joven", "Luca Prodan"],
-    alabados: ["Skay Beilinson", "Enrique Symns"],
+    saltosDias: [0, 4, 9, 16, 23, 30],
+    criticados: ["los cronistas que especulan con la separación", "los que ven en la banda solo una caja registradora"],
+    alabados: ["Semilla Bucciarelli", "los ricoteros que viajan a dedo"],
     notas: [
-      "La tapa de «Oktubre» (1986), realizada por Rocambole (Ricardo Cohen), se inspiró en la gráfica constructivista con tipografía quebrada.",
-      "El disco fue presentado en octubre de 1986 en el teatro Paladium de la calle Reconquista, en el bajo porteño.",
+      "El 4 de agosto de 2001 Los Redondos tocaron ante unas 40.000 personas en el estadio Chateau Carreras de Córdoba; durante el recital murió un joven que cayó de lo alto de la tribuna. Fue el último concierto del grupo. Los diálogos de este diario son imaginarios.",
+      "La separación se hizo oficial el 2 de noviembre de 2001 y el recital previsto para el 8 de diciembre en Santa Fe se suspendió. Años después, Skay habló de diferencias artísticas y Solari atribuyó el quiebre, entre otras cosas, a una disputa por copias de las grabaciones de los recitales de Huracán (1994) y Racing (1998).",
     ],
     dias: [
       {
-        situacion: "Taller de Rocambole en La Plata, con la tapa de Oktubre.",
+        situacion: "Taller de Rocambole en La Plata, después del silencio de Córdoba.",
         parrafos: [
-          "Olor a aguarrás, cartones manchados de témpera roja y una estufa a querosén que calienta de un solo lado. Muestro tres bocetos con banderas y multitudes¹ sobre el tablero; {B} se acerca con los anteojos oscuros puestos a pesar de la penumbra. {BU}: «Sacale todas las caras reconocibles. Cuando dibujás una cara, la gente busca a su primo; cuando dejás la sombra y el trapo rojo, cada uno escucha su propio miedo».",
-          "{YU}: «Por culpa del cartón barato, en el taller gráfico temen que el negro tan empastado se corra». {BU}: «Que se corra un milímetro le hace bien al dibujo. La prolijidad gráfica es para las cajas de remedios y los discos de melódico». Elige la cartulina más áspera del estante y se prepara un gin tonic sin limón.",
+          "Llega sin avisar, con anteojos oscuros aunque está nublado. Sobre la mesa siguen los bocetos para una gira que nadie nombra desde agosto. Hablamos de Córdoba, del pibe que se cayó de la tribuna¹, y se queda mirando la ventana un rato largo. {BU}: «Siempre dije que la gente venía a una misa y no a un recital. Pero ninguna misa vale la vida de un chico. Si para vernos hay que arriesgar el cuello, algo hicimos mal en el camino».",
+          "{YU}: «No fue culpa de la banda; había más gente que lugar y una tribuna que nadie revisó». {BU}: «Ya sé, Mono. Lo sé con la cabeza, pero no con el estómago». Agarra un boceto de un caballo con alas, lo da vuelta y no dice nada. Se lleva un mate frío que no toma.",
         ],
       },
       {
-        situacion: "Viaje en tren a Constitución.",
+        situacion: "Hablamos por teléfono, medianoche.",
         parrafos: [
-          "Vagón de madera casi vacío a las once de la mañana; por la ventanilla pasan los terrenos baldíos de Avellaneda y el humo de las fábricas cerradas. Un diario olvidado en el asiento trae una nota sobre el rock moderno y los peinados de salón; {B} lo dobla en cuatro sin abrirlo. {BU}: «Escriben sobre guitarras como si comentaran una liquidación de camisas importadas. Creen que una distorsión nueva reemplaza el no tener nada para decir».",
-          "{YU}: «Al menos este mes escribieron nuestros apellidos sin errores de imprenta». {BU}: «Cuando los suplementos escriben bien tu nombre, es señal de que estás sonando demasiado bajito. Hay que subir el bajo en la mezcla del lunes». Baja al andén con el cuello del sobretodo levantado hasta las orejas.",
+          "Leyó otra nota que da la separación por hecha y le echa la culpa a todos, menos a nadie en particular. {BU}: «Escriben como si hubieran estado debajo de la mesa. Patricio Rey no es una sociedad anónima con balance trimestral: es una cosa frágil que inventamos para no tener que ser estrellas».",
+          "Le pregunto si habló con el Flaco. Tarda en contestar; se oye el ruido de la heladera. {BU}: «Hablamos poco. Cada uno tiene su manera de cuidar lo que hicimos, y a veces esas maneras no entran en el mismo cuarto». {YU}: «Siempre entraron». {BU}: «Siempre es mucho tiempo». Corta diciendo que tiene que dormir y sé que no va a dormir.",
         ],
       },
       {
-        situacion: "Bar de la diagonal, medianoche.",
+        situacion: "Bar de la diagonal, tarde.",
         parrafos: [
-          "Mesas de fórmica verde y parroquianos jugando al dominó en el fondo. {YU}: «Temo que Symns se pase de rosca en el monólogo de Buenos Aires y espante a media sala». {BU}: «El público no paga la entrada para que lo traten con educación municipal. Si querés modales de confitería, contratás a un locutor de casamientos».",
-          "Desde una mesa vecina alguien nombra a Luca Prodan y sus declaraciones en una revista subterránea. {BU}: «Se hace el marinero borracho en los bares de San Telmo, pero mide los silencios con cronómetro inglés. La mitad del personaje se lo arman los fotógrafos que nunca vieron un puerto». Pide otra vuelta de ginebra antes de que cierren la caja.",
+          "Mesa del fondo, lejos de la vidriera, porque lo reconocen hasta de espaldas. Le preocupan las cintas de los recitales grandes, Huracán y Racing, y quién las guarda. {BU}: «No es una cuestión de plata. Es memoria. Si lo que fuimos queda en un solo cajón, el día que ese cajón se cierre nos vamos a enterar por los diarios».",
+          "{YU}: «El Flaco y la Negra cuidaron siempre todo, hasta las entradas que sobraban». {BU}: «No digo que no. Digo que yo también quiero poder escucharme cuando sea viejo». Pide otra ginebra y la deja intacta. Me doy cuenta de que estoy haciendo de cartero entre dos amigos, y que el cartero siempre termina mojado.",
         ],
       },
       {
-        situacion: "Sala de ensayo en City Bell.",
+        situacion: "Paso por City Bell a ver a Skay.",
         parrafos: [
-          "Humedad de arboleda y cables cruzados por el piso de baldosas. Skay prueba el arpegio inicial de «Jijiji» con una guitarra limpia que parece un cuchillo frío; {B} lo escucha sentado sobre un baúl de equipos sin tocar el micrófono. {BU}: «El Flaco toca tres notas y ya armó el cine entero. Después entro yo a arruinarle el silencio con sustantivos».",
-          "{YU}: «Puedo proyectar seis diapositivas pintadas a mano sobre el telón durante ese tema». {BU}: «Nada que compita con el riff. Cuando la guitarra muerde así, un dibujo en la pared es como ponerle subtítulos a un incendio». Guardo las diapositivas en el bolsillo de la campera sin discutir.",
+          "El Flaco me recibe con la guitarra en las rodillas y un té de hierbas. No dice una palabra contra el Indio; habla de canciones nuevas, de afinaciones raras, de un mar que quiere cruzar solo. La Negra trae unas facturas y cambia de tema dos veces. A la vuelta, en el micro, llamo a {B} desde un teléfono público de la terminal.",
+          "{BU}: «¿Qué te dijo?». {YU}: «Nada malo. Que está componiendo». {BU}: «Eso es lo peor que me podías contar, Mono: que los dos estamos componiendo y ninguno le mandó nada al otro». Se le quiebra la voz un segundo y la disimula con una broma sobre mi barba. Me quedo con el tubo en la mano después del pitido.",
         ],
       },
       {
-        situacion: "Imprenta de Barracas, tarde.",
+        situacion: "Come en casa {B}, el día del anuncio.",
         parrafos: [
-          "Ruido de guillotinas industriales y pliegos recién salidos de la máquina que largan vapor de tinta fresca. El jefe de taller nos advierte que la tipografía quebrada del título parece un defecto de matricería; {B} toma una lámina húmeda de la pila y la mira al trasluz. {BU}: «Dígale al matricero que no corrija nada. Lo único intolerable en un sobre de cartón es que parezca hecho por una oficina pública».",
-          "Firmamos la orden de tirada sobre un tambor de solvente. A la salida me comenta que le arde la garganta por el polvillo de papel, pero compra dos atados de cigarrillos negros en la esquina.",
+          "Ya es oficial: Patricio Rey y sus Redonditos de Ricota dejan de existir². Almorzamos fideos con manteca porque nadie tuvo ganas de cocinar otra cosa. La radio repite «Ji ji ji» como si fuera un responso. {BU}: «Un cuarto de siglo sin firmar un contrato con nadie, y nos separamos por cosas que no entrarían en una servilleta. Así terminan las familias, Mono, no las empresas».",
+          "{YU}: «¿Vas a decir algo en público?». {BU}: «Por ahora, nada. Si hablo, alguien sale lastimado, y ya hubo bastante dolor este año. Prefiero que me acusen de mudo antes que de miserable». Lava los platos con una lentitud ceremoniosa. Cuando me voy, me da un abrazo largo, de los que no se dan un viernes cualquiera.",
         ],
       },
       {
-        situacion: "Camarín de Paladium, antes del show.",
+        situacion: "Taller, de noche, entre las tapas viejas.",
         parrafos: [
-          "Paredes transpiradas del bajo porteño y el piso vibrando por la gente que salta arriba desde hace una hora. Carmen reparte las entradas en la puerta para que ningún intermediario se quede con un peso; {B} se acomoda la camisa oscura frente a un vidrio manchado. {BU}: «Si algún día llenamos un estadio, el secreto va a ser no aparecer nunca en televisión. La gente va a buscar lo que no le regalan en el comedor de la casa».",
-          "{YU}: «Quedaron trescientas personas afuera sobre la calle Reconquista²». {BU}: «Mejor que se queden con la duda de cómo sonó. El mito lo fabrican siempre los que no consiguieron entrada». Se apagan las luces del pasillo y sale al escenario sin mirar atrás.",
+          "Ordeno carpetas: los originales de Oktubre, las pruebas de Gulp!, la caja de Luzbelito, los dibujos que nunca salieron. Suena el teléfono pasada la una. {BU}: «Lo de Santa Fe no va. Hay que devolver las entradas y pedirle perdón a la gente que ya sacó el pasaje. Eso me duele más que todo lo otro».",
+          "{YU}: «La gente va a entender. Te esperó siempre; puede esperar un disco nuevo». {BU}: «Tengo canciones en la computadora de Luzbola que no sé si son tristes o furiosas. Cuando lo sepa, te llamo para la tapa». {YU}: «Ahí voy a estar». Cuelga, y me quedo mirando la multitud de puños en alto de Oktubre, que ahora parece gritarle a nadie.",
         ],
       },
     ],
   },
-
   "musk-trump": {
     resumen:
       "Noviembre de 2024 en Palm Beach y Texas. Tras la victoria presidencial del 5 de noviembre en los Estados Unidos, Donald Trump y Elon Musk comparten cenas en la terraza de Mar-a-Lago, arman los nombramientos del gabinete y asisten en Boca Chica al sexto vuelo de prueba del cohete Starship.",
