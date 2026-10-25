@@ -13,15 +13,15 @@
   },
   "validacion": {
     "aceptado": true,
-    "justificacion": "Martin Scorsese y Robert De Niro son dos figuras públicas reconocidas mundialmente en el ámbito cinematográfico. Mantienen una relación profesional y de amistad estrecha y documentada desde hace décadas, habiendo colaborado en numerosas películas icónicas desde principios de la década de 1970.",
-    "relacion": "Colaboración cinematográfica de larga data y amistad, iniciada en la producción de la película Mean Streets.",
-    "inicioRelacion": "1972",
-    "inicioAproximado": false,
+    "justificacion": "Martin Scorsese y Robert De Niro son reconocidas figuras públicas del ámbito cinematográfico con una relación profesional y de amistad documentada por más de cincuenta años. Han colaborado en múltiples películas emblemáticas desde principios de la década de 1970. Su vínculo cumple plenamente con los criterios de relación real y verificable.",
+    "relacion": "Director y actor, colaboradores cinematográficos y amigos cercanos desde 1970.",
+    "inicioRelacion": "1970",
+    "inicioAproximado": true,
     "ambito": "cine",
     "borges": {
       "nombre": "Martin Scorsese",
       "conocido": true,
-      "descripcion": "Director, guionista, productor y actor estadounidense, considerado uno de los cineastas más importantes e influyentes de la historia del cine.",
+      "descripcion": "Director, productor, guionista y actor estadounidense.",
       "nacimiento": "1942-11-17",
       "muerte": null,
       "apodos": [
@@ -32,7 +32,7 @@
     "bioy": {
       "nombre": "Robert De Niro",
       "conocido": true,
-      "descripcion": "Actor y productor estadounidense, célebre por sus intensas interpretaciones y su extensa colaboración con Martin Scorsese.",
+      "descripcion": "Actor, director y productor estadounidense.",
       "nacimiento": "1943-08-17",
       "muerte": null,
       "apodos": [
@@ -43,8 +43,8 @@
     "noVerificados": [],
     "fuentes": [
       {
-        "titulo": "Martin Scorsese and Robert De Niro's Collaborative History (citada por el modelo, sin verificar)",
-        "url": "https://www.biography.com/actors/martin-scorsese-robert-de-niro-relationship"
+        "titulo": "Biography - Martin Scorsese & Robert De Niro (citada por el modelo, sin verificar)",
+        "url": "https://www.biography.com"
       }
     ],
     "conBusquedaWeb": false
@@ -52,61 +52,65 @@
   "chequeoFecha": {
     "ok": true,
     "motivos": [],
-    "advertencias": []
+    "advertencias": [
+      "El inicio de la relación (1970) es aproximado; se toma la fecha documentada más conservadora."
+    ]
   },
   "fechas": [
     "2023-05-19",
     "2023-05-21",
-    "2023-06-02",
-    "2023-06-15",
-    "2023-06-28"
+    "2023-05-28",
+    "2023-06-15"
   ],
   "contexto": {
     "fechasSugeridas": [
       "2023-05-19",
       "2023-05-21",
-      "2023-06-02",
-      "2023-06-15",
-      "2023-06-28"
+      "2023-05-28",
+      "2023-06-15"
     ],
-    "resumen": "Entre el 19 de mayo y el 30 de junio de 2023, Martin Scorsese y Robert De Niro se encuentran en el centro de la atención cinematográfica mundial debido al estreno mundial de 'Killers of the Flower Moon' en el Festival de Cine de Cannes. La película, protagonizada por De Niro y Leonardo DiCaprio, recibe una aclamación crítica rotunda con una larga ovación en su proyección en el Gran Teatro Lumière. Durante este período, ambos navegan por la intensa agenda de prensa, el debate sobre la duración de las películas épicas y la repercusión internacional del filme, consolidando una vez más su legendaria sociedad creativa de décadas.",
+    "resumen": "Entre el 19 de mayo y el 30 de junio de 2023, Martin Scorsese y Robert De Niro se encuentran en el centro de la atención mundial por el estreno de su undécimo largometraje juntos, 'Killers of the Flower Moon'. El período arranca con alta expectación y tensión en el Festival de Cine de Cannes, donde la película se proyecta fuera de competencia el 20 de mayo con excelentes críticas. A lo largo de las semanas siguientes, ambos participan en ruedas de prensa, entrevistas y preparan la gira promocional mientras reflexionan sobre su larga amistad, el estado de la industria cinematográfica y la recepción de este épico western dramático protagonizado también por Leonardo DiCaprio.",
     "recientes": [
       {
         "fecha": "2023-05-05",
-        "descripcion": "Anuncio de la duración oficial de 'Killers of the Flower Moon' (3 horas y 26 minutos) generando altas expectativas y debates en la industria sobre el formato en salas."
+        "descripcion": "Se anuncia oficialmente que 'Killers of the Flower Moon' tendrá su estreno mundial en la 76ª edición del Festival de Cine de Cannes."
       },
       {
         "fecha": "2023-05-15",
-        "descripcion": "Confirmación oficial de la llegada de Martin Scorsese y Robert De Niro a la Costa Azul para el 76° Festival de Cine de Cannes."
+        "descripcion": "Comienzan a filtrarse detalles sobre la larga duración de la película (3 horas y 26 minutos) y las expectativas de la crítica internacional sobre el reencuentro de Scorsese, De Niro y DiCaprio."
       }
     ],
     "proximos": [
       {
         "fecha": "2023-05-20",
-        "descripcion": "Estreno mundial de 'Killers of the Flower Moon' en el Festival de Cine de Cannes, con una histórica ovación de pie de nueve minutos."
+        "descripcion": "Estreno mundial de 'Killers of the Flower Moon' en el Festival de Cine de Cannes, recibiendo una ovación de pie de nueve minutos."
       },
       {
-        "fecha": "2023-05-25",
-        "descripcion": "Publicación de reseñas internacionales unánimemente positivas que destacan la oscura interpretación de Robert De Niro como William Hale."
+        "fecha": "2023-05-21",
+        "descripcion": "Rueda de prensa oficial del elenco y director en Cannes, donde Scorsese defiende la duración de la película y habla sobre su colaboración con De Niro."
+      },
+      {
+        "fecha": "2023-06-15",
+        "descripcion": "Apple Original Films lanza el trailer oficial definitivo de 'Killers of the Flower Moon', generando gran viralidad en internet de cara al estreno en cines de octubre."
       }
     ],
-    "escenaSugerida": "Almuerzo en la terraza del hotel en Cannes, repasando los últimos nervios y expectativas antes de la gran alfombra roja del estreno mundial.",
+    "escenaSugerida": "Almuerzo privado en una suite del Hotel Carlton en Cannes, el día antes del estreno mundial, repasando notas y compartiendo impresiones sobre la enorme presión mediática.",
     "criticadosSugeridos": [
-      "Ejecutivos de estudios obsesionados con los algoritmos y la duración corta",
-      "Críticos superficiales que reducen el cine a modas pasajeras"
+      "Ejecutivos de estudios que priorizan el streaming rápido sobre la experiencia en sala",
+      "Críticos de cine que reducen el arte cinematográfico a métricas de redes sociales"
     ],
     "alabadosSugeridos": [
       "Leonardo DiCaprio",
-      "Lily Gladstone"
+      "Thelma Schoonmaker"
     ],
     "fuentes": [
       {
-        "titulo": "The Guardian - Killers of the Flower Moon at Cannes review (citada por el modelo, sin verificar)",
-        "url": "https://www.theguardian.com/film/2023/may/20/killers-of-the-flower-moon-review-martin-scorsese-leonardo-dicaprio-robert-de-niro"
+        "titulo": "Killers of the Flower Moon premieres at Cannes 2023 - The Guardian (citada por el modelo, sin verificar)",
+        "url": "https://www.theguardian.com/film/2023/may/20/killers-of-the-flower-moon-martin-scorsese-cannes-film-festival"
       },
       {
-        "titulo": "Variety - Cannes Film Festival 2023 Coverage (citada por el modelo, sin verificar)",
-        "url": "https://variety.com/t/cannes-film-festival-2023/"
+        "titulo": "Martin Scorsese and Robert De Niro at Cannes - Variety (citada por el modelo, sin verificar)",
+        "url": "https://variety.com/2023/film/news/martin-scorsese-robert-de-niro-killers-of-the-flower-moon-cannes-ovation-1235619934/"
       }
     ],
     "desde": "2023-05-19",
@@ -119,82 +123,71 @@
         "fecha": "2023-05-19",
         "anio": "2023",
         "encabezado": "Viernes, 19 de mayo.",
-        "situacion": "Almuerzo en el hotel de Cannes, a veinticuatro horas del estreno de la película.",
+        "situacion": "Almuerzo en el hotel de Cannes, con Scorsese, a pocas horas del estreno mundial de 'Killers of the Flower Moon'.",
         "parrafos": [
-          "Comemos tostadas frías mientras Scorsese mira el mar con una desconfianza absoluta, como si las olas vinieran a cobrarle algún impuesto atrasado. Me señala a un grupo de ejecutivos que gesticulan en la mesa de al lado.",
-          "«Creen que el público tiene la atención de un grillo y miden los planos con cronómetro» dice, y unta media rodaja con una marmelada sospechosa.",
-          "Le contesto que el problema no es el tiempo sino la prisa por llegar a ninguna parte. Leonardo DiCaprio pasa por el pasillo y saluda con la gorra puesta."
+          "Comemos pescado tibio mientras revisa los apuntes para la función de mañana en el Gran Teatro Lumière. Le sugiero que recorte dos minutos de la escena del juicio antes de que los críticos empiecen a medir la duración con cronómetro.",
+          "Scorsese sacude la cabeza y dice: «Los ejecutivos quieren todo para el teléfono, que entre en el bolsillo de un chico de quince años». Le contesto que los cines todavía tienen techo alto y butacas que crujen de verdad."
         ]
       },
       {
         "fecha": "2023-05-21",
         "anio": "2023",
         "encabezado": "Domingo, 21 de mayo.",
-        "situacion": "En el estudio de televisión de la Croisette, Scorsese, un productor y yo.",
+        "situacion": "En la terraza del estudio en Cannes, Scorsese y yo. Tras la gran ovación de la víspera.",
         "parrafos": [
-          "Pasamos la mañana esquivando preguntas sobre los algoritmos que deciden qué debe gustarle al mundo. El productor insiste en que las tres horas y media de metraje exigen una pausa para los espectadores.",
-          "«La única pausa tolerable es la muerte» murmura Scorsese mientras revisa las notas de prensa con el ceño fruncido.",
-          "Anota algo en el margen del periódico y me lo pasa sin mirarme. Leo: «Los críticos modernos buscan moralejas donde solo hay culpas compartidas». A la tarde, Lily Gladstone nos cuenta risueña un chiste que armó el equipo de sonido en el set."
+          "Aparece con el diario francés bajo el brazo y una tostada quemada en un plato de loza. Observa que los aplausos de anoche duraron exactamente lo mismo que el discurso de aquel productor en los ochenta.",
+          "Le recuerdo que Leonardo DiCaprio estuvo impecable al esquivar la pregunta sobre el presupuesto en la rueda de prensa. Scorsese suspira y dice: «Ese muchacho entiende el silencio mejor que nadie»."
         ]
       },
       {
-        "fecha": "2023-06-02",
+        "fecha": "2023-05-28",
         "anio": "2023",
-        "encabezado": "Viernes, 2 de junio.",
-        "situacion": "Cena en el restaurante italiano de Manhattan, con Scorsese y un viejo sonidista.",
+        "encabezado": "Domingo, 28 de mayo.",
+        "situacion": "Cena en el departamento de Nueva York, con Scorsese y Thelma Schoonmaker. Evaluando el material sobrante.",
         "parrafos": [
-          "Volvimos a Nueva York con el eco de la ovación todavía zumbando en los bolsillos y las valijas llenas de folletos que nadie va a leer. Partimos la milanesa en silencio hasta que el sonidista recuerda una discusión vieja sobre las mezclas de sonido en la escena del juicio.",
-          "«Hoy mezclan para teléfonos celulares y después se asustan si el trueno suena hueco» dice Scorsese.",
-          "Le recuerdo las protestas del estudio por la duración de las escenas oscuras. Él se ríe y pide otro espresso doble, convencido de que la penumbra es el único refugio que le queda al oficio."
+          "Thelma nos sirve té frío mientras busca el rollo que dejamos pendiente en el montaje. Scorsese señala la pantalla y murmura que el cine moderno se parece demasiado a una planilla de cálculo llena de celdas vacías.",
+          "Le digo que la culpa es de los algoritmos que miden cuántos segundos aguanta un espectador sin mirar la pantalla del celular. Thelma ríe y dice que deberíamos cobrar un impuesto directo a la impaciencia general."
         ]
       },
       {
         "fecha": "2023-06-15",
         "anio": "2023",
         "encabezado": "Jueves, 15 de junio.",
-        "situacion": "En la sala de montaje de Tribeca, Scorsese y yo.",
+        "situacion": "Por teléfono, Scorsese. A cuatro meses del lanzamiento comercial en salas.",
         "parrafos": [
-          "Revisamos descartes que quedaron fuera del corte final. Afuera llueve sobre las veredas grises y el tráfico suena como una marea monótona.",
-          "«Los muchachos de la distribución querían que el malo tuviera una redención simpática al final» comenta Scorsese, y apaga el monitor de un golpe seco.",
-          "Le respondo que preferirían un cartel luminoso que explique la moraleja antes de los créditos. Nos quedamos mirando la pantalla en negro, donde todavía parpadea el cursor del sistema."
-        ]
-      },
-      {
-        "fecha": "2023-06-28",
-        "anio": "2023",
-        "encabezado": "Miércoles, 28 de junio.",
-        "situacion": "En la oficina de producción, Scorsese, el asistente y yo. A un paso de cerrar los papeles para la exhibición en otoño.",
-        "parrafos": [
-          "Revisamos acuerdos kilométricos mientras el joven intenta explicarnos las bondades de una plataforma de streaming que promete reducir la película a fragmentos digestibles.",
-          "«Esa gente confunde el arte con un menú de aeropuerto» dice Scorsese sin levantar la vista de las cláusulas.",
-          "Le firmo la copia con la misma birome gastada que uso desde los años ochenta y salimos a caminar bajo el sol pesado de la tarde neoyorquina."
+          "Me llama para avisarme que ya salió el avance definitivo en internet y que las redes son un hervidero de métricas ridículas. Advierte que un cronista festejó que la música suene fuerte en los pequeños parlantes de una computadora.",
+          "Le respondo que la única métrica que importa de verdad es cuántas bolsas de palomitas de maíz se venden en la primera función del sábado. Scorsese se ríe con ganas y corta sin despedirse como de costumbre."
         ]
       }
     ],
     "paginas": [
       2,
-      3
+      2
     ],
     "notas": [
-      "Apunte del diarista sobre la recepción en el festival."
+      "El estreno mundial en Cannes marcó el undécimo largometraje conjunto entre el director y el actor."
     ],
-    "escena": "Cannes y Nueva York, mayo y junio de 2023.",
+    "escena": "Hotel y estudio, Cannes y Nueva York",
     "criticados": [
-      "Ejecutivos de estudios obsesionados con los algoritmos y la duración corta",
-      "Críticos superficiales que reducen el cine a modas pasajeras"
+      "Ejecutivos de estudios",
+      "Críticos de cine"
     ],
     "alabados": [
       "Leonardo DiCaprio",
-      "Lily Gladstone"
+      "Thelma Schoonmaker"
     ],
-    "palabras": 503,
+    "palabras": 359,
     "revision": {
       "hecha": true,
       "problemasDetectados": [
-        "En la entrada 5, «contratos» está en la situación y otra vez en la primera oración; evitá la repetición.",
-        "En la entrada 5, «asistente» está en la situación y otra vez en la primera oración; evitá la repetición."
+        "La página 1 tiene solo 154 palabras; el mínimo es 350.",
+        "La página 2 tiene solo 157 palabras; el mínimo es 350.",
+        "Varias oraciones empiezan igual («comenta que…», 2 veces); variá los comienzos."
       ],
-      "problemasRestantes": []
+      "problemasRestantes": [
+        "La página 1 tiene solo 183 palabras; el mínimo es 350.",
+        "La página 2 tiene solo 176 palabras; el mínimo es 350."
+      ]
     }
   },
   "titulo": "Scorsese",
@@ -204,9 +197,10 @@
   },
   "advertencias": [
     "La validación se hizo sin búsqueda web: depende del conocimiento del modelo.",
-    "El contexto histórico se armó sin búsqueda web (sin cuota de búsqueda o desactivada): verificá los hechos."
+    "El contexto histórico se armó sin búsqueda web (sin cuota de búsqueda o desactivada): verificá los hechos.",
+    "El inicio de la relación (1970) es aproximado; se toma la fecha documentada más conservadora."
   ],
   "version": 2,
-  "id": "nT4w4xbH2g",
-  "creada": "2026-10-25T22:15:29.649Z"
+  "id": "wi6kWY8Y8V",
+  "creada": "2026-10-25T23:11:57.367Z"
 }

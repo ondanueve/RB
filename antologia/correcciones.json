@@ -34,5 +34,11 @@
     "buscar": "procesadistas",
     "reemplazo": "procesalistas",
     "motivo": "Errata: «procesadistas» por «procesalistas»."
+  },
+  {
+    "id": "demo10borges",
+    "buscar": "undécimo largometraje conjunto",
+    "reemplazo": "décimo largometraje conjunto",
+    "motivo": "Dato: Killers of the Flower Moon es la décima película de Scorsese con De Niro."
   }
 ]
