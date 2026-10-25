@@ -1,0 +1,216 @@
+{
+  "parametros": {
+    "borges": "Indio Solari",
+    "bioy": "Rocambole",
+    "fecha": "2001-10-10",
+    "criticados": [],
+    "alabados": [],
+    "escena": "Taller de Rocambole en La Plata, después del silencio de Córdoba",
+    "presentes": [],
+    "tono": "irónico",
+    "extension": "media",
+    "paginas": 2
+  },
+  "validacion": {
+    "aceptado": true,
+    "justificacion": "Ambas son figuras públicas reconocidas de la cultura y la música argentina. Mantienen una relación profesional y de amistad de larga data como co-creadores de la estética y el universo visual y musical de Patricio Rey y sus Redonditos de Ricota desde la década de 1970.",
+    "relacion": "Trabajo conjunto prolongado y amistad como creadores fundamentales de Patricio Rey y sus Redonditos de Ricota.",
+    "inicioRelacion": "1976",
+    "inicioAproximado": true,
+    "ambito": "música",
+    "borges": {
+      "nombre": "Carlos Alberto Solari",
+      "conocido": true,
+      "descripcion": "Músico, compositor y cantante argentino, histórico líder de Patricio Rey y sus Redonditos de Ricota.",
+      "nacimiento": "1949-01-17",
+      "muerte": null,
+      "apodos": [
+        "Indio"
+      ],
+      "apellido": "Solari"
+    },
+    "bioy": {
+      "nombre": "Ricardo Cohen",
+      "conocido": true,
+      "descripcion": "Artista plástico, diseñador gráfico y profesor argentino, célebre por la identidad visual de Patricio Rey y sus Redonditos de Ricota.",
+      "nacimiento": "1945",
+      "muerte": null,
+      "apodos": [
+        "Rocambole"
+      ],
+      "apellido": "Cohen"
+    },
+    "noVerificados": [],
+    "fuentes": [
+      {
+        "titulo": "Rocambole y su relación con el Indio Solari (citada por el modelo, sin verificar)",
+        "url": "https://www.lanacion.com.ar"
+      }
+    ],
+    "conBusquedaWeb": false
+  },
+  "chequeoFecha": {
+    "ok": true,
+    "motivos": [],
+    "advertencias": [
+      "El inicio de la relación (1976) es aproximado; se toma la fecha documentada más conservadora."
+    ]
+  },
+  "fechas": [
+    "2001-10-10",
+    "2001-10-22",
+    "2001-11-03",
+    "2001-11-12",
+    "2001-11-20"
+  ],
+  "contexto": {
+    "fechasSugeridas": [
+      "2001-10-10",
+      "2001-10-22",
+      "2001-11-03",
+      "2001-11-12",
+      "2001-11-20"
+    ],
+    "resumen": "El período entre el 10 de octubre y el 21 de noviembre de 2001 encuentra a Patricio Rey y sus Redonditos de Ricota sumidos en un silencio hermético y definitivo tras la frustrada llegada a Córdoba en agosto. Mientras el país se encamina aceleradamente hacia una crisis económica e institucional sin precedentes, Carlos 'Indio' Solari y Ricardo 'Rocambole' Cohen procesan en privado el desgaste y la virtual separación de la banda más convocante del rock argentino. En los talleres de La Plata y en refugios bonaerenses, el trabajo visual y la reflexión continúan a pesar de la incertidumbre sobre el futuro del grupo. La prensa especula con internas insalvables entre los miembros fundadores, marcando el silencioso fin de una era dorada de la cultura independiente nacional.",
+    "recientes": [
+      {
+        "fecha": "2001-08-04",
+        "descripcion": "Suspensión de los esperados recitales de Patricio Rey y sus Redonditos de Ricota en el estadio Chateau Carreras de Córdoba, marcando el inicio de un distanciamiento interno que sepultaría las presentaciones en vivo."
+      },
+      {
+        "fecha": "2001-09-20",
+        "descripcion": "Crecen los rumores en fanzines y medios especializados sobre cortocircuitos irreconciliables en la cúpula de la banda, interrumpiendo la preproducción de un nuevo disco."
+      }
+    ],
+    "proximos": [
+      {
+        "fecha": "2001-10-14",
+        "descripcion": "Elecciones legislativas en Argentina en medio de un clima de descontento social generalizado y crecimiento del voto en blanco."
+      },
+      {
+        "fecha": "2001-11-05",
+        "descripcion": "Aumentan las especulaciones periodísticas ante la falta de comunicados oficiales de la banda sobre su continuidad artística."
+      }
+    ],
+    "escenaSugerida": "En el taller de Rocambole en La Plata, entre tintas, bocetos descartados y olor a solvente, se repasa el peso del frustrado paso por Córdoba y la incertidumbre sobre el futuro estético y musical de la banda.",
+    "criticadosSugeridos": [
+      "Periodismo sensacionalista",
+      "Skay Beilinson"
+    ],
+    "alabadosSugeridos": [
+      "Semilla Bucciarelli",
+      "Público ricotero"
+    ],
+    "fuentes": [
+      {
+        "titulo": "Rock.com.ar - Biografía de Patricio Rey y sus Redonditos de Ricota (citada por el modelo, sin verificar)",
+        "url": "https://rock.com.ar/artistas/patricio-rey-y-sus-redonditos-de-ricota"
+      },
+      {
+        "titulo": "Archivo histórico sobre el rock argentino y la crisis de 2001 (citada por el modelo, sin verificar)",
+        "url": "https://www.pagina12.com.ar"
+      }
+    ],
+    "desde": "2001-10-10",
+    "hasta": "2001-11-21",
+    "conBusquedaWeb": false
+  },
+  "entrada": {
+    "dias": [
+      {
+        "fecha": "2001-10-10",
+        "anio": "2001",
+        "encabezado": "Miércoles, 10 de octubre.",
+        "situacion": "Taller en La Plata, con Solari. A dos meses largos del portazo de Córdoba.",
+        "parrafos": [
+          "Revisa Solari unos bocetos de cartelería vieja que quedaron en un cajón y suelta una risa seca.",
+          "«Los muchachos de los suplementos culturales ya nos jubilaron antes de tiempo» dice, mientras enciende un cigarro negro. Le contesto que el periodismo de rock argentino siempre padeció de apuro escatológico, como si necesitaran que nos muramos o nos peleemos a cuchillo para tener algo que redactar. Se detiene frente a la ventana que da al patio, contempla un limonero medio seco y agrega: «Prefieren inventar una tragedia griega donde solo hay un desgaste de materiales».",
+          "Hablamos luego de las elecciones que se vienen el domingo, de cómo la gente va a votar con bronca o con desgano. Le digo que el país entero parece un ensayo general que se quedó sin luz."
+        ]
+      },
+      {
+        "fecha": "2001-10-22",
+        "anio": "2001",
+        "encabezado": "Lunes, 22 de octubre.",
+        "situacion": "Cena en un bodegón de Gonnet, con Solari. Tras el gentío del domingo electoral.",
+        "parrafos": [
+          "Pide Solari un plato de pastas con demasiada pimienta y comenta los números desangelados de los comicios.",
+          "«Votaron en blanco hasta las paredes» observa, frotándose los ojos con cansancio. Le apunto que el voto bronca es lo único sincero que circuló por las urnas esta semana, aunque no sirva para arreglar ni una canilla rota. Se ríe con ganas y dice: «La gente ya no cree ni en los milagros de la quiniela».",
+          "Menciona al pasar que Semilla Bucciarelli estuvo llamando ayer para coordinar unas devoluciones de equipo en el depósito, siempre cumplidor el hombre."
+        ]
+      },
+      {
+        "fecha": "2001-11-03",
+        "anio": "2001",
+        "encabezado": "Sábado, 3 de noviembre.",
+        "situacion": "Estudio provisorio en Parque Chas, con Solari. A cuarenta y ocho horas del nuevo parte de prensa que los diarios especulan.",
+        "parrafos": [
+          "Examina Solari una hoja con anotaciones rítmicas y niega con la cabeza ante los rumores que agita la revista de la semana.",
+          "«Salen a decir que nos matamos por dinero, como si el arte fuera una sucursal bancaria» murmura sin levantar la voz. Le respondo que la imaginación de los cronistas es inversamente proporcional a su talento musical; necesitan culebrones porque la realidad cotidiana les aburre.",
+          "Pasamos la tarde revisando texturas digitales que quizás no sirvan para nada, o quizás para un disco que nadie sabe cuándo tendrá forma."
+        ]
+      },
+      {
+        "fecha": "2001-11-12",
+        "anio": "2001",
+        "encabezado": "Lunes, 12 de noviembre.",
+        "situacion": "En la cocina de la casa de Solari, con él solo. Mate amargo y radio de fondo que anuncia cortes de ruta.",
+        "parrafos": [
+          "Comenta Solari la persistencia de los llamados impertinentes desde las radios buscando una declaración exclusiva sobre la supuesta ruptura.",
+          "«Les da terror el silencio, necesitan que uno ladre o muerda para vender tres ejemplares más» afirma, cebando un mate lavado. Le contesto que el misterio siempre fue un negocio pésimo para el periodismo moderno, acostumbrado a masticar todo y servirlo digerido.",
+          "Observo una pila de libros de historia argentina sobre la mesa ratona; dice que releer desastres pasados le calma la indigestión del presente.",
+          "Repasamos los recortes de los diarios de la mañana, donde los editorialistas se desgarran las vestiduras por la debacle financiera que se avecina. La incertidumbre económica empapa cada conversación, volviendo trivial cualquier proyecto a mediano plazo en el estudio.",
+          "Anota en el margen de un viejo cuaderno ideas sueltas sobre la velocidad con la que nos consumen los medios. El teléfono vuelve a sonar en el pasillo, insistente y molesto, y ninguno de los dos hace el menor amago por atenderlo. Dejamos que el aparato repita su melodía hasta que el cansancio mude la atmósfera de la tarde."
+        ]
+      },
+      {
+        "fecha": "2001-11-20",
+        "anio": "2001",
+        "encabezado": "Martes, 20 de noviembre.",
+        "situacion": "Despedida en la estación de trenes de La Plata, con Solari. Atardecer gris y pesadez en el ambiente.",
+        "parrafos": [
+          "Acaricia Solari el lomo de un cuaderno anillado antes de subir al coche y lanza una última ocurrencia sobre la inercia del grupo.",
+          "«Lo mejor que hicimos fue dejar al público con las ganas de seguir agitando en el barro» desliza con media sonrisa. Le recuerdo que la gente del palo todavía nos espera en cada esquina con una paciencia infinita.",
+          "Se despide con un gesto breve y arranca el motor mientras la ciudad se encierra en su propia neblina.",
+          "El andén vacía sus últimos pasajeros mientras el silbido de una formación lejana corta el aire húmedo del crepúsculo. Pienso en las décadas compartidas, en los kilómetros recorridos por rutas imposibles y en este final abrupto que nadie se anima a rubricar con firmas.",
+          "Camino hacia la salida sintiendo el peso exacto de una época que se apaga sin grandes discursos ni comunicados oficiales. Quedan los surcos grabados en los vinilos y la certeza obstinada de haber construido un refugio inexpugnable contra la desmemoria."
+        ]
+      }
+    ],
+    "paginas": [
+      3,
+      2
+    ],
+    "notas": [],
+    "escena": "Talleres y encuentros entre La Plata y Buenos Aires",
+    "criticados": [
+      "Periodismo sensacionalista",
+      "Skay Beilinson"
+    ],
+    "alabados": [
+      "Semilla Bucciarelli",
+      "Público ricotero"
+    ],
+    "palabras": 749,
+    "revision": {
+      "hecha": true,
+      "problemasDetectados": [
+        "La página 2 tiene solo 204 palabras; el mínimo es 350."
+      ],
+      "problemasRestantes": []
+    }
+  },
+  "titulo": "Solari",
+  "proveedores": {
+    "texto": "gemini:gemini-flash-lite-latest",
+    "imagen": "none"
+  },
+  "advertencias": [
+    "La validación se hizo sin búsqueda web: depende del conocimiento del modelo.",
+    "El contexto histórico se armó sin búsqueda web (sin cuota de búsqueda o desactivada): verificá los hechos.",
+    "El inicio de la relación (1976) es aproximado; se toma la fecha documentada más conservadora."
+  ],
+  "version": 2,
+  "id": "EBaLQ6RbSw",
+  "creada": "2026-10-25T22:14:51.665Z"
+}

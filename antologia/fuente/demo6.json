@@ -1,0 +1,286 @@
+{
+  "parametros": {
+    "borges": "Diego Maradona",
+    "bioy": "Guillermo Cóppola",
+    "fecha": "1987-05-10",
+    "criticados": [],
+    "alabados": [],
+    "escena": "Come en casa Maradona, en Nápoles",
+    "presentes": [],
+    "tono": "irónico",
+    "extension": "media",
+    "paginas": 2
+  },
+  "validacion": {
+    "aceptado": true,
+    "justificacion": "Diego Maradona y Guillermo Cóppola son figuras públicas de enorme notoriedad. Cóppola comenzó a trabajar como representante de Maradona en julio de 1985, iniciando una intensa relación laboral y de amistad que duró casi dos décadas.",
+    "relacion": "Representante de fútbol y amigo cercano",
+    "inicioRelacion": "1985-07",
+    "inicioAproximado": false,
+    "ambito": "fútbol",
+    "borges": {
+      "nombre": "Diego Maradona",
+      "conocido": true,
+      "descripcion": "Futbolista y entrenador argentino, considerado uno de los mejores jugadores de la historia.",
+      "nacimiento": "1960-10-30",
+      "muerte": "2020-11-25",
+      "apodos": [
+        "Pelusa",
+        "El Pibe de Oro"
+      ],
+      "apellido": "Maradona"
+    },
+    "bioy": {
+      "nombre": "Guillermo Cóppola",
+      "conocido": true,
+      "descripcion": "Empresario argentino y mánager de futbolistas, famoso por representar a Diego Maradona.",
+      "nacimiento": "1948-10-12",
+      "muerte": null,
+      "apodos": [
+        "Guillote"
+      ],
+      "apellido": "Cóppola"
+    },
+    "noVerificados": [],
+    "fuentes": [
+      {
+        "titulo": "Diego Maradona - Wikipedia (citada por el modelo, sin verificar)",
+        "url": "https://es.wikipedia.org/wiki/Diego_Maradona"
+      },
+      {
+        "titulo": "Guillermo Cóppola - Wikipedia (citada por el modelo, sin verificar)",
+        "url": "https://es.wikipedia.org/wiki/Guillermo_C%C3%B3ppola"
+      }
+    ],
+    "conBusquedaWeb": false
+  },
+  "chequeoFecha": {
+    "ok": true,
+    "motivos": [],
+    "advertencias": []
+  },
+  "fechas": [
+    "1987-05-10",
+    "1987-05-11",
+    "1987-05-18",
+    "1987-05-28",
+    "1987-06-08",
+    "1987-06-14",
+    "1987-06-21"
+  ],
+  "contexto": {
+    "fechasSugeridas": [
+      "1987-05-10",
+      "1987-05-11",
+      "1987-05-18",
+      "1987-05-28",
+      "1987-06-08",
+      "1987-06-14",
+      "1987-06-21"
+    ],
+    "resumen": "El período comprendido entre mayo y junio de 1987 marca el punto culminante de la carrera de Diego Maradona en el SSC Napoli junto a su representante y amigo Guillermo Coppola. El 10 de mayo de 1987, el conjunto partenopeo logra el primer Scudetto de su historia tras empatar 1-1 ante la Fiorentina, desatando una celebración sin precedentes en las calles de Nápoles. Durante las semanas siguientes, el equipo mantiene su andar arrollador en la Coppa Italia, superando eliminatorias hasta vencer a Atalanta en la final del 13 de junio y conseguir un histórico doblete. Coppola maneja el frenesí comercial, el asedio periodístico y las ofertas tentadoras de otros clubes europeos. Hacia mediados de junio, Maradona viaja a Argentina para sumarse a los entrenamientos de la Selección dirigida por Carlos Bilardo de cara a la Copa América 1987.",
+    "recientes": [
+      {
+        "fecha": "1987-04-26",
+        "descripcion": "Napoli golea 4-1 a Hellas Verona por la fecha 27 de la Serie A con un gol de Maradona, afirmándose en el liderazgo del torneo."
+      },
+      {
+        "fecha": "1987-04-29",
+        "descripcion": "Napoli derrota 2-0 a Bologna en el partido de ida de los cuartos de final de la Coppa Italia."
+      },
+      {
+        "fecha": "1987-05-03",
+        "descripcion": "Napoli empata 1-1 como visitante ante Como en la fecha 28 de la Serie A, quedando a un solo punto de ser campeón."
+      },
+      {
+        "fecha": "1987-05-06",
+        "descripcion": "Napoli vence 1-0 a Bologna en la vuelta de cuartos de final de la Coppa Italia y clasifica a semifinales."
+      }
+    ],
+    "proximos": [
+      {
+        "fecha": "1987-05-10",
+        "descripcion": "Napoli empata 1-1 con Fiorentina con gol de Andrea Carnevale en el Stadio San Paolo y se corona campeón de la Serie A por primera vez en su historia."
+      },
+      {
+        "fecha": "1987-05-17",
+        "descripcion": "Napoli cierra su participación en la Serie A 1986-87 derrotando 2-1 a Brescia como visitante."
+      },
+      {
+        "fecha": "1987-05-27",
+        "descripcion": "Napoli vence 1-0 a Cagliari en el partido de ida de las semifinales de la Coppa Italia."
+      },
+      {
+        "fecha": "1987-06-03",
+        "descripcion": "Napoli supera 4-1 a Cagliari en el San Paolo en la vuelta de semifinales y avanza a la final de la Coppa Italia."
+      },
+      {
+        "fecha": "1987-06-07",
+        "descripcion": "Napoli derrota 3-0 a Atalanta en el partido de ida de la final de la Coppa Italia."
+      },
+      {
+        "fecha": "1987-06-10",
+        "descripcion": "En Zúrich, Italia vence 3-1 a la Selección Argentina en un amistoso internacional; Maradona convierte el único tanto argentino."
+      },
+      {
+        "fecha": "1987-06-13",
+        "descripcion": "Napoli le gana 1-0 a Atalanta en Bérgamo, obtiene la Coppa Italia y liquida el doblete histórico Scudetto-Copa."
+      },
+      {
+        "fecha": "1987-06-20",
+        "descripcion": "Maradona se reincorpora al plantel de la Selección Argentina en el predio de Ezeiza bajo las órdenes de Carlos Bilardo para la Copa América 1987."
+      }
+    ],
+    "escenaSugerida": "Diego Maradona y Guillermo Coppola cenan en la casa de Diego en la Via Tazio Nuvolari (Nápoles) en la noche del 10 de mayo de 1987, exhaustos pero eufóricos tras conseguir el primer Scudetto de la historia del Napoli. Mientras afuera retumban petardos y bocinazos interminables de la multitud en fiesta, repasan llamadas de felicitación desde Buenos Aires y organizan los compromisos de prensa y marcas para los días siguientes.",
+    "criticadosSugeridos": [
+      "Corrado Ferlaino",
+      "Silvio Berlusconi",
+      "João Havelange"
+    ],
+    "alabadosSugeridos": [
+      "Bruno Giordano",
+      "Andrea Carnevale",
+      "Salvatore Bagni"
+    ],
+    "fuentes": [
+      {
+        "titulo": "Italy Championship 1986/87 - RSSSF (citada por el modelo, sin verificar)",
+        "url": "https://www.rsssf.org/tablesi/ital87.html"
+      },
+      {
+        "titulo": "Italy - Coppa Italia 1986/87 - RSSSF (citada por el modelo, sin verificar)",
+        "url": "https://www.rsssf.org/tablesi/italcuphist.html"
+      }
+    ],
+    "desde": "1987-05-10",
+    "hasta": "1987-06-21",
+    "conBusquedaWeb": false
+  },
+  "entrada": {
+    "dias": [
+      {
+        "fecha": "1987-05-10",
+        "anio": "1987",
+        "encabezado": "Domingo, 10 de mayo.",
+        "situacion": "Come en casa Maradona. Nápoles celebra el primer Scudetto tras el empate con Fiorentina.",
+        "parrafos": [
+          "Llega exultante, con la camiseta todavía pegada al cuerpo y el olor a pasto del San Paolo. «¿Viste lo que es eso? Estos tipos no van a laburar por un mes», suelta mientras se desploma en la silla. La ciudad es un estruendo que sube por las ventanas.",
+          "Le respondo que media ciudad ya está pintada de celeste y que Ferlaino debe estar sacando cuentas para no pagarnos los premios. Maradona ríe: «A ese no lo dejes entrar al vestuario, que se quede contando las monedas en la oficina».",
+          "Elogia a Carnevale por el gol del título. Sostiene que Andrea apareció cuando las papas quemaban y me pregunta, casi como un chico, si tengo lista la Ferrari para mañana. Quiere salir a devorarse la ciudad."
+        ]
+      },
+      {
+        "fecha": "1987-05-11",
+        "anio": "1987",
+        "encabezado": "Lunes, 11 de mayo.",
+        "situacion": "En el balcón del departamento, Maradona y yo. Miramos a la gente en la calle.",
+        "parrafos": [
+          "Nápoles es un manicomio a cielo abierto. Maradona observa una bandera colgada en el cementerio que dice que los muertos se pierden el festejo. «Es demasiado, me da miedo que alguno se tire del balcón por un autógrafo», comenta con una mezcla de orgullo y espanto.",
+          "Le comento que Silvio Berlusconi anda diciendo que el Milan necesita un artista como él. La respuesta es inmediata: «Decile que el artista ya tiene el teatro lleno y que el suyo solo tiene butacas caras».",
+          "Almorzamos pastas frías porque no podemos salir ni a la esquina; la puerta del edificio está sitiada. Prefiere el encierro con la Copa que la libertad sin nada."
+        ]
+      },
+      {
+        "fecha": "1987-05-18",
+        "anio": "1987",
+        "encabezado": "Lunes, 18 de mayo.",
+        "situacion": "Viajamos en auto hacia el aeropuerto, Maradona y yo. Volvemos de Brescia tras el cierre de la Serie A.",
+        "parrafos": [
+          "Está cansado pero satisfecho por la victoria de ayer que cerró el torneo. «Ahora vamos por la Coppa Italia, no quiero dejarle ni las migas a los del norte», me dice mientras se saca los botines en el asiento de atrás.",
+          "Opina sobre Bagni, que corrió todo el partido como un animal. Asegura que Salvatore tiene tres pulmones y que se cansa de solo verlo pasar al lado suyo.",
+          "Le menciono que João Havelange prepara un discurso sobre la ética en el fútbol. Maradona bosteza: «Ese viejo habla de ética porque ya no se acuerda cómo se patea una pelota». Se duerme contra la ventanilla antes de llegar a la pista."
+        ]
+      },
+      {
+        "fecha": "1987-05-28",
+        "anio": "1987",
+        "encabezado": "Jueves, 28 de mayo.",
+        "situacion": "En el vestuario del San Paolo, Maradona, Giordano y yo. Recién terminó la ida de la semifinal contra Cagliari.",
+        "parrafos": [
+          "Maradona abraza a Giordano, que está impecable, ni transpiró. «Bruno juega de galera y bastón, hace que todo parezca fácil para los demás», dice mientras le palmea la espalda.",
+          "Me pregunta si llegaron las ofertas de las marcas de ropa. Le explico que el interés es total pero que Ferlaino quiere morder una parte del contrato de imagen. Maradona se indigna: «Ese hombre se cree que es el dueño de mis piernas y no sabe ni ponerse las medias».",
+          "Me pide que consiga un vuelo privado para después de la final de junio. Quiere llegar a Buenos Aires antes de que Bilardo lo empiece a volver loco con el teléfono por la Copa América."
+        ]
+      },
+      {
+        "fecha": "1987-06-08",
+        "anio": "1987",
+        "encabezado": "Lunes, 8 de junio.",
+        "situacion": "Cena en un restaurante a puertas cerradas, con Maradona. El equipo goleó 3-0 a Atalanta en la primera final.",
+        "parrafos": [
+          "Está de un humor excelente, casi eléctrico. «¿Viste lo que es este equipo? Les pasamos por arriba como una aplanadora», comenta mientras pincha un antipasto.",
+          "Le digo que el doblete es un hecho histórico y que en Argentina no se habla de otra cosa. Me contesta con realismo: «Allá me esperan con el cuchillo entre los dientes, no me van a dejar ni respirar».",
+          "Se queja del vino que trajo el dueño. Según él, en Italia saben de fútbol pero para la uva les falta el potrero que tenemos nosotros."
+        ]
+      },
+      {
+        "fecha": "1987-06-14",
+        "anio": "1987",
+        "encabezado": "Domingo, 14 de junio.",
+        "situacion": "En el hotel de Bérgamo, Maradona y yo. Acaban de obtener la Coppa Italia y el doblete histórico.",
+        "parrafos": [
+          "Maradona mira la medalla sobre la mesa de luz, como si no pudiera creer que ya ganamos todo. «Ya está, no nos pueden pedir más nada en esta ciudad», sentencia con una calma que asusta.",
+          "Le sugiero que descanse un poco antes del viaje a Buenos Aires. Me responde con una de sus verdades: «¿Descansar? Si descanso me alcanza la realidad y yo quiero seguir volando».",
+          "Se ríe de un dirigente que intentó abrazarlo en la cancha tras el pitazo final. «Tenía olor a naftalina, estos tipos aparecen solo cuando hay que salir en la foto de los diarios», remata antes de apagar la luz."
+        ]
+      },
+      {
+        "fecha": "1987-06-21",
+        "anio": "1987",
+        "encabezado": "Domingo, 21 de junio.",
+        "situacion": "En el predio de Ezeiza, Maradona y yo. Primer día de entrenamiento con la Selección de Bilardo.",
+        "parrafos": [
+          "El frío de Buenos Aires lo tiene malhumorado y con los músculos duros. «Extraño el sol de Nápoles, acá el Narigón nos va a hacer correr hasta que nos olvidemos el apellido», protesta mientras se venda los tobillos.",
+          "Le cuento que la prensa está pesada con el tema de su estado físico tras los festejos en Italia. Me mira fijo, desafiante: «Deciles que con una pierna sola les gano la Copa América también».",
+          "Me pide que le consiga un alfajor de contrabando. Jura que la dieta de la Selección es un invento para amargarle la vida a los que tienen talento."
+        ]
+      }
+    ],
+    "paginas": [
+      3,
+      4
+    ],
+    "notas": [
+      "Corrado Ferlaino era el presidente del Napoli, conocido por su tacañería.",
+      "El 'doblete' del Napoli en 1987 fue el primero de un equipo del sur de Italia."
+    ],
+    "escena": "Guillermo Cóppola anota las intimidades de sus días con Maradona durante la gloria máxima en Nápoles y el regreso a Argentina.",
+    "criticados": [
+      "Corrado Ferlaino",
+      "Silvio Berlusconi",
+      "João Havelange"
+    ],
+    "alabados": [
+      "Bruno Giordano",
+      "Andrea Carnevale",
+      "Salvatore Bagni"
+    ],
+    "palabras": 877,
+    "revision": {
+      "hecha": true,
+      "problemasDetectados": [
+        "Varias oraciones empiezan igual («dice viste…», 2 veces); variá los comienzos.",
+        "Varias oraciones empiezan igual («dice que…», 3 veces); variá los comienzos.",
+        "La palabra «ganamos» se repite en las líneas de situación de las entradas 4 y 5.",
+        "En «Viste lo que es el San Paolo, Guillermo. Estos tipos no van » hay un vocativo («Guillermo»). Diego Maradona y Guillermo Cóppola no se llaman por el nombre ni por apodos: sacalo y que la frase se diga directamente.",
+        "En «Ya está, Guillermo, no nos pueden pedir más nada en esta ciu» hay un vocativo («Guillermo»). Diego Maradona y Guillermo Cóppola no se llaman por el nombre ni por apodos: sacalo y que la frase se diga directamente."
+      ],
+      "problemasRestantes": [
+        "Varias oraciones empiezan igual («viste lo…», 2 veces); variá los comienzos.",
+        "La palabra «primer» se repite en las líneas de situación de las entradas 1 y 7."
+      ]
+    }
+  },
+  "titulo": "Maradona",
+  "proveedores": {
+    "texto": "gemini:gemini-3-flash-preview",
+    "imagen": "none"
+  },
+  "advertencias": [
+    "La validación se hizo sin búsqueda web: depende del conocimiento del modelo.",
+    "El contexto histórico se armó sin búsqueda web (sin cuota de búsqueda o desactivada): verificá los hechos."
+  ],
+  "version": 2,
+  "id": "aHeGa5yp9s",
+  "creada": "2026-10-25T22:07:57.138Z"
+}

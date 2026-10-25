@@ -66,14 +66,13 @@ export const PAREJAS_DEMO: ParejaDemo[] = [
     inicioRelacion: "1932",
     inicioAproximado: false,
     relacion:
-      "Amigos íntimos y colaboradores literarios desde 1932; en este diario apócrifo cenan en el departamento de la calle Posadas en octubre de 2026 y comentan el Premio Nobel de Literatura concedido a Anne Carson.",
+      "Amigos íntimos y colaboradores literarios desde 1932; en este diario apócrifo cenan en casa de Bioy en octubre de 1956.",
     ambito: "literatura",
-    fechaEjemplo: "2026-10-08",
+    fechaEjemplo: "1956-10-08",
     escenaEjemplo: "Come en casa Borges",
     fuentes: [
       wiki("Jorge Luis Borges", "Jorge_Luis_Borges"),
       wiki("Adolfo Bioy Casares", "Adolfo_Bioy_Casares"),
-      wiki("Anne Carson", "Anne_Carson"),
     ],
   },
   {
@@ -222,10 +221,10 @@ export const PAREJAS_DEMO: ParejaDemo[] = [
     inicioRelacion: "1985",
     inicioAproximado: false,
     relacion:
-      "Cóppola fue su representante y amigo inseparable desde 1985; en este diario apócrifo comparten en Doha y Buenos Aires las vísperas y los festejos de la final del Mundial de Qatar 2022.",
+      "Cóppola fue su representante y amigo inseparable desde 1985; en este diario apócrifo comparten en Nápoles los días del primer scudetto del Napoli, en mayo de 1987.",
     ambito: "fútbol",
-    fechaEjemplo: "2022-12-16",
-    escenaEjemplo: "Come en casa Maradona, en Doha",
+    fechaEjemplo: "1987-05-10",
+    escenaEjemplo: "Come en casa Maradona, en Nápoles",
     fuentes: [wiki("Diego Maradona", "Diego_Maradona"), wiki("Guillermo Cóppola", "Guillermo_C%C3%B3ppola")],
   },
   {

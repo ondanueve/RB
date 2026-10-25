@@ -1,0 +1,245 @@
+{
+  "parametros": {
+    "borges": "Warren Buffett",
+    "bioy": "Charlie Munger",
+    "fecha": "2023-05-05",
+    "criticados": [],
+    "alabados": [],
+    "escena": "Cena en Gorat's, en Omaha, la víspera de la asamblea",
+    "presentes": [],
+    "tono": "irónico",
+    "extension": "media",
+    "paginas": 2
+  },
+  "validacion": {
+    "aceptado": true,
+    "justificacion": "Warren Buffett y Charlie Munger fueron socios comerciales y amigos cercanos durante más de seis décadas, liderando juntos la compañía Berkshire Hathaway. Se conocieron en 1959 en una cena en Omaha organizada por amigos comunes y mantuvieron una de las alianzas empresariales y personales más documentadas y famosas de la historia financiera.",
+    "relacion": "Socios comerciales, copropietarios de Berkshire Hathaway y amigos cercanos durante más de 60 años",
+    "inicioRelacion": "1959",
+    "inicioAproximado": true,
+    "ambito": "finanzas",
+    "borges": {
+      "nombre": "Warren Buffett",
+      "conocido": true,
+      "descripcion": "Inversor, empresario y filántropo estadounidense, presidente y CEO de Berkshire Hathaway.",
+      "nacimiento": "1930-08-30",
+      "muerte": null,
+      "apodos": [
+        "El Oráculo de Omaha"
+      ],
+      "apellido": "Buffett"
+    },
+    "bioy": {
+      "nombre": "Charlie Munger",
+      "conocido": true,
+      "descripcion": "Inversor, abogado y arquitecto corporativo estadounidense, vicepresidente de Berkshire Hathaway.",
+      "nacimiento": "1924-01-01",
+      "muerte": "2023-11-28",
+      "apodos": [],
+      "apellido": "Munger"
+    },
+    "noVerificados": [],
+    "fuentes": [
+      {
+        "titulo": "How Warren Buffett and Charlie Munger Met - CNBC (citada por el modelo, sin verificar)",
+        "url": "https://www.cnbc.com/2023/11/28/warren-buffett-and-charlie-munger-a-friendship-and-partnership-for-the-ages.html"
+      },
+      {
+        "titulo": "Warren Buffett and Charlie Munger: A Timeline of Their Partnership - Wall Street Journal (citada por el modelo, sin verificar)",
+        "url": "https://www.wsj.com/buyside/investing/charlie-munger-warren-buffett-relationship-timeline"
+      }
+    ],
+    "conBusquedaWeb": false
+  },
+  "chequeoFecha": {
+    "ok": true,
+    "motivos": [],
+    "advertencias": [
+      "El inicio de la relación (1959) es aproximado; se toma la fecha documentada más conservadora."
+    ]
+  },
+  "fechas": [
+    "2023-05-05",
+    "2023-05-07",
+    "2023-05-16",
+    "2023-06-01",
+    "2023-06-14"
+  ],
+  "contexto": {
+    "fechasSugeridas": [
+      "2023-05-05",
+      "2023-05-07",
+      "2023-05-16",
+      "2023-06-01",
+      "2023-06-14"
+    ],
+    "resumen": "El período está dominado por la Asamblea Anual de Berkshire Hathaway en Omaha, conocida como el 'Woodstock para Capitalistas', donde Buffett y Munger analizaron la reciente crisis bancaria tras la caída de First Republic Bank. Durante estas semanas, la atención financiera se centró en el debate sobre el techo de deuda de EE. UU. y el auge de la inteligencia artificial, tema sobre el cual ambos expresaron escepticismo. Berkshire reveló movimientos estratégicos en sus presentaciones 13F, destacando su salida de TSMC y su apuesta continua por Apple y petroleras. El período cierra con la primera pausa en las subidas de tipos de interés por parte de la Reserva Federal en más de un año. La salud de Munger, a sus 99 años, y la sucesión liderada por Greg Abel fueron temas recurrentes de conversación.",
+    "recientes": [
+      {
+        "fecha": "2023-04-12",
+        "descripcion": "Warren Buffett visita Japón para aumentar sus participaciones en las cinco principales casas comerciales niponas (Itochu, Mitsubishi, etc.)."
+      },
+      {
+        "fecha": "2023-05-01",
+        "descripcion": "JPMorgan Chase adquiere la mayor parte de los activos de First Republic Bank tras su colapso y confiscación por los reguladores."
+      },
+      {
+        "fecha": "2023-05-03",
+        "descripcion": "La Reserva Federal de EE. UU. eleva los tipos de interés en 25 puntos básicos, situándolos en el rango del 5% al 5,25%."
+      }
+    ],
+    "proximos": [
+      {
+        "fecha": "2023-05-06",
+        "descripcion": "Asamblea Anual de Accionistas de Berkshire Hathaway en Omaha; Buffett y Munger responden preguntas durante 5 horas."
+      },
+      {
+        "fecha": "2023-05-15",
+        "descripcion": "Presentación del formulario 13F: se revela que Berkshire vendió casi toda su participación en TSMC y aumentó su posición en Apple y Occidental Petroleum."
+      },
+      {
+        "fecha": "2023-05-19",
+        "descripcion": "Se suspenden temporalmente las negociaciones sobre el techo de deuda en Washington, generando volatilidad en los mercados."
+      },
+      {
+        "fecha": "2023-06-03",
+        "descripcion": "El presidente Joe Biden firma la ley para suspender el techo de deuda de EE. UU., evitando un impago histórico."
+      },
+      {
+        "fecha": "2023-06-14",
+        "descripcion": "La Reserva Federal mantiene los tipos de interés estables por primera vez tras diez subidas consecutivas."
+      }
+    ],
+    "escenaSugerida": "Warren Buffett y Charlie Munger están sentados en un reservado del restaurante Gorat's Steak House en Omaha. Buffett disfruta de un filete T-bone poco hecho y una Cherry Coke, mientras Munger picotea caramelos de See's Candies. Discuten los detalles de la presentación de resultados del primer trimestre que se publicará mañana y bromean sobre la cantidad de personas que han viajado a la ciudad solo para escucharlos hablar sobre el colapso de First Republic Bank.",
+    "criticadosSugeridos": [
+      "Elon Musk",
+      "Gestores de First Republic Bank",
+      "Promotores de Criptomonedas"
+    ],
+    "alabadosSugeridos": [
+      "Tim Cook",
+      "Greg Abel",
+      "Ajit Jain"
+    ],
+    "fuentes": [
+      {
+        "titulo": "Berkshire Hathaway 2023 Annual Meeting Highlights (citada por el modelo, sin verificar)",
+        "url": "https://www.cnbc.com/berkshire-hathaway-annual-meeting-2023/"
+      },
+      {
+        "titulo": "First Republic Bank Failure and Sale (citada por el modelo, sin verificar)",
+        "url": "https://www.fdic.gov/news/press-releases/2023/pr23034.html"
+      },
+      {
+        "titulo": "Fed Pauses Rate Hikes in June 2023 (citada por el modelo, sin verificar)",
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230614a.htm"
+      }
+    ],
+    "desde": "2023-05-05",
+    "hasta": "2023-06-16",
+    "conBusquedaWeb": false
+  },
+  "entrada": {
+    "dias": [
+      {
+        "fecha": "2023-05-05",
+        "anio": "2023",
+        "encabezado": "Viernes, 5 de mayo.",
+        "situacion": "Cena en Gorat's, con Buffett. Víspera de la Asamblea Anual.",
+        "parrafos": [
+          "Llegamos temprano; el aire acondicionado zumbaba con una insistencia casi soviética. Buffett pidió su bistec T-bone muy cocido, mientras revolvía la sal de la mesa como si buscara un mineral precioso. Hablamos de la caída del First Republic y del modo en que los gestores se aferraron a sus bonos hasta que el agua les tapó la nariz. «Es el viejo truco de creer que el futuro será una copia al carbón del pasado», dice. Le contesto que no es un truco, sino una patología de la voluntad. «Esos tipos no son banqueros, son acróbatas que olvidaron poner la red», agrega él mientras el mozo le trae su Cherry Coke.",
+          "Me preguntó si mañana vamos a ser demasiado duros con los que venden criptomonedas. Le dije que la dureza es una cortesía para con la verdad; tratar de ser amable con un esquema de Ponzi digital es como intentar decorar una alcantarilla con encaje. Se rió tanto que casi se mancha la corbata de seda. «Es un veneno para ratas, Charlie, pero las ratas ahora tienen aplicaciones en el teléfono», concluye."
+        ]
+      },
+      {
+        "fecha": "2023-05-07",
+        "anio": "2023",
+        "encabezado": "Domingo, 7 de mayo.",
+        "situacion": "Desayuno en la oficina, con Buffett y Greg Abel. Pasó la asamblea de ayer.",
+        "parrafos": [
+          "Abel repasaba unos papeles de la división energética con una prolijidad que me calma los nervios. Buffett, en cambio, estaba obsesionado con una caja de See's Candies que alguien dejó abierta. «Ayer Greg estuvo impecable, tiene el tono justo de quien sabe que el capital es sagrado», me susurra Buffett cuando Abel sale a atender un llamado. Coincido. Es un alivio saber que la empresa quedará en manos de un hombre que entiende que los balances no son poesía, sino ingeniería aplicada.",
+          "Comentamos la salida de TSMC. Le dije que Taiwán es un lugar demasiado movedizo para mi gusto, por más que hagan los mejores chips del mundo. «Prefiero dormir tranquilo con Apple que despertarme con un dolor de cabeza geopolítico», dice él. Me recuerda que Tim Cook es el mejor gestor de la historia moderna, no porque invente cosas raras, sino porque sabe manejar la cocina de una empresa gigante sin romper un solo plato."
+        ]
+      },
+      {
+        "fecha": "2023-05-16",
+        "anio": "2023",
+        "encabezado": "Martes, 16 de mayo.",
+        "situacion": "Por teléfono, con Buffett. Se publicaron los formularios 13F ayer.",
+        "parrafos": [
+          "Me llamó para bromear sobre la reacción de la prensa ante nuestras compras de Occidental Petroleum. Dice que los periodistas financieros se comportan como si estuviéramos descubriendo el fuego, cuando simplemente estamos comprando lo que el mundo todavía necesita para moverse. «Se distraen con cualquier cosa que brille, como gatos con un puntero láser», dice. Le contesté que el problema de la modernidad es que la gente prefiere una mentira emocionante a una verdad aburrida.",
+          "Mencioné a Elon Musk y su última ocurrencia en Twitter. Buffett hizo un silencio largo, de esos que valen más que un informe anual. «Es un hombre con un talento inmenso para el caos», dice al fin. Le replico que el caos es un pésimo socio comercial, especialmente cuando uno busca rentabilidad a largo plazo. «Él quiere llegar a Marte y yo solo quiero que el ferrocarril llegue a tiempo», remata con una sequedad envidiable."
+        ]
+      },
+      {
+        "fecha": "2023-06-01",
+        "anio": "2023",
+        "encabezado": "Jueves, 1 de junio.",
+        "situacion": "Tarde de lectura en la biblioteca, con Buffett. El Congreso debate el techo de deuda.",
+        "parrafos": [
+          "El televisor estaba encendido pero sin volumen; las caras de los políticos en Washington transmitían una angustia coreografiada. Buffett dejó de leer un informe sobre seguros y señaló la pantalla. «Están jugando a la gallina con un camión cargado de dinamita», comenta. Le digo que el sistema está diseñado para que el sentido común aparezca solo cinco minutos antes del desastre. «Es la comedia del absurdo, pero sin el talento de Beckett», añade.",
+          "Le pregunté por Ajit Jain y los últimos números de reaseguros. Sus ojos brillaron. Me asegura que si hubiera diez Ajit en el mundo, el riesgo sería una palabra obsoleta. Es curioso cómo Buffett, que es tan parco para el elogio público, se vuelve casi lírico cuando habla de alguien que realmente domina su oficio. «Ajit no calcula el riesgo, lo huele», dice."
+        ]
+      },
+      {
+        "fecha": "2023-06-14",
+        "anio": "2023",
+        "encabezado": "Miércoles, 14 de junio.",
+        "situacion": "Caminata breve por el estacionamiento, con Buffett. La Reserva Federal pausó los tipos.",
+        "parrafos": [
+          "Hacía calor, un aire pesado que presagiaba tormenta. Buffett caminaba despacio, mirando el suelo como si buscara una moneda perdida. «Por fin Powell se tomó un respiro», dice respecto a la Fed. Le contesto que una pausa no es una cura, es apenas un entreacto. Me da la razón con un gesto de cabeza. «La gente cree que la inflación es como un resfrío que se pasa solo, pero es más bien como la humedad en los cimientos», observa.",
+          "Antes de subir al auto, se detuvo a mirar un cartel publicitario de una nueva aplicación de inteligencia artificial. Me preguntó si yo creía que esas máquinas escribirían mejores cartas anuales que las nuestras. Le dije que podrían escribir algo más gramatical, pero nunca algo tan honesto. «La honestidad requiere haber cometido errores reales, Charlie, y los algoritmos no sufren», concluyó. Se subió al coche y me dejó pensando en lo difícil que es reemplazar a un viejo amigo por un montón de silicio."
+        ]
+      }
+    ],
+    "paginas": [
+      3,
+      2
+    ],
+    "notas": [
+      "Gorat's Steakhouse es el restaurante favorito de Buffett en Omaha.",
+      "Jerome Powell es el presidente de la Reserva Federal de los Estados Unidos."
+    ],
+    "escena": "Cena en Gorat's, en Omaha, la víspera de la asamblea anual de Berkshire Hathaway.",
+    "criticados": [
+      "Elon Musk",
+      "Gestores de First Republic Bank",
+      "Promotores de Criptomonedas"
+    ],
+    "alabados": [
+      "Tim Cook",
+      "Greg Abel",
+      "Ajit Jain"
+    ],
+    "palabras": 848,
+    "revision": {
+      "hecha": false,
+      "problemasDetectados": [
+        "La página 1 tiene 521 palabras; el máximo es 450. Acortá.",
+        "Varias oraciones empiezan igual («es un…», 3 veces); variá los comienzos.",
+        "En «Es un veneno para ratas, Charlie, pero las ratas ahora tiene» hay un vocativo («Charlie»). Warren Buffett y Charlie Munger no se llaman por el nombre ni por apodos: sacalo y que la frase se diga directamente.",
+        "En «La honestidad requiere haber cometido errores reales, Charli» hay un vocativo («Charlie»). Warren Buffett y Charlie Munger no se llaman por el nombre ni por apodos: sacalo y que la frase se diga directamente."
+      ],
+      "problemasRestantes": [
+        "La página 1 tiene 521 palabras; el máximo es 450. Acortá.",
+        "Varias oraciones empiezan igual («es un…», 3 veces); variá los comienzos.",
+        "En «Es un veneno para ratas, Charlie, pero las ratas ahora tiene» hay un vocativo («Charlie»). Warren Buffett y Charlie Munger no se llaman por el nombre ni por apodos: sacalo y que la frase se diga directamente.",
+        "En «La honestidad requiere haber cometido errores reales, Charli» hay un vocativo («Charlie»). Warren Buffett y Charlie Munger no se llaman por el nombre ni por apodos: sacalo y que la frase se diga directamente."
+      ]
+    }
+  },
+  "titulo": "Buffett",
+  "proveedores": {
+    "texto": "gemini:gemini-3-flash-preview",
+    "imagen": "none"
+  },
+  "advertencias": [
+    "La validación se hizo sin búsqueda web: depende del conocimiento del modelo.",
+    "El contexto histórico se armó sin búsqueda web (sin cuota de búsqueda o desactivada): verificá los hechos.",
+    "Se omitió la revisión de estilo para responder a tiempo.",
+    "El inicio de la relación (1959) es aproximado; se toma la fecha documentada más conservadora."
+  ],
+  "version": 2,
+  "id": "HmzRqxmakr",
+  "creada": "2026-10-25T21:06:23.420Z"
+}

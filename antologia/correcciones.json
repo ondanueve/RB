@@ -1,0 +1,38 @@
+[
+  {
+    "id": "demo1borges",
+    "buscar": "silva como un gato",
+    "reemplazo": "silba como un gato",
+    "motivo": "Errata: «silva» por «silba»."
+  },
+  {
+    "id": "demo1borges",
+    "buscar": "Caminan por Las Heras, Borges y yo",
+    "reemplazo": "Caminamos por Las Heras, Borges y yo",
+    "motivo": "Concordancia: con «y yo» el verbo va en primera del plural."
+  },
+  {
+    "id": "demo5borges",
+    "buscar": "en un zanja",
+    "reemplazo": "en una zanja",
+    "motivo": "Concordancia de género."
+  },
+  {
+    "id": "demo5borges",
+    "buscar": "por los migas",
+    "reemplazo": "por las migas",
+    "motivo": "Concordancia de género."
+  },
+  {
+    "id": "demo7borges",
+    "buscar": "Viajan en el ómnibus",
+    "reemplazo": "Viajamos en el ómnibus",
+    "motivo": "Concordancia: con «y yo» el verbo va en primera del plural."
+  },
+  {
+    "id": "demo9borges",
+    "buscar": "procesadistas",
+    "reemplazo": "procesalistas",
+    "motivo": "Errata: «procesadistas» por «procesalistas»."
+  }
+]

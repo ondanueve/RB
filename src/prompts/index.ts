@@ -236,6 +236,23 @@ TRATO, NOMBRES Y ATRIBUCIÓN DE CITAS (obligatorio, se revisa cita por cita):
   externas, jamás como vocativo entre ${B} y ${Y}): ${B}: ${ap(v.borges)}; ${Y}: ${ap(v.bioy)}.`.trim();
 }
 
+function reglaApertura(v: Validacion): string {
+  const apB = apellidoDe(v.borges);
+  return `- APERTURA DE CADA ENTRADA (obligatoria): la línea de situación introduce la escena y
+  a los participantes, al modo del diario original: dónde están, en qué circunstancia y
+  QUIÉNES (${apB} por el apellido y, si hay terceros presentes, también ellos por su nombre).
+  Forma seca, con el verbo adelante y el sujeto al final, en tercera persona o en plural:
+  «Come en casa ${apB}.», «Comen en casa ${apB} y <otro presente>.», «Cena en <lugar>, con
+  ${apB} y <otro presente>.», «Por teléfono, ${apB}.», «En <lugar>, ${apB}, <otro presente> y
+  yo. <Circunstancia breve>.». Si el diarista está entre los que hacen la acción («… y yo»),
+  el verbo va en primera persona del plural: «Caminamos por <calle>, ${apB} y yo.». Un lugar
+  solo no alcanza: «Almuerzo en el hotel de Cannes.» está mal porque no dice quiénes. Como máximo dos frases breves; nada de descripciones
+  novelescas. Si ${apB} no está ese día, la línea dice quién está y dónde, y el cuerpo
+  explica por qué falta. El primer párrafo NO repite la presentación: entra directo en lo
+  que se dijo o pasó. Las aperturas varían de una entrada a otra (lugar, verbo, presentes)
+  y no repiten palabras entre sí, salvo los nombres propios.`;
+}
+
 function reglasPagina(v: Validacion, reparto: number[], min: number, max: number): string {
   const np = reparto.length;
   const apBUpper = apellidoDe(v.borges).toUpperCase();
@@ -264,9 +281,7 @@ ${forma}
   o atribuciones secas («${apellidoDe(v.borges)} dice: «…»», «Observa que»).
 - Variedad retórica: no repitas fórmulas ("Creen que…", "Esa gente…", "Es incapaz
   de…", "El problema es que…"). Variá los comienzos de oración y el tipo de entrada.
-- Cada entrada abre con una línea de situación breve y seca al modo del libro original
-  ("Come en casa ${apellidoDe(v.borges)}.", "En el vestuario.", "Hablamos por teléfono."); no repitas palabras
-  entre esas líneas ni entre la situación y la primera oración.
+${reglaApertura(v)}
 
 ${reglasTrato(v)}`.trim();
 }
@@ -317,7 +332,7 @@ ${reglasPagina(v, reparto, min, max)}
 
 Formato del texto:
 - "dias": exactamente ${n} objetos, en el orden de las fechas dadas${np > 1 ? " (primero los de la página 1, después los de la página 2, en una sola lista)" : ""}, cada uno con
-  "fecha" (la dada), "situacion" (UNA línea breve y seca adaptada a ese día, p. ej. «Come en casa ${apB}.») y "parrafos" (1-3 párrafos cortos).
+  "fecha" (la dada), "situacion" (UNA línea breve y seca que presenta la escena y a los participantes: dónde, en qué circunstancia y QUIÉNES, p. ej. «Come en casa ${apB}.») y "parrafos" (1-3 párrafos cortos).
 - "notas": 0-2 notas al pie muy breves y secas de un "editor" aclarando una referencia real mencionada en el texto. Si incluís notas al pie, poné SIEMPRE la llamada con superíndice («¹» para la primera nota, «²» para la segunda) dentro del párrafo exacto donde aparece esa referencia, para que el lector sepa de dónde viene cada nota.
 - NO escribas las fechas dentro del texto: los encabezados se agregan aparte.
 
@@ -326,8 +341,8 @@ ${REGLAS_ORIGINALIDAD}
 Antes de responder, revisá tu borrador y corregilo: (1) ninguna cita de más de dos
 oraciones; (2) cada cita tiene interlocutor inequívoco y los encabezados con dos puntos
 van en MAYÚSCULAS («${apBUpper}: «…»», «${apYUpper}: «…»»); (3) cero acotaciones novelescas y
-cero clichés de laberintos/espejos ajenos al personaje; (4) las líneas de situación no
-repiten palabras; (5) ningún vocativo entre ${v.borges.nombre} y ${v.bioy.nombre} en las
+cero clichés de laberintos/espejos ajenos al personaje; (4) cada entrada abre presentando la escena y a los
+participantes (quiénes están, dónde) y esas líneas no repiten palabras, salvo los nombres propios; (5) ningún vocativo entre ${v.borges.nombre} y ${v.bioy.nombre} en las
 citas y ${apB} siempre por el apellido en la narración; (6) cada página entra en ${min}-${max} palabras.
 
 ${SALIDA_JSON}

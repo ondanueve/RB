@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { detectarProblemas, contarPalabras } from "../src/lib/estilo";
+import { detectarProblemas, contarPalabras, presentaParticipantes } from "../src/lib/estilo";
 import { fechasDePagina, finDeVentana } from "../src/lib/dates";
 
 const o = {
@@ -96,5 +96,13 @@ describe("fechas de la página", () => {
   it("la ventana termina antes de una muerte", () => {
     const fin = finDeVentana("1986-06-10", { nombre: "B", nacimiento: "1899-08-24", muerte: "1986-06-14" }, { nombre: "Y", nacimiento: "1914" }, "1932", 21, new Date("2026-01-01"));
     expect(fin).toBe(4);
+  });
+
+  it("la apertura presenta a los participantes; un lugar solo no alcanza", () => {
+    expect(presentaParticipantes("Come en casa Messi.", o)).toBe(true);
+    expect(presentaParticipantes("Cena en un bodegón, con De Paul.", o)).toBe(true);
+    expect(presentaParticipantes("En el vestuario, De Paul y yo.", o)).toBe(true);
+    expect(presentaParticipantes("Almuerzo en el hotel de Cannes, a un día del estreno.", o)).toBe(false);
+    expect(presentaParticipantes("Asado nocturno en la concentración.", o)).toBe(false);
   });
 });

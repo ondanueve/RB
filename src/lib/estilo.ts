@@ -484,3 +484,32 @@ export function detectarProblemas(
 
   return [...new Set(problemas)];
 }
+
+/** Nombres propios de un texto: palabras con mayúscula que no abren una oración. */
+export function nombresPropios(texto: string): string[] {
+  const out: string[] = [];
+  for (const oracion of texto.split(/[.!?…;:]+/)) {
+    const ws = oracion.replace(/[«»“”"(),]/g, " ").split(/\s+/).filter(Boolean);
+    ws.slice(1).forEach((w) => {
+      if (/^\p{Lu}/u.test(w)) out.push(normalizar(w));
+    });
+  }
+  return out;
+}
+
+/**
+ * La apertura de una entrada presenta a los participantes al modo del diario original
+ * («Come en casa Borges.»): nombra al "Borges", al diarista o a algún otro presente.
+ */
+export function presentaParticipantes(situacion: string, o: Pick<OpcionesEstilo, "borges" | "bioy">): boolean {
+  const palabras = new Set(normalizar(situacion).split(/[^\p{L}]+/u).filter(Boolean));
+  const formas = [...formasDe(o.borges), ...formasDe(o.bioy)].map(normalizar);
+  if (formas.some((f) => f.split(/\s+/).every((w) => palabras.has(w)))) return true;
+  // Otra persona presentada como tal («con X», «X y yo», «…, X.»); un lugar solo no alcanza.
+  const Nombre = "\\p{Lu}[\\p{L}'.-]*";
+  return [
+    new RegExp(`(?<!\\p{L})con\\s+${Nombre}`, "u"),
+    new RegExp(`${Nombre}\\s+y\\s+yo(?!\\p{L})`, "u"),
+    new RegExp(`,\\s+${Nombre}(?:\\s+${Nombre})*\\s*\\.`, "u"),
+  ].some((re) => re.test(situacion));
+}

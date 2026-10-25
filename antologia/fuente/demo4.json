@@ -1,0 +1,232 @@
+{
+  "parametros": {
+    "borges": "Juan Román Riquelme",
+    "bioy": "Marcelo Delgado",
+    "fecha": "2024-05-14",
+    "criticados": [],
+    "alabados": [],
+    "escena": "Asado nocturno en el predio de Ezeiza",
+    "presentes": [],
+    "tono": "irónico",
+    "extension": "media",
+    "paginas": 2
+  },
+  "validacion": {
+    "aceptado": true,
+    "justificacion": "Juan Román Riquelme y Marcelo Delgado son figuras públicas prominentes del fútbol argentino con una relación de amistad y trabajo documentada desde el año 2000. Han compartido plantel en Boca Juniors y actualmente integran la dirigencia del club, manteniendo un vínculo personal estrecho y público.",
+    "relacion": "Amistad íntima y compañeros de equipo y gestión deportiva.",
+    "inicioRelacion": "2000",
+    "inicioAproximado": true,
+    "ambito": "fútbol",
+    "borges": {
+      "nombre": "Juan Román Riquelme",
+      "conocido": true,
+      "descripcion": "Exfutbolista y actual presidente del Club Atlético Boca Juniors",
+      "nacimiento": "1978-06-24",
+      "muerte": null,
+      "apodos": [
+        "El Último Diez",
+        "El Torero"
+      ],
+      "apellido": "Riquelme"
+    },
+    "bioy": {
+      "nombre": "Marcelo Alejandro Delgado",
+      "conocido": true,
+      "descripcion": "Exfutbolista y actual integrante del Consejo de Fútbol de Boca Juniors",
+      "nacimiento": "1973-03-24",
+      "muerte": null,
+      "apodos": [
+        "Chelo"
+      ],
+      "apellido": "Delgado"
+    },
+    "noVerificados": [],
+    "fuentes": [
+      {
+        "titulo": "La historia de amistad entre Riquelme y el Chelo Delgado (citada por el modelo, sin verificar)",
+        "url": "https://www.tycsports.com/boca-juniors/riquelme-chelo-delgado-amistad-boca-id441558.html"
+      },
+      {
+        "titulo": "Ficha de Marcelo Delgado en Transfermarkt (citada por el modelo, sin verificar)",
+        "url": "https://www.transfermarkt.es/marcelo-delgado/profil/spieler/55163"
+      }
+    ],
+    "conBusquedaWeb": false
+  },
+  "chequeoFecha": {
+    "ok": true,
+    "motivos": [],
+    "advertencias": [
+      "El inicio de la relación (2000) es aproximado; se toma la fecha documentada más conservadora."
+    ]
+  },
+  "fechas": [
+    "2024-05-14",
+    "2024-05-16",
+    "2024-05-26",
+    "2024-05-30",
+    "2024-06-14"
+  ],
+  "contexto": {
+    "fechasSugeridas": [
+      "2024-05-14",
+      "2024-05-16",
+      "2024-05-26",
+      "2024-05-30",
+      "2024-06-14"
+    ],
+    "resumen": "El período entre el 14 de mayo y el 25 de junio de 2024 encuentra a Juan Román Riquelme y a Marcelo Delgado enfocados en la gestión del Club Atlético Boca Juniors, atravesando momentos de alta exigencia deportiva en la Copa Sudamericana y el inicio de la Liga Profesional. Tras la dolorosa eliminación en semifinales de la Copa de la Liga ante Estudiantes a finales de abril, la dirigencia debió reestructurar el ánimo del plantel y encarar una seguidilla crucial de partidos internacionales y locales. Destacan la agónica victoria en Paraguay ante Sportivo Trinidense y la clasificación en la Sudamericana frente a Nacional Potosí en la Bombonera. Hacia mediados de junio, con el torneo local pausado por el inicio de la Copa América, la atención se desvía al mercado de pases y la búsqueda de refuerzos para afrontar el segundo semestre. Riquelme y el Chelo Delgado manejan los destinos del club desde el predio de Ezeiza, debatiendo constantemente sobre el armado del plantel y la relación con el cuerpo técnico.",
+    "recientes": [
+      {
+        "fecha": "2024-04-30",
+        "descripcion": "Boca Juniors queda eliminado en las semifinales de la Copa de la Liga Profesional al perder por penales ante Estudiantes de La Plata tras empatar 1-1 en el estadio Mario Alberto Kempes."
+      },
+      {
+        "fecha": "2024-05-08",
+        "descripcion": "Boca empata 1-1 ante Fortaleza de Brasil en la Bombonera por la fase de grupos de la Copa Sudamericana, un resultado que deja al equipo obligado a sumar en las fechas restantes para buscar el primer puesto."
+      }
+    ],
+    "proximos": [
+      {
+        "fecha": "2024-05-15",
+        "descripcion": "Boca le gana agónicamente 2-1 a Sportivo Trinidense en Paraguay con un tiro libre de Edinson Cavani sobre la hora, por la fecha 5 del grupo de la Copa Sudamericana."
+      },
+      {
+        "fecha": "2024-05-19",
+        "descripcion": "Boca debuta en la Liga Profesional 2024 perdiendo 1-0 ante Atlético Tucumán en condición de visitante."
+      },
+      {
+        "fecha": "2024-05-25",
+        "descripcion": "Boca vence 4-2 a Central Córdoba en Santiago del Estero por la segunda fecha de la Liga Profesional, con un gran rendimiento ofensivo y dobletes de Equi Fernández y Miguel Merentiel."
+      },
+      {
+        "fecha": "2024-05-29",
+        "descripcion": "Boca golea 3-0 a Nacional Potosí en la Bombonera con goles de Cavani, Zenón y Saracchi, asegurando el pasaje a la siguiente instancia de la Copa Sudamericana."
+      },
+      {
+        "fecha": "2024-06-14",
+        "descripcion": "Se intensifican las negociaciones en el mercado de pases invernal durante el receso por la Copa América, cerrando las primeras incorporaciones institucionales."
+      }
+    ],
+    "escenaSugerida": "Un asado nocturno en el predio de Ezeiza la noche previa al viaje a Paraguay, donde Riquelme y el Chelo Delgado repasan los desafíos pendientes tras el golpe de la Copa de la Liga y planifican los próximos pasos del Consejo de Fútbol.",
+    "criticadosSugeridos": [
+      "La prensa deportiva opositora",
+      "El arbitraje del fútbol argentino"
+    ],
+    "alabadosSugeridos": [
+      "Edinson Cavani",
+      "Miguel Merentiel"
+    ],
+    "fuentes": [
+      {
+        "titulo": "Sitio Oficial Club Atlético Boca Juniors (citada por el modelo, sin verificar)",
+        "url": "https://www.bocajuniors.com.ar"
+      },
+      {
+        "titulo": "TyC Sports - Cobertura Boca Juniors (citada por el modelo, sin verificar)",
+        "url": "https://www.tycsports.com/boca-juniors.html"
+      }
+    ],
+    "desde": "2024-05-14",
+    "hasta": "2024-06-25",
+    "conBusquedaWeb": false
+  },
+  "entrada": {
+    "dias": [
+      {
+        "fecha": "2024-05-14",
+        "anio": "2024",
+        "encabezado": "Martes, 14 de mayo.",
+        "situacion": "Asado nocturno en la concentración.",
+        "parrafos": [
+          "Preocupado por la falta de finura en los últimos metros, Riquelme corta el matambre con una parsimonia exasperante y me pregunta si vi los programas deportivos de la tarde. «Hablan de crisis porque empatamos en nuestra cancha, como si el rival no jugara», dice, y me señala con el tenedor que la prensa opositora vive de inventar tormentas donde apenas hay lloviznas. Faltan apenas unas horas para subir al avión que nos llevará a Paraguay, donde el grupo de la Sudamericana nos exige ganar sí o sí para no depender de nadie.",
+          "Le recuerdo que el hincha común es más sabio y entiende el proceso, aunque la ansiedad a veces nuble el análisis. Riquelme sonríe, deja el cubierto sobre la madera y afirma: «Los muchachos están con confianza y eso es lo único que importa.» Afuera, la noche de Ezeiza se pone fría, pero adentro la charla sigue girando en torno al reordenamiento táctico que planea el cuerpo técnico."
+        ]
+      },
+      {
+        "fecha": "2024-05-16",
+        "anio": "2024",
+        "encabezado": "Jueves, 16 de mayo.",
+        "situacion": "En el despacho principal, Riquelme toma mate amargo mientras revisamos los diarios digitales.",
+        "parrafos": [
+          "Todavía resuenan los ecos del agónico triunfo en Asunción, gracias a esa pegada magistral que vino sobre la hora. Comento que la sufrimos más de la cuenta desde el palco, sufriendo cada fallo arbitral que parecía inclinar la cancha hacia los locales. Riquelme sacude la cabeza y sentencia: «Los jueces a veces se marean con el entorno y pierden el norte del reglamento.»",
+          "Pasamos a repasar los nombres para el mercado de invierno que se avecina mientras el torneo local recién da sus primeros pasos. «Cavani corre los noventa minutos como un juvenil recién subido a primera, es un ejemplo diario», desliza con admiración genuina, destacando la jerarquía que contagia al resto del plantel en cada entrenamiento."
+        ]
+      },
+      {
+        "fecha": "2024-05-26",
+        "anio": "2024",
+        "encabezado": "Domingo, 26 de mayo.",
+        "situacion": "Almuerzan en el comedor del centro de entrenamientos, Riquelme y yo, analizando el partido del día anterior en Santiago del Estero.",
+        "parrafos": [
+          "Contentos por el rendimiento ofensivo que se vio el sábado, celebramos la contundencia de los delanteros frente a Central Córdoba. «Merentiel presiona hasta a las sombras, da gusto verlo dejar la vida en cada pelota dividida», comenta Riquelme mientras unta pan con queso criollo. Esa voracidad arriba nos da tranquilidad para encarar el choque copero contra Nacional Potosí que definirá el pase.",
+          "Discutimos un rato sobre los vaivenes del arbitraje en el fútbol argentino, que parece cobrar faltas distintas según la camiseta. Le digo que a veces nos complican los partidos más accesibles con criterios muy dispares. Riquelme me mira socarrón y acota: «Hay que jugar tan bien que ni los errores duden en cobrarlos.»"
+        ]
+      },
+      {
+        "fecha": "2024-05-30",
+        "anio": "2024",
+        "encabezado": "Jueves, 30 de mayo.",
+        "situacion": "Por la mañana, Riquelme camina por los pasillos abiertos tras la victoria que selló la clasificación en la Copa Sudamericana.",
+        "parrafos": [
+          "El alivio se nota en el ambiente después del sólido tres a cero en la Bombonera que nos metió en la siguiente fase internacional. Nos tomamos un café bien cargado mientras repasamos los aciertos de la noche anterior. «El equipo tuvo paciencia para encontrar los espacios cuando se abroquelaban atrás», señala Riquelme con satisfacción.",
+          "Anotamos pendientes para la semana previa al receso por el torneo continental de selecciones, sabiendo que el mercado de pases será intenso. Le menciono que la dirigencia debe moverse rápido para abrochar las incorporaciones. «Acá traemos jerarquía o no traemos nada», responde tajante, fiel a su estilo de no regalar nada."
+        ]
+      },
+      {
+        "fecha": "2024-06-14",
+        "anio": "2024",
+        "encabezado": "Viernes, 14 de junio.",
+        "situacion": "Tarde de frío en el despacho, con Riquelme y llamadas constantes por el libro de pases.",
+        "parrafos": [
+          "El receso por la Copa América nos encuentra encerrados evaluando carpetas y negociando contratos con representantes impacientes. Riquelme atiende el teléfono con una calma inquebrantable, mientras yo anoto teléfonos y cifras en una libreta gastada. «El que quiera ponerse esta camiseta tiene que saber dónde está», le dice a un intermediario antes de cortar sin dar vueltas.",
+          "Comentamos al pasar el nivel de los partidos que ya se juegan en Estados Unidos, aunque la cabeza sigue puesta exclusivamente en armar un plantel competitivo para la segunda mitad del año. La exigencia no descansa jamás en este club."
+        ]
+      }
+    ],
+    "paginas": [
+      2,
+      3
+    ],
+    "notas": [
+      "Las referencias a las fechas corresponden al calendario oficial de la temporada 2024."
+    ],
+    "escena": "Asado nocturno en el predio de Ezeiza",
+    "criticados": [
+      "La prensa deportiva opositora",
+      "El arbitraje del fútbol argentino"
+    ],
+    "alabados": [
+      "Edinson Cavani",
+      "Miguel Merentiel"
+    ],
+    "palabras": 668,
+    "revision": {
+      "hecha": true,
+      "problemasDetectados": [
+        "La palabra «predio» se repite en las líneas de situación de las entradas 1 y 2.",
+        "La palabra «predio» se repite en las líneas de situación de las entradas 1 y 3.",
+        "La palabra «predio» se repite en las líneas de situación de las entradas 1 y 4.",
+        "La palabra «oficina» se repite en las líneas de situación de las entradas 2 y 5."
+      ],
+      "problemasRestantes": [
+        "La entrada 1 no presenta a los participantes: la línea de situación tiene que decir dónde y quiénes están («Asado nocturno en la concentración.»), p. ej. «Come en casa Riquelme.».",
+        "La palabra «despacho» se repite en las líneas de situación de las entradas 2 y 5."
+      ]
+    }
+  },
+  "titulo": "Riquelme",
+  "proveedores": {
+    "texto": "gemini:gemini-flash-lite-latest",
+    "imagen": "none"
+  },
+  "advertencias": [
+    "La validación se hizo sin búsqueda web: depende del conocimiento del modelo.",
+    "El contexto histórico se armó sin búsqueda web (sin cuota de búsqueda o desactivada): verificá los hechos.",
+    "El inicio de la relación (2000) es aproximado; se toma la fecha documentada más conservadora."
+  ],
+  "version": 2,
+  "id": "RMaNbAebfx",
+  "creada": "2026-10-25T22:14:08.718Z"
+}

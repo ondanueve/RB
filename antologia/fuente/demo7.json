@@ -1,0 +1,250 @@
+{
+  "parametros": {
+    "borges": "Carlos Bilardo",
+    "bioy": "Oscar Ruggeri",
+    "fecha": "1986-06-25",
+    "criticados": [],
+    "alabados": [],
+    "escena": "Concentración del América en Ciudad de México",
+    "presentes": [],
+    "tono": "irónico",
+    "extension": "media",
+    "paginas": 2
+  },
+  "validacion": {
+    "aceptado": true,
+    "justificacion": "Carlos Bilardo y Oscar Ruggeri son dos destacadas figuras públicas del fútbol argentino. Mantuvieron una relación cercana y prolongada de entrenador y jugador en la selección argentina a partir de 1983, alcanzando la cima con el título en la Copa Mundial de México 1986.",
+    "relacion": "Entrenador y jugador de la selección argentina de fútbol",
+    "inicioRelacion": "1983-05-12",
+    "inicioAproximado": false,
+    "ambito": "fútbol",
+    "borges": {
+      "nombre": "Carlos Bilardo",
+      "conocido": true,
+      "descripcion": "Entrenador y exfutbolista argentino, director técnico de la selección argentina campeona del mundo en 1986.",
+      "nacimiento": "1938-03-16",
+      "muerte": null,
+      "apodos": [
+        "El Narigón",
+        "El Doctor"
+      ],
+      "apellido": "Bilardo"
+    },
+    "bioy": {
+      "nombre": "Oscar Ruggeri",
+      "conocido": true,
+      "descripcion": "Exfutbolista y panelista argentino, defensor titular de la selección argentina campeona del mundo en 1986.",
+      "nacimiento": "1962-01-26",
+      "muerte": null,
+      "apodos": [
+        "El Cabezón"
+      ],
+      "apellido": "Ruggeri"
+    },
+    "noVerificados": [],
+    "fuentes": [
+      {
+        "titulo": "Asociación del Fútbol Argentino - Historia de la Selección (citada por el modelo, sin verificar)",
+        "url": "https://www.afa.com.ar"
+      }
+    ],
+    "conBusquedaWeb": false
+  },
+  "chequeoFecha": {
+    "ok": true,
+    "motivos": [],
+    "advertencias": []
+  },
+  "fechas": [
+    "1986-06-25",
+    "1986-06-30",
+    "1986-07-09",
+    "1986-07-25",
+    "1986-08-04"
+  ],
+  "contexto": {
+    "fechasSugeridas": [
+      "1986-06-25",
+      "1986-06-30",
+      "1986-07-09",
+      "1986-07-25",
+      "1986-08-04"
+    ],
+    "resumen": "El período comprendido entre el 25 de junio y el 6 de agosto de 1986 marca la cúspide de la selección argentina de fútbol dirigida por Carlos Salvador Bilardo y integrada por defensores clave como Oscar Ruggeri. Durante la última semana de junio, Argentina disputa las semifinales y la final del Mundial de México 1986, consagrándose campeona del mundo el 29 de junio tras vencer a Alemania Federal por 3-2 en el Estadio Azteca. Tras los festejos multitudinarios y el histórico recibimiento en el balcón de la Casa Rosada a comienzos de julio, la atención del fútbol argentino vuelve a los compromisos de los clubes. Para Ruggeri, implica un rápido reenganche en la fase de grupos de la Copa Libertadores 1986 con River Plate, enfrentando rivales como Boca Juniors, Peñarol y Montevideo Wanderers en julio. Bilardo, consagrado como DT campeón, empieza a proyectar el recambio y las pautas tácticas post-Mundial en medio de un reconocimiento popular masivo.",
+    "recientes": [
+      {
+        "fecha": "1986-06-02",
+        "descripcion": "Argentina debuta en el Mundial de México 1986 venciendo 3-1 a Corea del Sur en el Estadio Olímpico Universitario."
+      },
+      {
+        "fecha": "1986-06-05",
+        "descripcion": "Argentina empata 1-1 frente a Italia en la segunda fecha del Grupo A con gol de Diego Maradona."
+      },
+      {
+        "fecha": "1986-06-10",
+        "descripcion": "Argentina derrota 2-0 a Bulgaria con goles de Valdano y Burruchaga, asegurando el primer puesto del grupo."
+      },
+      {
+        "fecha": "1986-06-16",
+        "descripcion": "Argentina elimina a Uruguay 1-0 en octavos de final con gol de Pedro Pablo Pasculli en Puebla."
+      },
+      {
+        "fecha": "1986-06-22",
+        "descripcion": "Argentina vence 2-1 a Inglaterra en cuartos de final con la 'Mano de Dios' y el 'Gol del Siglo' de Diego Armando Maradona."
+      }
+    ],
+    "proximos": [
+      {
+        "fecha": "1986-06-25",
+        "descripcion": "Argentina le gana 2-0 a Bélgica en semifinales con dos goles históricos de Diego Maradona en el Estadio Azteca."
+      },
+      {
+        "fecha": "1986-06-29",
+        "descripcion": "Argentina se corona Campeón del Mundo tras derrotar 3-2 a Alemania Federal en la final con goles de Brown, Valdano y Burruchaga."
+      },
+      {
+        "fecha": "1986-06-30",
+        "descripcion": "El plantel argentino llega a Buenos Aires y festeja la obtención de la Copa del Mundo en el balcón de la Casa Rosada con la multitud en Plaza de Mayo."
+      },
+      {
+        "fecha": "1986-07-09",
+        "descripcion": "Boca Juniors y River Plate (con Oscar Ruggeri de titular) empatan 1-1 en La Bombonera por la primera fecha del Grupo 1 de la Copa Libertadores 1986."
+      },
+      {
+        "fecha": "1986-07-16",
+        "descripcion": "River Plate vence 2-0 a Montevideo Wanderers en Uruguay por la Copa Libertadores."
+      },
+      {
+        "fecha": "1986-07-24",
+        "descripcion": "River Plate supera 2-0 a Peñarol en el Estadio Centenario de Montevideo por la Copa Libertadores."
+      },
+      {
+        "fecha": "1986-08-03",
+        "descripcion": "Se disputa la 4ª fecha del Campeonato de Primera División 1986/87 de la AFA."
+      }
+    ],
+    "escenaSugerida": "Concentración de la Selección Argentina en el predio del Club América en Coapa, Ciudad de México, pocas horas antes del partido de semifinales contra Bélgica. Bilardo repasa obsesivamente detalles de la pelota parada y marcas defensivas con Ruggeri, mientras el ambiente mezcla nerviosismo extremo, supersticiones rituales y la confianza tras haber eliminado a Inglaterra.",
+    "criticadosSugeridos": [
+      "César Luis Menotti",
+      "Periodismo deportivo crítico previo a México 86",
+      "Harald Schumacher"
+    ],
+    "alabadosSugeridos": [
+      "Diego Armando Maradona",
+      "José Luis Brown",
+      "Jorge Valdano"
+    ],
+    "fuentes": [
+      {
+        "titulo": "FIFA - 1986 FIFA World Cup Mexico (citada por el modelo, sin verificar)",
+        "url": "https://www.fifa.com/tournaments/mens/worldcup/1986mexico"
+      },
+      {
+        "titulo": "RSSSF - Copa Libertadores 1986 (citada por el modelo, sin verificar)",
+        "url": "http://www.rsssf.com/sacups/copa86.html"
+      },
+      {
+        "titulo": "Historia de la Selección Argentina de Fútbol - AFA (citada por el modelo, sin verificar)",
+        "url": "https://www.afa.com.ar"
+      }
+    ],
+    "desde": "1986-06-25",
+    "hasta": "1986-08-06",
+    "conBusquedaWeb": false
+  },
+  "entrada": {
+    "dias": [
+      {
+        "fecha": "1986-06-25",
+        "anio": "1986",
+        "encabezado": "Miércoles, 25 de junio.",
+        "situacion": "En la concentración del Club América, con Bilardo y Diego Maradona. Faltan horas para la semifinal ante Bélgica.",
+        "parrafos": [
+          "Encontré a Bilardo revisando las tijeras del botiquín. Le protesté por el té tibio que nos sirvieron en la cena y me miró con fastidio.",
+          "«Preocupate por Pfaff y dejen de mirar la televisión», me dijo. «Menotti estuvo diez años diciendo que la nuestra era una táctica de miedo y hoy los periodistas que lo aplaudían nos piden autógrafos en el lobby. Hay que aplastarlos.»",
+          "Diego entró riéndose, con la camiseta arrugada, y Bilardo se ablandó de golpe. «El único que entendió todo es este pibe», me murmuró al oído mientras salía del cuarto."
+        ]
+      },
+      {
+        "fecha": "1986-06-30",
+        "anio": "1986",
+        "encabezado": "Lunes, 30 de junio.",
+        "situacion": "Viajan en el ómnibus hacia la Casa Rosada, Bilardo, José Luis Brown y yo. La multitud rodea el vehículo a la salida de Ezeiza.",
+        "parrafos": [
+          "Trajeron unos sándwiches secos de miga. Brown venía colgado del asiento, sin poder mover el brazo por la fisura en el hombro que se aguantó toda la final contra los alemanes. Le dije que era un demente y me respondió que volvería a hacerlo.",
+          "Bilardo miraba por la ventana con desconfianza. «A la prensa hay que guardarle estas fotos», comentó señalando la plaza llena. «Antes del viaje a Bogotá decían que no pasábamos la primera ronda. Schumacher nos quería llevar puestos en los centros y Brown con un agujero en la camiseta le ganó de arriba a todos.»",
+          "Me pidió que no tocara la copa hasta entrar al despacho presidencial."
+        ]
+      },
+      {
+        "fecha": "1986-07-09",
+        "anio": "1986",
+        "encabezado": "Miércoles, 9 de julio.",
+        "situacion": "En el vestuario visitante de La Bombonera, Bilardo y yo. Acabamos de empatar con Boca por la Copa Libertadores.",
+        "parrafos": [
+          "Me buscó apenas terminó el partido para marcarme un cruce lento en el gol de ellos. Le contesté que hace una semana éramos campeones del mundo y que hoy el barro no me dejaba girar.",
+          "«Acá no hay banderas de México que te salven», me retó, acomodándose la corbata arrugada. «Valdano me llamó temprano desde Madrid; entrena solo bajo la lluvia porque sabe que el fútbol te olvida en tres días. Vos dormís en los laureles.»"
+        ]
+      },
+      {
+        "fecha": "1986-07-25",
+        "anio": "1986",
+        "encabezado": "Viernes, 25 de julio.",
+        "situacion": "Por teléfono, Bilardo desde Buenos Aires. Acabo de regresar al hotel en Montevideo tras vencer a Peñarol.",
+        "parrafos": [
+          "Llamó a la medianoche para saber cuántos tiros de esquina concedimos en el Centenario. Le dije que habíamos ganado dos a cero sin despeinarnos y resopló del otro lado de la línea.",
+          "«Ganar no es excusa para defender mal», dijo. «Los diarios de acá siguen escribiendo sobre la suerte del campeón. Tienen la cabeza llena de teorizaciones pero nadie explica cómo saltó el Tata Brown en el primer gol a Alemania.»"
+        ]
+      },
+      {
+        "fecha": "1986-08-04",
+        "anio": "1986",
+        "encabezado": "Lunes, 4 de agosto.",
+        "situacion": "Cena en una pizzería de Flores, con Bilardo y mi esposa. Mañana arranca otra semana de torneo local.",
+        "parrafos": [
+          "Cortaba la muzzarella en cuadraditos exactos antes de comer. Le conté que la gente me para en la calle para pedirme fotos y le resta importancia al campeonato que jugamos ahora.",
+          "«La gente se olvida del esfuerzo», reflexionó, dejando la servilleta sobre la mesa. «Creen que con la gambeta de Diego alcanzaba. Si no trabajás la pelota parada, no existís. El mes que viene empiezo a viajar a Europa a ver a los muchachos; el recambio no espera a nadie.»"
+        ]
+      }
+    ],
+    "paginas": [
+      2,
+      3
+    ],
+    "notas": [],
+    "escena": "Concentración del América en Ciudad de México",
+    "criticados": [
+      "César Luis Menotti",
+      "Periodismo deportivo crítico previo a México 86",
+      "Harald Schumacher"
+    ],
+    "alabados": [
+      "Diego Armando Maradona",
+      "José Luis Brown",
+      "Jorge Valdano"
+    ],
+    "palabras": 527,
+    "revision": {
+      "hecha": false,
+      "problemasDetectados": [
+        "Cita demasiado larga (3 oraciones; máximo 2): «Creen que con la gambeta de Diego alcanzaba. Si no trabajás la pelota …». Partila en un ida y vuelta o recortala."
+      ],
+      "problemasRestantes": [
+        "Cita demasiado larga (3 oraciones; máximo 2): «Creen que con la gambeta de Diego alcanzaba. Si no trabajás la pelota …». Partila en un ida y vuelta o recortala."
+      ]
+    }
+  },
+  "titulo": "Bilardo",
+  "proveedores": {
+    "texto": "gemini:gemini-3.6-flash",
+    "imagen": "none"
+  },
+  "advertencias": [
+    "La validación se hizo sin búsqueda web: depende del conocimiento del modelo.",
+    "El contexto histórico se armó sin búsqueda web (sin cuota de búsqueda o desactivada): verificá los hechos.",
+    "Se omitió la revisión de estilo para responder a tiempo."
+  ],
+  "version": 2,
+  "id": "ZdSYD2M6g5",
+  "creada": "2026-10-25T21:12:18.791Z"
+}

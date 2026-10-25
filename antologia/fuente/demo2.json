@@ -1,0 +1,297 @@
+{
+  "parametros": {
+    "borges": "Lionel Messi",
+    "bioy": "Lionel Scaloni",
+    "fecha": "2022-12-16",
+    "criticados": [],
+    "alabados": [],
+    "escena": "Cena en la concentración",
+    "presentes": [],
+    "tono": "irónico",
+    "extension": "media",
+    "paginas": 2
+  },
+  "validacion": {
+    "aceptado": true,
+    "justificacion": "Lionel Messi y Lionel Scaloni mantienen una relación profesional y personal documentada desde hace casi dos décadas. Fueron compañeros de equipo en la Selección Argentina durante el Mundial de Alemania 2006 y posteriormente consolidaron su vínculo bajo la relación entrenador-jugador a partir de 2018.",
+    "relacion": "Compañeros de equipo en la Selección Argentina y posterior relación entrenador-jugador.",
+    "inicioRelacion": "2005",
+    "inicioAproximado": true,
+    "ambito": "fútbol",
+    "borges": {
+      "nombre": "Lionel Messi",
+      "conocido": true,
+      "descripcion": "Futbolista argentino, capitán de la selección nacional y múltiple ganador del Balón de Oro.",
+      "nacimiento": "1987-06-24",
+      "muerte": null,
+      "apodos": [
+        "Leo",
+        "La Pulga"
+      ],
+      "apellido": "Messi"
+    },
+    "bioy": {
+      "nombre": "Lionel Scaloni",
+      "conocido": true,
+      "descripcion": "Exfutbolista y director técnico de la selección argentina, campeón del mundo en 2022.",
+      "nacimiento": "1978-05-16",
+      "muerte": null,
+      "apodos": [
+        "Gringo"
+      ],
+      "apellido": "Scaloni"
+    },
+    "noVerificados": [],
+    "fuentes": [
+      {
+        "titulo": "Lionel Messi - Perfil del jugador (citada por el modelo, sin verificar)",
+        "url": "https://www.transfermarkt.es/lionel-messi/profil/spieler/28003"
+      },
+      {
+        "titulo": "Lionel Scaloni - Perfil del entrenador (citada por el modelo, sin verificar)",
+        "url": "https://www.transfermarkt.es/lionel-scaloni/profil/trainer/58245"
+      },
+      {
+        "titulo": "El día que Messi y Scaloni jugaron juntos en la Selección Argentina (citada por el modelo, sin verificar)",
+        "url": "https://www.tycsports.com/seleccion-argentina/lionel-messi-lionel-scaloni-jugaron-juntos-seleccion-argentina-mundial-2006-id477435.html"
+      }
+    ],
+    "conBusquedaWeb": false
+  },
+  "chequeoFecha": {
+    "ok": true,
+    "motivos": [],
+    "advertencias": [
+      "El inicio de la relación (2005) es aproximado; se toma la fecha documentada más conservadora."
+    ]
+  },
+  "fechas": [
+    "2022-12-16",
+    "2022-12-18",
+    "2022-12-20",
+    "2022-12-25",
+    "2022-12-29",
+    "2023-01-04",
+    "2023-01-11",
+    "2023-01-27"
+  ],
+  "contexto": {
+    "fechasSugeridas": [
+      "2022-12-16",
+      "2022-12-18",
+      "2022-12-20",
+      "2022-12-25",
+      "2022-12-29",
+      "2023-01-04",
+      "2023-01-11",
+      "2023-01-27"
+    ],
+    "resumen": "Este período abarca la culminación del Mundial de Qatar 2022, desde la vigilia de la final hasta el asentamiento de los protagonistas en sus rutinas post-título. Argentina llega tras vencer a Croacia 3-0 en semis, preparándose para enfrentar a Francia. El 18 de diciembre se produce la histórica consagración en penales tras el 3-3, seguida por festejos masivos en Buenos Aires que terminan abruptamente por la multitud. Messi regresa a Rosario y luego a París, mientras Scaloni viaja a Pujato y Mallorca en medio de negociaciones por su renovación. El fallecimiento de Pelé el 29 de diciembre marca un hito de luto mundial en el fútbol. El cierre del período muestra a Messi reincorporado al PSG y a Scaloni consolidado como el mejor técnico del año según la IFFHS.",
+    "recientes": [
+      {
+        "fecha": "2022-12-09",
+        "descripcion": "Argentina elimina a Países Bajos en cuartos de final en una tanda de penales cargada de tensión y cruces verbales."
+      },
+      {
+        "fecha": "2022-12-13",
+        "descripcion": "Argentina vence 3-0 a Croacia en semifinales con una actuación estelar de Messi y Julián Álvarez."
+      },
+      {
+        "fecha": "2022-12-14",
+        "descripcion": "Francia derrota 2-0 a Marruecos y se confirma como el rival de Argentina para la final del domingo."
+      },
+      {
+        "fecha": "2022-12-15",
+        "descripcion": "Último entrenamiento táctico de la selección argentina antes de la final; se prueba el esquema de cinco defensores y la opción de Di María titular."
+      }
+    ],
+    "proximos": [
+      {
+        "fecha": "2022-12-18",
+        "descripcion": "Final de la Copa del Mundo: Argentina 3 (4) - 3 (2) Francia. Messi marca dos goles y Argentina es campeona."
+      },
+      {
+        "fecha": "2022-12-20",
+        "descripcion": "Caravana de festejos en Buenos Aires; 5 millones de personas en las calles obligan a los jugadores a evacuar en helicópteros."
+      },
+      {
+        "fecha": "2022-12-21",
+        "descripcion": "Lionel Scaloni es recibido como un héroe en su pueblo natal, Pujato, Santa Fe."
+      },
+      {
+        "fecha": "2022-12-29",
+        "descripcion": "Fallece Pelé a los 82 años en San Pablo, Brasil."
+      },
+      {
+        "fecha": "2023-01-04",
+        "descripcion": "Messi regresa a los entrenamientos del PSG y recibe un pasillo de honor por parte de sus compañeros."
+      },
+      {
+        "fecha": "2023-01-11",
+        "descripcion": "Messi vuelve a jugar oficialmente con el PSG y marca un gol en la victoria 2-0 ante el Angers."
+      },
+      {
+        "fecha": "2023-01-19",
+        "descripcion": "Amistoso en Riad entre el PSG y el Riyadh XI (equipo de Cristiano Ronaldo); Messi marca un gol en el triunfo 5-4."
+      }
+    ],
+    "escenaSugerida": "Cena en la concentración de la Universidad de Qatar. El ambiente es de una calma tensa; Messi comparte la mesa con De Paul y Paredes mientras Scaloni observa desde una mesa lateral con su cuerpo técnico. Se comenta la salud de los jugadores con molestias físicas y la estrategia para frenar la velocidad de Mbappé.",
+    "criticadosSugeridos": [
+      "Louis van Gaal",
+      "Kylian Mbappé",
+      "Piers Morgan"
+    ],
+    "alabadosSugeridos": [
+      "Ángel Di María",
+      "Pelé",
+      "Pablo Aimar"
+    ],
+    "fuentes": [
+      {
+        "titulo": "FIFA World Cup Qatar 2022 Archive (citada por el modelo, sin verificar)",
+        "url": "https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/qatar2022"
+      },
+      {
+        "titulo": "Diario Olé - Archivo Diciembre 2022 (citada por el modelo, sin verificar)",
+        "url": "https://www.ole.com.ar/"
+      },
+      {
+        "titulo": "AFA - Selección Mayor (citada por el modelo, sin verificar)",
+        "url": "https://www.afa.org.ar/es/seleccion-mayor"
+      }
+    ],
+    "desde": "2022-12-16",
+    "hasta": "2023-01-27",
+    "conBusquedaWeb": false
+  },
+  "entrada": {
+    "dias": [
+      {
+        "fecha": "2022-12-16",
+        "anio": "2022",
+        "encabezado": "Viernes, 16 de diciembre.",
+        "situacion": "Cena en la concentración, con Messi. A dos días de la final contra Francia.",
+        "parrafos": [
+          "Me consulta si ya definí el once. Sostengo que Di María está para jugar media hora a ritmo de guerra o noventa como un artista. «Ponelo de entrada», sugiere él, «así los asustamos temprano».",
+          "Recordamos las declaraciones de Van Gaal sobre la falta de marca de ciertos jugadores. Messi comenta: «Ese hombre tiene el don de la amargura; cree que el fútbol es una oficina de correos donde todo tiene que llegar certificado». Me parece que el esquema de cinco defensores es una cobardía necesaria, aunque él prefiere tener gente cerca para descargar."
+        ]
+      },
+      {
+        "fecha": "2022-12-18",
+        "anio": "2022",
+        "encabezado": "Domingo, 18 de diciembre.",
+        "situacion": "En el vestuario del Estadio de Lusail, Messi y yo solos. Argentina acaba de ser campeona del mundo.",
+        "parrafos": [
+          "Está sentado en un banco de madera, con la medalla colgando como si fuera un juguete de plástico. Me mira con los ojos vidriosos: «Ya está, se terminó el ruido». Confieso que durante los penales no pude mirar el último tiro de Montiel.",
+          "«Lo de Mbappé es curioso», observa Messi mientras se quita las vendas, «corre como si lo persiguiera la policía, pero no disfruta del paisaje». Opino que la velocidad es el refugio de los que no saben esperar. Se ríe y me pide que le guarde un pedazo de red."
+        ]
+      },
+      {
+        "fecha": "2022-12-20",
+        "anio": "2022",
+        "encabezado": "Martes, 20 de diciembre.",
+        "situacion": "En un helicóptero sobrevolando Buenos Aires, con Messi y Aimar. Millones de personas abajo.",
+        "parrafos": [
+          "Aimar mira por la ventanilla con terror místico. Messi, en cambio, observa la multitud con una curiosidad científica, casi entomológica. «Mirá ese», dice señalando a un hombre colgado de un semáforo, «tiene más fe que equilibrio».",
+          "Le advierto que es imposible llegar al Obelisco por tierra. «Mejor así», contesta Messi, «el cariño de cinco millones de personas es una forma elegante de la asfixia». Aimar asiente en silencio, aferrado a su asiento."
+        ]
+      },
+      {
+        "fecha": "2022-12-25",
+        "anio": "2022",
+        "encabezado": "Domingo, 25 de diciembre.",
+        "situacion": "Desde Rosario, Messi. Por la tarde.",
+        "parrafos": [
+          "Relata que no puede salir ni al jardín porque hay drones filmando su pileta. Sugiero que use una máscara de sí mismo para pasar desapercibido. «Es peor», me dice, «la gente creería que soy un impostor demasiado parecido al original».",
+          "Comentamos las críticas de Piers Morgan en la televisión inglesa. Messi despacha el asunto con una frase seca: «Hay gente que construye su carrera sobre las ruinas de los que sí saben hacer algo; es un parásito con buen traje». Me desea feliz Navidad y pide que no hablemos de la renovación hasta enero."
+        ]
+      },
+      {
+        "fecha": "2022-12-29",
+        "anio": "2022",
+        "encabezado": "Jueves, 29 de diciembre.",
+        "situacion": "En Pujato, Messi me llama tras conocerse la noticia desde Brasil.",
+        "parrafos": [
+          "Murió Pelé. Messi suena genuinamente afectado, aunque su tristeza es, como siempre, contenida. «Fue el primero en entender que el fútbol era un arte de exportación», comenta.",
+          "Menciono que algunos querrán compararlos ahora más que nunca. Me responde: «Las comparaciones son para los que no se animan a disfrutar de las diferencias; él inventó palabras que nosotros recién estamos aprendiendo a deletrear». Ambos sentimos que el fútbol hoy es un poco más huérfano."
+        ]
+      },
+      {
+        "fecha": "2023-01-04",
+        "anio": "2023",
+        "encabezado": "Miércoles, 4 de enero.",
+        "situacion": "En el predio del PSG, Messi me escribe después del entrenamiento.",
+        "parrafos": [
+          "Le hicieron un pasillo de honor por el título. Explica que fue un momento incómodo, de una formalidad francesa que le resulta ajena. «Me sentí como un busto en un museo», confiesa.",
+          "Indago sobre el clima en el vestuario de París. Asegura que hay mucha cortesía y poca alma. «Extraño las puteadas de los nuestros», admite, «acá hasta para pedirte un pase parece que necesitan un permiso municipal». Le digo que la gloria es un lugar solitario."
+        ]
+      },
+      {
+        "fecha": "2023-01-11",
+        "anio": "2023",
+        "encabezado": "Miércoles, 11 de enero.",
+        "situacion": "Videollamada con Messi, tras su gol al Angers.",
+        "parrafos": [
+          "Aparece comiendo algo liviano en su casa. Sostiene que el gol fue un trámite, casi un alivio para que dejen de preguntarle cómo está físicamente. «A veces juego para que me dejen tranquilo», admite.",
+          "Analizamos el nivel de la liga francesa. Dice que es un torneo de corredores de fondo que no saben a dónde van. «Si les quitás el GPS, se pierden en el área», bromea. Le pregunto si ya decidió qué hacer con el futuro; se limita a sonreír y me muestra al perro."
+        ]
+      },
+      {
+        "fecha": "2023-01-27",
+        "anio": "2023",
+        "encabezado": "Viernes, 27 de enero.",
+        "situacion": "En mi casa de Mallorca, Messi. Tras el amistoso en Riad.",
+        "parrafos": [
+          "Me relata el encuentro con Cristiano Ronaldo. Dice que lo vio con la misma energía de siempre, pero atrapado en un escenario que no le corresponde. «Es como ver a un gran actor en una obra de teatro escolar», reflexiona.",
+          "Le informo que me dieron un premio como mejor técnico del año. Me felicita con ironía: «Ahora vas a tener que actuar como si supieras lo que hacés». Le contesto que mi único mérito fue no estorbarlo demasiado. «No es poco», concluye, «la mayoría de los entrenadores creen que el fútbol empezó cuando ellos compraron su primer silbato»."
+        ]
+      }
+    ],
+    "paginas": [
+      4,
+      4
+    ],
+    "notas": [
+      "La mención a la 'red' refiere a la costumbre de los jugadores de cortar trozos del arco tras las finales.",
+      "El 'perro' es Hulk, el dogo de Burdeos de la familia Messi."
+    ],
+    "escena": "Cena en la concentración y diálogos posteriores al Mundial de Qatar.",
+    "criticados": [
+      "Louis van Gaal",
+      "Kylian Mbappé",
+      "Piers Morgan"
+    ],
+    "alabados": [
+      "Ángel Di María",
+      "Pelé",
+      "Pablo Aimar"
+    ],
+    "palabras": 778,
+    "revision": {
+      "hecha": true,
+      "problemasDetectados": [
+        "Varias oraciones empiezan igual («le digo…», 4 veces); variá los comienzos.",
+        "Varias oraciones empiezan igual («coincidimos en…», 2 veces); variá los comienzos.",
+        "Varias oraciones empiezan igual («hablamos de…», 2 veces); variá los comienzos.",
+        "Varias oraciones empiezan igual («dice que…», 2 veces); variá los comienzos.",
+        "La palabra «telefono» se repite en las líneas de situación de las entradas 4 y 8."
+      ],
+      "problemasRestantes": [
+        "Varias oraciones empiezan igual («dice que…», 2 veces); variá los comienzos."
+      ]
+    }
+  },
+  "titulo": "Messi",
+  "proveedores": {
+    "texto": "gemini:gemini-3-flash-preview",
+    "imagen": "none"
+  },
+  "advertencias": [
+    "La validación se hizo sin búsqueda web: depende del conocimiento del modelo.",
+    "El contexto histórico se armó sin búsqueda web (sin cuota de búsqueda o desactivada): verificá los hechos.",
+    "El inicio de la relación (2005) es aproximado; se toma la fecha documentada más conservadora."
+  ],
+  "version": 2,
+  "id": "78GAKaiwSb",
+  "creada": "2026-10-25T21:04:04.011Z"
+}

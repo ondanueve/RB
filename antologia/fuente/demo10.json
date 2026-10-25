@@ -1,0 +1,212 @@
+{
+  "parametros": {
+    "borges": "Martin Scorsese",
+    "bioy": "Robert De Niro",
+    "fecha": "2023-05-19",
+    "criticados": [],
+    "alabados": [],
+    "escena": "Almuerzo en el hotel de Cannes antes del estreno",
+    "presentes": [],
+    "tono": "irónico",
+    "extension": "media",
+    "paginas": 2
+  },
+  "validacion": {
+    "aceptado": true,
+    "justificacion": "Martin Scorsese y Robert De Niro son dos figuras públicas reconocidas mundialmente en el ámbito cinematográfico. Mantienen una relación profesional y de amistad estrecha y documentada desde hace décadas, habiendo colaborado en numerosas películas icónicas desde principios de la década de 1970.",
+    "relacion": "Colaboración cinematográfica de larga data y amistad, iniciada en la producción de la película Mean Streets.",
+    "inicioRelacion": "1972",
+    "inicioAproximado": false,
+    "ambito": "cine",
+    "borges": {
+      "nombre": "Martin Scorsese",
+      "conocido": true,
+      "descripcion": "Director, guionista, productor y actor estadounidense, considerado uno de los cineastas más importantes e influyentes de la historia del cine.",
+      "nacimiento": "1942-11-17",
+      "muerte": null,
+      "apodos": [
+        "Marty"
+      ],
+      "apellido": "Scorsese"
+    },
+    "bioy": {
+      "nombre": "Robert De Niro",
+      "conocido": true,
+      "descripcion": "Actor y productor estadounidense, célebre por sus intensas interpretaciones y su extensa colaboración con Martin Scorsese.",
+      "nacimiento": "1943-08-17",
+      "muerte": null,
+      "apodos": [
+        "Bobby"
+      ],
+      "apellido": "De Niro"
+    },
+    "noVerificados": [],
+    "fuentes": [
+      {
+        "titulo": "Martin Scorsese and Robert De Niro's Collaborative History (citada por el modelo, sin verificar)",
+        "url": "https://www.biography.com/actors/martin-scorsese-robert-de-niro-relationship"
+      }
+    ],
+    "conBusquedaWeb": false
+  },
+  "chequeoFecha": {
+    "ok": true,
+    "motivos": [],
+    "advertencias": []
+  },
+  "fechas": [
+    "2023-05-19",
+    "2023-05-21",
+    "2023-06-02",
+    "2023-06-15",
+    "2023-06-28"
+  ],
+  "contexto": {
+    "fechasSugeridas": [
+      "2023-05-19",
+      "2023-05-21",
+      "2023-06-02",
+      "2023-06-15",
+      "2023-06-28"
+    ],
+    "resumen": "Entre el 19 de mayo y el 30 de junio de 2023, Martin Scorsese y Robert De Niro se encuentran en el centro de la atención cinematográfica mundial debido al estreno mundial de 'Killers of the Flower Moon' en el Festival de Cine de Cannes. La película, protagonizada por De Niro y Leonardo DiCaprio, recibe una aclamación crítica rotunda con una larga ovación en su proyección en el Gran Teatro Lumière. Durante este período, ambos navegan por la intensa agenda de prensa, el debate sobre la duración de las películas épicas y la repercusión internacional del filme, consolidando una vez más su legendaria sociedad creativa de décadas.",
+    "recientes": [
+      {
+        "fecha": "2023-05-05",
+        "descripcion": "Anuncio de la duración oficial de 'Killers of the Flower Moon' (3 horas y 26 minutos) generando altas expectativas y debates en la industria sobre el formato en salas."
+      },
+      {
+        "fecha": "2023-05-15",
+        "descripcion": "Confirmación oficial de la llegada de Martin Scorsese y Robert De Niro a la Costa Azul para el 76° Festival de Cine de Cannes."
+      }
+    ],
+    "proximos": [
+      {
+        "fecha": "2023-05-20",
+        "descripcion": "Estreno mundial de 'Killers of the Flower Moon' en el Festival de Cine de Cannes, con una histórica ovación de pie de nueve minutos."
+      },
+      {
+        "fecha": "2023-05-25",
+        "descripcion": "Publicación de reseñas internacionales unánimemente positivas que destacan la oscura interpretación de Robert De Niro como William Hale."
+      }
+    ],
+    "escenaSugerida": "Almuerzo en la terraza del hotel en Cannes, repasando los últimos nervios y expectativas antes de la gran alfombra roja del estreno mundial.",
+    "criticadosSugeridos": [
+      "Ejecutivos de estudios obsesionados con los algoritmos y la duración corta",
+      "Críticos superficiales que reducen el cine a modas pasajeras"
+    ],
+    "alabadosSugeridos": [
+      "Leonardo DiCaprio",
+      "Lily Gladstone"
+    ],
+    "fuentes": [
+      {
+        "titulo": "The Guardian - Killers of the Flower Moon at Cannes review (citada por el modelo, sin verificar)",
+        "url": "https://www.theguardian.com/film/2023/may/20/killers-of-the-flower-moon-review-martin-scorsese-leonardo-dicaprio-robert-de-niro"
+      },
+      {
+        "titulo": "Variety - Cannes Film Festival 2023 Coverage (citada por el modelo, sin verificar)",
+        "url": "https://variety.com/t/cannes-film-festival-2023/"
+      }
+    ],
+    "desde": "2023-05-19",
+    "hasta": "2023-06-30",
+    "conBusquedaWeb": false
+  },
+  "entrada": {
+    "dias": [
+      {
+        "fecha": "2023-05-19",
+        "anio": "2023",
+        "encabezado": "Viernes, 19 de mayo.",
+        "situacion": "Almuerzo en el hotel de Cannes, a veinticuatro horas del estreno de la película.",
+        "parrafos": [
+          "Comemos tostadas frías mientras Scorsese mira el mar con una desconfianza absoluta, como si las olas vinieran a cobrarle algún impuesto atrasado. Me señala a un grupo de ejecutivos que gesticulan en la mesa de al lado.",
+          "«Creen que el público tiene la atención de un grillo y miden los planos con cronómetro» dice, y unta media rodaja con una marmelada sospechosa.",
+          "Le contesto que el problema no es el tiempo sino la prisa por llegar a ninguna parte. Leonardo DiCaprio pasa por el pasillo y saluda con la gorra puesta."
+        ]
+      },
+      {
+        "fecha": "2023-05-21",
+        "anio": "2023",
+        "encabezado": "Domingo, 21 de mayo.",
+        "situacion": "En el estudio de televisión de la Croisette, Scorsese, un productor y yo.",
+        "parrafos": [
+          "Pasamos la mañana esquivando preguntas sobre los algoritmos que deciden qué debe gustarle al mundo. El productor insiste en que las tres horas y media de metraje exigen una pausa para los espectadores.",
+          "«La única pausa tolerable es la muerte» murmura Scorsese mientras revisa las notas de prensa con el ceño fruncido.",
+          "Anota algo en el margen del periódico y me lo pasa sin mirarme. Leo: «Los críticos modernos buscan moralejas donde solo hay culpas compartidas». A la tarde, Lily Gladstone nos cuenta risueña un chiste que armó el equipo de sonido en el set."
+        ]
+      },
+      {
+        "fecha": "2023-06-02",
+        "anio": "2023",
+        "encabezado": "Viernes, 2 de junio.",
+        "situacion": "Cena en el restaurante italiano de Manhattan, con Scorsese y un viejo sonidista.",
+        "parrafos": [
+          "Volvimos a Nueva York con el eco de la ovación todavía zumbando en los bolsillos y las valijas llenas de folletos que nadie va a leer. Partimos la milanesa en silencio hasta que el sonidista recuerda una discusión vieja sobre las mezclas de sonido en la escena del juicio.",
+          "«Hoy mezclan para teléfonos celulares y después se asustan si el trueno suena hueco» dice Scorsese.",
+          "Le recuerdo las protestas del estudio por la duración de las escenas oscuras. Él se ríe y pide otro espresso doble, convencido de que la penumbra es el único refugio que le queda al oficio."
+        ]
+      },
+      {
+        "fecha": "2023-06-15",
+        "anio": "2023",
+        "encabezado": "Jueves, 15 de junio.",
+        "situacion": "En la sala de montaje de Tribeca, Scorsese y yo.",
+        "parrafos": [
+          "Revisamos descartes que quedaron fuera del corte final. Afuera llueve sobre las veredas grises y el tráfico suena como una marea monótona.",
+          "«Los muchachos de la distribución querían que el malo tuviera una redención simpática al final» comenta Scorsese, y apaga el monitor de un golpe seco.",
+          "Le respondo que preferirían un cartel luminoso que explique la moraleja antes de los créditos. Nos quedamos mirando la pantalla en negro, donde todavía parpadea el cursor del sistema."
+        ]
+      },
+      {
+        "fecha": "2023-06-28",
+        "anio": "2023",
+        "encabezado": "Miércoles, 28 de junio.",
+        "situacion": "En la oficina de producción, Scorsese, el asistente y yo. A un paso de cerrar los papeles para la exhibición en otoño.",
+        "parrafos": [
+          "Revisamos acuerdos kilométricos mientras el joven intenta explicarnos las bondades de una plataforma de streaming que promete reducir la película a fragmentos digestibles.",
+          "«Esa gente confunde el arte con un menú de aeropuerto» dice Scorsese sin levantar la vista de las cláusulas.",
+          "Le firmo la copia con la misma birome gastada que uso desde los años ochenta y salimos a caminar bajo el sol pesado de la tarde neoyorquina."
+        ]
+      }
+    ],
+    "paginas": [
+      2,
+      3
+    ],
+    "notas": [
+      "Apunte del diarista sobre la recepción en el festival."
+    ],
+    "escena": "Cannes y Nueva York, mayo y junio de 2023.",
+    "criticados": [
+      "Ejecutivos de estudios obsesionados con los algoritmos y la duración corta",
+      "Críticos superficiales que reducen el cine a modas pasajeras"
+    ],
+    "alabados": [
+      "Leonardo DiCaprio",
+      "Lily Gladstone"
+    ],
+    "palabras": 503,
+    "revision": {
+      "hecha": true,
+      "problemasDetectados": [
+        "En la entrada 5, «contratos» está en la situación y otra vez en la primera oración; evitá la repetición.",
+        "En la entrada 5, «asistente» está en la situación y otra vez en la primera oración; evitá la repetición."
+      ],
+      "problemasRestantes": []
+    }
+  },
+  "titulo": "Scorsese",
+  "proveedores": {
+    "texto": "gemini:gemini-flash-lite-latest",
+    "imagen": "none"
+  },
+  "advertencias": [
+    "La validación se hizo sin búsqueda web: depende del conocimiento del modelo.",
+    "El contexto histórico se armó sin búsqueda web (sin cuota de búsqueda o desactivada): verificá los hechos."
+  ],
+  "version": 2,
+  "id": "nT4w4xbH2g",
+  "creada": "2026-10-25T22:15:29.649Z"
+}

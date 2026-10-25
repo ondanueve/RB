@@ -4,7 +4,6 @@ import path from 'path';
 import fs from 'fs';
 import dotenv from 'dotenv';
 import { generar } from './src/lib/pipeline.ts';
-import { PAREJAS_DEMO } from './src/lib/demo.ts';
 import {
   nuevoId,
   paginaPublica,
@@ -18,28 +17,9 @@ const PORT = 3000;
 const paginasStore = new Map<string, PaginaPublica>();
 
 async function seedDemoPages() {
-  for (let i = 0; i < PAREJAS_DEMO.length; i++) {
-    const par = PAREJAS_DEMO[i];
-    const slugId = `demo${i + 1}borges`;
-    const r = await generar(
-      {
-        borges: par.borges.nombre,
-        bioy: par.bioy.nombre,
-        fecha: par.fechaEjemplo,
-        escena: par.escenaEjemplo,
-        extension: 'media',
-        paginas: 2,
-      },
-      {
-        env: { TEXT_PROVIDER: 'mock', IMAGE_PROVIDER: 'none' },
-        azar: () => 0.35,
-      }
-    );
-    if (r.ok) {
-      const pub = paginaPublica(r, slugId, new Date(`${par.fechaEjemplo}T12:00:00Z`));
-      paginasStore.set(slugId, pub);
-    }
-  }
+  // Las mismas páginas de demo que muestra la web (generadas por el endpoint real).
+  const ANTOLOGIA = JSON.parse(fs.readFileSync(path.resolve(process.cwd(), 'src/generated/antologia.json'), 'utf8'));
+  for (const pub of ANTOLOGIA as PaginaPublica[]) paginasStore.set(pub.id, pub);
 }
 
 async function startServer() {
