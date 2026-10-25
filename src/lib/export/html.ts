@@ -5,7 +5,7 @@
 import type { Entrada } from "../types";
 import { paginasDe } from "../paginas";
 import { foliosDe } from "./paginaSvg";
-import { MARCA_PARODIA } from "../../prompts";
+import { MARCA_PARODIA } from "../marca";
 import { bloquesDePagina } from "./folio";
 
 function esc(s: string): string {

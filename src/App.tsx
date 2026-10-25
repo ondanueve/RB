@@ -1,44 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import { ArrowLeftRight, ChevronDown, ChevronUp } from 'lucide-react';
-import { ESCENAS_SUGERIDAS, TONOS } from './lib/schema';
+import { ESCENAS_SUGERIDAS, TONOS } from './lib/opciones';
 import { PAREJAS_DEMO } from './lib/demo';
 import type { ResultadoRechazo } from './lib/types';
 import type { PaginaPublica } from './lib/storage/tipos';
+
+/** Páginas de demo precalculadas en build (scripts/antologia.ts): el navegador no carga el pipeline. */
+const ANTOLOGIA_INICIAL = ANTOLOGIA_DEMO as unknown as PaginaPublica[];
 import { MARCA, NOMBRE_SITIO, REPOSITORIO_GITHUB, SUPABASE_FUNCTIONS_API } from './lib/sitio';
 import { tituloDe } from './lib/paginas';
-import { generar } from './lib/pipeline';
-import { paginaPublica } from './lib/storage/tipos';
+import ANTOLOGIA_DEMO from './generated/antologia.json';
 import { LibroAbierto } from './components/PaginaLibro';
 import { BarraAccionesDiario, textoCompartir } from './components/Compartir';
 import { sincronizarSeoPagina } from './lib/seoHead';
-
-async function construirAntologiaLocal(): Promise<PaginaPublica[]> {
-  const paginas: PaginaPublica[] = [];
-  for (let i = 0; i < PAREJAS_DEMO.length; i++) {
-    const par = PAREJAS_DEMO[i];
-    const slugId = `demo${i + 1}borges`;
-    const r = await generar(
-      {
-        borges: par.borges.nombre,
-        bioy: par.bioy.nombre,
-        fecha: par.fechaEjemplo,
-        escena: par.escenaEjemplo,
-        extension: 'media',
-        paginas: 2,
-      },
-      {
-        env: { TEXT_PROVIDER: 'mock', IMAGE_PROVIDER: 'none' },
-        azar: () => 0.35,
-      }
-    );
-    if (r.ok) {
-      paginas.push(
-        paginaPublica(r, slugId, new Date(`${par.fechaEjemplo}T12:00:00Z`))
-      );
-    }
-  }
-  return paginas;
-}
 
 export default function App() {
   // Form state (default: Messi / Scaloni, index 0)
@@ -54,8 +28,8 @@ export default function App() {
   const [mostrarOptativos, setMostrarOptativos] = useState<boolean>(false);
 
   // Anthology & Active Book Page state
-  const [antologia, setAntologia] = useState<PaginaPublica[]>([]);
-  const [paginaActiva, setPaginaActiva] = useState<PaginaPublica | null>(null);
+  const [antologia, setAntologia] = useState<PaginaPublica[]>(ANTOLOGIA_INICIAL);
+  const [paginaActiva, setPaginaActiva] = useState<PaginaPublica | null>(ANTOLOGIA_INICIAL[0] ?? null);
   const [indiceDemoActivo, setIndiceDemoActivo] = useState<number>(0);
 
   // Generation status
@@ -66,8 +40,7 @@ export default function App() {
   // Load initial anthology immediately and check if URL has ?id=...
   useEffect(() => {
     async function inicializar() {
-      const locales = await construirAntologiaLocal();
-      setAntologia(locales);
+      const locales = ANTOLOGIA_INICIAL;
 
       const params = new URLSearchParams(window.location.search);
       const idParam = params.get('id');
@@ -130,7 +103,7 @@ export default function App() {
     setError(null);
     setRechazo(null);
 
-    const precomputada = antologia[i];
+    const precomputada = ANTOLOGIA_INICIAL[i];
     if (precomputada) {
       setPaginaActiva(precomputada);
       sincronizarSeoPagina(precomputada);

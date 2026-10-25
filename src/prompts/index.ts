@@ -19,7 +19,8 @@ import type { Contexto, Entrada, Validacion } from "../lib/types";
 import { apellidoDe, partir } from "../lib/paginas";
 import { fechaLarga, encabezadoDeEntrada } from "../lib/dates";
 
-export const MARCA_PARODIA = "Parodia · Ficción generada por IA";
+import { MARCA_PARODIA } from "../lib/marca";
+export { MARCA_PARODIA };
 
 /* ------------------------------------------------------------------ */
 /* Bloques comunes                                                     */

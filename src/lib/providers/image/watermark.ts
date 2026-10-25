@@ -2,7 +2,7 @@
  * Marca visible "Parodia · Ficción generada por IA" sobre cualquier imagen.
  * Sin dependencias nativas: envuelve la imagen en un SVG con una franja de texto.
  */
-import { MARCA_PARODIA } from "../../../prompts";
+import { MARCA_PARODIA } from "../../marca";
 
 export function escaparXML(s: string): string {
   return s

@@ -7,6 +7,7 @@
     "dev": "tsx server.ts",
     "start": "node server.ts",
     "build": "vite build && rm -rf out && cp -r dist out && mkdir -p out/p && printf '<!doctype html><meta charset=\"utf-8\"><script>location.replace(\"../\"+location.search+location.hash)</script>' > out/p/index.html",
+    "antologia": "tsx scripts/antologia.ts",
     "preview": "vite preview",
     "clean": "rm -rf dist out server.js",
     "test": "tsc --noEmit && vitest run",
