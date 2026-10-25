@@ -5,6 +5,7 @@ import { datosCompartir, svgCompartir } from '../lib/export/compartirSvg';
 import { svgPaginaTipografica } from '../lib/export/paginaSvg';
 import { htmlPagina } from '../lib/export/html';
 import { repartoDe, tituloDe } from '../lib/paginas';
+import { SITIO_POR_DEFECTO } from '../lib/sitio';
 
 export function textoCompartir(p: PaginaPublica): string {
   const dos = repartoDe(p.entrada).length > 1;
@@ -35,11 +36,12 @@ export function BarraAccionesDiario({ pagina }: { pagina: PaginaPublica }) {
   const texto = textoCompartir(pagina);
   const titulo = tituloDe(pagina);
   const nPags = repartoDe(pagina.entrada).length;
-  const shareUrl = `${window.location.origin}${window.location.pathname}?id=${encodeURIComponent(
-    pagina.id
-  )}`;
+  // URL base canónica en el prerender (sin window); la real del navegador después de hidratar.
+  const [baseUrl, setBaseUrl] = useState(`${SITIO_POR_DEFECTO}/`);
+  const shareUrl = `${baseUrl}?id=${encodeURIComponent(pagina.id)}`;
 
   useEffect(() => {
+    setBaseUrl(`${window.location.origin}${window.location.pathname}`);
     setPuedeShareNativo(
       typeof navigator !== 'undefined' && typeof navigator.share === 'function'
     );
