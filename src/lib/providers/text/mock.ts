@@ -250,13 +250,13 @@ const DIARIOS_POR_ID: Record<string, DiarioPreescrito> = {
         situacion: "Estrado de la asamblea, en el CHI Health Center.",
         parrafos: [
           "Seis horas de preguntas bajo los reflectores. {B} abre una caja de caramelos de See's y me la desliza por la mesa como si fuera un expediente reservado. Un muchacho de Ohio pregunta qué pasará con Berkshire cuando no estemos. {BU}: «Greg va a sentarse en esta silla y lo va a hacer mejor. La única diferencia es que no va a tomar tanta gaseosa delante de las cámaras».",
-          "Me toca contestar sobre la inteligencia artificial. {YU}: «Soy escéptico de casi todo lo que se publicita como revolución. Pero a los noventa y nueve también desconfío de mi escepticismo». {BU}: «Charlie no tiene nada que agregar, como siempre, y lo dice mejor que nadie». El estadio se ríe; yo mastico un caramelo de maní.",
+          "Me toca contestar sobre la inteligencia artificial. {YU}: «Soy escéptico de casi todo lo que se publicita como revolución. Pero a los noventa y nueve también desconfío de mi escepticismo». {BU}: «Es la primera vez en cuarenta años que Charlie agrega algo. Anótenlo». El estadio se ríe; yo mastico un caramelo de maní.",
         ],
       },
       {
         situacion: "Hablamos por teléfono, desde Los Ángeles.",
         parrafos: [
-          "Llama temprano, con la voz de quien leyó cinco diarios antes del desayuno. Le indigna un aviso de una plataforma de criptomonedas en pleno partido de béisbol. {BU}: «Venden un boleto de lotería con olor a ciencia. Si me ofrecieran todo el que existe en el mundo por veinticinco dólares, no sabría qué hacer con él al día siguiente».",
+          "Llama temprano, con la voz de quien leyó cinco diarios antes del desayuno. Le indigna un aviso de una plataforma de criptomonedas en pleno partido de béisbol. {BU}: «Venden un boleto de lotería con olor a ciencia. Si me ofrecieran todo el bitcoin que existe en el mundo por veinticinco dólares, no lo compraría: ¿qué haría con él al día siguiente?».",
           "{YU}: «Yo ya dije lo que pienso en público y me acusaron de anciano gruñón». {BU}: «Te acusaron bien. Lo grave sería que tuvieras noventa y nueve años y estuvieras entusiasmado con eso». Antes de cortar me pregunta por el Daily Journal y por mis nietos, en ese orden, que es su manera de ser cariñoso.",
         ],
       },
@@ -271,14 +271,14 @@ const DIARIOS_POR_ID: Record<string, DiarioPreescrito> = {
         situacion: "Leemos por teléfono las noticias de Japón.",
         parrafos: [
           "Le divierte que los diarios de Tokio todavía hablen de su visita de abril. {BU}: «Compramos cinco casas comerciales que hacen de todo, desde cobre hasta fideos instantáneos. Es como comprar la ferretería, el almacén y el puerto del pueblo al mismo tiempo, y encima con gerentes que no se compran aviones».",
-          "{YU}: «Lo extraño es que nadie más lo haya visto antes». {BU}: «Lo vieron todos, Charlie. Lo que no tenían era paciencia para esperar diez años sin que nadie los felicitara». Se oye de fondo un partido de béisbol y una lata de gaseosa abriéndose.",
+          "{YU}: «Lo extraño es que nadie más lo haya visto antes». {BU}: «Lo vieron todos, Charlie. Lo que no tenían era paciencia para esperar diez años sin que nadie los felicitara». Se oyen de fondo un partido de béisbol y una lata de gaseosa que se abre.",
         ],
       },
       {
         situacion: "Mensajes del viernes, al final del día.",
         parrafos: [
-          "Me escribe con su puntuación de telegrama que en enero cumplo cien y que piensa venir a Los Ángeles a comer una torta sin preguntarle el precio a nadie. {BU}: «Sesenta y cuatro años sin una pelea seria. La gente no lo cree, pero es fácil: vos tenés razón la mitad de las veces y yo finjo que la tengo la otra mitad»².",
-          "{YU}: «Si llego, la torta la pago yo. No quiero que el Oráculo de Omaha la deduzca como gasto». {BU}: «Trato hecho. Pero las velas las compramos en See's: salen caras y duran poco, como los buenos consejos». Apago la lámpara pensando que fue un buen trato, como casi todos los que hicimos.",
+          "Me escribe, con su puntuación de telegrama, que en enero cumplo cien y que piensa venir a Los Ángeles a comer una torta sin preguntarle el precio a nadie. {BU}: «Sesenta y cuatro años sin una pelea seria. La gente no lo cree, pero es fácil: vos tenés razón la mitad de las veces y yo finjo que la tengo la otra mitad»².",
+          "{YU}: «Si llego, la torta la pago yo. No quiero que el Oráculo de Omaha la deduzca como gasto». {BU}: «Trato hecho. Pero los caramelos los pongo yo: See's sube los precios todos los años y nadie se queja. Fue el mejor negocio que hicimos juntos». Apago la lámpara pensando que fue un buen trato, como casi todos los que hicimos.",
         ],
       },
     ],
@@ -575,7 +575,7 @@ const DIARIOS_POR_ID: Record<string, DiarioPreescrito> = {
       {
         situacion: "Hablamos por teléfono, medianoche.",
         parrafos: [
-          "Leyó otra nota que da la separación por hecha y le echa la culpa a todos, menos a nadie en particular. {BU}: «Escriben como si hubieran estado debajo de la mesa. Patricio Rey no es una sociedad anónima con balance trimestral: es una cosa frágil que inventamos para no tener que ser estrellas».",
+          "Leyó otra nota que da la separación por hecha y está enojado con todos y con nadie en particular. {BU}: «Escriben como si hubieran estado debajo de la mesa. Patricio Rey no es una sociedad anónima con balance trimestral: es una cosa frágil que inventamos para no tener que ser estrellas».",
           "Le pregunto si habló con el Flaco. Tarda en contestar; se oye el ruido de la heladera. {BU}: «Hablamos poco. Cada uno tiene su manera de cuidar lo que hicimos, y a veces esas maneras no entran en el mismo cuarto». {YU}: «Siempre entraron». {BU}: «Siempre es mucho tiempo». Corta diciendo que tiene que dormir y sé que no va a dormir.",
         ],
       },
@@ -587,7 +587,7 @@ const DIARIOS_POR_ID: Record<string, DiarioPreescrito> = {
         ],
       },
       {
-        situacion: "Paso por City Bell a ver a Skay.",
+        situacion: "Paso a ver a Skay, de tarde.",
         parrafos: [
           "El Flaco me recibe con la guitarra en las rodillas y un té de hierbas. No dice una palabra contra el Indio; habla de canciones nuevas, de afinaciones raras, de un mar que quiere cruzar solo. La Negra trae unas facturas y cambia de tema dos veces. A la vuelta, en el micro, llamo a {B} desde un teléfono público de la terminal.",
           "{BU}: «¿Qué te dijo?». {YU}: «Nada malo. Que está componiendo». {BU}: «Eso es lo peor que me podías contar, Mono: que los dos estamos componiendo y ninguno le mandó nada al otro». Se le quiebra la voz un segundo y la disimula con una broma sobre mi barba. Me quedo con el tubo en la mano después del pitido.",
