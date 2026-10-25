@@ -1,5 +1,5 @@
 {
-  "name": "react-example",
+  "name": "rayo-borgesdebioyizador",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,7 +9,7 @@
     "build": "vite build && rm -rf out && cp -r dist out && mkdir -p out/p && printf '<!doctype html><meta charset=\"utf-8\"><script>location.replace(\"../\"+location.search+location.hash)</script>' > out/p/index.html",
     "preview": "vite preview",
     "clean": "rm -rf dist out server.js",
-    "test": "tsc --noEmit",
+    "test": "tsc --noEmit && vitest run",
     "lint": "tsc --noEmit"
   },
   "dependencies": {
@@ -26,6 +26,7 @@
     "zod": "^4.6.7"
   },
   "devDependencies": {
+    "@types/express": "^4.17.21",
     "@types/node": "^22.14.0",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
@@ -34,6 +35,6 @@
     "tailwindcss": "^4.3.3",
     "tsx": "^4.21.0",
     "typescript": "^7.0.2",
-    "@types/express": "^4.17.21"
+    "vitest": "^3.2.7"
   }
 }
