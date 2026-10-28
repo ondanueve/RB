@@ -35,6 +35,7 @@ if (i > 0) {
     alabados: '',
     presentes: '',
     escena: par.escenaEjemplo,
+    ...(par.temaEjemplo ? { tema: par.temaEjemplo } : {}),
     tono: 'irónico',
     extension: 'media',
   };

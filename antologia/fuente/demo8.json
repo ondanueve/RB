@@ -13,107 +13,195 @@
   },
   "validacion": {
     "aceptado": true,
-    "justificacion": "Ambas son figuras públicas reconocidas de la cultura y la música argentina. Mantienen una relación profesional y de amistad de larga data como co-creadores de la estética y el universo visual y musical de Patricio Rey y sus Redonditos de Ricota desde la década de 1970.",
-    "relacion": "Trabajo conjunto prolongado y amistad como creadores fundamentales de Patricio Rey y sus Redonditos de Ricota.",
-    "inicioRelacion": "1976",
+    "justificacion": "Tanto Carlos Alberto 'el Indio' Solari como Ricardo 'Rocambole' Cohen son figuras públicas ampliamente reconocidas de la música y el arte plástico de Argentina. Mantuvieron una relación personal de amistad y colaboración artística estrecha desde fines de los años 60 en La Plata, integrando el colectivo La Cofradía de la Flor Solar y luego el proyecto Patricio Rey y sus Redonditos de Ricota durante más de dos décadas. Ambos son mayores de edad y todos los criterios de verificación se cumplen.",
+    "relacion": "Amigos y colaboradores artísticos en La Cofradía de la Flor Solar y Patricio Rey y sus Redonditos de Ricota, donde Solari fue vocalista y letrista y Rocambole el director de arte y creador de la gráfica e identidad visual de la banda.",
+    "inicioRelacion": "1968",
     "inicioAproximado": true,
     "ambito": "música",
     "borges": {
       "nombre": "Carlos Alberto Solari",
       "conocido": true,
-      "descripcion": "Músico, compositor y cantante argentino, histórico líder de Patricio Rey y sus Redonditos de Ricota.",
+      "descripcion": "Cantante, compositor y músico argentino, líder vocal y letrista de Patricio Rey y sus Redonditos de Ricota y de Los Fundamentalistas del Aire Acondicionado.",
       "nacimiento": "1949-01-17",
       "muerte": null,
       "apodos": [
+        "El Indio",
         "Indio"
       ],
       "apellido": "Solari"
     },
     "bioy": {
-      "nombre": "Ricardo Cohen",
+      "nombre": "Ricardo Jorge Cohen",
       "conocido": true,
-      "descripcion": "Artista plástico, diseñador gráfico y profesor argentino, célebre por la identidad visual de Patricio Rey y sus Redonditos de Ricota.",
-      "nacimiento": "1945",
+      "descripcion": "Artista plástico, diseñador gráfico y docente argentino, fundador de La Cofradía de la Flor Solar y creador de las portadas y escenografías de Patricio Rey y sus Redonditos de Ricota.",
+      "nacimiento": "1943-08-08",
       "muerte": null,
       "apodos": [
-        "Rocambole"
+        "Rocambole",
+        "El Mono"
       ],
       "apellido": "Cohen"
     },
     "noVerificados": [],
-    "fuentes": [
-      {
-        "titulo": "Rocambole y su relación con el Indio Solari (citada por el modelo, sin verificar)",
-        "url": "https://www.lanacion.com.ar"
-      }
-    ],
+    "fuentes": [],
     "conBusquedaWeb": false
   },
   "chequeoFecha": {
     "ok": true,
     "motivos": [],
     "advertencias": [
-      "El inicio de la relación (1976) es aproximado; se toma la fecha documentada más conservadora."
+      "El inicio de la relación (1968) es aproximado; se toma la fecha documentada más conservadora."
     ]
   },
   "fechas": [
     "2001-10-10",
-    "2001-10-22",
+    "2001-10-15",
+    "2001-10-24",
+    "2001-11-01",
     "2001-11-03",
-    "2001-11-12",
-    "2001-11-20"
+    "2001-11-11",
+    "2001-11-16"
   ],
   "contexto": {
     "fechasSugeridas": [
       "2001-10-10",
-      "2001-10-22",
+      "2001-10-15",
+      "2001-10-24",
+      "2001-11-01",
       "2001-11-03",
-      "2001-11-12",
-      "2001-11-20"
+      "2001-11-11",
+      "2001-11-16"
     ],
-    "resumen": "El período entre el 10 de octubre y el 21 de noviembre de 2001 encuentra a Patricio Rey y sus Redonditos de Ricota sumidos en un silencio hermético y definitivo tras la frustrada llegada a Córdoba en agosto. Mientras el país se encamina aceleradamente hacia una crisis económica e institucional sin precedentes, Carlos 'Indio' Solari y Ricardo 'Rocambole' Cohen procesan en privado el desgaste y la virtual separación de la banda más convocante del rock argentino. En los talleres de La Plata y en refugios bonaerenses, el trabajo visual y la reflexión continúan a pesar de la incertidumbre sobre el futuro del grupo. La prensa especula con internas insalvables entre los miembros fundadores, marcando el silencioso fin de una era dorada de la cultura independiente nacional.",
+    "resumen": "Entre octubre y noviembre de 2001, Carlos 'Indio' Solari y Ricardo 'Rocambole' Cohen transitan en la intimidad el fin de ciclo de Patricio Rey y sus Redonditos de Ricota, tras el multitudinario recital del 4 de agosto en el Estadio Chateau Carreras de Córdoba y mientras se prepara el show del 8 de diciembre en la cancha de Unión de Santa Fe. El contexto nacional está dominado por el derrumbe político y económico del gobierno de Fernando de la Rúa y Domingo Cavallo, cristalizado el 14 de octubre en las elecciones legislativas del 'voto bronca' y el posterior canje de deuda de noviembre. En el plano interno de la banda, las diferencias creativas y personales en torno a la custodia del archivo audiovisual de los shows de Racing y River y el desgaste de casi tres décadas estallan a fines de octubre, tras una entrevista conjunta de Solari, Skay Beilinson y la Negra Poli con periodistas de la revista Rolling Stone. El viernes 2 de noviembre de 2001, Poli comunica oficialmente la cancelación del show de Santa Fe bajo la premisa de que 'Patricio Rey cree que no es el momento, que no hay ánimo para fiestas', iniciando un 'año sabático' que sellará la disolución definitiva del grupo. Durante esas semanas, mientras Rocambole sostiene su labor docente y como consejero académico en la Facultad de Bellas Artes de la UNLP en La Plata y el Indio se refugia en su quinta de Parque Leloir junto a su esposa Virginia y su pequeño hijo Bruno, el país oscila entre la agonía de la Convertibilidad, la marcha triunfal del Racing de Mostaza Merlo en el Torneo Apertura y la emotiva despedida de Diego Maradona en La Bombonera el 10 de noviembre.",
     "recientes": [
       {
-        "fecha": "2001-08-04",
-        "descripcion": "Suspensión de los esperados recitales de Patricio Rey y sus Redonditos de Ricota en el estadio Chateau Carreras de Córdoba, marcando el inicio de un distanciamiento interno que sepultaría las presentaciones en vivo."
+        "fecha": "2001-09-13",
+        "descripcion": "La Renga publica su álbum doble en vivo 'Insoportablemente vivo', registrado en el estadio de Huracán en mayo con producción de Ricardo Mollo, y da inicio a su gira nacional el 21 de septiembre."
       },
       {
-        "fecha": "2001-09-20",
-        "descripcion": "Crecen los rumores en fanzines y medios especializados sobre cortocircuitos irreconciliables en la cúpula de la banda, interrumpiendo la preproducción de un nuevo disco."
+        "fecha": "2001-09-29",
+        "descripcion": "En La Plata, por la fecha 8 del Torneo Apertura, Gimnasia y Esgrima La Plata derrota 3-1 a Estudiantes en el clásico platense."
+      },
+      {
+        "fecha": "2001-09-30",
+        "descripcion": "Racing Club, dirigido por Reinaldo 'Mostaza' Merlo, golea 4-1 a San Lorenzo en Avellaneda y se afianza como único puntero del Torneo Apertura."
+      },
+      {
+        "fecha": "2001-10-03",
+        "descripcion": "Por la novena fecha del Torneo Apertura, Racing vence 2-0 como visitante a Unión en el Estadio 15 de Abril de Santa Fe, el mismo escenario donde Los Redondos tramitan su próximo concierto para el 8 de diciembre."
+      },
+      {
+        "fecha": "2001-10-06",
+        "descripcion": "Eric Clapton se presenta en el Estadio Monumental de River Plate ante más de 30.000 espectadores, con La Mississippi y Memphis La Blusera como bandas soporte."
+      },
+      {
+        "fecha": "2001-10-07",
+        "descripcion": "Estados Unidos y el Reino Unido inician los bombardeos sobre Afganistán (Operación Libertad Duradera) en respuesta a los atentados del 11 de septiembre, mientras en Buenos Aires crece el temor al ántrax y la recesión económica."
       }
     ],
     "proximos": [
       {
         "fecha": "2001-10-14",
-        "descripcion": "Elecciones legislativas en Argentina en medio de un clima de descontento social generalizado y crecimiento del voto en blanco."
+        "descripcion": "Elecciones legislativas nacionales en Argentina: rotunda derrota de la Alianza gobernante y fenómeno histórico del 'voto bronca' (millones de votos en blanco, impugnados o con fetas de fiambre y Clemente en los sobres) y un 25% de abstención."
       },
       {
-        "fecha": "2001-11-05",
-        "descripcion": "Aumentan las especulaciones periodísticas ante la falta de comunicados oficiales de la banda sobre su continuidad artística."
+        "fecha": "2001-10-20",
+        "descripcion": "Se realiza en el Madison Square Garden 'The Concert for New York City', organizado por Paul McCartney en homenaje a las víctimas del 11-S, con actuaciones de David Bowie, The Who, Mick Jagger, Keith Richards y Eric Clapton."
+      },
+      {
+        "fecha": "2001-10-21",
+        "descripcion": "Por la décima fecha del Apertura, el puntero Racing vence 2-1 a Colón en Avellaneda, mientras que Boca Juniors (club del que es hincha Solari) cae 1-0 ante Talleres en el Chateau Carreras de Córdoba con gol de Julián Maidana."
+      },
+      {
+        "fecha": "2001-10-23",
+        "descripcion": "Charly García celebra su cumpleaños número 50 con un concierto en el Teatro Coliseo de Buenos Aires seguido de un caótico festejo en el bar porteño Tobago."
+      },
+      {
+        "fecha": "2001-10-28",
+        "descripcion": "Racing vence 3-2 a Estudiantes en La Plata tras ir perdiendo 2-0 y sostiene su marcha en la cima del Torneo Apertura."
+      },
+      {
+        "fecha": "2001-10-30",
+        "descripcion": "Indio Solari, Skay Beilinson y la Negra Poli se reúnen en un bar de Palermo con los periodistas Claudio Kleiman, Humphrey Inzillo y Martín Pérez (de Rolling Stone) para hablar del show del 8 de diciembre en Santa Fe; tras la entrevista, una fuerte discusión privada entre los tres precipita la fractura del grupo."
+      },
+      {
+        "fecha": "2001-11-01",
+        "descripcion": "En un partido adelantado de la fecha 12 jugado un jueves en La Bombonera, Boca Juniors derrota 3-1 a Racing Club y le quita el invicto al equipo de Mostaza Merlo en el Apertura."
+      },
+      {
+        "fecha": "2001-11-02",
+        "descripcion": "Al mediodía, la Negra Poli se comunica con la prensa para anunciar la suspensión del recital del 8 de diciembre en el estadio de Unión de Santa Fe (para el cual Rocambole ya trabajaba en las entradas y gráfica) y el inicio de un 'año sabático': 'Patricio Rey cree que no es el momento, que no hay ánimo para fiestas'."
+      },
+      {
+        "fecha": "2001-11-04",
+        "descripcion": "Por la fecha 12 del Apertura, Boca empata 2-2 contra Unión en Santa Fe tras ir perdiendo 2-0; en simultáneo, el riesgo país argentino supera los 2.200 puntos básicos."
+      },
+      {
+        "fecha": "2001-11-06",
+        "descripcion": "El ministro Domingo Cavallo y el gobierno de De la Rúa impulsan el canje local de deuda pública por 'préstamos garantizados' con bancos y AFJP, intentando evitar la cesación de pagos."
+      },
+      {
+        "fecha": "2001-11-08",
+        "descripcion": "Por la penúltima fecha de las Eliminatorias Sudamericanas en el Estadio Monumental, la Selección Argentina de Marcelo Bielsa vence 2-0 a Perú con goles de Walter Samuel y Claudio 'Piojo' López."
+      },
+      {
+        "fecha": "2001-11-10",
+        "descripcion": "Partido homenaje y despedida de Diego Armando Maradona en La Bombonera ante una multitud (Selección Argentina vs. Resto del Mundo), donde pronuncia su histórica frase: 'Yo me equivoqué y pagué, pero la pelota no se mancha'."
+      },
+      {
+        "fecha": "2001-11-14",
+        "descripcion": "En el Estadio Centenario de Montevideo, Argentina y Uruguay empatan 1-1 (goles de Darío Silva y Claudio López) en la última fecha de las Eliminatorias, con un evidente pacto de no agresión en los minutos finales que clasifica a Uruguay al repechaje y elimina a Colombia."
+      },
+      {
+        "fecha": "2001-11-15",
+        "descripcion": "Se estrena en los cines argentinos la película '+bien', dirigida por Eduardo Capilla y protagonizada por Gustavo Cerati junto a Ruth Infarinato y Damián De Santo, cuya banda sonora electrónica fue compuesta por el propio Cerati."
+      },
+      {
+        "fecha": "2001-11-18",
+        "descripcion": "Por la fecha 15 del Apertura, Racing vence 1-0 a Chacarita en Avellaneda, mientras en la prensa internacional trasciende el estado crítico de salud del ex Beatle George Harrison, quien fallecería días después (el 29 de noviembre) a causa de un cáncer."
       }
     ],
-    "escenaSugerida": "En el taller de Rocambole en La Plata, entre tintas, bocetos descartados y olor a solvente, se repasa el peso del frustrado paso por Córdoba y la incertidumbre sobre el futuro estético y musical de la banda.",
+    "escenaSugerida": "Miércoles 10 de octubre por la tarde en el taller de Rocambole en La Plata, entre olor a trementina, bocetos de serigrafía para las entradas de tela del concierto de diciembre en Unión de Santa Fe y carpetas de sus cátedras en la Facultad de Bellas Artes. El Indio ha viajado desde su quinta de Parque Leloir; mientras toman café o algún aperitivo, repasan las secuelas del show de agosto en el Chateau Carreras de Córdoba —donde Solari debió infiltrarse con Decadrón por una alergia y se cruzó con un fanático que arrojaba objetos al escenario— y conversan con inquietud sobre el clima social previo a las elecciones del domingo 14 y la pesadez burocrática en la que parece haber entrado la maquinaria de Patricio Rey.",
     "criticadosSugeridos": [
-      "Periodismo sensacionalista",
-      "Skay Beilinson"
+      "Domingo Cavallo",
+      "Fernando de la Rúa",
+      "Charly García"
     ],
     "alabadosSugeridos": [
-      "Semilla Bucciarelli",
-      "Público ricotero"
+      "Luis Alberto Spinetta",
+      "Diego Armando Maradona",
+      "David Bowie"
     ],
-    "fuentes": [
+    "participantesSugeridos": [
       {
-        "titulo": "Rock.com.ar - Biografía de Patricio Rey y sus Redonditos de Ricota (citada por el modelo, sin verificar)",
-        "url": "https://rock.com.ar/artistas/patricio-rey-y-sus-redonditos-de-ricota"
+        "nombre": "Eduardo 'Skay' Beilinson",
+        "vinculo": "Guitarrista y cofundador de Patricio Rey y sus Redonditos de Ricota, amigo de ambos desde la época de La Cofradía de la Flor Solar en La Plata, con quien el Indio entra en cortocircuito definitivo a fines de octubre de 2001."
       },
       {
-        "titulo": "Archivo histórico sobre el rock argentino y la crisis de 2001 (citada por el modelo, sin verificar)",
-        "url": "https://www.pagina12.com.ar"
+        "nombre": "Carmen 'La Negra Poli' Castro",
+        "vinculo": "Mánager histórica de Los Redondos y pareja de Skay Beilinson, encargada de la logística del frustrado show en Unión de Santa Fe y de comunicar el parate el 2 de noviembre."
+      },
+      {
+        "nombre": "Virginia Mones Ruiz",
+        "vinculo": "Esposa de Carlos 'Indio' Solari y madre de su hijo Bruno (nacido a fines de 2000), con quien el cantante convive en su quinta de Parque Leloir."
+      },
+      {
+        "nombre": "Sergio Dawi",
+        "vinculo": "Saxofonista de Patricio Rey y sus Redonditos de Ricota en la formación de 'Momo Sampler' y del último show en Córdoba en agosto de 2001."
+      },
+      {
+        "nombre": "Semilla Bucciarelli",
+        "vinculo": "Bajista histórico de Los Redondos y artista plástico, colega cercano tanto de Solari como de Rocambole en el universo visual y musical de la banda."
+      },
+      {
+        "nombre": "Claudio Kleiman",
+        "vinculo": "Periodista musical y amigo platense de la primera hora del grupo, uno de los tres cronistas que participa de la última entrevista y cena con Solari, Skay y Poli antes de la separación."
       }
     ],
+    "fuentes": [],
     "desde": "2001-10-10",
     "hasta": "2001-11-21",
-    "conBusquedaWeb": false
+    "conBusquedaWeb": true
   },
   "entrada": {
     "dias": [
@@ -121,96 +209,119 @@
         "fecha": "2001-10-10",
         "anio": "2001",
         "encabezado": "Miércoles, 10 de octubre.",
-        "situacion": "Taller en La Plata, con Solari. A dos meses largos del portazo de Córdoba.",
+        "situacion": "En mi taller de La Plata, después del silencio de Córdoba, Solari y yo.",
         "parrafos": [
-          "Revisa Solari unos bocetos de cartelería vieja que quedaron en un cajón y suelta una risa seca.",
-          "«Los muchachos de los suplementos culturales ya nos jubilaron antes de tiempo» dice, mientras enciende un cigarro negro. Le contesto que el periodismo de rock argentino siempre padeció de apuro escatológico, como si necesitaran que nos muramos o nos peleemos a cuchillo para tener algo que redactar. Se detiene frente a la ventana que da al patio, contempla un limonero medio seco y agrega: «Prefieren inventar una tragedia griega donde solo hay un desgaste de materiales».",
-          "Hablamos luego de las elecciones que se vienen el domingo, de cómo la gente va a votar con bronca o con desgano. Le digo que el país entero parece un ensayo general que se quedó sin luz."
+          "Revisa con lupa los bocetos de las entradas para el ocho de diciembre en Unión y aparta una cartulina manchada con témpera. «Si la tinta brilla bajo la luz ultravioleta, la falsifican en dos horas; hay que volver al relieve seco, como en los billetes viejos», dice. Le recuerdo que el cuño se cobra en dólares y nadie tiene un peso. Se limpia los lentes con la camisa: «El pibe que viaja en el techo del tren desde Temperley no usa tarjeta, pero distingue un grabado tuyo a diez metros».",
+          "Hablamos de Luis Alberto Spinetta; admira esa terquedad para armar acordes raros mientras el país se hunde en el trueque y los patacones."
         ]
       },
       {
-        "fecha": "2001-10-22",
+        "fecha": "2001-10-15",
         "anio": "2001",
-        "encabezado": "Lunes, 22 de octubre.",
-        "situacion": "Cena en un bodegón de Gonnet, con Solari. Tras el gentío del domingo electoral.",
+        "encabezado": "Lunes, 15 de octubre.",
+        "situacion": "Por teléfono, Solari.",
         "parrafos": [
-          "Pide Solari un plato de pastas con demasiada pimienta y comenta los números desangelados de los comicios.",
-          "«Votaron en blanco hasta las paredes» observa, frotándose los ojos con cansancio. Le apunto que el voto bronca es lo único sincero que circuló por las urnas esta semana, aunque no sirva para arreglar ni una canilla rota. Se ríe con ganas y dice: «La gente ya no cree ni en los milagros de la quiniela».",
-          "Menciona al pasar que Semilla Bucciarelli estuvo llamando ayer para coordinar unas devoluciones de equipo en el depósito, siempre cumplidor el hombre."
+          "Risueño tras las legislativas de ayer. «Ganó una feta de salame en Quilmes», festeja. «Fernando de la Rúa debe creer que es un homenaje gastronómico; vive en un frasco de formol». Cuento que en Bellas Artes votaron con historietas y que Domingo Cavallo salió en televisión culpando a los mercados.",
+          "«Grita como un feriante con el pescado podrido al sol», sentencia. «Quiere convencernos de que el barco flota porque él sigue en la boletería». De fondo llora Bruno; corta rápido para calentar la mamadera."
+        ]
+      },
+      {
+        "fecha": "2001-10-24",
+        "anio": "2001",
+        "encabezado": "Miércoles, 24 de octubre.",
+        "situacion": "Almuerzan en casa Solari y Semilla Bucciarelli.",
+        "parrafos": [
+          "Trae masas secas que nadie toca y toma té sin azúcar. Comentamos el concierto del sábado en Nueva York: lo conmovió David Bowie sentado en el piso con un teclado minúsculo, sin estridencias. Semilla saca el diario con el escándalo de anoche por los cincuenta años de Charly García en el Coliseo.",
+          "Solari mira las fotos con fastidio: «Confunde demoler un hotel con la vanguardia. Hace diez años que toca para revistas de peluquería». Defiendo los temas de los setenta, pero me frena: «Nadie vive de rentas; cuando el artificio se come a la canción, sos tu propio imitador de trasnoche»."
+        ]
+      },
+      {
+        "fecha": "2001-11-01",
+        "anio": "2001",
+        "encabezado": "Jueves, 1 de noviembre.",
+        "situacion": "Viajamos hacia Parque Leloir, Solari, Virginia Mones Ruiz y yo.",
+        "parrafos": [
+          "Diluvia en el Acceso Oeste. La radio pasa el triunfo de Boca sobre el Racing invicto de Merlo, pero él ni sonríe. Sigue tenso desde el martes, tras reunirse en Palermo con Claudio Kleiman, Skay Beilinson y la Negra Poli por el show de Santa Fe.",
+          "Virginia maneja en silencio. «Piden las llaves del galpón como si los videos de River fueran un baldío», suelta él mirando la ruta mojada. «Armás un monstruo veinticinco años para no tener patrones y terminás inventariando cintas como en una escribanía». Digo que mañana se les pasa; me clava los ojos desde el asiento de adelante y callo."
         ]
       },
       {
         "fecha": "2001-11-03",
         "anio": "2001",
         "encabezado": "Sábado, 3 de noviembre.",
-        "situacion": "Estudio provisorio en Parque Chas, con Solari. A cuarenta y ocho horas del nuevo parte de prensa que los diarios especulan.",
+        "situacion": "Cenamos en la quinta de Ituzaingó, Solari y yo.",
         "parrafos": [
-          "Examina Solari una hoja con anotaciones rítmicas y niega con la cabeza ante los rumores que agita la revista de la semana.",
-          "«Salen a decir que nos matamos por dinero, como si el arte fuera una sucursal bancaria» murmura sin levantar la voz. Le respondo que la imaginación de los cronistas es inversamente proporcional a su talento musical; necesitan culebrones porque la realidad cotidiana les aburre.",
-          "Pasamos la tarde revisando texturas digitales que quizás no sirvan para nada, o quizás para un disco que nadie sabe cuándo tendrá forma."
+          "Ayer al mediodía la Negra Poli avisó a los diarios que se suspende Santa Fe porque no hay ánimo para fiestas. Traje en el bolso los originales terminados de las entradas que ya no van a imprimirse; prefiero no sacarlos.",
+          "Con un jogging gris desteñido, Solari asa berenjenas en la parrilla del fondo bajo los árboles oscuros. «La excusa del ánimo social es elegante, casi municipal», ironiza dando vuelta las verduras con una pinza larga. «La verdad es más modesta: cuando dos socios desconfían de quién apaga la luz del estudio, vale más bajar la persiana antes que llamar abogados». Pregunto qué hago con los dibujos del ocho de diciembre. «Guardalos con llave», responde sin mirarme. «En este país los billetes que no circulan son los únicos que conservan valor»."
         ]
       },
       {
-        "fecha": "2001-11-12",
+        "fecha": "2001-11-11",
         "anio": "2001",
-        "encabezado": "Lunes, 12 de noviembre.",
-        "situacion": "En la cocina de la casa de Solari, con él solo. Mate amargo y radio de fondo que anuncia cortes de ruta.",
+        "encabezado": "Domingo, 11 de noviembre.",
+        "situacion": "En su estudio de grabación, Solari, Sergio Dawi y yo.",
         "parrafos": [
-          "Comenta Solari la persistencia de los llamados impertinentes desde las radios buscando una declaración exclusiva sobre la supuesta ruptura.",
-          "«Les da terror el silencio, necesitan que uno ladre o muerda para vender tres ejemplares más» afirma, cebando un mate lavado. Le contesto que el misterio siempre fue un negocio pésimo para el periodismo moderno, acostumbrado a masticar todo y servirlo digerido.",
-          "Observo una pila de libros de historia argentina sobre la mesa ratona; dice que releer desastres pasados le calma la indigestión del presente.",
-          "Repasamos los recortes de los diarios de la mañana, donde los editorialistas se desgarran las vestiduras por la debacle financiera que se avecina. La incertidumbre económica empapa cada conversación, volviendo trivial cualquier proyecto a mediano plazo en el estudio.",
-          "Anota en el margen de un viejo cuaderno ideas sueltas sobre la velocidad con la que nos consumen los medios. El teléfono vuelve a sonar en el pasillo, insistente y molesto, y ninguno de los dos hace el menor amago por atenderlo. Dejamos que el aparato repita su melodía hasta que el cansancio mude la atmósfera de la tarde."
+          "Dawi trajo un saxo soprano recién reparado para probar micrófonos, pero terminamos viendo la repetición de la despedida de Diego Armando Maradona ayer en la Bombonera.",
+          "Cuando Maradona dice que la pelota no se mancha, Solari baja el volumen del televisor y mira la pantalla muda. «Ahí tenés al único que les habló de igual a igual a los dueños del circo y salió vivo», dice con voz raramente suave. «Se equivocó con el cuerpo propio, nunca con el ajeno; por eso la tribuna le perdona todo». Dawi asiente y guarda el instrumento en el estuche sin haber tocado una nota."
         ]
       },
       {
-        "fecha": "2001-11-20",
+        "fecha": "2001-11-16",
         "anio": "2001",
-        "encabezado": "Martes, 20 de noviembre.",
-        "situacion": "Despedida en la estación de trenes de La Plata, con Solari. Atardecer gris y pesadez en el ambiente.",
+        "encabezado": "Viernes, 16 de noviembre.",
+        "situacion": "Caminamos entre las casuarinas de su jardín, Solari y yo.",
         "parrafos": [
-          "Acaricia Solari el lomo de un cuaderno anillado antes de subir al coche y lanza una última ocurrencia sobre la inercia del grupo.",
-          "«Lo mejor que hicimos fue dejar al público con las ganas de seguir agitando en el barro» desliza con media sonrisa. Le recuerdo que la gente del palo todavía nos espera en cada esquina con una paciencia infinita.",
-          "Se despide con un gesto breve y arranca el motor mientras la ciudad se encierra en su propia neblina.",
-          "El andén vacía sus últimos pasajeros mientras el silbido de una formación lejana corta el aire húmedo del crepúsculo. Pienso en las décadas compartidas, en los kilómetros recorridos por rutas imposibles y en este final abrupto que nadie se anima a rubricar con firmas.",
-          "Camino hacia la salida sintiendo el peso exacto de una época que se apaga sin grandes discursos ni comunicados oficiales. Quedan los surcos grabados en los vinilos y la certeza obstinada de haber construido un refugio inexpugnable contra la desmemoria."
+          "Me hace escuchar unas bases rítmicas que programó solo en la computadora durante la madrugada, llenas de estática y bronces sintéticos. Le digo en broma que suenan como la película que estrenó ayer Gustavo Cerati, donde trabaja de actor.",
+          "Se ríe de buena gana y le tira una rama al perro. «Los músicos en el cine siempre ponen cara de zapatos nuevos que aprietan», observa. «Apenas tolero una foto para el documento; imaginate repetir tres veces una frase bajo el reflector mientras te empolvan la nariz». Antes de que vuelva a La Plata, me regala un frasco de dulce de quinotos casero y me acompaña hasta el portón."
         ]
       }
     ],
     "paginas": [
-      3,
-      2
+      4,
+      3
     ],
-    "notas": [],
-    "escena": "Talleres y encuentros entre La Plata y Buenos Aires",
+    "notas": [
+      "El 30 de octubre de 2001, tras una entrevista con la revista Rolling Stone, la discusión por las cintas de archivo de los recitales precipitó la ruptura entre Solari, Skay Beilinson y la Negra Poli.",
+      "El concierto previsto para el 8 de diciembre de 2001 en el estadio de Unión de Santa Fe fue cancelado el 2 de noviembre; Patricio Rey y sus Redonditos de Ricota no volvió a reunirse."
+    ],
+    "escena": "Taller de Rocambole en La Plata, después del silencio de Córdoba",
     "criticados": [
-      "Periodismo sensacionalista",
-      "Skay Beilinson"
+      "Fernando de la Rúa",
+      "Domingo Cavallo",
+      "Charly García"
     ],
     "alabados": [
-      "Semilla Bucciarelli",
-      "Público ricotero"
+      "Luis Alberto Spinetta",
+      "David Bowie",
+      "Diego Armando Maradona"
     ],
-    "palabras": 749,
+    "palabras": 804,
     "revision": {
       "hecha": true,
       "problemasDetectados": [
-        "La página 2 tiene solo 204 palabras; el mínimo es 350."
+        "La página 1 tiene 575 palabras; el máximo es 450. Acortá."
       ],
-      "problemasRestantes": []
+      "problemasRestantes": [
+        "En la narración se nombra a Carlos Alberto Solari como «Alberto»: el diarista lo nombra siempre por el apellido («Solari»)."
+      ]
     }
   },
   "titulo": "Solari",
   "proveedores": {
-    "texto": "gemini:gemini-flash-lite-latest",
-    "imagen": "none"
+    "texto": "gemini:gemini-4-argon",
+    "imagen": "none",
+    "modelos": {
+      "validacion": "gemini-4-argon (Google AI Studio)",
+      "contexto": "gemini-4-argon (Google AI Studio)",
+      "entrada": "gemini-4-argon (Google AI Studio)",
+      "revision": "gemini-4-argon (Google AI Studio)"
+    }
   },
   "advertencias": [
     "La validación se hizo sin búsqueda web: depende del conocimiento del modelo.",
-    "El contexto histórico se armó sin búsqueda web (sin cuota de búsqueda o desactivada): verificá los hechos.",
-    "El inicio de la relación (1976) es aproximado; se toma la fecha documentada más conservadora."
+    "El inicio de la relación (1968) es aproximado; se toma la fecha documentada más conservadora."
   ],
   "version": 2,
-  "id": "EBaLQ6RbSw",
-  "creada": "2026-10-25T22:14:51.665Z"
+  "id": "argon8demo",
+  "creada": "2026-10-27T12:00:00.000Z"
 }

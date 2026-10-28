@@ -2,26 +2,27 @@
   "parametros": {
     "borges": "Jorge Luis Borges",
     "bioy": "Adolfo Bioy Casares",
-    "fecha": "1956-10-08",
+    "fecha": "2026-10-07",
     "criticados": [],
     "alabados": [],
     "escena": "Come en casa Borges",
     "presentes": [],
+    "tema": "La víspera del anuncio del Premio Nobel de Literatura 2026 (8 de octubre), el anuncio del premio a Anne Carson y sus repercusiones en las semanas siguientes",
     "tono": "irónico",
     "extension": "media",
     "paginas": 2
   },
   "validacion": {
     "aceptado": true,
-    "justificacion": "Jorge Luis Borges y Adolfo Bioy Casares mantuvieron una de las amistades y colaboraciones literarias más célebres y documentadas del siglo XX. Se conocieron en 1932 en Villa Ocampo y colaboraron bajo diversos seudónimos, relación que quedó registrada en el extenso diario 'Borges' de Bioy Casares.",
-    "relacion": "Amistad íntima y colaboración literaria constante",
+    "justificacion": "Jorge Luis Borges y Adolfo Bioy Casares son dos de las figuras públicas más destacadas de la literatura argentina. Mantuvieron una celebérrima amistad y colaboración literaria durante más de medio siglo, desde su primer encuentro en 1932 en Villa Ocampo hasta la muerte de Borges en 1986. Esta relación está exhaustivamente documentada, especialmente en el libro 'Borges' que recoge los diarios de Bioy Casares.",
+    "relacion": "Amistad íntima y extensa colaboración literaria (escribieron juntos bajo seudónimos como H. Bustos Domecq y B. Suárez Lynch).",
     "inicioRelacion": "1932",
     "inicioAproximado": false,
     "ambito": "literatura",
     "borges": {
       "nombre": "Jorge Luis Borges",
       "conocido": true,
-      "descripcion": "Escritor, ensayista y poeta argentino, figura fundamental de la literatura universal.",
+      "descripcion": "Escritor, poeta, ensayista y traductor argentino, figura clave de la literatura universal.",
       "nacimiento": "1899-08-24",
       "muerte": "1986-06-14",
       "apodos": [
@@ -32,7 +33,7 @@
     "bioy": {
       "nombre": "Adolfo Bioy Casares",
       "conocido": true,
-      "descripcion": "Escritor argentino, autor de 'La invención de Morel' y estrecho colaborador de Borges.",
+      "descripcion": "Escritor argentino de literatura fantástica, policial y de ciencia ficción, Premio Cervantes 1990.",
       "nacimiento": "1914-09-15",
       "muerte": "1999-03-08",
       "apodos": [
@@ -43,183 +44,218 @@
     "noVerificados": [],
     "fuentes": [
       {
-        "titulo": "Borges (diario) (citada por el modelo, sin verificar)",
-        "url": "https://es.wikipedia.org/wiki/Borges_(libro_de_Bioy_Casares)"
+        "titulo": "Jorge Luis Borges - Wikipedia, la enciclopedia libre (citada por el modelo, sin verificar)",
+        "url": "https://es.wikipedia.org/wiki/Jorge_Luis_Borges"
       },
       {
-        "titulo": "Fundación Internacional Jorge Luis Borges (citada por el modelo, sin verificar)",
-        "url": "https://www.borges.org.ar/"
+        "titulo": "Adolfo Bioy Casares - Wikipedia, la enciclopedia libre (citada por el modelo, sin verificar)",
+        "url": "https://es.wikipedia.org/wiki/Adolfo_Bioy_Casares"
       }
     ],
     "conBusquedaWeb": false
   },
   "chequeoFecha": {
     "ok": true,
-    "motivos": [],
-    "advertencias": []
+    "motivos": [
+      "Jorge Luis Borges ya había muerto el 2026-10-07 (murió en 1986-06-14).",
+      "Adolfo Bioy Casares ya había muerto el 2026-10-07 (murió en 1999-03-08)."
+    ],
+    "advertencias": [
+      "Fecha inverosímil (se escribe igual, como ucronía): Jorge Luis Borges ya había muerto el 2026-10-07 (murió en 1986-06-14).",
+      "Fecha inverosímil (se escribe igual, como ucronía): Adolfo Bioy Casares ya había muerto el 2026-10-07 (murió en 1999-03-08)."
+    ]
   },
   "fechas": [
-    "1956-10-08",
-    "1956-10-18",
-    "1956-10-30",
-    "1956-11-08",
-    "1956-11-18"
+    "2026-10-07",
+    "2026-10-09",
+    "2026-10-16",
+    "2026-10-25",
+    "2026-11-13"
   ],
   "contexto": {
     "fechasSugeridas": [
-      "1956-10-08",
-      "1956-10-18",
-      "1956-10-30",
-      "1956-11-08",
-      "1956-11-18"
+      "2026-10-07",
+      "2026-10-09",
+      "2026-10-16",
+      "2026-10-25",
+      "2026-11-13"
     ],
-    "resumen": "Entre el 8 de octubre y el 19 de noviembre de 1956, Jorge Luis Borges y Adolfo Bioy Casares continúan su incesante labor intelectual en Buenos Aires, marcada por el clima político de la autodenominada Revolución Libertadora. Borges ejerce con entusiasmo su cargo como director de la Biblioteca Nacional y profesor en la Universidad de Buenos Aires, mientras consolida junto a Bioy proyectos de traducción, antologías y relatos en colaboración. Ambos frecuentan círculos literarios, en especial el entorno de la revista Sur liderado por Victoria Ocampo, debatiendo sobre literatura fantástica, clásica y policial. Es un período de alta productividad y de reconquista de espacios culturales tras años de hostigamiento peronista.",
+    "resumen": "Entre fines de septiembre y mediados de noviembre de 2026, el mundo literario internacional gira en torno a los grandes anuncios de premios de otoño y las ferias editoriales. El eje central del período es el anuncio del Premio Nobel de Literatura el jueves 8 de octubre por parte de la Academia Sueca, otorgado a la poeta, ensayista y clasicista canadiense Anne Carson, decisión que despierta intensos debates sobre la traducción, el mundo clásico y la poesía contemporánea. A esto se suman la celebración de la Feria del Libro de Fráncfort a mediados de octubre, las deliberaciones y entregas del Premio Planeta en España y el Premio Booker en Londres, además de la expectativa por el Premio Cervantes en noviembre. En el plano político e internacional, la región sigue de cerca las elecciones generales de Brasil en octubre y las elecciones de medio término en Estados Unidos a principios de noviembre, mientras en Argentina continúa el debate cultural y económico sobre el financiamiento estatal a las artes y bibliotecas. Dentro de la ficción, dado que tanto Jorge Luis Borges como Adolfo Bioy Casares han fallecido décadas atrás, ambos ancianos inmortales continúan su rutina imperturbable en el departamento de la calle Posadas en Buenos Aires: cenan juntos, repasan entradas de enciclopedias, reprueban con ironía la solemnidad de la Academia Sueca —que jamás premió a Borges—, celebran no obstante que la galardonada sea una helenista devota de los fragmentos griegos y planean improbables relatos de H. Bustos Domecq.",
     "recientes": [
       {
-        "fecha": "1956-09-20",
-        "descripcion": "Jorge Luis Borges dicta una concurrida conferencia sobre la poesía gauchesca en la Asociación Wagneriana de Buenos Aires."
+        "fecha": "2026-09-22",
+        "descripcion": "Se anuncia en Londres la lista corta (shortlist) de seis finalistas para el Premio Booker 2026, dando inicio a las discusiones críticas de la temporada literaria de otoño en lengua inglesa."
       },
       {
-        "fecha": "1956-09-30",
-        "descripcion": "Reunión de la redacción de la revista Sur en casa de Victoria Ocampo para discutir la recepción de los nuevos números y las traducciones recientes."
+        "fecha": "2026-09-24",
+        "descripcion": "Apertura del Festival Internacional de Literatura de Buenos Aires (FILBA), con mesas de debate sobre narrativa contemporánea, traducción y el legado de la literatura rioplatense."
+      },
+      {
+        "fecha": "2026-10-01",
+        "descripcion": "Las casas de apuestas británicas y los suplementos culturales europeos publican sus pronósticos finales para el Nobel de Literatura, encabezados por Anne Carson, Mircea Cărtărescu, Can Xue y Gerald Murnane."
+      },
+      {
+        "fecha": "2026-10-04",
+        "descripcion": "Se celebra la primera vuelta de las elecciones generales en Brasil, hecho político excluyente en los diarios sudamericanos de la semana."
       }
     ],
     "proximos": [
       {
-        "fecha": "1956-10-15",
-        "descripcion": "Ininicio de un nuevo ciclo de clases magistrales de literatura inglesa a cargo de Jorge Luis Borges en la Facultad de Filosofía y Letras de la UBA."
+        "fecha": "2026-10-07",
+        "descripcion": "Víspera del anuncio del Premio Nobel de Literatura en Estocolmo; especulación en suplementos culturales y redacciones sobre si la Academia Sueca premiará a la poesía en lengua inglesa o a la narrativa asiática o europea."
       },
       {
-        "fecha": "1956-10-28",
-        "descripcion": "Publicación de ensayos y reseñas en el diario La Prensa, reflejando el debate sobre el rol de los intelectuales en la nueva etapa democrática."
+        "fecha": "2026-10-08",
+        "descripcion": "La Academia Sueca anuncia en Estocolmo que el Premio Nobel de Literatura 2026 es otorgado a la poeta, ensayista y traductora canadiense Anne Carson por su obra poética e híbrida en diálogo con la antigüedad clásica."
       },
       {
-        "fecha": "1956-11-10",
-        "descripcion": "Encuentro de trabajo en la Biblioteca Nacional entre Borges, Bioy Casares y Silvina Ocampo para avanzar en la selección de textos fantásticos."
+        "fecha": "2026-10-15",
+        "descripcion": "Se entrega en Barcelona el Premio Planeta de novela, cuyo millonario monto y perfil comercial vuelve a generar polémicas en el ámbito literario hispanoamericano sobre el mérito artístico frente al mercado."
+      },
+      {
+        "fecha": "2026-10-21",
+        "descripcion": "Inauguración de la Feria del Libro de Fráncfort 2026 (que se extiende hasta el 25 de octubre), donde editores y agentes discuten la reedición global de la obra de Anne Carson y el impacto de la inteligencia artificial en la traducción literaria."
+      },
+      {
+        "fecha": "2026-11-03",
+        "descripcion": "Celebración de las elecciones legislativas de medio término (midterms) en los Estados Unidos, con fuerte cobertura en la prensa internacional."
+      },
+      {
+        "fecha": "2026-11-09",
+        "descripcion": "Ceremonia de anuncio y entrega del Premio Booker 2026 en Londres a la mejor novela escrita en inglés."
+      },
+      {
+        "fecha": "2026-11-12",
+        "descripcion": "El Ministerio de Cultura de España anuncia en Madrid el fallo del Premio de Literatura en Lengua Castellana Miguel de Cervantes, máximo galardón de las letras hispánicas."
       }
     ],
-    "escenaSugerida": "Adolfo Bioy Casares llega a cenar a la casa de Borges en la calle Maipú. Conversan sobre un artículo de crítica literaria publicado recientemente, discuten detalles sobre la traducción de un cuento de G.K. Chesterton y revisan borradores para una nueva antología.",
+    "escenaSugerida": "Miércoles por la noche en el departamento de Bioy en la calle Posadas. Come en casa Borges. Mientras toman sopa y Borges acepta apenas un plato frugal, comentan con escepticismo y humor las cábalas de los diarios sobre el Premio Nobel que se dará a conocer a la mañana siguiente en Estocolmo; Borges asegura que los suecos cultivan una antigua tradición de premiar la sociología o el olvido y recuerda que prefirieron ignorar a Virginia Woolf y a Alfonso Reyes, antes de ponerse a recitar versos anglosajones.",
     "criticadosSugeridos": [
-      "Pablo Neruda",
-      "Raúl Scalabrini Ortiz"
+      "Los miembros del Comité Nobel de la Academia Sueca",
+      "Arturo Pérez-Reverte",
+      "Roberto Bolaño"
     ],
     "alabadosSugeridos": [
-      "G.K. Chesterton",
-      "Victoria Ocampo",
-      "Alfonso Reyes"
+      "Anne Carson",
+      "Gerald Murnane",
+      "Alberto Manguel"
     ],
+    "participantesSugeridos": [],
     "fuentes": [
       {
-        "titulo": "Jorge Luis Borges: A Life - Emir Rodríguez Monegal (citada por el modelo, sin verificar)",
-        "url": "https://www.goodreads.com/book/show/184988.Jorge_Luis_Borges"
+        "titulo": "The Nobel Prize in Literature - Official Portal",
+        "url": "https://www.nobelprize.org/prizes/literature/"
       },
       {
-        "titulo": "Borges-Bioy: Vidas y obra en común - Adolfo Bioy Casares (Ediciones Destino) (citada por el modelo, sin verificar)",
-        "url": "https://www.cervantesvirtual.com/obra/bges-bioy/"
+        "titulo": "Svenska Akademien (Academia Sueca)",
+        "url": "https://www.svenskaakademien.se/"
+      },
+      {
+        "titulo": "Frankfurter Buchmesse (Feria del Libro de Fráncfort)",
+        "url": "https://www.buchmesse.de/en"
+      },
+      {
+        "titulo": "The Booker Prizes - Official Website",
+        "url": "https://thebookerprizes.com/"
       }
     ],
-    "desde": "1956-10-08",
-    "hasta": "1956-11-19",
-    "conBusquedaWeb": false
+    "desde": "2026-10-07",
+    "hasta": "2026-11-18",
+    "conBusquedaWeb": true
   },
   "entrada": {
     "dias": [
       {
-        "fecha": "1956-10-08",
-        "anio": "1956",
-        "encabezado": "Lunes, 8 de octubre.",
-        "situacion": "Come en casa Borges.",
+        "fecha": "2026-10-07",
+        "anio": "2026",
+        "encabezado": "Miércoles, 7 de octubre.",
+        "situacion": "Come en casa Borges. Mañana anuncian en Estocolmo el Nobel de Literatura.",
         "parrafos": [
-          "Trae el abrigo mojado por la llovizna fina de la tarde y se detiene en el recibidor, tanteando el paragüero con el bastón como si buscara un enemigo. Le comento que Victoria prepara el número doble de la revista mientras sirve el vino.",
-          "«Victoria es infatigable; nos sobrevivirá a todos entre pruebas de imprenta y comités de damas» dice Borges, dejándose caer en el sillón de cuero con un suspiro de alivio.",
-          "Le alcanzo las tostadas y observa la mermelada con desconfianza antes de probarla. Me asegura que leer a Neruda en voz alta equivale a presenciar un derrumbe de ladrillos huecos."
+          "Antes de sentarnos a tomar la sopa de arroz, me pide que le lea los pronósticos de las casas de apuestas inglesas. Cuando pronuncio el apellido de Gerald Murnane, sonríe complacido: «Un hombre sensato, que vive en el campo australiano y jamás pisó un avión; escribe como si el mundo fuera una llanura mental». Agrego que guarda su archivo en cajones de lata ordenados según los colores del hipódromo. Borges aprueba con un gesto: «Si los dieciocho caballeros del Comité Nobel tuvieran algo de pudor literario, premiarían esa geometría secreta en vez de buscar alegorías sociológicas. Pero la Academia Sueca es una antigua costumbre escandinava fundada en el remordimiento y la mala puntería».",
+          "Durante el postre de dulce de batata, le cuento que en el reciente festival de Buenos Aires una mesa entera de jóvenes críticos discutió la influencia de Roberto Bolaño en nuestra literatura. Deja caer la cucharita sobre el plato: «He intentado que me leyeran veinte páginas de sus novelas interminables; todo sucede entre talleres de poesía, llamadas telefónicas y pensiones mexicanas. Confunde la mera acumulación de poetas vagabundos con una epopeya romántica». Le recuerdo, para provocarlo, que a los treinta años nosotros también fundábamos revistas inútiles en las confiterías. «Sí, pero teníamos la decencia de olvidarlas al día siguiente y no obligar al lector a compartir el alquiler», me retruca, y me deja sin respuesta."
         ]
       },
       {
-        "fecha": "1956-10-18",
-        "anio": "1956",
-        "encabezado": "Jueves, 18 de octubre.",
-        "situacion": "En la Biblioteca Nacional, Borges y yo revisamos pruebas de imprenta mientras la ciudad rumorea protestas sindicales en la calle.",
+        "fecha": "2026-10-09",
+        "anio": "2026",
+        "encabezado": "Viernes, 9 de octubre.",
+        "situacion": "Caminamos por la avenida Quintana, Borges y yo.",
         "parrafos": [
-          "Faltan pocos días para que empiece su ciclo en la Facultad y repasa mentalmente los apuntes sobre la literatura sajona con una concentración envidiable.",
-          "«Chesterton inventó un universo donde las paradojas tienen la cortesía de ser verdaderas» señala, agitando una galera polvorienta hallada en el despacho.",
-          "Le observo que la política local nos obliga a declarar obviedades cívicas que cualquier cronista mediocre escribiría mejor. Él asiente con una mueca amarga y confiesa que Scalabrini Ortiz redacta sus proclamas con la furia de un almacenero estafado."
+          "El viento frío de la tarde nos detiene frente a una vidriera de platería criolla mientras comentamos el premio otorgado ayer en Estocolmo a Anne Carson. Él apoya ambas manos en el bastón: «Una canadiense que traduce a Eurípides y prefiere las notas al pie antes que las novelas psicológicas merece nuestra gratitud. Que armara un libro entero con los restos de un papiro roto de Estesícoro parece una broma erudita de Bustos Domecq». Le observo que la autora declaró alguna vez que el griego antiguo es más preciso que el inglés moderno para nombrar la escarcha. «Tiene razón; después de Homero, toda la literatura occidental es apenas un borrador apresurado», sentencia, y me toma del brazo para cruzar la bocacalle."
         ]
       },
       {
-        "fecha": "1956-10-30",
-        "anio": "1956",
-        "encabezado": "Martes, 30 de octubre.",
-        "situacion": "Cena en la confitería de Callao, con Borges.",
+        "fecha": "2026-10-16",
+        "anio": "2026",
+        "encabezado": "Viernes, 16 de octubre.",
+        "situacion": "Cena en el departamento de Posadas, con Borges y Alberto Manguel.",
         "parrafos": [
-          "Pedimos café amargo mientras la máquina de espresso silva como un gato acorralado. Comentamos los artículos publicados el domingo en La Prensa sobre el rol de las letras.",
-          "«Los muchachos de la nueva guardia quieren cambiar el mundo con metáforas sobre tractores» tercia, removiendo el pocillo con una cucharita diminuta.",
-          "Le recuerdo que Alfonso Reyes solía disculpar esos entusiasmos juveniles con una sonrisa de diplomático mexicano. Borges sonríe con nostalgia y admite que nadie manejaba el ensayo breve con esa elegancia transparente."
+          "Traigo de la cocina una fuente de zapallitos rellenos mientras los diarios españoles sobre la mesa ratona detallan el millón de euros entregado ayer en Barcelona por el Premio Planeta. Manguel comenta con suavidad: «En Madrid sigue reinando Arturo Pérez-Reverte, que publica una aventura histórica por semestre como quien despacha mercadería naval». Borges tantea el borde del mantel hasta dar con su vaso de agua: «Ese escritor supone que el coraje consiste en prodigar interjecciones castrenses y describir el filo de los sables durante quinientas páginas. Stevenson resolvía un duelo a muerte en dos líneas adjetivadas con pudor; estos españoles necesitan tres tomos de esgrima y un diccionario de marina».",
+          "Cuando Manguel se retira cerca de las once, nos quedamos recordando sus viejas lecturas vespertinas. «Conoce el lomo exacto de cada volumen visto hace cuarenta años sin jactarse jamás de su biblioteca», murmura Borges mientras guarda el bastón en el paragüero. «Cuando me leía a Kipling en la adolescencia, ya tenía esa cadencia serena que mejora cualquier párrafo ajeno»."
         ]
       },
       {
-        "fecha": "1956-11-08",
-        "anio": "1956",
-        "encabezado": "Jueves, 8 de noviembre.",
+        "fecha": "2026-10-25",
+        "anio": "2026",
+        "encabezado": "Domingo, 25 de octubre.",
         "situacion": "Por teléfono, Borges.",
         "parrafos": [
-          "Llama temprano para coordinar la visita de mañana a la Biblioteca con Silvina, ajustando los últimos detalles de la antología fantástica que armamos a cuatro manos, a dos semanas del cierre de edición.",
-          "«Temo que los espectros de nuestra selección terminen resultando más verosímiles que los burócratas del ministerio» comenta con tono divertido desde el otro lado de la línea.",
-          "Le aseguro que el lector advertirá la diferencia en cuanto abra el volumen y lea el prólogo. Se despide recitando de memoria un verso apócrifo de Verlaine que inventó recién.",
-          "Revisa de nuevo la lista de autores incluidos y descarta un cuento demasiado extenso que no resistiría la relectura. Me pide que revise las notas biográficas para evitar erratas imperdonables.",
-          "Anota en un margen los títulos posibles y concluye que la brevedad es la única cortesía que le queda al género fantástico en estos tiempos ruidosos."
+          "Llama pasadas las nueve de la noche, indignado porque en la clausura de la feria de Fráncfort los editores debatieron hoy el uso de inteligencia artificial para traducir los poemas de Carson. Me suelta sin preámbulo: «Imaginan que un diccionario mecánico puede elegir entre dos epítetos griegos sin equivocar la música del verso. Es como pedirle a un molino de viento que juzgue un soneto de Quevedo». Le sugiero que un aparato programado al azar tal vez evite las rimas ripiosas de ciertos catedráticos de Madrid. «No seas perverso; la estupidez humana tiene al menos el mérito de la fatiga, pero una máquina puede cometer solecismos toda la eternidad», rezonga antes de cortar."
         ]
       },
       {
-        "fecha": "1956-11-18",
-        "anio": "1956",
-        "encabezado": "Domingo, 18 de noviembre.",
-        "situacion": "Caminan por Las Heras, Borges y yo, rumbo a la librería.",
+        "fecha": "2026-11-13",
+        "anio": "2026",
+        "encabezado": "Viernes, 13 de noviembre.",
+        "situacion": "Toma el té en la biblioteca, Borges.",
         "parrafos": [
-          "El sol dominical ilumina los plátanos deshojados y avanzamos despacio, esquivando cochecitos de bebé y perros ociosos que nos salen al paso.",
-          "«El tiempo pasa con una velocidad alarmante, sobre todo cuando uno se distrae escribiendo adjetivos» reflexiona, tanteando el cordón de la vereda con la punta del bastón.",
-          "Le replico que la posteridad nos juzgará por las páginas que corregimos hoy mismo en el escritorio. Suelta una carcajada seca y sentencia que la posteridad es una comparsa demasiado indulgente.",
-          "Entramos al local buscando las últimas novedades editoriales llegadas de España y revisamos lomos polvorientos en los anaqueles del fondo.",
-          "Se detiene ante una edición antigua de los trágicos griegos y comenta que la verdadera literatura siempre ocurre a espaldas de los contemporáneos que se creían dueños del siglo."
+          "Rechaza las tostadas porque las migas le molestan en el chaleco y pide solamente leche tibia. Mientras hojeo las crónicas sobre el Premio Cervantes anunciado ayer en Madrid y el reciente fallo del Booker en Londres, le pregunto si no le cansa haber sobrevivido a otro otoño de condecoraciones ajenas. Acaricia el lomo gastado de un tomo de la enciclopedia Chambers: «Nuestra ventaja de ser dos caballeros antiguos y ya casi invisibles es que nadie nos exige discursos de agradecimiento ante un rey escandinavo. Además, todavía debemos corregir el tercer capítulo de Suárez Lynch, que nos salió demasiado verosímil»."
         ]
       }
     ],
     "paginas": [
-      3,
-      2
+      2,
+      3
     ],
     "notas": [
-      "Los encuentros literarios en la Biblioteca Nacional y los debates en torno a la revista Sur estructuran la agenda intelectual del período."
+      "Anne Carson publicó en 1998 Autobiography of Red, novela en verso basada en los fragmentos sobrevivientes de la Gerioneida del poeta griego Estesícoro.",
+      "Alberto Manguel conoció a Borges en 1964 en la librería Pygmalion de Buenos Aires y trabajó como su lector vespertino hasta 1968."
     ],
-    "escena": "Buenos Aires, octubre y noviembre de 1956.",
+    "escena": "Come en casa Borges",
     "criticados": [
-      "Pablo Neruda",
-      "Raúl Scalabrini Ortiz"
+      "Los miembros del Comité Nobel de la Academia Sueca",
+      "Arturo Pérez-Reverte",
+      "Roberto Bolaño"
     ],
     "alabados": [
-      "G.K. Chesterton",
-      "Victoria Ocampo",
-      "Alfonso Reyes"
+      "Anne Carson",
+      "Gerald Murnane",
+      "Alberto Manguel"
     ],
-    "palabras": 590,
+    "palabras": 771,
     "revision": {
       "hecha": true,
-      "problemasDetectados": [
-        "La página 2 tiene solo 177 palabras; el mínimo es 350."
-      ],
+      "problemasDetectados": [],
       "problemasRestantes": []
     }
   },
   "titulo": "Borges",
   "proveedores": {
-    "texto": "gemini:gemini-flash-lite-latest",
-    "imagen": "none"
+    "texto": "gemini:gemini-4-argon",
+    "imagen": "none",
+    "modelos": {
+      "validacion": "gemini-4-argon (Google AI Studio)",
+      "contexto": "gemini-4-argon (Google AI Studio)",
+      "entrada": "gemini-4-argon (Google AI Studio)",
+      "revision": "gemini-4-argon (Google AI Studio)"
+    }
   },
   "advertencias": [
     "La validación se hizo sin búsqueda web: depende del conocimiento del modelo.",
-    "El contexto histórico se armó sin búsqueda web (sin cuota de búsqueda o desactivada): verificá los hechos."
+    "Fecha inverosímil (se escribe igual, como ucronía): Jorge Luis Borges ya había muerto el 2026-10-07 (murió en 1986-06-14).",
+    "Fecha inverosímil (se escribe igual, como ucronía): Adolfo Bioy Casares ya había muerto el 2026-10-07 (murió en 1999-03-08)."
   ],
   "version": 2,
-  "id": "9KbTEVGiDr",
-  "creada": "2026-10-25T22:12:39.471Z"
+  "id": "argon1demo",
+  "creada": "2026-10-27T12:00:00.000Z"
 }

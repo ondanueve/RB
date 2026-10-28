@@ -1,0 +1,260 @@
+{
+  "parametros": {
+    "borges": "Manu Ginóbili",
+    "bioy": "Luis Scola",
+    "fecha": "2004-08-26",
+    "criticados": [],
+    "alabados": [],
+    "escena": "En la Villa Olímpica de Atenas, con Ginóbili, la víspera de la semifinal contra Estados Unidos",
+    "presentes": [],
+    "tema": "La semifinal olímpica contra Estados Unidos y la final contra Italia en Atenas 2004: la medalla de oro de la Generación Dorada",
+    "tono": "irónico",
+    "extension": "media",
+    "paginas": 2
+  },
+  "validacion": {
+    "aceptado": true,
+    "justificacion": "Emanuel 'Manu' Ginóbili y Luis Scola son dos de las figuras más reconocidas de la historia del básquetbol argentino e internacional, por lo que cumplen holgadamente el criterio de figuras públicas. Mantuvieron una relación personal y profesional ampliamente documentada como compañeros y referentes de la Selección Argentina ('La Generación Dorada') durante casi dos décadas, ganando juntos la medalla de oro olímpica en Atenas 2004 y el subcampeonato mundial en Indianápolis 2002, además de enfrentarse durante años en la NBA.",
+    "relacion": "Compañeros de equipo y referentes históricos de la Selección Argentina de básquetbol (La Generación Dorada) durante más de quince años, y amigos personales.",
+    "inicioRelacion": "1999",
+    "inicioAproximado": true,
+    "ambito": "básquetbol",
+    "borges": {
+      "nombre": "Emanuel David Ginóbili",
+      "conocido": true,
+      "descripcion": "Exjugador de básquetbol argentino, cuatro veces campeón de la NBA con San Antonio Spurs y campeón olímpico en Atenas 2004.",
+      "nacimiento": "1977-07-28",
+      "muerte": null,
+      "apodos": [
+        "Manu",
+        "El Narigón"
+      ],
+      "apellido": "Ginóbili"
+    },
+    "bioy": {
+      "nombre": "Luis Alberto Scola",
+      "conocido": true,
+      "descripcion": "Exjugador de básquetbol argentino, máximo goleador histórico de la Selección Argentina, campeón olímpico en Atenas 2004 y jugador de larga trayectoria en Europa y la NBA.",
+      "nacimiento": "1980-04-30",
+      "muerte": null,
+      "apodos": [
+        "Luifa"
+      ],
+      "apellido": "Scola"
+    },
+    "noVerificados": [],
+    "fuentes": [],
+    "conBusquedaWeb": false
+  },
+  "chequeoFecha": {
+    "ok": true,
+    "motivos": [],
+    "advertencias": [
+      "El inicio de la relación (1999) es aproximado; se toma la fecha documentada más conservadora."
+    ]
+  },
+  "fechas": [
+    "2004-08-26",
+    "2004-08-29",
+    "2004-09-08",
+    "2004-10-05"
+  ],
+  "contexto": {
+    "fechasSugeridas": [
+      "2004-08-26",
+      "2004-08-29",
+      "2004-09-08",
+      "2004-10-05"
+    ],
+    "resumen": "Entre mediados de agosto y principios de octubre de 2004, Emanuel Ginóbili y Luis Scola protagonizaron la página más gloriosa del básquetbol argentino en los Juegos Olímpicos de Atenas 2004. Tras un debut agónico con la famosa 'palomita' de Ginóbili ante Serbia y Montenegro y una fase de grupos irregular donde cayeron ante España e Italia, el equipo dirigido por Rubén Magnano eliminó al anfitrión Grecia en cuartos de final el 26 de agosto. Al día siguiente lograron la hazaña histórica de vencer a la selección de Estados Unidos de la NBA (89-81) en semifinales, y el 28 de agosto conquistaron la medalla de oro venciendo a Italia (84-69) con 25 puntos de Scola, apenas horas después de que la selección argentina de fútbol masculino también ganara el oro en Atenas. Luego de los festejos en Grecia, donde Ginóbili se arrojó sobre el balón tras la chicharra final y Alejandro Montecchia cortó las redes, el plantel regresó a Buenos Aires para recibir homenajes oficiales, aunque en septiembre estalló un conflicto público de los jugadores con el presidente de la CABB, Horacio Muratore, por deudas y falta de organización. Hacia finales de septiembre y principios de octubre, sus caminos se bifurcaron nuevamente: Scola regresó a Vitoria (España) con el Tau Cerámica para disputar la Supercopa ACB y el inicio de la Liga ACB, mientras que Ginóbili, tras renovar su contrato millonario con los San Antonio Spurs en julio y casarse ese mismo invierno, se instaló en Texas para el inicio del campo de entrenamiento de la temporada 2004-2005 de la NBA.",
+    "recientes": [
+      {
+        "fecha": "2004-08-15",
+        "descripcion": "En el debut olímpico en el Helliniko Olympic Indoor Arena de Atenas, Argentina vence 83-82 a Serbia y Montenegro con un doble agónico de Emanuel Ginóbili sobre la chicharra ('la palomita'), tras asistencia de Alejandro Montecchia; Ginóbili anota 27 puntos y Scola 10."
+      },
+      {
+        "fecha": "2004-08-17",
+        "descripcion": "Argentina cae 76-87 ante la España de Pau Gasol en la segunda fecha del Grupo A en Atenas; Luis Scola es el máximo anotador argentino con 28 puntos y 9 rebotes."
+      },
+      {
+        "fecha": "2004-08-19",
+        "descripcion": "Argentina derrota cómodamente a China por 82-57 en la tercera jornada de la fase de grupos de Atenas 2004, con 15 puntos de Andrés Nocioni y 13 de Scola."
+      },
+      {
+        "fecha": "2004-08-21",
+        "descripcion": "Victoria ajustada de Argentina sobre Nueva Zelanda por 98-94 para asegurar la clasificación a cuartos de final; Luis Scola brilla como figura excluyente con 25 puntos."
+      },
+      {
+        "fecha": "2004-08-23",
+        "descripcion": "En el cierre del Grupo A, Argentina pierde 75-76 contra Italia en un final cerrado donde el equipo italiano encesta 12 triples y Argentina queda tercera en su zona, cruzándose con el local Grecia."
+      }
+    ],
+    "proximos": [
+      {
+        "fecha": "2004-08-26",
+        "descripcion": "Por la noche en el OAKA de Atenas, ante 18.000 espectadores locales, Argentina elimina a Grecia en cuartos de final al vencer 69-64 tras remontar en el segundo tiempo, con 13 puntos de Ginóbili, 13 de Walter Herrmann (clave desde el banco) y 12 de Fabricio Oberto."
+      },
+      {
+        "fecha": "2004-08-27",
+        "descripcion": "Semifinal histórica en el OAKA: Argentina derrota 89-81 al 'Dream Team' de Estados Unidos (integrado por Tim Duncan, Allen Iverson y LeBron James) con una actuación consagratoria de Ginóbili (29 puntos, 9 de 13 en tiros de campo) y 10 puntos de Scola, pese a que Fabricio Oberto sufre la fractura de un hueso de la mano derecha sobre el final del partido."
+      },
+      {
+        "fecha": "2004-08-28",
+        "descripcion": "Jornada histórica para el deporte argentino en Atenas: por la mañana, la selección de fútbol dirigida por Marcelo Bielsa gana el oro ante Paraguay (1-0 con gol de Carlos Tevez) y, por la noche (22:30 hora local), el básquetbol vence a Italia 84-69 en la final olímpica para ganar la medalla de oro; con Oberto ausente por fractura, Luis Scola es la gran figura con 25 puntos y 11 rebotes, acompañado por 23 puntos de Alejandro Montecchia y 16 de Ginóbili (elegido MVP del torneo)."
+      },
+      {
+        "fecha": "2004-08-31",
+        "descripcion": "Regreso de parte de la delegación a Buenos Aires y recepción en la Casa Rosada con el presidente Néstor Kirchner y el secretario de Deportes Claudio Morresi, en medio de festejos populares por las primeras medallas de oro olímpicas del país desde 1952."
+      },
+      {
+        "fecha": "2004-09-07",
+        "descripcion": "Los jugadores de la Generación Dorada emiten una dura carta abierta contra el presidente de la Confederación Argentina de Básquetbol (CABB), Horacio Muratore, denunciando falta de apoyo, deudas económicas en viáticos y premios, y desorganización dirigencial pese al oro olímpico."
+      },
+      {
+        "fecha": "2004-09-25",
+        "descripcion": "En Málaga, Luis Scola disputa con el Tau Cerámica la primera edición de la Supercopa ACB; su equipo pierde la semifinal 62-75 ante el FC Barcelona de Dejan Bodiroga."
+      },
+      {
+        "fecha": "2004-10-03",
+        "descripcion": "Inicio de la temporada 2004-2005 de la Liga ACB en España: el Tau Cerámica de Luis Scola, Pablo Prigioni y Andrés Nocioni (quien ya había partido a Chicago Bulls pero dejó su huella en el club) debuta en la fase regular bajo las órdenes de Dusko Ivanovic."
+      },
+      {
+        "fecha": "2004-10-04",
+        "descripcion": "Media Day e inicio del Training Camp de los San Antonio Spurs en Texas; Emanuel Ginóbili se reencuentra con Gregg Popovich y Tim Duncan luego de haberle ganado la semifinal olímpica en Atenas."
+      }
+    ],
+    "escenaSugerida": "Noche del jueves 26 de agosto de 2004 en los departamentos de la delegación argentina en la Villa Olímpica de Atenas. Hace apenas un par de horas que silenciaron a 18.000 griegos en el OAKA (69-64) con el ingreso salvador de Walter Herrmann, y mientras comen algo rápido y se ponen hielo en las rodillas junto a Pepe Sánchez y el Chapu Nocioni, comentan la radiografía de la mano de Fabricio Oberto (que ya tenía molestias previas a la fractura del día siguiente) y repasan el video de Estados Unidos, sabiendo que en menos de 24 horas enfrentarán a Tim Duncan —el compañero de Manu en los Spurs— por el pase a la final olímpica.",
+    "criticadosSugeridos": [
+      "Horacio Muratore (presidente de la CABB, muy cuestionado por el plantel por las deudas de viáticos, seguros y desorganización logística)",
+      "Larry Brown (entrenador de la selección de Estados Unidos, criticado por su rigidez táctica y por subestimar el juego colectivo FIBA)",
+      "Stephon Marbury y Allen Iverson (estrellas de EE. UU. cuyo juego individualista y declaraciones previas contrastaban con la química del equipo argentino)"
+    ],
+    "alabadosSugeridos": [
+      "Rubén Magnano (entrenador de la Selección Argentina, artífice táctico de la defensa sobre Grecia y Estados Unidos)",
+      "Walter Herrmann y Alejandro Montecchia (compañeros decisivos desde el banco contra Grecia, EE. UU. e Italia)",
+      "Marcelo Bielsa y Carlos Tevez (entrenador y figura de la selección de fútbol que compartía edificio en la Villa Olímpica con los basquetbolistas)"
+    ],
+    "participantesSugeridos": [
+      {
+        "nombre": "Fabricio Oberto",
+        "vinculo": "Pívot titular de la Selección Argentina y amigo íntimo; su fractura en la mano derecha en la semifinal contra EE. UU. obligó a Scola a jugar casi los 40 minutos en la final contra Italia."
+      },
+      {
+        "nombre": "Andrés 'Chapu' Nocioni",
+        "vinculo": "Alero de la Selección Argentina y compañero de Scola en el Tau Cerámica hasta ese verano de 2004, cuando firmó con los Chicago Bulls."
+      },
+      {
+        "nombre": "Juan Ignacio 'Pepe' Sánchez",
+        "vinculo": "Base titular de la Selección Argentina en Atenas 2004 y referente intelectual del grupo dentro de la Villa Olímpica."
+      },
+      {
+        "nombre": "Alejandro 'Puma' Montecchia",
+        "vinculo": "Base de la Selección Argentina y gran amigo de Ginóbili desde Bahía Blanca; autor del pase de 'la palomita' y de 23 puntos en la final ante Italia."
+      },
+      {
+        "nombre": "Rubén Magnano",
+        "vinculo": "Director técnico de la Selección Argentina campeona olímpica en Atenas 2004."
+      },
+      {
+        "nombre": "Marianela Oroño",
+        "vinculo": "Esposa de Emanuel Ginóbili (se habían casado en julio de 2004, justo antes de los Juegos Olímpicos) y presente en Atenas y San Antonio."
+      }
+    ],
+    "fuentes": [],
+    "desde": "2004-08-26",
+    "hasta": "2004-10-07",
+    "conBusquedaWeb": true
+  },
+  "entrada": {
+    "dias": [
+      {
+        "fecha": "2004-08-26",
+        "anio": "2004",
+        "encabezado": "Jueves, 26 de agosto.",
+        "situacion": "En la Villa Olímpica de Atenas, con Ginóbili, la víspera de la semifinal contra Estados Unidos.",
+        "parrafos": [
+          "Todavía nos zumban los oídos por los dieciocho mil griegos del estadio. Ginóbili tiene una bolsa de hielo atada al tobillo izquierdo con film de cocina; mastica una barrita de cereal vencida en julio que trajo en el bolso desde Bahía Blanca. Hablamos de Walter Herrmann, que entró desde el banco cuando no metíamos una y nos salvó la ropa con trece puntos. «Entró como quien va a comprar pan a la esquina; ni se enteró de que estábamos en cuartos de final», dice Ginóbili. Le contesto que la inconsciencia es nuestra única ventaja táctica.",
+          "En la mesa de luz hay dos videos de los norteamericanos que nos mandó Rubén Magnano. Comento que Allen Iverson y Stephon Marbury declaran en los diarios como si ya tuvieran la medalla en el bolsillo. Ginóbili se saca el hielo y estira la pierna sobre mi colcha: «Juegan como turistas que contratan una excursión privada: quieren la foto individual al lado de las ruinas, pero les da fiaca caminar juntos». Propongo apostar cien dólares a que Larry Brown no pide minuto hasta perder por diez. «Anotalo en una servilleta», me pide él. «Si se lo cobramos a la Confederación, vemos la plata en el próximo siglo»."
+        ]
+      },
+      {
+        "fecha": "2004-08-29",
+        "anio": "2004",
+        "encabezado": "Domingo, 29 de agosto.",
+        "situacion": "Desayunamos en el comedor del predio, Ginóbili, Fabricio Oberto, Alejandro Montecchia y yo.",
+        "parrafos": [
+          "Anoche le ganamos la final a Italia; ninguno durmió más de dos horas. Oberto tiene la mano derecha envuelta en un yeso blanco que ya huele a sudor y café frío; intenta untar una tostada con la izquierda y el cuchillo patina sobre la manteca dura. Ginóbili se la saca de las manos, se la prepara en silencio y deja sobre los diarios griegos la pelota naranja que se robó ayer cuando sonó la chicharra. Montecchia guarda en una bolsita de nylon los pedazos de red que cortó de los aros.",
+          "Por la ventana vemos pasar a Marcelo Bielsa, solo, en jogging gris, mirando las baldosas mientras camina hacia la puerta. Confieso que ayer a la mañana, después del gol de Carlos Tevez contra Paraguay, pensé que el cupo de milagros argentinos estaba agotado. «El milagro fue que Montecchia metiera veintitrés puntos con esa rodilla atada con alambre», observa Ginóbili, sin dejar de masticar. Montecchia se ríe: «Tiré porque vos estabas marcado hasta en el vestuario». Oberto mira su yeso y se queja de haberse perdido el partido decisivo. «Hiciste negocio», lo consuela él. «El que tuvo que aguantar mis gritos casi cuarenta minutos seguidos fue este»."
+        ]
+      },
+      {
+        "fecha": "2004-09-08",
+        "anio": "2004",
+        "encabezado": "Miércoles, 8 de septiembre.",
+        "situacion": "Cena en una parrilla de Palermo, con Ginóbili y Juan Ignacio Sánchez.",
+        "parrafos": [
+          "Ayer salió en los diarios nuestra carta abierta contra la dirigencia de la Confederación; todavía nos deben los viáticos y los seguros del torneo. Ginóbili pide bife de lomo sin sal y aparta las papas fritas con el tenedor, una por una, hacia el borde del plato, como si fueran fichas de dominó. Sánchez lee en voz alta un recorte donde Horacio Muratore promete pagar antes de fin de año y dice que somos parte de una misma familia.",
+          "«Muratore confunde la contabilidad con la literatura fantástica», comenta Ginóbili, limpiándose los anteojos con la servilleta de tela. «Nos dio medallas de oro y cheques de goma». Recuerdo que por lo menos en la Casa Rosada el café estaba caliente, aunque los canapés parecían de plástico. Sánchez opina que si no reclamábamos ahora, con el oro puesto, en dos meses nos hacían viajar en micro a los torneos sudamericanos. Ginóbili mira el reloj porque mañana temprano vuela con su mujer a Estados Unidos: «Cuando un dirigente te abraza llorando en el vestuario, revisate los bolsillos del pantalón corto»."
+        ]
+      },
+      {
+        "fecha": "2004-10-05",
+        "anio": "2004",
+        "encabezado": "Martes, 5 de octubre.",
+        "situacion": "Por teléfono desde Texas, Ginóbili.",
+        "parrafos": [
+          "Acaba de terminar su segundo día de entrenamientos en San Antonio; acá en Vitoria son las diez de la noche y acabo de cenar merluza hervida después de la práctica con el Tau Cerámica. Se escucha de fondo el ruido de la licuadora que usa Marianela Oroño en la cocina. Le cuento que el domingo empezamos la liga española y que todavía me cuesta correr los sistemas sin buscar de memoria a Andrés Nocioni en la esquina.",
+          "Él me habla del reencuentro de ayer con Tim Duncan y el resto del plantel después de haberles ganado la semifinal en agosto. «Duncan me miró las zapatillas nuevas y no dijo ni mu de Atenas», dice Ginóbili. «En ese vestuario el silencio pesa más que las pesas del gimnasio». Pregunto si Larry Brown llamó para pedirles la revancha. «Brown debe estar convencido de que perdimos nosotros, pero que el tablero electrónico estaba en griego antiguo y nadie supo traducirlo»."
+        ]
+      }
+    ],
+    "paginas": [
+      2,
+      2
+    ],
+    "notas": [
+      "En la final olímpica contra Italia (84-69), Scola anotó 25 puntos y tomó 11 rebotes ante la baja por fractura de Fabricio Oberto.",
+      "Andrés Nocioni había dejado el Tau Cerámica de Vitoria ese mismo verano para incorporarse a los Chicago Bulls."
+    ],
+    "escena": "En la Villa Olímpica de Atenas, con Ginóbili, la víspera de la semifinal contra Estados Unidos",
+    "criticados": [
+      "Allen Iverson",
+      "Stephon Marbury",
+      "Larry Brown",
+      "Horacio Muratore"
+    ],
+    "alabados": [
+      "Walter Herrmann",
+      "Rubén Magnano",
+      "Marcelo Bielsa",
+      "Carlos Tevez",
+      "Alejandro Montecchia"
+    ],
+    "palabras": 779,
+    "revision": {
+      "hecha": true,
+      "problemasDetectados": [
+        "Varias oraciones empiezan igual («yo digo…», 2 veces); variá los comienzos."
+      ],
+      "problemasRestantes": []
+    }
+  },
+  "titulo": "Ginóbili",
+  "proveedores": {
+    "texto": "gemini:gemini-4-argon",
+    "imagen": "none",
+    "modelos": {
+      "validacion": "gemini-4-argon (Google AI Studio)",
+      "contexto": "gemini-4-argon (Google AI Studio)",
+      "entrada": "gemini-4-argon (Google AI Studio)",
+      "revision": "gemini-4-argon (Google AI Studio)"
+    }
+  },
+  "advertencias": [
+    "La validación se hizo sin búsqueda web: depende del conocimiento del modelo.",
+    "El inicio de la relación (1999) es aproximado; se toma la fecha documentada más conservadora."
+  ],
+  "version": 2,
+  "id": "argon11demo",
+  "creada": "2026-10-27T12:00:00.000Z"
+}

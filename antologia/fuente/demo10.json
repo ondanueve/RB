@@ -13,15 +13,15 @@
   },
   "validacion": {
     "aceptado": true,
-    "justificacion": "Martin Scorsese y Robert De Niro son reconocidas figuras públicas del ámbito cinematográfico con una relación profesional y de amistad documentada por más de cincuenta años. Han colaborado en múltiples películas emblemáticas desde principios de la década de 1970. Su vínculo cumple plenamente con los criterios de relación real y verificable.",
-    "relacion": "Director y actor, colaboradores cinematográficos y amigos cercanos desde 1970.",
-    "inicioRelacion": "1970",
+    "justificacion": "Martin Scorsese y Robert De Niro son dos figuras públicas mundialmente reconocidas de la historia del cine estadounidense. Mantienen una estrecha amistad personal y una de las colaboraciones artísticas más prolíficas entre director y actor desde principios de la década de 1970, habiendo trabajado juntos en diez largometrajes documentados. Aunque ambos se cruzaron brevemente durante su adolescencia en Nueva York, su vínculo personal y profesional se consolidó en diciembre de 1971 tras ser presentados formalmente por Brian De Palma.",
+    "relacion": "Amistad personal estrecha y colaboración cinematográfica prolongada (director y actor en diez largometrajes entre 1973 y 2023).",
+    "inicioRelacion": "1971-12",
     "inicioAproximado": true,
     "ambito": "cine",
     "borges": {
       "nombre": "Martin Scorsese",
       "conocido": true,
-      "descripcion": "Director, productor, guionista y actor estadounidense.",
+      "descripcion": "Director, guionista y productor de cine estadounidense",
       "nacimiento": "1942-11-17",
       "muerte": null,
       "apodos": [
@@ -32,90 +32,156 @@
     "bioy": {
       "nombre": "Robert De Niro",
       "conocido": true,
-      "descripcion": "Actor, director y productor estadounidense.",
+      "descripcion": "Actor y productor de cine estadounidense",
       "nacimiento": "1943-08-17",
       "muerte": null,
-      "apodos": [
-        "Bobby"
-      ],
+      "apodos": [],
       "apellido": "De Niro"
     },
     "noVerificados": [],
-    "fuentes": [
-      {
-        "titulo": "Biography - Martin Scorsese & Robert De Niro (citada por el modelo, sin verificar)",
-        "url": "https://www.biography.com"
-      }
-    ],
+    "fuentes": [],
     "conBusquedaWeb": false
   },
   "chequeoFecha": {
     "ok": true,
     "motivos": [],
     "advertencias": [
-      "El inicio de la relación (1970) es aproximado; se toma la fecha documentada más conservadora."
+      "El inicio de la relación (1971-12) es aproximado; se toma la fecha documentada más conservadora."
     ]
   },
   "fechas": [
     "2023-05-19",
     "2023-05-21",
     "2023-05-28",
-    "2023-06-15"
+    "2023-06-08",
+    "2023-06-13",
+    "2023-06-18"
   ],
   "contexto": {
     "fechasSugeridas": [
       "2023-05-19",
       "2023-05-21",
       "2023-05-28",
-      "2023-06-15"
+      "2023-06-08",
+      "2023-06-13",
+      "2023-06-18"
     ],
-    "resumen": "Entre el 19 de mayo y el 30 de junio de 2023, Martin Scorsese y Robert De Niro se encuentran en el centro de la atención mundial por el estreno de su undécimo largometraje juntos, 'Killers of the Flower Moon'. El período arranca con alta expectación y tensión en el Festival de Cine de Cannes, donde la película se proyecta fuera de competencia el 20 de mayo con excelentes críticas. A lo largo de las semanas siguientes, ambos participan en ruedas de prensa, entrevistas y preparan la gira promocional mientras reflexionan sobre su larga amistad, el estado de la industria cinematográfica y la recepción de este épico western dramático protagonizado también por Leonardo DiCaprio.",
+    "resumen": "Entre mediados de mayo y finales de junio de 2023, las vidas de Martin Scorsese y Robert De Niro giraron en torno al esperado estreno mundial de su décima colaboración, 'Killers of the Flower Moon', en el 76.º Festival de Cine de Cannes. En las semanas previas, el mundo del cine había quedado paralizado por el inicio de la huelga del Sindicato de Guionistas de Estados Unidos (WGA), mientras De Niro sorprendía a la prensa al revelar a sus 79 años el nacimiento de su séptima hija, Gia, junto a su pareja Tiffany Chen, y promocionaba la comedia 'About My Father'. El sábado 20 de mayo ambos caminaron por la alfombra roja de la Croisette junto a Leonardo DiCaprio, Lily Gladstone y el jefe principal de la Nación Osage, recibiendo una ovación de pie de nueve minutos, ocasión en la que De Niro no dudó en comparar en conferencia de prensa a su villano William Hale con Donald Trump. Tras abandonar Francia, Scorsese inició una gira por Italia que incluyó una audiencia breve con el Papa Francisco en el Vaticano —donde anunció que escribiría un guion sobre Jesús—, encuentros con jóvenes cineastas en Roma y Bolonia, y homenajes a su obra. En junio, mientras se estrenaba 'Asteroid City' de Wes Anderson y el mundo del cine lloraba las muertes de Kenneth Anger, Treat Williams, Glenda Jackson y Alan Arkin, De Niro organizaba la 22.ª edición del Festival de Cine de Tribeca en Nueva York, que culminó con un evento por el 30.º aniversario de su debut como director, 'A Bronx Tale', mientras Nueva York sufría una histórica nube de humo naranja por los incendios forestales en Canadá.",
     "recientes": [
       {
-        "fecha": "2023-05-05",
-        "descripcion": "Se anuncia oficialmente que 'Killers of the Flower Moon' tendrá su estreno mundial en la 76ª edición del Festival de Cine de Cannes."
+        "fecha": "2023-05-02",
+        "descripcion": "Comienza oficialmente la huelga del Sindicato de Guionistas de Estados Unidos (WGA) tras fracasar las negociaciones con los estudios y plataformas de streaming (AMPTP), paralizando rodajes y programas en Hollywood."
       },
       {
-        "fecha": "2023-05-15",
-        "descripcion": "Comienzan a filtrarse detalles sobre la larga duración de la película (3 horas y 26 minutos) y las expectativas de la crítica internacional sobre el reencuentro de Scorsese, De Niro y DiCaprio."
+        "fecha": "2023-05-08",
+        "descripcion": "Durante una entrevista promocional de la película 'About My Father' con ET Canada, Robert De Niro revela públicamente que acaba de ser padre por séptima vez a los 79 años; su hija, Gia Virginia Chen-De Niro, nació el 6 de abril junto a su pareja Tiffany Chen."
+      },
+      {
+        "fecha": "2023-05-11",
+        "descripcion": "Muere a los 95 años en California el cineasta experimental y autor Kenneth Anger ('Scorpio Rising', 'Hollywood Babylon'), figura admirada e influyente en el uso de la música pop en el cine de Martin Scorsese."
+      },
+      {
+        "fecha": "2023-05-16",
+        "descripcion": "Inauguración del 76.º Festival de Cine de Cannes con la proyección de 'Jeanne du Barry' de Maïwenn, protagonizada por Johnny Depp, y la entrega de la Palma de Oro honorífica a Michael Douglas."
+      },
+      {
+        "fecha": "2023-05-18",
+        "descripcion": "Apple Original Films y Paramount Pictures lanzan el primer tráiler oficial de 'Killers of the Flower Moon' y el festival de Cannes homenajea a Harrison Ford con una Palma de Oro honorífica antes del estreno de 'Indiana Jones and the Dial of Destiny'."
       }
     ],
     "proximos": [
       {
+        "fecha": "2023-05-19",
+        "descripcion": "Jornada previa en Cannes al estreno mundial de 'Killers of the Flower Moon'; Scorsese, De Niro, Leonardo DiCaprio y la delegación de la Nación Osage ya se encuentran instalados en la Riviera francesa ultimando detalles y encuentros de prensa."
+      },
+      {
         "fecha": "2023-05-20",
-        "descripcion": "Estreno mundial de 'Killers of the Flower Moon' en el Festival de Cine de Cannes, recibiendo una ovación de pie de nueve minutos."
+        "descripcion": "Estreno mundial fuera de competencia de 'Killers of the Flower Moon' en el Grand Théâtre Lumière de Cannes. La película de 206 minutos recibe una ovación de pie de nueve minutos; De Niro asiste acompañado de Tiffany Chen."
       },
       {
         "fecha": "2023-05-21",
-        "descripcion": "Rueda de prensa oficial del elenco y director en Cannes, donde Scorsese defiende la duración de la película y habla sobre su colaboración con De Niro."
+        "descripcion": "Conferencia de prensa oficial de 'Killers of the Flower Moon' en Cannes. Scorsese explica cómo reescribió el guion junto a Eric Roth para adoptar el punto de vista de los Osage y no el del FBI, mientras De Niro compara la banalidad y estupidez maliciosa de su personaje, William Hale, con Donald Trump."
+      },
+      {
+        "fecha": "2023-05-26",
+        "descripcion": "Estreno en los cines de Estados Unidos de 'About My Father', comedia dirigida por Laura Terruso y protagonizada por Robert De Niro junto al comediante Sebastian Maniscalco."
+      },
+      {
+        "fecha": "2023-05-27",
+        "descripcion": "Clausura del Festival de Cannes: la directora francesa Justine Triet gana la Palma de Oro por 'Anatomía de una caída' ('Anatomie d'une chute'), entregada por Jane Fonda."
+      },
+      {
+        "fecha": "2023-05-27",
+        "descripcion": "En el Vaticano, Martin Scorsese y su esposa Helen Morris son recibidos en una breve audiencia privada por el Papa Francisco antes de participar en la conferencia 'La estética global de la imaginación católica', organizada por La Civiltà Cattolica y la Universidad de Georgetown, donde Scorsese anuncia: 'He respondido al llamado del Papa a los artistas de la única manera que sé: imaginando y escribiendo un guion para una película sobre Jesús'."
+      },
+      {
+        "fecha": "2023-05-29",
+        "descripcion": "Martin Scorsese ofrece una clase magistral y diálogo con estudiantes en el Centro Sperimentale di Cinematografia (CSC) en Roma y presenta un homenaje en la Casa del Cinema."
+      },
+      {
+        "fecha": "2023-06-07",
+        "descripcion": "Inauguración de la 22.ª edición del Festival de Cine de Tribeca en Nueva York, cofundado por Robert De Niro y Jane Rosenthal, justo cuando la ciudad de Nueva York queda cubierta por una densa niebla naranja e irrespirable debido a los incendios forestales en Quebec, Canadá."
+      },
+      {
+        "fecha": "2023-06-12",
+        "descripcion": "Muere a los 71 años en un accidente de motocicleta en Vermont el actor estadounidense Treat Williams, quien había protagonizado 'Prince of the City' (1981) de Sidney Lumet y trabajado junto a De Niro en 'Once Upon a Time in America' (1984) de Sergio Leone."
       },
       {
         "fecha": "2023-06-15",
-        "descripcion": "Apple Original Films lanza el trailer oficial definitivo de 'Killers of the Flower Moon', generando gran viralidad en internet de cara al estreno en cines de octubre."
-      }
-    ],
-    "escenaSugerida": "Almuerzo privado en una suite del Hotel Carlton en Cannes, el día antes del estreno mundial, repasando notas y compartiendo impresiones sobre la enorme presión mediática.",
-    "criticadosSugeridos": [
-      "Ejecutivos de estudios que priorizan el streaming rápido sobre la experiencia en sala",
-      "Críticos de cine que reducen el arte cinematográfico a métricas de redes sociales"
-    ],
-    "alabadosSugeridos": [
-      "Leonardo DiCaprio",
-      "Thelma Schoonmaker"
-    ],
-    "fuentes": [
-      {
-        "titulo": "Killers of the Flower Moon premieres at Cannes 2023 - The Guardian (citada por el modelo, sin verificar)",
-        "url": "https://www.theguardian.com/film/2023/may/20/killers-of-the-flower-moon-martin-scorsese-cannes-film-festival"
+        "descripcion": "Muere a los 87 años en Londres la legendaria actriz británica y exparlamentaria laborista Glenda Jackson, ganadora de dos premios Óscar."
       },
       {
-        "titulo": "Martin Scorsese and Robert De Niro at Cannes - Variety (citada por el modelo, sin verificar)",
-        "url": "https://variety.com/2023/film/news/martin-scorsese-robert-de-niro-killers-of-the-flower-moon-cannes-ovation-1235619934/"
+        "fecha": "2023-06-17",
+        "descripcion": "En la penúltima jornada del Festival de Tribeca en el Beacon Theatre de Nueva York, Robert De Niro celebra el 30.º aniversario de su ópera prima como director, 'A Bronx Tale' (1993), con una proyección especial y una charla junto a Chazz Palminteri y Jane Rosenthal."
+      },
+      {
+        "fecha": "2023-06-29",
+        "descripcion": "Muere a los 89 años en Carlsbad, California, el actor y director neoyorquino Alan Arkin, ganador del Óscar y contemporáneo de la generación de Scorsese y De Niro."
       }
     ],
+    "escenaSugerida": "Viernes 19 de mayo de 2023 al mediodía en una terraza privada del Hôtel Martinez (o del Hôtel du Cap-Eden-Roc en Antibes), frente al Mediterráneo. Scorsese y De Niro almuerzan juntos en la víspera de la gran premiere mundial de 'Killers of the Flower Moon'. Conversan sobre las tres horas y veintiséis minutos de metraje que Thelma Schoonmaker terminó de ajustar, el impacto que tendrá en la delegación de la Nación Osage ver su historia en el Grand Théâtre Lumière, el revuelo de los paparazzi en la Croisette por la llegada de De Niro con Tiffany Chen y su beba recién nacida Gia, y la incertidumbre en Hollywood por la reciente huelga de guionistas.",
+    "criticadosSugeridos": [
+      "Donald Trump",
+      "David Zaslav",
+      "Ejecutivos de los estudios (AMPTP) y de las plataformas obsesionados con el algoritmo y la taquilla de superhéroes"
+    ],
+    "alabadosSugeridos": [
+      "Lily Gladstone",
+      "Leonardo DiCaprio",
+      "Thelma Schoonmaker",
+      "Papa Francisco",
+      "Sergio Leone"
+    ],
+    "participantesSugeridos": [
+      {
+        "nombre": "Leonardo DiCaprio",
+        "vinculo": "Coprotagonista de 'Killers of the Flower Moon' y colaborador fetiche de ambos, presente con ellos en Cannes en mayo de 2023."
+      },
+      {
+        "nombre": "Lily Gladstone",
+        "vinculo": "Actriz protagonista de 'Killers of the Flower Moon' (Mollie Burkhart), revelación del festival y compañera de elenco en Cannes."
+      },
+      {
+        "nombre": "Thelma Schoonmaker",
+        "vinculo": "Montajista histórica e inseparable colaboradora de Scorsese desde 'Who's That Knocking at My Door', responsable de la edición de 'Killers of the Flower Moon' y presente en Cannes."
+      },
+      {
+        "nombre": "Tiffany Chen",
+        "vinculo": "Pareja de Robert De Niro y madre de su hija recién nacida Gia, quien viajó con él al Festival de Cannes en mayo de 2023."
+      },
+      {
+        "nombre": "Jane Rosenthal",
+        "vinculo": "Socia productora de toda la vida de Robert De Niro y cofundadora del Festival de Tribeca, con quien compartió la organización de la edición de junio de 2023."
+      },
+      {
+        "nombre": "Geoffrey Standing Bear",
+        "vinculo": "Jefe Principal de la Nación Osage, asesor clave de Scorsese durante el rodaje y presente en la alfombra roja y conferencia de prensa en Cannes."
+      }
+    ],
+    "fuentes": [],
     "desde": "2023-05-19",
     "hasta": "2023-06-30",
-    "conBusquedaWeb": false
+    "conBusquedaWeb": true
   },
   "entrada": {
     "dias": [
@@ -123,84 +189,115 @@
         "fecha": "2023-05-19",
         "anio": "2023",
         "encabezado": "Viernes, 19 de mayo.",
-        "situacion": "Almuerzo en el hotel de Cannes, con Scorsese, a pocas horas del estreno mundial de 'Killers of the Flower Moon'.",
+        "situacion": "Almuerzan en el hotel de Cannes antes del estreno Scorsese, Leonardo DiCaprio y Thelma Schoonmaker.",
         "parrafos": [
-          "Comemos pescado tibio mientras revisa los apuntes para la función de mañana en el Gran Teatro Lumière. Le sugiero que recorte dos minutos de la escena del juicio antes de que los críticos empiecen a medir la duración con cronómetro.",
-          "Scorsese sacude la cabeza y dice: «Los ejecutivos quieren todo para el teléfono, que entre en el bolsillo de un chico de quince años». Le contesto que los cines todavía tienen techo alto y butacas que crujen de verdad."
+          "Revisan el volumen del último rollo de *Killers of the Flower Moon*, que proyectamos mañana en el Grand Théâtre Lumière. Scorsese aparta los langostinos sin tocarlos y usa su inhalador antes del café.",
+          "«Tres horas y veintiséis minutos es una cortesía hacia el público», declara mientras limpia sus anteojos con la servilleta. «Si por Thelma fuera, seguiríamos en Oklahoma filmando el pasto». Schoonmaker sonríe y anota un código en su libreta. DiCaprio elogia la quietud de Lily Gladstone en las escenas del porche: le basta parpadear para borrar del plano a cualquiera.",
+          "Comento que los contadores de las plataformas estarían más tranquilos si en la mitad apareciera un tipo con capa volando sobre los pozos de petróleo. Scorsese suspira: «Para David Zaslav y los estudios, el cine es un error de cálculo que el algoritmo todavía no corrigió. Por suerte los guionistas les pararon el país»."
         ]
       },
       {
         "fecha": "2023-05-21",
         "anio": "2023",
         "encabezado": "Domingo, 21 de mayo.",
-        "situacion": "En la terraza del estudio en Cannes, Scorsese y yo. Tras la gran ovación de la víspera.",
+        "situacion": "Toman té en la terraza frente a la Croisette Scorsese, Lily Gladstone y Geoffrey Standing Bear.",
         "parrafos": [
-          "Aparece con el diario francés bajo el brazo y una tostada quemada en un plato de loza. Observa que los aplausos de anoche duraron exactamente lo mismo que el discurso de aquel productor en los ochenta.",
-          "Le recuerdo que Leonardo DiCaprio estuvo impecable al esquivar la pregunta sobre el presupuesto en la rueda de prensa. Scorsese suspira y dice: «Ese muchacho entiende el silencio mejor que nadie»."
+          "Venimos de la conferencia de prensa, todavía aturdidos por los nueve minutos de aplausos de anoche. Tiffany subió a la habitación a dormir a nuestra pequeña Gia, que lloró durante todo el trayecto en auto.",
+          "«Cuando comparaste a Hale con Donald Trump, dos publicistas de Apple perdieron el color», me observa Scorsese, que hoy respira mejor y se atreve con una tostada. Le contesto que solo describí la estupidez maliciosa del personaje: un sujeto que se cree encantador mientras traiciona a sus amigos por codicia. «La maldad en el cine suele tener demasiada ópera; en la vida real se parece más a un estafador de club de golf», agrega él.",
+          "Standing Bear recuerda lo que contaba su abuela sobre el ruido de los autos caros llegando a tierras Osage en los años veinte. Gladstone lo escucha con las manos cruzadas sobre la falda; tiene en la mesa la misma gravedad sin esfuerzo que en la pantalla."
         ]
       },
       {
         "fecha": "2023-05-28",
         "anio": "2023",
         "encabezado": "Domingo, 28 de mayo.",
-        "situacion": "Cena en el departamento de Nueva York, con Scorsese y Thelma Schoonmaker. Evaluando el material sobrante.",
+        "situacion": "Por teléfono, desde Roma, Scorsese.",
         "parrafos": [
-          "Thelma nos sirve té frío mientras busca el rollo que dejamos pendiente en el montaje. Scorsese señala la pantalla y murmura que el cine moderno se parece demasiado a una planilla de cálculo llena de celdas vacías.",
-          "Le digo que la culpa es de los algoritmos que miden cuántos segundos aguanta un espectador sin mirar la pantalla del celular. Thelma ríe y dice que deberíamos cobrar un impuesto directo a la impaciencia general."
+          "Llama a medianoche de Italia para contarme su audiencia de ayer con el Papa Francisco en el Vaticano. Hablaron de Dostoievski en un salón helado; dice que el Papa tiene el humor rápido de un cura de barrio.",
+          "«Salí de ahí y anuncié en una conferencia que voy a escribir una película sobre Jesús», confiesa con voz culpable. Le pregunto si piensa rodarla antes o después de cumplir noventa años; se ríe y corta porque se le enfría la sopa de verduras."
         ]
       },
       {
-        "fecha": "2023-06-15",
+        "fecha": "2023-06-08",
         "anio": "2023",
-        "encabezado": "Jueves, 15 de junio.",
-        "situacion": "Por teléfono, Scorsese. A cuatro meses del lanzamiento comercial en salas.",
+        "encabezado": "Jueves, 8 de junio.",
+        "situacion": "Desayunamos en la oficina de Greenwich Street, Jane Rosenthal y yo.",
         "parrafos": [
-          "Me llama para avisarme que ya salió el avance definitivo en internet y que las redes son un hervidero de métricas ridículas. Advierte que un cronista festejó que la música suene fuerte en los pequeños parlantes de una computadora.",
-          "Le respondo que la única métrica que importa de verdad es cuántas bolsas de palomitas de maíz se venden en la primera función del sábado. Scorsese se ríe con ganas y corta sin despedirse como de costumbre."
+          "Afuera el cielo de Manhattan tiene un color naranja de apocalipsis barato por el humo de los incendios en Canadá; ayer inauguramos el Festival de Tribeca con barbijo y olor a leña. Scorsese sigue en Italia dando charlas a estudiantes, pero mandó tres mensajes de madrugada recomendando un documental polaco.",
+          "Rosenthal revisa las planillas de invitados y dice que la mitad de los agentes de Hollywood prefiere el humo tóxico antes que sentarse a negociar con el sindicato de guionistas."
+        ]
+      },
+      {
+        "fecha": "2023-06-13",
+        "anio": "2023",
+        "encabezado": "Martes, 13 de junio.",
+        "situacion": "Cena en casa Scorsese.",
+        "parrafos": [
+          "Llegó ayer de Europa con dos valijas llenas de libros sobre el cristianismo primitivo y una alergia feroz al polvo del viaje. Hablamos de Treat Williams, que murió ayer en una ruta de Vermont cuando una camioneta dobló sin ver su moto.",
+          "«Tenía esa energía limpia de los actores que no piden permiso para entrar al cuadro», dice Scorsese, dejando intacto el pescado para picotear apenas unas aceitunas. Recordamos las semanas eternas con él en el rodaje de *Once Upon a Time in America*, cuando Sergio Leone nos hacía repetir una mirada diez veces con la música sonando en el set.",
+          "«Leone entendía que el tiempo en el cine no se mide con reloj, sino con culpa», señala él. Le digo que si hoy propusiera aquel corte de cuatro horas, los dueños del streaming lo obligarían a dividirlo en ocho episodios con resumen al principio. «O lo borrarían del servidor para descontar impuestos, que es el nuevo género favorito de los ejecutivos», remata."
+        ]
+      },
+      {
+        "fecha": "2023-06-18",
+        "anio": "2023",
+        "encabezado": "Domingo, 18 de junio.",
+        "situacion": "Caminamos por el pasillo del Beacon Theatre, Scorsese y yo.",
+        "parrafos": [
+          "Pasó a saludar tras la función por los treinta años de *A Bronx Tale*, que presentamos con Chazz Palminteri para cerrar Tribeca. Avanza despacio, apoyándose apenas en mi brazo para esquivar los cables de luz, y se queja del aire acondicionado de todas las salas de Nueva York.",
+          "Comenta la muerte de Glenda Jackson en Londres: «Actuaba como si tuviera una espada escondida debajo del abrigo, y después iba al Parlamento a usarla de verdad». En la puerta se detiene a mirar el afiche de mi película de 1993.",
+          "«Treinta años desde que dirigiste esto, y todavía no aprendiste a llegar temprano a un estreno», me suelta antes de subir a su auto. Le respondo que al menos mis películas terminan el mismo día en que empiezan; desde la ventanilla me hace un gesto de bendición papal y se pierde por Broadway."
         ]
       }
     ],
     "paginas": [
-      2,
+      4,
       2
     ],
     "notas": [
-      "El estreno mundial en Cannes marcó el undécimo largometraje conjunto entre el director y el actor."
+      "En noviembre de 2022, Thelma Schoonmaker cumplió cincuenta y cinco años de colaboración ininterrumpida con Scorsese.",
+      "En mayo de 2023 se estrenó además en salas estadounidenses la comedia About My Father, protagonizada por De Niro."
     ],
-    "escena": "Hotel y estudio, Cannes y Nueva York",
+    "escena": "Almuerzo en el hotel de Cannes antes del estreno",
     "criticados": [
-      "Ejecutivos de estudios",
-      "Críticos de cine"
+      "Donald Trump",
+      "David Zaslav",
+      "Ejecutivos de los estudios (AMPTP) y de las plataformas obsesionados con el algoritmo y la taquilla de superhéroes"
     ],
     "alabados": [
+      "Lily Gladstone",
       "Leonardo DiCaprio",
-      "Thelma Schoonmaker"
+      "Thelma Schoonmaker",
+      "Papa Francisco",
+      "Sergio Leone"
     ],
-    "palabras": 359,
+    "palabras": 830,
     "revision": {
       "hecha": true,
       "problemasDetectados": [
-        "La página 1 tiene solo 154 palabras; el mínimo es 350.",
-        "La página 2 tiene solo 157 palabras; el mínimo es 350.",
-        "Varias oraciones empiezan igual («comenta que…», 2 veces); variá los comienzos."
+        "La página 1 tiene 538 palabras; el máximo es 450. Acortá."
       ],
       "problemasRestantes": [
-        "La página 1 tiene solo 183 palabras; el mínimo es 350.",
-        "La página 2 tiene solo 176 palabras; el mínimo es 350."
+        "La página 1 tiene 511 palabras; el máximo es 450. Acortá."
       ]
     }
   },
   "titulo": "Scorsese",
   "proveedores": {
-    "texto": "gemini:gemini-flash-lite-latest",
-    "imagen": "none"
+    "texto": "gemini:gemini-4-argon",
+    "imagen": "none",
+    "modelos": {
+      "validacion": "gemini-4-argon (Google AI Studio)",
+      "contexto": "gemini-4-argon (Google AI Studio)",
+      "entrada": "gemini-4-argon (Google AI Studio)",
+      "revision": "gemini-4-argon (Google AI Studio)"
+    }
   },
   "advertencias": [
     "La validación se hizo sin búsqueda web: depende del conocimiento del modelo.",
-    "El contexto histórico se armó sin búsqueda web (sin cuota de búsqueda o desactivada): verificá los hechos.",
-    "El inicio de la relación (1970) es aproximado; se toma la fecha documentada más conservadora."
+    "El inicio de la relación (1971-12) es aproximado; se toma la fecha documentada más conservadora."
   ],
   "version": 2,
-  "id": "wi6kWY8Y8V",
-  "creada": "2026-10-25T23:11:57.367Z"
+  "id": "argon10demo",
+  "creada": "2026-10-27T12:00:00.000Z"
 }

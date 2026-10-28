@@ -13,15 +13,15 @@
   },
   "validacion": {
     "aceptado": true,
-    "justificacion": "Warren Buffett y Charlie Munger fueron socios comerciales y amigos cercanos durante más de seis décadas, liderando juntos la compañía Berkshire Hathaway. Se conocieron en 1959 en una cena en Omaha organizada por amigos comunes y mantuvieron una de las alianzas empresariales y personales más documentadas y famosas de la historia financiera.",
-    "relacion": "Socios comerciales, copropietarios de Berkshire Hathaway y amigos cercanos durante más de 60 años",
+    "justificacion": "Warren Buffett y Charlie Munger son dos de las figuras públicas más reconocidas del mundo de las finanzas y las inversiones. Mantuvieron una estrecha amistad personal y una sociedad comercial ampliamente documentada durante más de seis décadas tras conocerse en Omaha en 1959. Juntos dirigieron Berkshire Hathaway como presidente y vicepresidente respectivamente hasta el fallecimiento de Munger en noviembre de 2023.",
+    "relacion": "Socios comerciales en Berkshire Hathaway y amigos íntimos durante más de seis décadas.",
     "inicioRelacion": "1959",
     "inicioAproximado": true,
-    "ambito": "finanzas",
+    "ambito": "finanzas y negocios",
     "borges": {
       "nombre": "Warren Buffett",
       "conocido": true,
-      "descripcion": "Inversor, empresario y filántropo estadounidense, presidente y CEO de Berkshire Hathaway.",
+      "descripcion": "Inversor, empresario y filántropo estadounidense, presidente y director ejecutivo de Berkshire Hathaway.",
       "nacimiento": "1930-08-30",
       "muerte": null,
       "apodos": [
@@ -32,23 +32,14 @@
     "bioy": {
       "nombre": "Charlie Munger",
       "conocido": true,
-      "descripcion": "Inversor, abogado y arquitecto corporativo estadounidense, vicepresidente de Berkshire Hathaway.",
+      "descripcion": "Inversor, abogado y filántropo estadounidense, histórico vicepresidente de Berkshire Hathaway y socio de Warren Buffett.",
       "nacimiento": "1924-01-01",
       "muerte": "2023-11-28",
       "apodos": [],
       "apellido": "Munger"
     },
     "noVerificados": [],
-    "fuentes": [
-      {
-        "titulo": "How Warren Buffett and Charlie Munger Met - CNBC (citada por el modelo, sin verificar)",
-        "url": "https://www.cnbc.com/2023/11/28/warren-buffett-and-charlie-munger-a-friendship-and-partnership-for-the-ages.html"
-      },
-      {
-        "titulo": "Warren Buffett and Charlie Munger: A Timeline of Their Partnership - Wall Street Journal (citada por el modelo, sin verificar)",
-        "url": "https://www.wsj.com/buyside/investing/charlie-munger-warren-buffett-relationship-timeline"
-      }
-    ],
+    "fuentes": [],
     "conBusquedaWeb": false
   },
   "chequeoFecha": {
@@ -62,82 +53,121 @@
     "2023-05-05",
     "2023-05-07",
     "2023-05-16",
-    "2023-06-01",
-    "2023-06-14"
+    "2023-05-22",
+    "2023-05-31",
+    "2023-06-04",
+    "2023-06-14",
+    "2023-06-16"
   ],
   "contexto": {
     "fechasSugeridas": [
       "2023-05-05",
       "2023-05-07",
       "2023-05-16",
-      "2023-06-01",
-      "2023-06-14"
+      "2023-05-22",
+      "2023-05-31",
+      "2023-06-04",
+      "2023-06-14",
+      "2023-06-16"
     ],
-    "resumen": "El período está dominado por la Asamblea Anual de Berkshire Hathaway en Omaha, conocida como el 'Woodstock para Capitalistas', donde Buffett y Munger analizaron la reciente crisis bancaria tras la caída de First Republic Bank. Durante estas semanas, la atención financiera se centró en el debate sobre el techo de deuda de EE. UU. y el auge de la inteligencia artificial, tema sobre el cual ambos expresaron escepticismo. Berkshire reveló movimientos estratégicos en sus presentaciones 13F, destacando su salida de TSMC y su apuesta continua por Apple y petroleras. El período cierra con la primera pausa en las subidas de tipos de interés por parte de la Reserva Federal en más de un año. La salud de Munger, a sus 99 años, y la sucesión liderada por Greg Abel fueron temas recurrentes de conversación.",
+    "resumen": "Entre mayo y junio de 2023, Warren Buffett (92 años) y Charlie Munger (99 años) atravesaron la última Asamblea Anual de Accionistas de Berkshire Hathaway que presidirían juntos antes de la muerte de Munger en noviembre de ese año. El período comenzó en Omaha, Nebraska, inmediatamente después del colapso de First Republic Bank (1 de mayo) y en plena crisis de los bancos regionales estadounidenses iniciada por Silicon Valley Bank en marzo. Durante la asamblea del 6 de mayo en el CHI Health Center, acompañados en el escenario por Greg Abel y Ajit Jain, ambos criticaron la gestión imprudente de los directivos bancarios, advirtieron sobre las dificultades en el sector inmobiliario comercial, elogiaron a Apple y debatieron sobre la inteligencia artificial y las tensiones geopolíticas entre Estados Unidos y China. En las semanas siguientes, Berkshire Hathaway reveló en su informe regulatorio 13F del 15 de mayo la liquidación casi total de su posición en Taiwan Semiconductor (TSMC) y una nueva inversión en Capital One, al tiempo que continuó comprando acciones de Occidental Petroleum. El período también estuvo marcado por el tenso debate sobre el techo de la deuda en Washington —resuelto a principios de junio— y el refuerzo de sus apuestas en las cinco grandes casas comerciales japonesas (sogo shosha).",
     "recientes": [
       {
+        "fecha": "2023-04-11",
+        "descripcion": "Warren Buffett y Greg Abel viajan a Tokio, Japón, donde se reúnen con los directivos de las cinco grandes casas comerciales japonesas (Itochu, Marubeni, Mitsubishi, Mitsui y Sumitomo) y anuncian que Berkshire Hathaway elevó su participación en cada una al 7,4%."
+      },
+      {
         "fecha": "2023-04-12",
-        "descripcion": "Warren Buffett visita Japón para aumentar sus participaciones en las cinco principales casas comerciales niponas (Itochu, Mitsubishi, etc.)."
+        "descripcion": "Buffett concede una extensa entrevista a Becky Quick en CNBC desde Tokio, explicando que vendió la mayor parte de la participación de Berkshire en Taiwan Semiconductor (TSMC) debido al riesgo geopolítico, pese a considerarla una de las empresas mejor gestionadas del mundo."
+      },
+      {
+        "fecha": "2023-04-27",
+        "descripcion": "Berkshire Hathaway completa la adquisición de un 41,4% adicional en la cadena de centros de viaje Pilot Flying J por unos 8.200 millones de dólares, elevando su participación total al 80% tras meses de fricciones con la familia Haslam."
       },
       {
         "fecha": "2023-05-01",
-        "descripcion": "JPMorgan Chase adquiere la mayor parte de los activos de First Republic Bank tras su colapso y confiscación por los reguladores."
+        "descripcion": "Los reguladores estadounidenses intervienen First Republic Bank y lo venden a JPMorgan Chase en la segunda mayor quiebra bancaria de la historia de Estados Unidos, profundizando la crisis de los bancos regionales."
       },
       {
         "fecha": "2023-05-03",
-        "descripcion": "La Reserva Federal de EE. UU. eleva los tipos de interés en 25 puntos básicos, situándolos en el rango del 5% al 5,25%."
+        "descripcion": "La Reserva Federal presidida por Jerome Powell sube las tasas de interés en 25 puntos básicos hasta el rango del 5,00%-5,25%, el nivel más alto desde 2007, en medio de las turbulencias financieras."
       }
     ],
     "proximos": [
       {
+        "fecha": "2023-05-05",
+        "descripcion": "Día de compras de los accionistas en el CHI Health Center de Omaha y cenas previas en restaurantes clásicos como Gorat's y Piccolo's antes de la asamblea anual."
+      },
+      {
         "fecha": "2023-05-06",
-        "descripcion": "Asamblea Anual de Accionistas de Berkshire Hathaway en Omaha; Buffett y Munger responden preguntas durante 5 horas."
+        "descripcion": "Asamblea Anual de Accionistas de Berkshire Hathaway en Omaha y publicación de los resultados del primer trimestre de 2023 (ganancias operativas de 8.070 millones de dólares y una reserva récord de efectivo de 130.600 millones). Buffett y Munger responden preguntas durante más de cinco horas junto a Greg Abel y Ajit Jain."
       },
       {
         "fecha": "2023-05-15",
-        "descripcion": "Presentación del formulario 13F: se revela que Berkshire vendió casi toda su participación en TSMC y aumentó su posición en Apple y Occidental Petroleum."
+        "descripcion": "Berkshire Hathaway presenta su formulario 13F del primer trimestre ante la SEC: revela la venta total del resto de su posición en TSMC, la salida de US Bancorp y Bank of New York Mellon, y una nueva compra de 9,92 millones de acciones de Capital One Financial."
       },
       {
-        "fecha": "2023-05-19",
-        "descripcion": "Se suspenden temporalmente las negociaciones sobre el techo de deuda en Washington, generando volatilidad en los mercados."
+        "fecha": "2023-05-18",
+        "descripcion": "Berkshire Hathaway informa a la SEC nuevas compras de acciones de Occidental Petroleum (OXY) realizadas entre el 11 y el 16 de mayo, elevando su participación por encima del 24,4%."
+      },
+      {
+        "fecha": "2023-05-30",
+        "descripcion": "Berkshire Hathaway divulga la compra de otros 4,66 millones de acciones de Occidental Petroleum entre el 25 y el 30 de mayo por unos 273 millones de dólares, rozando el 25% de la petrolera."
       },
       {
         "fecha": "2023-06-03",
-        "descripcion": "El presidente Joe Biden firma la ley para suspender el techo de deuda de EE. UU., evitando un impago histórico."
+        "descripcion": "El presidente Joe Biden promulga la Fiscal Responsibility Act de 2023, suspendiendo el techo de la deuda estadounidense hasta 2025 y evitando el default federal sobre el que Buffett había advertido en mayo."
       },
       {
         "fecha": "2023-06-14",
-        "descripcion": "La Reserva Federal mantiene los tipos de interés estables por primera vez tras diez subidas consecutivas."
+        "descripcion": "La Reserva Federal decide hacer una pausa en las subidas de tasas de interés tras diez incrementos consecutivos, manteniendo el rango en 5,00%-5,25%."
+      },
+      {
+        "fecha": "2023-06-16",
+        "descripcion": "Cierre de la semana previa al anuncio formal de Berkshire Hathaway de que su subsidiaria National Indemnity elevó su participación promedio en las cinco grandes casas comerciales japonesas por encima del 8,5%."
       }
     ],
-    "escenaSugerida": "Warren Buffett y Charlie Munger están sentados en un reservado del restaurante Gorat's Steak House en Omaha. Buffett disfruta de un filete T-bone poco hecho y una Cherry Coke, mientras Munger picotea caramelos de See's Candies. Discuten los detalles de la presentación de resultados del primer trimestre que se publicará mañana y bromean sobre la cantidad de personas que han viajado a la ciudad solo para escucharlos hablar sobre el colapso de First Republic Bank.",
+    "escenaSugerida": "Cena privada la noche del viernes 5 de mayo de 2023 en un salón reservado de Gorat's Steak House (4917 Center St, Omaha), con Buffett pidiendo su habitual T-bone con hash browns dobles y Cherry Coke junto a Charlie Munger, repasando el colapso de First Republic Bank ocurrido cuatro días antes y ajustando detalles con Greg Abel antes de la maratón de preguntas del sábado por la mañana en el CHI Health Center.",
     "criticadosSugeridos": [
-      "Elon Musk",
-      "Gestores de First Republic Bank",
-      "Promotores de Criptomonedas"
+      "Directivos de Silicon Valley Bank (Greg Becker) y First Republic Bank (por asumir riesgos contables y de tasas de interés sin responsabilidad personal)",
+      "Promotores y especuladores de criptomonedas y Bitcoin (a quienes Munger calificó repetidamente de locos o veneno y Buffett de fichas de juego sin valor intrínseco)",
+      "Políticos en Washington involucrados en el enfrentamiento por el techo de la deuda y el proteccionismo agresivo que incrementa la tensión entre Estados Unidos y China"
     ],
     "alabadosSugeridos": [
-      "Tim Cook",
-      "Greg Abel",
-      "Ajit Jain"
+      "Tim Cook (director ejecutivo de Apple, a quien Buffett elogió en la asamblea diciendo que Apple es un negocio aún mejor que cualquiera de los que Berkshire posee en su totalidad)",
+      "Jamie Dimon (director ejecutivo de JPMorgan Chase, respetado por ambos y protagonista del rescate de First Republic Bank el 1 de mayo de 2023)",
+      "Vicki Hollub (directora ejecutiva de Occidental Petroleum, cuya gestión del capital y estrategia en la Cuenca Pérmica Buffett respaldó durante mayo de 2023)"
     ],
-    "fuentes": [
+    "participantesSugeridos": [
       {
-        "titulo": "Berkshire Hathaway 2023 Annual Meeting Highlights (citada por el modelo, sin verificar)",
-        "url": "https://www.cnbc.com/berkshire-hathaway-annual-meeting-2023/"
+        "nombre": "Greg Abel",
+        "vinculo": "Vicepresidente de operaciones no aseguradoras de Berkshire Hathaway y sucesor designado de Buffett; acompañó a Buffett a Japón en abril y compartió el estrado principal el 6 de mayo de 2023."
       },
       {
-        "titulo": "First Republic Bank Failure and Sale (citada por el modelo, sin verificar)",
-        "url": "https://www.fdic.gov/news/press-releases/2023/pr23034.html"
+        "nombre": "Ajit Jain",
+        "vinculo": "Vicepresidente de operaciones de seguros de Berkshire Hathaway; integró la mesa principal de cuatro personas en la asamblea de Omaha el 6 de mayo de 2023."
       },
       {
-        "titulo": "Fed Pauses Rate Hikes in June 2023 (citada por el modelo, sin verificar)",
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230614a.htm"
+        "nombre": "Becky Quick",
+        "vinculo": "Periodista de CNBC cercana a ambos; viajó con Buffett a Japón en abril de 2023 y moderó las preguntas de la Asamblea Anual el 6 de mayo."
+      },
+      {
+        "nombre": "Astrid Menks",
+        "vinculo": "Esposa de Warren Buffett desde 2006, residente con él en Omaha y presente durante los eventos de la asamblea."
+      },
+      {
+        "nombre": "Bill Gates",
+        "vinculo": "Cofundador de Microsoft, exdirector de Berkshire y amigo cercano de ambos, asistente habitual a las reuniones de Omaha en mayo."
+      },
+      {
+        "nombre": "Todd Combs",
+        "vinculo": "Gestor de cartera de Berkshire Hathaway y director ejecutivo de GEICO, colaborador directo de Buffett en las decisiones de inversión bursátil del período."
       }
     ],
+    "fuentes": [],
     "desde": "2023-05-05",
     "hasta": "2023-06-16",
-    "conBusquedaWeb": false
+    "conBusquedaWeb": true
   },
   "entrada": {
     "dias": [
@@ -145,101 +175,134 @@
         "fecha": "2023-05-05",
         "anio": "2023",
         "encabezado": "Viernes, 5 de mayo.",
-        "situacion": "Cena en Gorat's, con Buffett. Víspera de la Asamblea Anual.",
+        "situacion": "Cena en Gorat's, en Omaha, la víspera de la asamblea, con Buffett y Greg Abel.",
         "parrafos": [
-          "Llegamos temprano; el aire acondicionado zumbaba con una insistencia casi soviética. Buffett pidió su bistec T-bone muy cocido, mientras revolvía la sal de la mesa como si buscara un mineral precioso. Hablamos de la caída del First Republic y del modo en que los gestores se aferraron a sus bonos hasta que el agua les tapó la nariz. «Es el viejo truco de creer que el futuro será una copia al carbón del pasado», dice. Le contesto que no es un truco, sino una patología de la voluntad. «Esos tipos no son banqueros, son acróbatas que olvidaron poner la red», agrega él mientras el mozo le trae su Cherry Coke.",
-          "Me preguntó si mañana vamos a ser demasiado duros con los que venden criptomonedas. Le dije que la dureza es una cortesía para con la verdad; tratar de ser amable con un esquema de Ponzi digital es como intentar decorar una alcantarilla con encaje. Se rió tanto que casi se mancha la corbata de seda. «Es un veneno para ratas, Charlie, pero las ratas ahora tienen aplicaciones en el teléfono», concluye."
+          "El salón bulle de accionistas que fotografían nuestro bife con papas ralladas. Buffett aparta la ensalada como un chico, se sirve más gaseosa de cereza y elogia la rapidez con que Jamie Dimon absorbió el lunes los restos de First Republic. «Greg Becker y esos directivos de Silicon Valley inventaron una banca maternal: si acertás te quedás el bono, y si quebrás te vas al golf. La contabilidad creativa siempre termina pidiendo limosna en Washington.»",
+          "Le digo que los banqueros de hoy leen demasiada psicología y poca aritmética. Abel, todavía cansado del viaje a Tokio de abril, tercia: «En las casas comerciales japonesas nadie festeja antes de cobrar.»",
+          "Antes del helado, Buffett suspira: «Mañana nos esperan cinco horas de micrófono y ciento treinta mil millones en caja que todos quieren que gastemos ya. Si digo que Tim Cook maneja Apple mejor que nosotros cualquier subsidiaria, van a pensar que me volví modesto a los noventa y dos años.»"
         ]
       },
       {
         "fecha": "2023-05-07",
         "anio": "2023",
         "encabezado": "Domingo, 7 de mayo.",
-        "situacion": "Desayuno en la oficina, con Buffett y Greg Abel. Pasó la asamblea de ayer.",
+        "situacion": "Almuerzan en Farnam Street Buffett, Astrid Menks, Bill Gates y yo.",
         "parrafos": [
-          "Abel repasaba unos papeles de la división energética con una prolijidad que me calma los nervios. Buffett, en cambio, estaba obsesionado con una caja de See's Candies que alguien dejó abierta. «Ayer Greg estuvo impecable, tiene el tono justo de quien sabe que el capital es sagrado», me susurra Buffett cuando Abel sale a atender un llamado. Coincido. Es un alivio saber que la empresa quedará en manos de un hombre que entiende que los balances no son poesía, sino ingeniería aplicada.",
-          "Comentamos la salida de TSMC. Le dije que Taiwán es un lugar demasiado movedizo para mi gusto, por más que hagan los mejores chips del mundo. «Prefiero dormir tranquilo con Apple que despertarme con un dolor de cabeza geopolítico», dice él. Me recuerda que Tim Cook es el mejor gestor de la historia moderna, no porque invente cosas raras, sino porque sabe manejar la cocina de una empresa gigante sin romper un solo plato."
+          "Nos duelen las gargantas tras la maratón de ayer en el estadio junto a Ajit Jain. Astrid nos impone sopa antes del sándwich de jamón: dice que dos ancianos alimentados seis horas a maní garapiñado son un peligro médico.",
+          "Gates saca el tema de los programas que escriben solos y asegura que cambiarán el mundo. Lo corto: «Tengo noventa y nueve años y vi demasiadas curas milagrosas; me alegra la cantidad de tonterías que ya no voy a presenciar.»",
+          "Él ríe mientras tantea el salero entre pilas de carpetas: «La máquina hará un poema en un segundo, pero no sabe convencer a un cliente de GEICO de que conserve su póliza. El peligro no es que las computadoras piensen como hombres, sino que en Washington ya piensen como máquinas rotas con este teatro del techo de la deuda.»"
         ]
       },
       {
         "fecha": "2023-05-16",
         "anio": "2023",
         "encabezado": "Martes, 16 de mayo.",
-        "situacion": "Por teléfono, con Buffett. Se publicaron los formularios 13F ayer.",
+        "situacion": "Por teléfono, desde Los Ángeles, Buffett.",
         "parrafos": [
-          "Me llamó para bromear sobre la reacción de la prensa ante nuestras compras de Occidental Petroleum. Dice que los periodistas financieros se comportan como si estuviéramos descubriendo el fuego, cuando simplemente estamos comprando lo que el mundo todavía necesita para moverse. «Se distraen con cualquier cosa que brille, como gatos con un puntero láser», dice. Le contesté que el problema de la modernidad es que la gente prefiere una mentira emocionante a una verdad aburrida.",
-          "Mencioné a Elon Musk y su última ocurrencia en Twitter. Buffett hizo un silencio largo, de esos que valen más que un informe anual. «Es un hombre con un talento inmenso para el caos», dice al fin. Le replico que el caos es un pésimo socio comercial, especialmente cuando uno busca rentabilidad a largo plazo. «Él quiere llegar a Marte y yo solo quiero que el ferrocarril llegue a tiempo», remata con una sequedad envidiable."
+          "Ayer salió nuestro informe 13F del primer trimestre y los diarios solo hablan de la liquidación total de Taiwan Semiconductor. Cuenta que le llueven reproches por vender la mejor fábrica de chips del planeta: «Un puente excelente sobre una falla sísmica sigue siendo un pésimo inmueble. Prefiero el aburrimiento de los pozos que dirige Vicki Hollub en la Cuenca Pérmica, donde al menos sabemos qué bandera flamea sobre el subsuelo.»",
+          "Coincido en que el proteccionismo a los gritos entre Pekín y nuestros congresistas es un suicidio mutuo, pero me distrae un crujido de papel en la línea. Confiesa, casi con culpa, que está abriendo un chocolate a escondidas a las diez de la mañana para soportar la lectura de tres balances de bancos regionales."
         ]
       },
       {
-        "fecha": "2023-06-01",
+        "fecha": "2023-05-22",
         "anio": "2023",
-        "encabezado": "Jueves, 1 de junio.",
-        "situacion": "Tarde de lectura en la biblioteca, con Buffett. El Congreso debate el techo de deuda.",
+        "encabezado": "Lunes, 22 de mayo.",
+        "situacion": "Llamada nocturna de Buffett.",
         "parrafos": [
-          "El televisor estaba encendido pero sin volumen; las caras de los políticos en Washington transmitían una angustia coreografiada. Buffett dejó de leer un informe sobre seguros y señaló la pantalla. «Están jugando a la gallina con un camión cargado de dinamita», comenta. Le digo que el sistema está diseñado para que el sentido común aparezca solo cinco minutos antes del desastre. «Es la comedia del absurdo, pero sin el talento de Beckett», añade.",
-          "Le pregunté por Ajit Jain y los últimos números de reaseguros. Sus ojos brillaron. Me asegura que si hubiera diez Ajit en el mundo, el riesgo sería una palabra obsoleta. Es curioso cómo Buffett, que es tan parco para el elogio público, se vuelve casi lírico cuando habla de alguien que realmente domina su oficio. «Ajit no calcula el riesgo, lo huele», dice."
+          "Hoy ignora el petróleo y las tasas. Perdió el cortaplumas viejo con que abre el correo y sospecha que quedó dentro de algún anuario estadístico de ferrocarriles: «Uno acumula el ochenta por ciento de Pilot Flying J tras meses de discusiones con los Haslam, pero no retiene un fierro de cuatro dólares. La vejez consiste en buscar anteojos que uno lleva puestos.»",
+          "Le ofrezco mandarle una docena por correo expreso si promete callarse sobre las oficinas vacías del sector inmobiliario comercial. Corta riéndose, sin saludar, como desde mil novecientos sesenta."
+        ]
+      },
+      {
+        "fecha": "2023-05-31",
+        "anio": "2023",
+        "encabezado": "Miércoles, 31 de mayo.",
+        "situacion": "Conferencia vespertina con Buffett y Todd Combs.",
+        "parrafos": [
+          "Informamos otra compra de Occidental Petroleum y ya rozamos el cuarto del capital. Combs repasa números de tarjetas tras nuestra entrada en Capital One, pero la charla deriva hacia las monedas virtuales que rebotan en las pantallas. Buffett resopla: «Quien compra Bitcoin busca la ruleta vestida de álgebra. No da trigo, no paga renta y solo espera a un comprador más crédulo.»",
+          "Acoto que llamarlo ficha de casino insulta a Las Vegas, donde al menos sirven trago gratis mientras vacían bolsillos. Combs dice: «En las facultades aún preguntan por qué no guardamos tesorería ahí.»",
+          "Suena una lata recién abierta del otro lado: «Si hiciera eso, el fantasma de Ben Graham me sacaría a patadas del despacho.»"
+        ]
+      },
+      {
+        "fecha": "2023-06-04",
+        "anio": "2023",
+        "encabezado": "Domingo, 4 de junio.",
+        "situacion": "Conversación dominical con Buffett.",
+        "parrafos": [
+          "Ayer promulgaron la ley que suspende el techo de la deuda hasta 2025. Lo noto aliviado, aunque dejó a medias una partida de bridge en la computadora para atenderme: «En el Congreso tiran fósforos cerca del tanque de nafta a ver quién parpadea primero ante las cámaras. Ningún país cuerdo amenaza con desconocer sus propias letras del Tesoro cada dieciocho meses.»",
+          "Le recuerdo que los políticos viven del drama y nosotros del interés compuesto. Me retruca que en mi juventud de abogado yo también cobraba por redactar pleitos ajenos; tuve que darle la razón y mudar de tema."
         ]
       },
       {
         "fecha": "2023-06-14",
         "anio": "2023",
         "encabezado": "Miércoles, 14 de junio.",
-        "situacion": "Caminata breve por el estacionamiento, con Buffett. La Reserva Federal pausó los tipos.",
+        "situacion": "Habla desde Kiewit Plaza Buffett, acompañado por Becky Quick.",
         "parrafos": [
-          "Hacía calor, un aire pesado que presagiaba tormenta. Buffett caminaba despacio, mirando el suelo como si buscara una moneda perdida. «Por fin Powell se tomó un respiro», dice respecto a la Fed. Le contesto que una pausa no es una cura, es apenas un entreacto. Me da la razón con un gesto de cabeza. «La gente cree que la inflación es como un resfrío que se pasa solo, pero es más bien como la humedad en los cimientos», observa.",
-          "Antes de subir al auto, se detuvo a mirar un cartel publicitario de una nueva aplicación de inteligencia artificial. Me preguntó si yo creía que esas máquinas escribirían mejores cartas anuales que las nuestras. Le dije que podrían escribir algo más gramatical, pero nunca algo tan honesto. «La honestidad requiere haber cometido errores reales, Charlie, y los algoritmos no sufren», concluyó. Se subió al coche y me dejó pensando en lo difícil que es reemplazar a un viejo amigo por un montón de silicio."
+          "La Reserva Federal pausó hoy las subas tras diez aumentos seguidos y dejó la tasa arriba del cinco por ciento. Quick pasó por Nebraska y me ponen en altavoz entre vasos de café de telgopor: «Wall Street reza para que Jerome Powell vuelva a regalar plata al cero por ciento, como si fuera un derecho constitucional. Se desacostumbraron a que el dinero tenga precio.»",
+          "Ella pregunta: «¿Entonces no ven recesión grave en camionetas ni en energía?»",
+          "Contesto antes que él: la gente posterga zapatos de lujo, pero nadie corta la luz ni deja el auto sin seguro. Él remata que el peligro no es la tasa al cinco, sino los gerentes que firmaron hipotecas creyendo que el verano era eterno."
+        ]
+      },
+      {
+        "fecha": "2023-06-16",
+        "anio": "2023",
+        "encabezado": "Viernes, 16 de junio.",
+        "situacion": "Comunicación de viernes al cierre del mercado con Buffett.",
+        "parrafos": [
+          "La semana próxima anunciaremos que National Indemnity superó el ocho y medio por ciento en las cinco grandes firmas japonesas: Itochu, Marubeni, Mitsubishi, Mitsui y Sumitomo. Tiene sobre la mesa las planillas en yenes y una lupa con el mango encintado: «Pedimos prestado al medio por ciento en Tokio y cobramos dividendos que crecen solos mientras dormimos en Nebraska. A veces las mejores ideas dan vergüenza de tan simples.»",
+          "Digo que tardamos noventa años en hallar plata tirada del otro lado del Pacífico. Responde que el secreto no es llegar temprano a la fiesta, sino seguir despiertos cuando sirven el postre."
         ]
       }
     ],
     "paginas": [
-      3,
-      2
+      4,
+      4
     ],
     "notas": [
-      "Gorat's Steakhouse es el restaurante favorito de Buffett en Omaha.",
-      "Jerome Powell es el presidente de la Reserva Federal de los Estados Unidos."
+      "El 6 de mayo de 2023 fue la última asamblea de Berkshire Hathaway que presidieron juntos antes de la muerte de Munger en noviembre.",
+      "El formulario 13F del 15 de mayo confirmó la salida total de Taiwan Semiconductor y la compra de acciones de Capital One."
     ],
-    "escena": "Cena en Gorat's, en Omaha, la víspera de la asamblea anual de Berkshire Hathaway.",
+    "escena": "Cena en Gorat's, en Omaha, la víspera de la asamblea",
     "criticados": [
-      "Elon Musk",
-      "Gestores de First Republic Bank",
-      "Promotores de Criptomonedas"
+      "Directivos de Silicon Valley Bank (Greg Becker) y First Republic Bank",
+      "Promotores y especuladores de criptomonedas y Bitcoin",
+      "Políticos en Washington involucrados en el enfrentamiento por el techo de la deuda y el proteccionismo agresivo que incrementa la tensión entre Estados Unidos y China"
     ],
     "alabados": [
       "Tim Cook",
-      "Greg Abel",
-      "Ajit Jain"
+      "Jamie Dimon",
+      "Vicki Hollub"
     ],
-    "palabras": 848,
+    "palabras": 1010,
     "revision": {
-      "hecha": false,
+      "hecha": true,
       "problemasDetectados": [
-        "La página 1 tiene 521 palabras; el máximo es 450. Acortá.",
-        "Varias oraciones empiezan igual («es un…», 3 veces); variá los comienzos.",
-        "En «Es un veneno para ratas, Charlie, pero las ratas ahora tiene» hay un vocativo («Charlie»). Warren Buffett y Charlie Munger no se llaman por el nombre ni por apodos: sacalo y que la frase se diga directamente.",
-        "En «La honestidad requiere haber cometido errores reales, Charli» hay un vocativo («Charlie»). Warren Buffett y Charlie Munger no se llaman por el nombre ni por apodos: sacalo y que la frase se diga directamente."
+        "La página 1 tiene 621 palabras; el máximo es 450. Acortá.",
+        "La página 2 tiene 577 palabras; el máximo es 450. Acortá."
       ],
       "problemasRestantes": [
-        "La página 1 tiene 521 palabras; el máximo es 450. Acortá.",
-        "Varias oraciones empiezan igual («es un…», 3 veces); variá los comienzos.",
-        "En «Es un veneno para ratas, Charlie, pero las ratas ahora tiene» hay un vocativo («Charlie»). Warren Buffett y Charlie Munger no se llaman por el nombre ni por apodos: sacalo y que la frase se diga directamente.",
-        "En «La honestidad requiere haber cometido errores reales, Charli» hay un vocativo («Charlie»). Warren Buffett y Charlie Munger no se llaman por el nombre ni por apodos: sacalo y que la frase se diga directamente."
+        "La página 1 tiene 546 palabras; el máximo es 450. Acortá."
       ]
     }
   },
   "titulo": "Buffett",
   "proveedores": {
-    "texto": "gemini:gemini-3-flash-preview",
-    "imagen": "none"
+    "texto": "gemini:gemini-4-argon",
+    "imagen": "none",
+    "modelos": {
+      "validacion": "gemini-4-argon (Google AI Studio)",
+      "contexto": "gemini-4-argon (Google AI Studio)",
+      "entrada": "gemini-4-argon (Google AI Studio)",
+      "revision": "gemini-4-argon (Google AI Studio)"
+    }
   },
   "advertencias": [
     "La validación se hizo sin búsqueda web: depende del conocimiento del modelo.",
-    "El contexto histórico se armó sin búsqueda web (sin cuota de búsqueda o desactivada): verificá los hechos.",
-    "Se omitió la revisión de estilo para responder a tiempo.",
     "El inicio de la relación (1959) es aproximado; se toma la fecha documentada más conservadora."
   ],
   "version": 2,
-  "id": "HmzRqxmakr",
-  "creada": "2026-10-25T21:06:23.420Z"
+  "id": "argon3demo",
+  "creada": "2026-10-27T12:00:00.000Z"
 }

@@ -13,121 +13,179 @@
   },
   "validacion": {
     "aceptado": true,
-    "justificacion": "Juan Román Riquelme y Marcelo Delgado son figuras públicas prominentes del fútbol argentino con una relación de amistad y trabajo documentada de más de 20 años. Compartieron plantel en Boca Juniors y actualmente integran la conducción del club, manteniendo un vínculo estrecho y público.",
-    "relacion": "Compañeros de equipo en Boca Juniors y actuales colegas en la dirigencia del club; mantienen una amistad íntima de larga data.",
-    "inicioRelacion": "2000",
+    "justificacion": "Juan Román Riquelme y Marcelo Delgado son dos ex futbolistas y dirigentes deportivos argentinos ampliamente reconocidos. Mantienen una estrecha amistad personal y relación laboral documentada desde la llegada de Delgado a Boca Juniors a principios del año 2000. Ambos fueron compañeros de equipo en múltiples títulos internacionales y trabajan juntos en la dirigencia del club (Consejo de Fútbol) desde diciembre de 2019.",
+    "relacion": "Compañeros de equipo en Boca Juniors (2000-2002), amigos íntimos y colegas en la gestión dirigencial y el Consejo de Fútbol de Boca Juniors desde fines de 2019.",
+    "inicioRelacion": "2000-01",
     "inicioAproximado": true,
     "ambito": "fútbol",
     "borges": {
       "nombre": "Juan Román Riquelme",
       "conocido": true,
-      "descripcion": "Exfutbolista y dirigente deportivo argentino, ídolo y presidente del Club Atlético Boca Juniors.",
+      "descripcion": "Exfutbolista argentino y actual presidente del Club Atlético Boca Juniors.",
       "nacimiento": "1978-06-24",
       "muerte": null,
       "apodos": [
-        "El Último Diez",
-        "Román",
-        "El Torero"
+        "Topo Gigio",
+        "El Último Diez"
       ],
       "apellido": "Riquelme"
     },
     "bioy": {
       "nombre": "Marcelo Alejandro Delgado",
       "conocido": true,
-      "descripcion": "Exfutbolista argentino, integrante del Consejo de Fútbol de Boca Juniors y amigo cercano de Riquelme.",
+      "descripcion": "Exfutbolista argentino e integrante del Consejo de Fútbol del Club Atlético Boca Juniors.",
       "nacimiento": "1973-03-24",
       "muerte": null,
       "apodos": [
-        "Chelo"
+        "Chelo",
+        "El Chelo"
       ],
       "apellido": "Delgado"
     },
     "noVerificados": [],
-    "fuentes": [
-      {
-        "titulo": "Riquelme y el Chelo Delgado: una amistad que nació en la cancha y sigue en el palco (citada por el modelo, sin verificar)",
-        "url": "https://www.tycsports.com/boca-juniors/riquelme-chelo-delgado-amistad-boca-id438746.html"
-      },
-      {
-        "titulo": "La historia de la amistad entre Riquelme y el Chelo Delgado (citada por el modelo, sin verificar)",
-        "url": "https://www.ole.com.ar/boca-juniors/riquelme-chelo-delgado-amistad-boca_0_6L9W8W9W.html"
-      }
-    ],
+    "fuentes": [],
     "conBusquedaWeb": false
   },
   "chequeoFecha": {
     "ok": true,
     "motivos": [],
     "advertencias": [
-      "El inicio de la relación (2000) es aproximado; se toma la fecha documentada más conservadora."
+      "El inicio de la relación (2000-01) es aproximado; se toma la fecha documentada más conservadora."
     ]
   },
   "fechas": [
     "2024-05-14",
     "2024-05-16",
+    "2024-05-20",
     "2024-05-30",
     "2024-06-03",
-    "2024-06-20"
+    "2024-06-15",
+    "2024-06-24"
   ],
   "contexto": {
     "fechasSugeridas": [
       "2024-05-14",
       "2024-05-16",
+      "2024-05-20",
       "2024-05-30",
       "2024-06-03",
-      "2024-06-20"
+      "2024-06-15",
+      "2024-06-24"
     ],
-    "resumen": "Entre el 14 de mayo y el 25 de junio de 2024, Boca Juniors afronta un calendario exigente combinando la fase de grupos de la Copa Sudamericana, el inicio de la Liga Profesional y los 16avos de final de la Copa Argentina. Juan Román Riquelme y Marcelo Delgado, desde la conducción del club y el Consejo de Fútbol, gestionan la presión por los resultados irregulares del equipo dirigido por Diego Martínez, las lesiones y la planificación del mercado de pases. El equipo logra importantes triunfos, como la goleada ante Nacional Potosí que sella la clasificación internacional, y avanza en la Copa Argentina antes del parate por la Copa América.",
+    "resumen": "Entre mediados de mayo y finales de junio de 2024, Juan Román Riquelme transita su primer semestre como presidente de Boca Juniors, apoyado estrechamente por su amigo Marcelo 'Chelo' Delgado en el Consejo de Fútbol. El período arranca con el golpe de la eliminación ante Estudiantes en la Copa de la Liga, la derrota en el debut de la Liga Profesional ante Atlético Tucumán y la urgencia de recibir a Fortaleza en La Bombonera por la Copa Sudamericana. El empate agónico de los brasileños obliga a Boca a disputar los dieciseisavos de final del certamen continental frente a Independiente del Valle. A nivel local, el equipo de Diego Martínez muestra una fuerte irregularidad: logra una remontada épica por 4-2 ante Central Córdoba, pero sufre caídas ante Platense y Vélez, además de la rebeldía y sanción disciplinaria de Darío Benedetto tras festejar su cumpleaños. Todo esto se entrelaza con las negociaciones del mercado de pases (como la llegada de Gary Medel), la citación de sus volantes titulares a los Juegos Olímpicos y el inicio de la Copa América en Estados Unidos, previo al cumpleaños número 46 de Riquelme el 24 de junio.",
     "recientes": [
       {
-        "fecha": "2024-05-08",
-        "descripcion": "Copa Sudamericana: Sportivo Trinidense 1 - Boca Juniors 2, con goles de Cavani y Figal."
+        "fecha": "2024-04-25",
+        "descripcion": "Copa Sudamericana (Fecha 3): Boca Juniors, con mayoría de suplentes, cae derrotado 4-2 frente a Fortaleza en Brasil."
       },
       {
-        "fecha": "2024-05-11",
-        "descripcion": "Liga Profesional (Fecha 1): Atlético Tucumán 1 - Boca Juniors 0, derrota en el debut del torneo local."
+        "fecha": "2024-04-30",
+        "descripcion": "Semifinal de la Copa de la Liga Profesional: Boca empata 1-1 con Estudiantes de La Plata en Córdoba (gol de Miguel Merentiel y empate de penal de Edwuin Cetré tras falta de Cristian Lema) y queda eliminado por penales (1-3)."
+      },
+      {
+        "fecha": "2024-05-05",
+        "descripcion": "Fallece a los 85 años César Luis Menotti, histórico entrenador campeón del mundo en 1978, exdirector técnico de Boca y figura muy admirada por Riquelme."
+      },
+      {
+        "fecha": "2024-05-08",
+        "descripcion": "Copa Sudamericana (Fecha 4): Boca Juniors vence 2-1 como visitante a Sportivo Trinidense en Asunción con un gol de tiro libre de Edinson Cavani sobre la hora."
+      },
+      {
+        "fecha": "2024-05-12",
+        "descripcion": "Liga Profesional (Fecha 1): Boca Juniors debuta en el torneo cayendo 1-0 como visitante frente a Atlético Tucumán."
       }
     ],
     "proximos": [
       {
         "fecha": "2024-05-15",
-        "descripcion": "Copa Sudamericana: Boca Juniors 1 - Fortaleza 1, gol de Edinson Cavani en La Bombonera."
+        "descripcion": "Copa Sudamericana (Fecha 5): Boca empata 1-1 ante Fortaleza en La Bombonera (gol de Edinson Cavani e igualdad agónica de Kervin Andrade a los 90 minutos), complicando su clasificación directa a octavos de final."
+      },
+      {
+        "fecha": "2024-05-17",
+        "descripcion": "Estalla el conflicto interno con Darío Benedetto: tras celebrar su cumpleaños número 34 por la noche, se presenta en la kinesiología del predio de Ezeiza y le dice al DT Diego Martínez la frase 'noches alegres, mañanas tristes', siendo marginado del plantel."
       },
       {
         "fecha": "2024-05-19",
-        "descripcion": "Liga Profesional (Fecha 2): Boca Juniors 4 - Central Córdoba 2, con dobletes de Equi Fernández y Miguel Merentiel."
+        "descripcion": "Liga Profesional (Fecha 2): Con una gran actuación de Kevin Zenón y Miguel Merentiel, Boca revierte un 0-2 en contra y derrota 4-2 como visitante a Central Córdoba en Santiago del Estero."
+      },
+      {
+        "fecha": "2024-05-25",
+        "descripcion": "Liga Profesional (Fecha 3): Boca empata 0-0 como local ante Talleres de Córdoba en La Bombonera."
       },
       {
         "fecha": "2024-05-29",
-        "descripcion": "Copa Sudamericana: Boca Juniors 4 - Nacional Potosí 0, asegurando la clasificación a la siguiente fase."
+        "descripcion": "Copa Sudamericana (Fecha 6): Boca golea 4-0 a Nacional Potosí en La Bombonera (goles de Zenón, Cavani, Saracchi y Rojo), pero el triunfo de Fortaleza lo relega al segundo puesto del grupo, debiendo jugar el repechaje."
       },
       {
         "fecha": "2024-06-02",
-        "descripcion": "Liga Profesional (Fecha 4): Boca Juniors 1 - Platense 0, gol de Gary Medel (debut) o triunfo ajustado en casa."
+        "descripcion": "Liga Profesional (Fecha 4): Boca pierde 1-0 frente a Platense en Vicente López (gol de Mateo Pellegrino) en un partido donde Marcos Rojo se va expulsado en el primer tiempo."
+      },
+      {
+        "fecha": "2024-06-03",
+        "descripcion": "Se confirma que el rival de Boca en el repechaje de dieciseisavos de final de la Copa Sudamericana será Independiente del Valle, justo cuando el club sabe que no podrá contar con Equi Fernández, Cristian Medina y Kevin Zenón por ser citados a los Juegos Olímpicos."
+      },
+      {
+        "fecha": "2024-06-13",
+        "descripcion": "El chileno Gary Medel, excompañero de Riquelme en su etapa como jugador, llega a la Argentina y se realiza la revisión médica para convertirse en el primer refuerzo de Boca en el mercado de invierno."
+      },
+      {
+        "fecha": "2024-06-14",
+        "descripcion": "Liga Profesional (Fecha 5): Boca vence 1-0 a Vélez Sarsfield en La Bombonera con gol de cabeza de Edinson Cavani; en el final son expulsados el propio Cavani y Christian Ordóñez."
       },
       {
         "fecha": "2024-06-19",
-        "descripcion": "Copa Argentina (16avos): Boca Juniors 2 - Almirante Brown 1, victoria sufrida en Mendoza."
+        "descripcion": "Copa Argentina (16avos de final): En el estadio Malvinas Argentinas de Mendoza, Boca derrota 2-1 a Almirante Brown con goles de Miguel Merentiel y Edinson Cavani, cerrando el semestre antes del receso."
+      },
+      {
+        "fecha": "2024-06-20",
+        "descripcion": "Comienza la Copa América en Estados Unidos con la victoria de la Selección Argentina por 2-0 frente a Canadá en Atlanta."
+      },
+      {
+        "fecha": "2024-06-24",
+        "descripcion": "Juan Román Riquelme cumple 46 años mientras encabeza en el predio de Ezeiza las negociaciones del mercado de pases junto al Consejo de Fútbol."
       }
     ],
-    "escenaSugerida": "Asado nocturno en el predio de Ezeiza, donde Riquelme y el Chelo Delgado repasan en privado los próximos pasos del Consejo de Fútbol de cara al partido contra Fortaleza y el armado del plantel.",
+    "escenaSugerida": "Martes 14 de mayo por la noche en el quincho del Predio de Boca en Ezeiza. El humo del asado se mezcla con el vapor del mate que prepara Román. Mañana se juega una final anticipada contra Fortaleza en La Bombonera y todavía mastican la bronca por la caída del domingo en Tucumán y el penal insólito de Lema contra Estudiantes. Entre tira de asado y achuras, Riquelme y el Chelo Delgado repasan en voz baja la lista de lesionados en la defensa, evalúan el ánimo del técnico Diego Martínez y comentan el reciente fallecimiento del Flaco Menotti.",
     "criticadosSugeridos": [
-      "Diego Martínez",
-      "Árbitros del fútbol argentino"
+      "Darío Benedetto",
+      "Mauricio Macri",
+      "Javier Milei"
     ],
     "alabadosSugeridos": [
       "Edinson Cavani",
-      "Miguel Merentiel"
+      "César Luis Menotti",
+      "Kevin Zenón"
     ],
-    "fuentes": [
+    "participantesSugeridos": [
       {
-        "titulo": "Sitio Oficial del Club Atlético Boca Juniors - Partidos 2024 (citada por el modelo, sin verificar)",
-        "url": "https://www.bocajuniors.com.ar"
+        "nombre": "Raúl Cascini",
+        "vinculo": "Excompañero e integrante del Consejo de Fútbol de Boca Juniors"
+      },
+      {
+        "nombre": "Mauricio Serna",
+        "vinculo": "Excompañero, amigo e integrante del Consejo de Fútbol de Boca Juniors"
+      },
+      {
+        "nombre": "Jorge Bermúdez",
+        "vinculo": "Excompañero, excapitán del equipo e integrante del Consejo de Fútbol"
+      },
+      {
+        "nombre": "Cristian Riquelme",
+        "vinculo": "Hermano menor de Juan Román y mano derecha operativa en el predio de Ezeiza"
+      },
+      {
+        "nombre": "Diego Martínez",
+        "vinculo": "Director técnico del plantel profesional de Boca Juniors en ese período"
+      },
+      {
+        "nombre": "Blas Giunta",
+        "vinculo": "Ídolo del club y coordinador de las divisiones inferiores en el predio de Ezeiza"
       }
     ],
+    "fuentes": [],
     "desde": "2024-05-14",
     "hasta": "2024-06-25",
-    "conBusquedaWeb": false
+    "conBusquedaWeb": true
   },
   "entrada": {
     "dias": [
@@ -135,95 +193,115 @@
         "fecha": "2024-05-14",
         "anio": "2024",
         "encabezado": "Martes, 14 de mayo.",
-        "situacion": "Asado nocturno en la concentración de Ezeiza, con Riquelme. A la espera del partido de mañana contra Fortaleza por la Sudamericana.",
+        "situacion": "Asado nocturno en el predio de Ezeiza, con Riquelme y Mauricio Serna. En la víspera de jugar contra Fortaleza por la Copa Sudamericana.",
         "parrafos": [
-          "Pica la grasa en la parrilla mientras Riquelme acomoda los troncos con una varilla de fierro, mirando el fuego como si estuviera descifrando una defensa en tres cuartos de cancha. Me señala el humo con la barbilla y dice: «Los muchachos corren demasiado atrás de la pelota y piensan muy poco en cómo tratarla».",
-          "Le contesto que el técnico hace lo que puede con lo que tiene en el plantel, entre lesiones y bajos rendimientos. Riquelme niega despacio con la cabeza, sirviéndose un vaso de gaseosa sin hielo: «El que sabe jugar al fútbol no necesita correr tanto; el que corre todo el tiempo es porque llega tarde a todos lados»."
+          "Riquelme aparta la grasa del vacío con un cuchillo desafilado y ni prueba la ensalada. Todavía dura el fastidio por la caída del domingo en Tucumán. Serna comenta una declaración televisiva donde Mauricio Macri y Javier Milei volvieron a insistir con las sociedades anónimas en el fútbol.",
+          "«Macri cree que un club es una fábrica de tuercas y el otro grita porque no sabe parar la pelota», dice Riquelme, sin levantar la vista del plato. Le contesto que, si privatizan todo, por lo menos nos van a comprar cuchillos que corten. Serna se ríe; Riquelme me mira serio y señala: «Con tus chistes estamos a tres puntos de los brasileños».",
+          "Más tarde, mientras acomoda la yerba con la bombilla, recuerda a César Luis Menotti, que murió hace nueve días: «El Flaco sabía que el fútbol es un engaño para los que miran los números. Hablaba de una pared como quien habla de una casa»."
         ]
       },
       {
         "fecha": "2024-05-16",
         "anio": "2024",
         "encabezado": "Jueves, 16 de mayo.",
-        "situacion": "Tarde de mate en la oficina del predio, Riquelme y yo. Con la resaca del empate contra Fortaleza aún fresca en la cabeza.",
+        "situacion": "Por teléfono, Riquelme.",
         "parrafos": [
-          "Mira la repetición del partido en la pantalla grande con gesto impasible, masticando un bizcocho de grasa frío que dejó alguien en la mesa ratona. Comenta sin mirar: «Menos mal que tenemos a Cavani para empujar esas pelotas sucias, porque si esperamos que los volantes piensen una jugada clara nos vamos a quedar ciegos».",
-          "Me río y le recuerdo que el uruguayo se sacrifica bajando a recuperar metros atrás. Me mira de costado, socarrón: «Ese es un delantero serio, no como los inventos modernos que corren para la tribuna y después no le pueden dar un pase a tres metros»."
+          "Son las doce de la noche y sigue sin dormir por el empate que nos hizo Fortaleza ayer en el último minuto. «Estábamos todos en el área de ellos esperando la foto del diario, y nos vacunaron de contragolpe como a chicos de novena», se queja.",
+          "Intento calmarlo diciendo que merecimos ganar por tres goles. «El merecimiento lo inventaron los que pierden para no devolver el sueldo», corta, y escucho el ruido del termo antes de que cuelgue."
+        ]
+      },
+      {
+        "fecha": "2024-05-20",
+        "anio": "2024",
+        "encabezado": "Lunes, 20 de mayo.",
+        "situacion": "Tomamos mate en la oficina de Brandsen, Riquelme, Raúl Cascini y yo.",
+        "parrafos": [
+          "Hablamos del triunfo de anoche en Santiago del Estero, donde dimos vuelta un cero-dos contra Central Córdoba, y del escándalo del viernes con Darío Benedetto, que tras festejar sus treinta y cuatro años apareció en kinesiología diciéndole a Diego Martínez aquello de «noches alegres, mañanas tristes».",
+          "Cascini pregunta si conviene aplicar una multa económica además de separarlo del plantel. «El problema de Benedetto no es que salga de noche, es que se cree un poeta del tango cuando declara», observa Riquelme. Agrego que ni en mis peores épocas ponía excusas con rima. «Vos corrías, que es distinto. En cambio a Kevin Zenón le das un ladrillo y te devuelve una pared limpia; parece que jugara en el patio de la abuela»."
         ]
       },
       {
         "fecha": "2024-05-30",
         "anio": "2024",
         "encabezado": "Jueves, 30 de mayo.",
-        "situacion": "Mañana soleada en el centro de entrenamiento, Riquelme y yo revisando informes tácticos tras la goleada a Nacional Potosí.",
+        "situacion": "Caminamos por la cancha auxiliar bajo la llovizna, Riquelme y yo.",
         "parrafos": [
-          "Firma unos papeles con pluma negra mientras entran las planillas del último entrenamiento. Levanta la vista y suelta de golpe: «A esos árbitros les molesta que juguemos en la cancha de Boca; cobran faltas donde no pasa nada para frenar el ritmo del partido».",
-          "Le digo que los jueces siempre van a pitar con la presión del estadio lleno respirándoles en la nuca. Riquelme sonríe apenas, tomando un sorbo de mate tibio: «No es la presión; es que no entienden nada de este juego y se asustan cuando la pelota rueda limpia»."
+          "Ayer goleamos cuatro a cero a Nacional Potosí en la Bombonera, pero como ganaron los brasileños quedamos segundos y vamos al repechaje. Riquelme lleva la campera abierta a pesar del frío y pisa los charcos sin mirarlos. «Hicimos cuatro goles y parece que venimos de un velorio», le digo. «Es que el hincha no festeja la aritmética, festeja no tener que jugar en julio contra el que baje de la otra copa», responde."
         ]
       },
       {
         "fecha": "2024-06-03",
         "anio": "2024",
         "encabezado": "Lunes, 3 de junio.",
-        "situacion": "Almuerzo rápido en el quincho del club, Riquelme, el técnico Diego Martínez y yo. Pensando en el torneo local que se viene.",
+        "situacion": "Almuerza en mi casa Riquelme.",
         "parrafos": [
-          "Martínez intenta explicarle la disposición táctica que planea para el próximo domingo frente a Platense, gesticulando con los cubiertos sobre el mantel de papel. Riquelme lo escucha en silencio absoluto, jugando con el pan, y sentencia: «Dejá de complicarlos con tantos esquemas raros y poné a Merentiel arriba para que corra a los centrales».",
-          "El técnico asiente con una sonrisa nerviosa, tragando saliva antes de volver a hablar de la pelota parada. Cuando se aleja hacia la cocina, Riquelme me susurra: «Estos muchachos le leen tantos libros a los analistas que se olvidan de pisar la pelota»."
+          "Trae una docena de facturas que nadie toca y se pasa el mediodía cambiando el agua del termo porque dice que mi pava eléctrica hierve todo y arruina la yerba. Ayer perdimos con Platense en Vicente López con uno menos por la expulsión de Marcos Rojo, y hoy se confirmó que nuestro rival en dieciseisavos será Independiente del Valle, justo cuando nos sacan a Zenón, Cristian Medina y Equi Fernández para los Juegos Olímpicos.",
+          "Me quejo de la mala suerte con el calendario y la altura de Quito. «La suerte es el nombre que le ponemos a las distracciones nuestras», dice él, limpiando la bombilla con una servilleta de papel. Le digo que habla igual que un cura de pueblo; me contesta: «Los curas no tienen que buscar dos volantes antes de fin de mes»."
         ]
       },
       {
-        "fecha": "2024-06-20",
+        "fecha": "2024-06-15",
         "anio": "2024",
-        "encabezado": "Jueves, 20 de junio.",
-        "situacion": "Regreso en micro desde Mendoza tras ganarle ajustadamente a Almirante Brown por la Copa Argentina, con Riquelme a mi lado.",
+        "encabezado": "Sábado, 15 de junio.",
+        "situacion": "Merienda en el quincho de Don Torcuato, con Riquelme y Blas Giunta.",
         "parrafos": [
-          "Mira por la ventanilla oscura la ruta vacía mientras el colectivo vibra con un zumbido constante en el motor. Dice sin volverse hacia mí: «Ganamos sufriendo un partido que debimos resolver en el primer tiempo con dos pases bien dados».",
-          "Le contesto que en este torneo nadie regala nada y los rivales se juegan la vida contra nuestra camiseta. Riquelme suspira hondo, apoyando la nuca en el respaldo: «El problema es que nos acostumbramos a sufrir lo que deberíamos resolver con la inteligencia de los que saben»."
+          "En el televisor sin volumen pasan la repetición del partido de anoche contra Vélez: el gol de cabeza de Edinson Cavani y su expulsión sobre la hora. Hace dos días llegó Gary Medel para sumarse al plantel y Giunta celebra que por fin vuelva gente que raspe en la mitad de la cancha.",
+          "«Cavani tiene treinta y siete años y salta en el área como si le fueran a robar la billetera», elogia Riquelme mientras reparte mandarinas. Giunta dice que la tarjeta roja del final fue una exageración del árbitro. «Se hizo echar porque estaba aburrido de correr solo; los uruguayos cuando ganan uno a cero necesitan pelearse con alguien para entrar en calor», concluye Riquelme."
+        ]
+      },
+      {
+        "fecha": "2024-06-24",
+        "anio": "2024",
+        "encabezado": "Lunes, 24 de junio.",
+        "situacion": "Cenamos en el comedor de los juveniles, Riquelme, Cristian Riquelme, Jorge Bermúdez y yo. Cumple cuarenta y seis años Riquelme.",
+        "parrafos": [
+          "Venimos de ganarle a Almirante Brown en Mendoza por la Copa Argentina antes del receso y hace cuatro días empezó la Copa América en Estados Unidos. Cristian Riquelme apaga los celulares porque no paran de llamar representantes ofreciendo delanteros.",
+          "Bermúdez propone un brindis con gaseosa de pomelo por el presidente. Riquelme mira la torta, que tiene el glacé torcido, y se encoge de hombros: «Cumplir años acá adentro es envejecer el doble, pero si me voy a mi casa me aburro a los diez minutos». Le digo que por lo menos hoy no hablemos de pases ni de laterales derechos. «Entonces andate a dormir, porque de otra cosa no sabés hablar», me dice, y me sirve el primer pedazo."
         ]
       }
     ],
     "paginas": [
-      2,
+      4,
       3
     ],
     "notas": [
-      "Las referencias corresponden al período previo al receso por la Copa América 2024."
+      "El 15 de mayo de 2024, en el empate 1-1 ante Fortaleza, Boca Juniors fue a buscar el segundo gol sobre el final y recibió el tanto de Kervin Andrade a los 90 minutos tras un córner a favor.",
+      "César Luis Menotti había fallecido el 5 de mayo de 2024 a los ochenta y cinco años; dirigió a Riquelme en sus inicios en Boca Juniors."
     ],
-    "escena": "Asado nocturno y charlas cotidianas en el predio de Ezeiza entre Marcelo Delgado y Juan Román Riquelme.",
+    "escena": "Asado nocturno en el predio de Ezeiza",
     "criticados": [
-      "Diego Martínez",
-      "Árbitros del fútbol argentino"
+      "Darío Benedetto",
+      "Mauricio Macri",
+      "Javier Milei"
     ],
     "alabados": [
       "Edinson Cavani",
-      "Miguel Merentiel"
+      "César Luis Menotti",
+      "Kevin Zenón"
     ],
-    "palabras": 592,
+    "palabras": 882,
     "revision": {
-      "hecha": true,
-      "problemasDetectados": [
-        "La palabra «predio» se repite en las líneas de situación de las entradas 1 y 2.",
-        "La palabra «manana» se repite en las líneas de situación de las entradas 1 y 3.",
-        "En «El que sabe jugar al fútbol no necesita correr tanto, Marcel» hay un vocativo («Marcelo»). Juan Román Riquelme y Marcelo Alejandro Delgado no se llaman por el nombre ni por apodos: sacalo y que la frase se diga directamente.",
-        "En «No es la presión, Marcelo; es que no entienden nada de este » hay un vocativo («Marcelo»). Juan Román Riquelme y Marcelo Alejandro Delgado no se llaman por el nombre ni por apodos: sacalo y que la frase se diga directamente."
-      ],
-      "problemasRestantes": [
-        "La palabra «manana» se repite en las líneas de situación de las entradas 1 y 3.",
-        "En la entrada 3, «entrenamiento» está en la situación y otra vez en la primera oración; evitá la repetición."
-      ]
+      "hecha": false,
+      "problemasDetectados": [],
+      "problemasRestantes": []
     }
   },
   "titulo": "Riquelme",
   "proveedores": {
-    "texto": "gemini:gemini-flash-lite-latest",
-    "imagen": "none"
+    "texto": "gemini:gemini-4-argon",
+    "imagen": "none",
+    "modelos": {
+      "validacion": "gemini-4-argon (Google AI Studio)",
+      "contexto": "gemini-4-argon (Google AI Studio)",
+      "entrada": "gemini-4-argon (Google AI Studio)",
+      "revision": "gemini-4-argon (Google AI Studio)"
+    }
   },
   "advertencias": [
     "La validación se hizo sin búsqueda web: depende del conocimiento del modelo.",
-    "El contexto histórico se armó sin búsqueda web (sin cuota de búsqueda o desactivada): verificá los hechos.",
-    "El inicio de la relación (2000) es aproximado; se toma la fecha documentada más conservadora."
+    "El inicio de la relación (2000-01) es aproximado; se toma la fecha documentada más conservadora."
   ],
   "version": 2,
-  "id": "YwnbqKNKyC",
-  "creada": "2026-10-25T23:11:22.696Z"
+  "id": "argon4demo",
+  "creada": "2026-10-27T12:00:00.000Z"
 }

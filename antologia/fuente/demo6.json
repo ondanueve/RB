@@ -2,10 +2,10 @@
   "parametros": {
     "borges": "Diego Maradona",
     "bioy": "Guillermo Cóppola",
-    "fecha": "1987-05-10",
+    "fecha": "2022-12-16",
     "criticados": [],
     "alabados": [],
-    "escena": "Come en casa Maradona, en Nápoles",
+    "escena": "Come en casa Maradona, en Doha",
     "presentes": [],
     "tono": "irónico",
     "extension": "media",
@@ -13,27 +13,30 @@
   },
   "validacion": {
     "aceptado": true,
-    "justificacion": "Diego Maradona y Guillermo Cóppola son figuras públicas de enorme notoriedad. Cóppola comenzó a trabajar como representante de Maradona en julio de 1985, iniciando una intensa relación laboral y de amistad que duró casi dos décadas.",
-    "relacion": "Representante de fútbol y amigo cercano",
-    "inicioRelacion": "1985-07",
-    "inicioAproximado": false,
+    "justificacion": "Diego Maradona y Guillermo Cóppola son dos figuras públicas argentinas ampliamente reconocidas. Mantuvieron una extensísima y muy documentada relación personal de íntima amistad y de trabajo conjunto, en la cual Cóppola se desempeñó como representante y apoderado de Maradona durante más de quince años a partir de 1985.",
+    "relacion": "Representante deportivo, apoderado y amigo íntimo durante más de quince años, conviviendo en distintas etapas de la carrera y vida personal de Maradona en Italia, Argentina y Cuba.",
+    "inicioRelacion": "1985",
+    "inicioAproximado": true,
     "ambito": "fútbol",
     "borges": {
-      "nombre": "Diego Maradona",
+      "nombre": "Diego Armando Maradona",
       "conocido": true,
-      "descripcion": "Futbolista y entrenador argentino, considerado uno de los mejores jugadores de la historia.",
+      "descripcion": "Futbolista y entrenador argentino, campeón del mundo en 1986 y considerado uno de los mejores jugadores de la historia.",
       "nacimiento": "1960-10-30",
       "muerte": "2020-11-25",
       "apodos": [
         "Pelusa",
-        "El Pibe de Oro"
+        "El Diez",
+        "El Pibe de Oro",
+        "Barrilete Cósmico",
+        "D10S"
       ],
       "apellido": "Maradona"
     },
     "bioy": {
-      "nombre": "Guillermo Cóppola",
+      "nombre": "Guillermo Esteban Cóppola",
       "conocido": true,
-      "descripcion": "Empresario argentino y mánager de futbolistas, famoso por representar a Diego Maradona.",
+      "descripcion": "Empresario y exrepresentante de futbolistas argentino, célebre por haber sido el mánager y amigo personal de Diego Maradona.",
       "nacimiento": "1948-10-12",
       "muerte": null,
       "apodos": [
@@ -42,245 +45,312 @@
       "apellido": "Cóppola"
     },
     "noVerificados": [],
-    "fuentes": [
-      {
-        "titulo": "Diego Maradona - Wikipedia (citada por el modelo, sin verificar)",
-        "url": "https://es.wikipedia.org/wiki/Diego_Maradona"
-      },
-      {
-        "titulo": "Guillermo Cóppola - Wikipedia (citada por el modelo, sin verificar)",
-        "url": "https://es.wikipedia.org/wiki/Guillermo_C%C3%B3ppola"
-      }
-    ],
+    "fuentes": [],
     "conBusquedaWeb": false
   },
   "chequeoFecha": {
     "ok": true,
-    "motivos": [],
-    "advertencias": []
+    "motivos": [
+      "Diego Armando Maradona ya había muerto el 2022-12-16 (murió en 2020-11-25)."
+    ],
+    "advertencias": [
+      "Fecha inverosímil (se escribe igual, como ucronía): Diego Armando Maradona ya había muerto el 2022-12-16 (murió en 2020-11-25)."
+    ]
   },
   "fechas": [
-    "1987-05-10",
-    "1987-05-11",
-    "1987-05-18",
-    "1987-05-28",
-    "1987-06-08",
-    "1987-06-14",
-    "1987-06-21"
+    "2022-12-16",
+    "2022-12-18",
+    "2022-12-20",
+    "2022-12-29",
+    "2023-01-04",
+    "2023-01-13",
+    "2023-01-20",
+    "2023-01-27"
   ],
   "contexto": {
     "fechasSugeridas": [
-      "1987-05-10",
-      "1987-05-11",
-      "1987-05-18",
-      "1987-05-28",
-      "1987-06-08",
-      "1987-06-14",
-      "1987-06-21"
+      "2022-12-16",
+      "2022-12-18",
+      "2022-12-20",
+      "2022-12-29",
+      "2023-01-04",
+      "2023-01-13",
+      "2023-01-20",
+      "2023-01-27"
     ],
-    "resumen": "El período comprendido entre mayo y junio de 1987 marca el punto culminante de la carrera de Diego Maradona en el SSC Napoli junto a su representante y amigo Guillermo Coppola. El 10 de mayo de 1987, el conjunto partenopeo logra el primer Scudetto de su historia tras empatar 1-1 ante la Fiorentina, desatando una celebración sin precedentes en las calles de Nápoles. Durante las semanas siguientes, el equipo mantiene su andar arrollador en la Coppa Italia, superando eliminatorias hasta vencer a Atalanta en la final del 13 de junio y conseguir un histórico doblete. Coppola maneja el frenesí comercial, el asedio periodístico y las ofertas tentadoras de otros clubes europeos. Hacia mediados de junio, Maradona viaja a Argentina para sumarse a los entrenamientos de la Selección dirigida por Carlos Bilardo de cara a la Copa América 1987.",
+    "resumen": "El período está marcado de principio a fin por la histórica consagración de la Selección Argentina en la Copa Mundial de la FIFA Qatar 2022 y sus repercusiones globales. En las semanas previas al 16 de diciembre, el equipo dirigido por Lionel Scaloni se repuso del golpe inicial ante Arabia Saudita (1-2) superando a México (2-0), Polonia (2-0), Australia (2-1), Países Bajos por penales en una tensa batalla en Lusail y a Croacia (3-0) en semifinales. El 18 de diciembre de 2022, Argentina venció a Francia en los penales tras empatar 3-3 en una de las finales más dramáticas de la historia, desatando el 20 de diciembre una movilización popular sin precedentes en Buenos Aires con millones de personas en las calles. Días más tarde, el mundo del fútbol sufrió la conmoción por la muerte de Pelé el 29 de diciembre en São Paulo y de Gianluca Vialli el 6 de enero, mientras el fútbol europeo retomaba su actividad, Boca Juniors y Racing Club disputaban la Supercopa Internacional en Abu Dabi el 20 de enero, y en el plano político regional se producía la asunción de Lula da Silva en Brasil seguida del intento de golpe en Brasilia el 8 de enero. En la realidad, Guillermo Cóppola se encontraba en Buenos Aires cumpliendo con sus programas radiales y televisivos mientras recordaba emotivamente a su amigo durante los festejos mundialistas; dentro de la ficción, un Maradona vivo a sus 62 años estaría instalado en Doha como figura central e invitado de honor, viviendo con pasión desbordante la víspera de la final, celebrando el título de Lionel Messi como propio, llorando la partida de Pelé y siguiendo en enero el regreso de la actividad de su querido Napoli, líder absoluto de la Serie A rumbo a un nuevo Scudetto.",
     "recientes": [
       {
-        "fecha": "1987-04-26",
-        "descripcion": "Napoli golea 4-1 a Hellas Verona por la fecha 27 de la Serie A con un gol de Maradona, afirmándose en el liderazgo del torneo."
+        "fecha": "2022-11-22",
+        "descripcion": "Argentina cae sorpresivamente 1-2 ante Arabia Saudita en su debut en el Grupo C del Mundial de Qatar en el Estadio Lusail, cortando un invicto de 36 partidos."
       },
       {
-        "fecha": "1987-04-29",
-        "descripcion": "Napoli derrota 2-0 a Bologna en el partido de ida de los cuartos de final de la Coppa Italia."
+        "fecha": "2022-11-26",
+        "descripcion": "En un partido de máxima tensión, Argentina vence 2-0 a México en el Estadio Lusail con goles de Lionel Messi y Enzo Fernández."
       },
       {
-        "fecha": "1987-05-03",
-        "descripcion": "Napoli empata 1-1 como visitante ante Como en la fecha 28 de la Serie A, quedando a un solo punto de ser campeón."
+        "fecha": "2022-11-30",
+        "descripcion": "Argentina derrota 2-0 a Polonia en el Estadio 974 con goles de Alexis Mac Allister y Julián Álvarez, clasificando primera en su grupo."
       },
       {
-        "fecha": "1987-05-06",
-        "descripcion": "Napoli vence 1-0 a Bologna en la vuelta de cuartos de final de la Coppa Italia y clasifica a semifinales."
+        "fecha": "2022-12-03",
+        "descripcion": "Por los octavos de final del Mundial, Argentina vence 2-1 a Australia en el Estadio Áhmad bin Ali con tantos de Messi y Julián Álvarez, y una atajada agónica de Emiliano Martínez ante Garang Kuol."
+      },
+      {
+        "fecha": "2022-12-06",
+        "descripcion": "En el plano político argentino, el Tribunal Oral Federal N.º 2 condena a la vicepresidenta Cristina Fernández de Kirchner a seis años de prisión e inhabilitación perpetua en la causa Vialidad; horas después anuncia que no será candidata en 2023."
+      },
+      {
+        "fecha": "2022-12-07",
+        "descripcion": "Crisis política en Perú: el presidente Pedro Castillo intenta disolver el Congreso, es destituido y detenido, asumiendo la vicepresidenta Dina Boluarte."
+      },
+      {
+        "fecha": "2022-12-09",
+        "descripcion": "En un encuentro caldeado por las declaraciones previas de Louis van Gaal, Argentina empata 2-2 con Países Bajos en Lusail y avanza a semifinales al imponerse 4-3 en los penales; Messi inmortaliza la frase '¿Qué mirás, bobo? Andá pa' allá' contra Wout Weghorst."
+      },
+      {
+        "fecha": "2022-12-13",
+        "descripcion": "Argentina golea 3-0 a Croacia en la semifinal disputada en el Estadio Lusail, con un gol de penal de Lionel Messi y dos tantos de Julián Álvarez, clasificando a su sexta final mundialista."
+      },
+      {
+        "fecha": "2022-12-14",
+        "descripcion": "Francia vence 2-0 a Marruecos en el Estadio Al Bayt con goles de Theo Hernández y Randal Kolo Muani, convirtiéndose en el rival de Argentina para la final."
       }
     ],
     "proximos": [
       {
-        "fecha": "1987-05-10",
-        "descripcion": "Napoli empata 1-1 con Fiorentina con gol de Andrea Carnevale en el Stadio San Paolo y se corona campeón de la Serie A por primera vez en su historia."
+        "fecha": "2022-12-16",
+        "descripcion": "Fallece en Roma a los 53 años Siniša Mihajlović, histórico futbolista y entrenador serbio, tras una larga lucha contra la leucemia."
       },
       {
-        "fecha": "1987-05-17",
-        "descripcion": "Napoli cierra su participación en la Serie A 1986-87 derrotando 2-1 a Brescia como visitante."
+        "fecha": "2022-12-17",
+        "descripcion": "Croacia derrota 2-1 a Marruecos en el Estadio Internacional Jalifa con goles de Joško Gvardiol y Mislav Oršić, quedándose con el tercer puesto del Mundial de Qatar."
       },
       {
-        "fecha": "1987-05-27",
-        "descripcion": "Napoli vence 1-0 a Cagliari en el partido de ida de las semifinales de la Coppa Italia."
+        "fecha": "2022-12-18",
+        "descripcion": "Final de la Copa del Mundo en el Estadio Lusail: Argentina y Francia igualan 3-3 tras 120 minutos (dos goles de Messi y uno de Ángel Di María; triplete de Kylian Mbappé) y Argentina se consagra campeona del mundo al ganar 4-2 por penales."
       },
       {
-        "fecha": "1987-06-03",
-        "descripcion": "Napoli supera 4-1 a Cagliari en el San Paolo en la vuelta de semifinales y avanza a la final de la Coppa Italia."
+        "fecha": "2022-12-20",
+        "descripcion": "Feriado nacional en Argentina: cerca de cinco millones de personas colman las autopistas y calles del Área Metropolitana de Buenos Aires para recibir al plantel campeón; la caravana terrestre debe interrumpirse y los jugadores sobrevuelan la Avenida 9 de Julio y el Obelisco en helicópteros."
       },
       {
-        "fecha": "1987-06-07",
-        "descripcion": "Napoli derrota 3-0 a Atalanta en el partido de ida de la final de la Coppa Italia."
+        "fecha": "2022-12-29",
+        "descripcion": "Muere en el Hospital Israelita Albert Einstein de São Paulo, a los 82 años, Edson Arantes do Nascimento, 'Pelé', tricampeón mundial brasileño, a causa de un fallo multiorgánico derivado del cáncer de colon."
       },
       {
-        "fecha": "1987-06-10",
-        "descripcion": "En Zúrich, Italia vence 3-1 a la Selección Argentina en un amistoso internacional; Maradona convierte el único tanto argentino."
+        "fecha": "2022-12-30",
+        "descripcion": "Cristiano Ronaldo es anunciado oficialmente como nuevo jugador del club Al-Nassr de Arabia Saudita tras su conflictiva salida del Manchester United."
       },
       {
-        "fecha": "1987-06-13",
-        "descripcion": "Napoli le gana 1-0 a Atalanta en Bérgamo, obtiene la Coppa Italia y liquida el doblete histórico Scudetto-Copa."
+        "fecha": "2023-01-01",
+        "descripcion": "Luiz Inácio Lula da Silva asume por tercera vez la presidencia de Brasil en Brasilia; el presidente argentino Alberto Fernández asiste a la ceremonia."
       },
       {
-        "fecha": "1987-06-20",
-        "descripcion": "Maradona se reincorpora al plantel de la Selección Argentina en el predio de Ezeiza bajo las órdenes de Carlos Bilardo para la Copa América 1987."
+        "fecha": "2023-01-04",
+        "descripcion": "En la reanudación de la Serie A italiana tras el receso mundialista, el Napoli sufre su primera derrota de la temporada al caer 0-1 ante el Inter en Milán con gol de Edin Džeko, aunque mantiene el liderazgo."
+      },
+      {
+        "fecha": "2023-01-06",
+        "descripcion": "Fallece en Londres a los 58 años el exdelantero italiano Gianluca Vialli, figura de la Sampdoria, la Juventus y la selección de Italia en los años 80 y 90."
+      },
+      {
+        "fecha": "2023-01-08",
+        "descripcion": "Seguidores del expresidente Jair Bolsonaro asaltan y vandalizan las sedes del Congreso Nacional, el Supremo Tribunal Federal y el Palacio del Planalto en Brasilia."
+      },
+      {
+        "fecha": "2023-01-13",
+        "descripcion": "Por la jornada 18 de la Serie A, el Napoli logra una histórica goleada por 5-1 sobre la Juventus en el Estadio Diego Armando Maradona de Nápoles, con dos goles de Victor Osimhen y un tanto de Khvicha Kvaratskhelia, consolidando su marcha hacia el título."
+      },
+      {
+        "fecha": "2023-01-19",
+        "descripcion": "En un amistoso internacional en Riad (Riyadh Season Cup), el Paris Saint-Germain de Lionel Messi y Kylian Mbappé derrota 5-4 al Riyadh Season Team conducido por Marcelo Gallardo y liderado por Cristiano Ronaldo, quien anota dos goles."
+      },
+      {
+        "fecha": "2023-01-20",
+        "descripcion": "En el Estadio Hazza bin Zayed de Al Ain (Emiratos Árabes Unidos), Racing Club vence 2-1 a Boca Juniors con un gol de penal en tiempo de descuento de Carlos Alcaraz y otro de Gonzalo Piovi, consagrándose campeón de la Supercopa Internacional."
+      },
+      {
+        "fecha": "2023-01-24",
+        "descripcion": "Se celebra en Buenos Aires la VII Cumbre de la CELAC con la presencia de Lula da Silva y otros mandatarios latinoamericanos."
+      },
+      {
+        "fecha": "2023-01-27",
+        "descripcion": "Comienza en la Argentina el Campeonato de Primera División 2023 (Liga Profesional): en la jornada inaugural, Rosario Central vence 1-0 a Argentinos Juniors y Defensa y Justicia cae 2-4 ante Huracán."
       }
     ],
-    "escenaSugerida": "Diego Maradona y Guillermo Coppola cenan en la casa de Diego en la Via Tazio Nuvolari (Nápoles) en la noche del 10 de mayo de 1987, exhaustos pero eufóricos tras conseguir el primer Scudetto de la historia del Napoli. Mientras afuera retumban petardos y bocinazos interminables de la multitud en fiesta, repasan llamadas de felicitación desde Buenos Aires y organizan los compromisos de prensa y marcas para los días siguientes.",
+    "escenaSugerida": "Viernes por la noche en una residencia alquilada en la zona de La Perla, en Doha: a menos de cuarenta y ocho horas de la final contra Francia, Diego cena con Guillermo Cóppola entre platos de pasta, frutas y televisores encendidos con la repetición de la semifinal ante Croacia; conversan sobre la reciente muerte de Siniša Mihajlović en Roma, repasan las cábalas para ir al Estadio Lusail el domingo y debaten cómo frenar las corridas de Kylian Mbappé mientras el teléfono no para de sonar con llamados de excompañeros del '86.",
     "criticadosSugeridos": [
-      "Corrado Ferlaino",
-      "Silvio Berlusconi",
-      "João Havelange"
+      "Louis van Gaal",
+      "Antonio Mateu Lahoz",
+      "Kylian Mbappé"
     ],
     "alabadosSugeridos": [
-      "Bruno Giordano",
-      "Andrea Carnevale",
-      "Salvatore Bagni"
+      "Lionel Messi",
+      "Lionel Scaloni",
+      "Emiliano Martínez"
     ],
-    "fuentes": [
+    "participantesSugeridos": [
       {
-        "titulo": "Italy Championship 1986/87 - RSSSF (citada por el modelo, sin verificar)",
-        "url": "https://www.rsssf.org/tablesi/ital87.html"
+        "nombre": "Claudia Villafañe",
+        "vinculo": "Exesposa de Maradona y madre de Dalma y Gianinna; estuvo presente en Qatar durante el Mundial acompañando a la Selección."
       },
       {
-        "titulo": "Italy - Coppa Italia 1986/87 - RSSSF (citada por el modelo, sin verificar)",
-        "url": "https://www.rsssf.org/tablesi/italcuphist.html"
+        "nombre": "Dalma Maradona",
+        "vinculo": "Hija mayor de Diego Maradona, activa en los homenajes a su padre durante la Copa del Mundo de 2022."
+      },
+      {
+        "nombre": "Gianinna Maradona",
+        "vinculo": "Hija menor de Diego Maradona y Claudia Villafañe, expareja de Sergio Agüero y madre de Benjamín Agüero (quien estuvo en Qatar)."
+      },
+      {
+        "nombre": "Sergio Agüero",
+        "vinculo": "Exdelantero de la Selección, exyerno de Maradona y amigo íntimo de Messi; concentró con el plantel en Qatar antes de la final y festejó en el campo de Lusail."
+      },
+      {
+        "nombre": "Oscar Ruggeri",
+        "vinculo": "Excompañero de Maradona campeón en México 1986 y amigo cercano de Cóppola; estuvo instalado en Doha trabajando como comentarista televisivo."
+      },
+      {
+        "nombre": "Jorge Burruchaga",
+        "vinculo": "Autor del gol del triunfo en la final de 1986, compañero histórico de Diego y presente en Doha junto a los campeones del mundo invitados por FIFA."
       }
     ],
-    "desde": "1987-05-10",
-    "hasta": "1987-06-21",
-    "conBusquedaWeb": false
+    "fuentes": [],
+    "desde": "2022-12-16",
+    "hasta": "2023-01-27",
+    "conBusquedaWeb": true
   },
   "entrada": {
     "dias": [
       {
-        "fecha": "1987-05-10",
-        "anio": "1987",
-        "encabezado": "Domingo, 10 de mayo.",
-        "situacion": "Come en casa Maradona. Nápoles celebra el primer Scudetto tras el empate con Fiorentina.",
+        "fecha": "2022-12-16",
+        "anio": "2022",
+        "encabezado": "Viernes, 16 de diciembre.",
+        "situacion": "Come en casa Maradona, en Doha. Faltan dos días para la final contra Francia.",
         "parrafos": [
-          "Llega exultante, con la camiseta todavía pegada al cuerpo y el olor a pasto del San Paolo. «¿Viste lo que es eso? Estos tipos no van a laburar por un mes», suelta mientras se desploma en la silla. La ciudad es un estruendo que sube por las ventanas.",
-          "Le respondo que media ciudad ya está pintada de celeste y que Ferlaino debe estar sacando cuentas para no pagarnos los premios. Maradona ríe: «A ese no lo dejes entrar al vestuario, que se quede contando las monedas en la oficina».",
-          "Elogia a Carnevale por el gol del título. Sostiene que Andrea apareció cuando las papas quemaban y me pregunta, casi como un chico, si tengo lista la Ferrari para mañana. Quiere salir a devorarse la ciudad."
+          "Llega quejándose del frío polar del hotel y me hace apagar el aire acondicionado antes de sentarse. Mientras corto el queso, se acuerda del partido del otro viernes contra los holandeses y de la libreta de Louis van Gaal: «Anotaba hasta cómo respirábamos y terminó mandando dos roperos a cabecear a la olla. Para jugar al pelotazo no hace falta cara de rector». Le digo que al menos el referí español, Antonio Mateu Lahoz, nos regaló diez minutos de suspenso gratis.",
+          "Se sirve agua sin gas, revuelve los hielos con el índice y suelta: «Ese dirige mirándose en la pantalla gigante para ver si el silbato le combina con las medias. Lionel Scaloni lo durmió fácil: puso cara de pibe que pide permiso para cruzar y le llenó la cancha de volantes»."
         ]
       },
       {
-        "fecha": "1987-05-11",
-        "anio": "1987",
-        "encabezado": "Lunes, 11 de mayo.",
-        "situacion": "En el balcón del departamento, Maradona y yo. Miramos a la gente en la calle.",
+        "fecha": "2022-12-18",
+        "anio": "2022",
+        "encabezado": "Domingo, 18 de diciembre.",
+        "situacion": "Festejamos en el vestuario de Lusail, Maradona, Sergio Agüero y yo.",
         "parrafos": [
-          "Nápoles es un manicomio a cielo abierto. Maradona observa una bandera colgada en el cementerio que dice que los muertos se pierden el festejo. «Es demasiado, me da miedo que alguno se tire del balcón por un autógrafo», comenta con una mezcla de orgullo y espanto.",
-          "Le comento que Silvio Berlusconi anda diciendo que el Milan necesita un artista como él. La respuesta es inmediata: «Decile que el artista ya tiene el teatro lleno y que el suyo solo tiene butacas caras».",
-          "Almorzamos pastas frías porque no podemos salir ni a la esquina; la puerta del edificio está sitiada. Prefiere el encierro con la Copa que la libertad sin nada."
+          "Tiene la voz rota de gritar el cuarto penal y un habano apagado entre los dedos por las alarmas de humo. Sergio Agüero pasa con un bombo al hombro, nos sacude las solapas y grita: «¡Sufrimos como perros, pero ya está en el bolso!». Con los zapatos empapados de champán ajeno, comento que cuando Kylian Mbappé clavó el tercero pensé que volvíamos a pie por la arena.",
+          "Maradona se acomoda los dos relojes y me mira fijo: «El francés tiene un cohete en los talones, pero corre como si cobrara un cheque por metro. Hoy Lionel Messi caminó setenta minutos leyendo el diario y en los otros cincuenta les alquiló el estadio; y Emiliano Martínez tiene esa locura hermosa de los arqueros de antes, que te achican el arco hablándote de tu mamá»."
         ]
       },
       {
-        "fecha": "1987-05-18",
-        "anio": "1987",
-        "encabezado": "Lunes, 18 de mayo.",
-        "situacion": "Viajamos en auto hacia el aeropuerto, Maradona y yo. Volvemos de Brescia tras el cierre de la Serie A.",
+        "fecha": "2022-12-20",
+        "anio": "2022",
+        "encabezado": "Martes, 20 de diciembre.",
+        "situacion": "Almorzamos en mi balcón de Buenos Aires, Maradona y yo.",
         "parrafos": [
-          "Está cansado pero satisfecho por la victoria de ayer que cerró el torneo. «Ahora vamos por la Coppa Italia, no quiero dejarle ni las migas a los del norte», me dice mientras se saca los botines en el asiento de atrás.",
-          "Opina sobre Bagni, que corrió todo el partido como un animal. Asegura que Salvatore tiene tres pulmones y que se cansa de solo verlo pasar al lado suyo.",
-          "Le menciono que João Havelange prepara un discurso sobre la ética en el fútbol. Maradona bosteza: «Ese viejo habla de ética porque ya no se acuerda cómo se patea una pelota». Se duerme contra la ventanilla antes de llegar a la pista."
+          "En el televisor los helicópteros giran sobre el Obelisco porque cinco millones de personas taparon la autopista y el micro campeón no pudo ni asomar por la General Paz. Comemos milanesas frías de anoche; él las baña en limón y alinea las semillas sobre el borde del plato.",
+          "Le digo que si en el ochenta y seis nos subían a un helicóptero, todavía me buscaban colgado del techo de la Rosada. Se ríe por lo bajo: «Menos mal que volaron; si frenaban en un semáforo, hoy vendían el pantalón de Messi hasta en los kioscos»."
         ]
       },
       {
-        "fecha": "1987-05-28",
-        "anio": "1987",
-        "encabezado": "Jueves, 28 de mayo.",
-        "situacion": "En el vestuario del San Paolo, Maradona, Giordano y yo. Recién terminó la ida de la semifinal contra Cagliari.",
+        "fecha": "2022-12-29",
+        "anio": "2022",
+        "encabezado": "Jueves, 29 de diciembre.",
+        "situacion": "Toma mate bajo la galería de Bella Vista, Maradona.",
         "parrafos": [
-          "Maradona abraza a Giordano, que está impecable, ni transpiró. «Bruno juega de galera y bastón, hace que todo parezca fácil para los demás», dice mientras le palmea la espalda.",
-          "Me pregunta si llegaron las ofertas de las marcas de ropa. Le explico que el interés es total pero que Ferlaino quiere morder una parte del contrato de imagen. Maradona se indigna: «Ese hombre se cree que es el dueño de mis piernas y no sabe ni ponerse las medias».",
-          "Me pide que consiga un vuelo privado para después de la final de junio. Quiere llegar a Buenos Aires antes de que Bilardo lo empiece a volver loco con el teléfono por la Copa América."
+          "Lo encuentro descalzo sobre las baldosas recién baldeadas, mirando sin volumen los goles de Pelé en Suecia a pocas horas de su muerte en São Paulo. Me alcanza un mate lavado sin levantar la vista: «Se fue el único con el que valía la pena pelearse por los diarios. Ahora me dejan solo arriba del escenario cuando me aburro en las fiestas de la FIFA».",
+          "Intento animarlo diciendo que nos quedan los dirigentes suizos, pero niega y se frota la rodilla izquierda. «Con los de traje no tiene gracia porque no saben parar una pelota de trapo. Él se ponía el smoking y hablaba como ministro, pero en el pasto éramos del mismo barrio»."
         ]
       },
       {
-        "fecha": "1987-06-08",
-        "anio": "1987",
-        "encabezado": "Lunes, 8 de junio.",
-        "situacion": "Cena en un restaurante a puertas cerradas, con Maradona. El equipo goleó 3-0 a Atalanta en la primera final.",
+        "fecha": "2023-01-04",
+        "anio": "2023",
+        "encabezado": "Miércoles, 4 de enero.",
+        "situacion": "Merendamos en el jardín de Claudia Villafañe, con Maradona y Dalma Maradona.",
         "parrafos": [
-          "Está de un humor excelente, casi eléctrico. «¿Viste lo que es este equipo? Les pasamos por arriba como una aplanadora», comenta mientras pincha un antipasto.",
-          "Le digo que el doblete es un hecho histórico y que en Argentina no se habla de otra cosa. Me contesta con realismo: «Allá me esperan con el cuchillo entre los dientes, no me van a dejar ni respirar».",
-          "Se queja del vino que trajo el dueño. Según él, en Italia saben de fútbol pero para la uva les falta el potrero que tenemos nosotros."
+          "Anda cruzado porque el Napoli acaba de perder en Milán contra el Inter su primer partido del campeonato italiano. Claudia Villafañe trae tostadas y Dalma Maradona se burla del conjunto azul eléctrico que él estrenó hoy: «Con esta humedad te vas a derretir adentro de esa tela de paracaídas, papá».",
+          "Salgo a defenderle la elegancia europea diciendo que el brillo sintético estiliza, y las dos se ríen. Maradona unta mermelada de durazno con bronca y rezonga: «Perdieron por usar guantes blancos en enero; en el norte de Italia hay que salir con barro hasta en las orejas»."
         ]
       },
       {
-        "fecha": "1987-06-14",
-        "anio": "1987",
-        "encabezado": "Domingo, 14 de junio.",
-        "situacion": "En el hotel de Bérgamo, Maradona y yo. Acaban de obtener la Coppa Italia y el doblete histórico.",
+        "fecha": "2023-01-13",
+        "anio": "2023",
+        "encabezado": "Viernes, 13 de enero.",
+        "situacion": "Por teléfono desde su sillón, Maradona.",
         "parrafos": [
-          "Maradona mira la medalla sobre la mesa de luz, como si no pudiera creer que ya ganamos todo. «Ya está, no nos pueden pedir más nada en esta ciudad», sentencia con una calma que asusta.",
-          "Le sugiero que descanse un poco antes del viaje a Buenos Aires. Me responde con una de sus verdades: «¿Descansar? Si descanso me alcanza la realidad y yo quiero seguir volando».",
-          "Se ríe de un dirigente que intentó abrazarlo en la cancha tras el pitazo final. «Tenía olor a naftalina, estos tipos aparecen solo cuando hay que salir en la foto de los diarios», remata antes de apagar la luz."
+          "Llama a los gritos apenas termina el cinco a uno del Napoli a la Juventus, con una tarantela de fondo que hace vibrar el tubo. «Les pasamos el trapo en mi propia casa; hoy hasta la estatua que me pusieron en la puerta cabeceó en el área chica.»",
+          "Le recuerdo que hace nueve días quería mandar a todo el plantel a cortar pasto a Siberia por el gol de Edin Džeko. «El hincha con memoria es un amargo que va a la platea a comer maní. Si le hacés cinco a los de Turín un viernes a la noche, el domingo salen el sol y la luna juntos.»"
         ]
       },
       {
-        "fecha": "1987-06-21",
-        "anio": "1987",
-        "encabezado": "Domingo, 21 de junio.",
-        "situacion": "En el predio de Ezeiza, Maradona y yo. Primer día de entrenamiento con la Selección de Bilardo.",
+        "fecha": "2023-01-20",
+        "anio": "2023",
+        "encabezado": "Viernes, 20 de enero.",
+        "situacion": "Cenamos en una parrilla de Costanera Norte, Maradona, Oscar Ruggeri y yo.",
         "parrafos": [
-          "El frío de Buenos Aires lo tiene malhumorado y con los músculos duros. «Extraño el sol de Nápoles, acá el Narigón nos va a hacer correr hasta que nos olvidemos el apellido», protesta mientras se venda los tobillos.",
-          "Le cuento que la prensa está pesada con el tema de su estado físico tras los festejos en Italia. Me mira fijo, desafiante: «Deciles que con una pierna sola les gano la Copa América también».",
-          "Me pide que le consiga un alfajor de contrabando. Jura que la dieta de la Selección es un invento para amargarle la vida a los que tienen talento."
+          "Venimos de ver cómo Racing le ganó sobre la hora a Boca esa copa inventada en los Emiratos Árabes. Oscar Ruggeri pincha un chorizo y protesta: «Ahora arman una final hasta por cruzar bien la calle; antes, para dar una vuelta olímpica, dejabas tres muelas en el área».",
+          "Contesto que nosotros viajábamos a Abu Dabi hasta en camello si pagaban los premios en dólares antes de despegar. Maradona pide pan más tostado y remata: «El desierto sirve para sacar petróleo y para que Messi levante la de verdad. Llevar a Boca y a Racing a patear penales entre los jeques es como armar un truco de seis en la ópera de Viena»."
+        ]
+      },
+      {
+        "fecha": "2023-01-27",
+        "anio": "2023",
+        "encabezado": "Viernes, 27 de enero.",
+        "situacion": "Miramos fútbol en el piso de avenida Libertador, Maradona y yo. Empieza el campeonato argentino.",
+        "parrafos": [
+          "Baja la persiana hasta la mitad por el reflejo de los autos mientras mira de reojo cómo Rosario Central le gana uno a cero a Argentinos Juniors en el debut. Se queja de que a los pibes de La Paternal ya no les enseñan a guardar la pelota contra el banderín del córner faltando cinco minutos.",
+          "«Querés que jueguen como a tus dieciséis años y hoy piensan en Europa antes de atarse los cordones», le digo anotando un teléfono en una servilleta. Mira los árboles de la plaza y suspira: «No pido genios, pido que se enojen cuando la pierden. El día que un jugador argentino erre un pase sin insultar al pasto, cerramos los clubes y ponemos cocheras»."
         ]
       }
     ],
     "paginas": [
-      3,
+      4,
       4
     ],
     "notas": [
-      "Corrado Ferlaino era el presidente del Napoli, conocido por su tacañería.",
-      "El 'doblete' del Napoli en 1987 fue el primero de un equipo del sur de Italia."
+      "En la realidad, Diego Armando Maradona había fallecido el 25 de noviembre de 2020; estas páginas consignan su presencia en Qatar y Buenos Aires con la naturalidad propia de los sueños o de las conversaciones que no se resignan a terminar."
     ],
-    "escena": "Guillermo Cóppola anota las intimidades de sus días con Maradona durante la gloria máxima en Nápoles y el regreso a Argentina.",
+    "escena": "Come en casa Maradona, en Doha",
     "criticados": [
-      "Corrado Ferlaino",
-      "Silvio Berlusconi",
-      "João Havelange"
+      "Louis van Gaal",
+      "Antonio Mateu Lahoz",
+      "Kylian Mbappé"
     ],
     "alabados": [
-      "Bruno Giordano",
-      "Andrea Carnevale",
-      "Salvatore Bagni"
+      "Lionel Messi",
+      "Lionel Scaloni",
+      "Emiliano Martínez"
     ],
-    "palabras": 877,
+    "palabras": 999,
     "revision": {
       "hecha": true,
       "problemasDetectados": [
-        "Varias oraciones empiezan igual («dice viste…», 2 veces); variá los comienzos.",
-        "Varias oraciones empiezan igual («dice que…», 3 veces); variá los comienzos.",
-        "La palabra «ganamos» se repite en las líneas de situación de las entradas 4 y 5.",
-        "En «Viste lo que es el San Paolo, Guillermo. Estos tipos no van » hay un vocativo («Guillermo»). Diego Maradona y Guillermo Cóppola no se llaman por el nombre ni por apodos: sacalo y que la frase se diga directamente.",
-        "En «Ya está, Guillermo, no nos pueden pedir más nada en esta ciu» hay un vocativo («Guillermo»). Diego Maradona y Guillermo Cóppola no se llaman por el nombre ni por apodos: sacalo y que la frase se diga directamente."
+        "La página 1 tiene 633 palabras; el máximo es 450. Acortá.",
+        "La página 2 tiene 569 palabras; el máximo es 450. Acortá."
       ],
       "problemasRestantes": [
-        "Varias oraciones empiezan igual («viste lo…», 2 veces); variá los comienzos.",
-        "La palabra «primer» se repite en las líneas de situación de las entradas 1 y 7."
+        "La página 1 tiene 518 palabras; el máximo es 450. Acortá.",
+        "Varias oraciones empiezan igual («con los…», 2 veces); variá los comienzos."
       ]
     }
   },
   "titulo": "Maradona",
   "proveedores": {
-    "texto": "gemini:gemini-3-flash-preview",
-    "imagen": "none"
+    "texto": "gemini:gemini-4-argon",
+    "imagen": "none",
+    "modelos": {
+      "validacion": "gemini-4-argon (Google AI Studio)",
+      "contexto": "gemini-4-argon (Google AI Studio)",
+      "entrada": "gemini-4-argon (Google AI Studio)",
+      "revision": "gemini-4-argon (Google AI Studio)"
+    }
   },
   "advertencias": [
     "La validación se hizo sin búsqueda web: depende del conocimiento del modelo.",
-    "El contexto histórico se armó sin búsqueda web (sin cuota de búsqueda o desactivada): verificá los hechos."
+    "Fecha inverosímil (se escribe igual, como ucronía): Diego Armando Maradona ya había muerto el 2022-12-16 (murió en 2020-11-25)."
   ],
   "version": 2,
-  "id": "aHeGa5yp9s",
-  "creada": "2026-10-25T22:07:57.138Z"
+  "id": "argon6demo",
+  "creada": "2026-10-27T12:00:00.000Z"
 }

@@ -15,7 +15,7 @@ import { BarraAccionesDiario, textoCompartir } from './components/Compartir';
 import { sincronizarSeoPagina } from './lib/seoHead';
 
 export default function App() {
-  // Form state (default: Messi / Scaloni, index 0)
+  // Form state (default: Borges / Bioy, index 0)
   const [borges, setBorges] = useState<string>(PAREJAS_DEMO[0].borges.nombre);
   const [bioy, setBioy] = useState<string>(PAREJAS_DEMO[0].bioy.nombre);
   const [fecha, setFecha] = useState<string>(PAREJAS_DEMO[0].fechaEjemplo);
@@ -23,7 +23,7 @@ export default function App() {
   const [criticados, setCriticados] = useState<string>('');
   const [alabados, setAlabados] = useState<string>('');
   const [presentes, setPresentes] = useState<string>('');
-  const [tema, setTema] = useState<string>('');
+  const [tema, setTema] = useState<string>(PAREJAS_DEMO[0].temaEjemplo ?? '');
   const [tono, setTono] = useState<string>('irónico');
   const [mostrarOptativos, setMostrarOptativos] = useState<boolean>(false);
 
@@ -53,6 +53,7 @@ export default function App() {
           setBioy(encontrada.parametros.bioy);
           setFecha(encontrada.parametros.fecha);
           setEscena(encontrada.parametros.escena ?? '');
+          setTema(encontrada.parametros.tema ?? '');
           setPaginaActiva(encontrada);
           sincronizarSeoPagina(encontrada);
           return;
@@ -100,6 +101,7 @@ export default function App() {
     setBioy(par.bioy.nombre);
     setFecha(par.fechaEjemplo);
     setEscena(par.escenaEjemplo);
+    setTema(par.temaEjemplo ?? '');
     setError(null);
     setRechazo(null);
 

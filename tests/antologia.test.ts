@@ -27,6 +27,7 @@ describe("antología de demo (generada por el endpoint real, no por el mock)", (
       expect(p.parametros.bioy).toBe(par.bioy.nombre);
       expect(p.parametros.fecha).toBe(par.fechaEjemplo);
       expect(p.parametros.escena).toBe(par.escenaEjemplo);
+      expect(p.parametros.tema ?? undefined).toBe(par.temaEjemplo);
       expect((p.entrada.paginas ?? [p.entrada.dias.length]).reduce((a, b) => a + b, 0)).toBe(p.entrada.dias.length);
     });
   });

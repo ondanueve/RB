@@ -13,125 +13,149 @@
   },
   "validacion": {
     "aceptado": true,
-    "justificacion": "Charly García y Fito Páez son dos célebres músicos del rock argentino con una intensa relación personal y profesional documentada desde la década de 1980. Páez se sumó a la banda de García a fines de 1983 para participar en las presentaciones de Clics Modernos y la grabación del álbum Piano Bar (1984), consolidando una estrecha amistad y colaboración a lo largo de los años.",
-    "relacion": "Compañeros de banda, colaboradores musicales y amigos de larga trayectoria",
-    "inicioRelacion": "1983",
-    "inicioAproximado": true,
+    "justificacion": "Tanto Charly García como Fito Páez son figuras públicas ampliamente reconocidas de la música argentina. Mantienen una relación personal y profesional real, profunda y extensamente documentada que comenzó a fines de 1982, cuando se conocieron personalmente en los camarines del Teatro Coliseo, y se consolidó en 1983 cuando Páez se integró a la banda estable de García para la gira de 'Clics Modernos' y la grabación de 'Piano Bar'.",
+    "relacion": "Amistad cercana, vínculo maestro-discípulo y colaboración musical prolongada (Fito Páez fue tecladista de la banda de Charly García entre 1983 y 1985, y compartieron múltiples proyectos y escenarios durante décadas).",
+    "inicioRelacion": "1982-12",
+    "inicioAproximado": false,
     "ambito": "música",
     "borges": {
-      "nombre": "Charly García",
+      "nombre": "Carlos Alberto García Moreno (Charly García)",
       "conocido": true,
-      "descripcion": "Reconocido cantautor, compositor y multipremiado referente del rock argentino.",
+      "descripcion": "Músico, cantautor, multinstrumentista y productor argentino, figura fundamental del rock en español y fundador de Sui Generis, La Máquina de Hacer Pájaros y Serú Girán.",
       "nacimiento": "1951-10-23",
       "muerte": null,
-      "apodos": [],
+      "apodos": [
+        "Charly"
+      ],
       "apellido": "García"
     },
     "bioy": {
-      "nombre": "Fito Páez",
+      "nombre": "Rodolfo Páez (Fito Páez)",
       "conocido": true,
-      "descripcion": "Destacado cantautor, compositor y cineasta argentino.",
+      "descripcion": "Músico, cantautor, compositor y director de cine argentino, integrante de la Trova Rosarina y uno de los mayores exponentes del rock argentino.",
       "nacimiento": "1963-03-13",
       "muerte": null,
-      "apodos": [],
+      "apodos": [
+        "Fito"
+      ],
       "apellido": "Páez"
     },
     "noVerificados": [],
-    "fuentes": [
-      {
-        "titulo": "Charly García - Biografía (citada por el modelo, sin verificar)",
-        "url": "https://es.wikipedia.org/wiki/Charly_Garc%C3%ADa"
-      },
-      {
-        "titulo": "Fito Páez - Biografía (citada por el modelo, sin verificar)",
-        "url": "https://es.wikipedia.org/wiki/Fito_P%C3%A1ez"
-      }
-    ],
+    "fuentes": [],
     "conBusquedaWeb": false
   },
   "chequeoFecha": {
     "ok": true,
     "motivos": [],
-    "advertencias": [
-      "El inicio de la relación (1983) es aproximado; se toma la fecha documentada más conservadora."
-    ]
+    "advertencias": []
   },
   "fechas": [
     "1986-09-20",
     "1986-09-28",
     "1986-10-05",
-    "1986-10-19",
-    "1986-10-31"
+    "1986-10-15",
+    "1986-10-23",
+    "1986-10-30"
   ],
   "contexto": {
     "fechasSugeridas": [
       "1986-09-20",
       "1986-09-28",
       "1986-10-05",
-      "1986-10-19",
-      "1986-10-31"
+      "1986-10-15",
+      "1986-10-23",
+      "1986-10-30"
     ],
-    "resumen": "Entre septiembre y noviembre de 1986, la escena del rock argentino vivió un momento de febril creatividad e innovación sonora en Buenos Aires. Fito Páez se encontraba en plenas sesiones de grabación y mezcla del emblemático álbum doble 'La La La' junto a Luis Alberto Spinetta en los Estudios Panda, contando con Mario Breuer como ingeniero de sonido. Por su parte, Charly García atravesaba una etapa de transición componiendo y maquetando el material de lo que al año siguiente sería 'Parte de la religión', tras el impacto de su trabajo 'Tango' con Pedro Aznar. Coincidió además con el auge del post-punk y el pop nacional, marcado por la edición de discos clave como 'Oktubre' de Los Redonditos de Ricota y la grabación de 'Signos' de Soda Stereo. El clima sociocultural estaba fuertemente atravesado por la incipiente democracia bajo el gobierno de Raúl Alfonsín y los debates políticos en el Congreso.",
+    "resumen": "Entre septiembre y noviembre de 1986, el rock argentino vive uno de sus momentos de mayor efervescencia creativa y expansión continental, mientras Charly García y Fito Páez atraviesan semanas intensas de producción y viajes entre Buenos Aires y Río de Janeiro. Fito Páez se encuentra en plena grabación de su proyecto más ambicioso hasta la fecha, el álbum conjunto 'La la la' junto a Luis Alberto Spinetta en los estudios ION, alternando esas sesiones con el registro de su maxi-simple 'Corazón clandestino' en Brasil (que cuenta con la colaboración de Caetano Veloso). Por su parte, Charly García —que venía de presentar el maxi 'Tango' con Pedro Aznar— divide su tiempo entre Buenos Aires y Brasil preparando material para la banda sonora de la película 'Lo que vendrá' de Gustavo Mosquera y gestando las primeras maquetas de lo que será 'Parte de la religión', acompañado por su nueva banda, Las Ligas (con Richard Coleman, Fernando Samalea, Christian Basso y Andrés Calamaro). En el plano musical argentino, el fenómeno de Soda Stereo con 'Signos' y el ascenso arrollador de Sumo y Patricio Rey y sus Redonditos de Ricota (que acaban de lanzar 'Oktubre') reconfiguran la escena local. El clima general del país oscila entre la euforia aún fresca por la Copa del Mundo obtenida en México, la consagración de River Plate como campeón de la Copa Libertadores a fines de octubre, y las tensiones políticas del gobierno de Raúl Alfonsín, que en octubre viaja a la Unión Soviética y Cuba mientras enfrenta debates internos por los juicios a los militares y la inflación.",
     "recientes": [
       {
-        "fecha": "1986-08-15",
-        "descripcion": "Fito Páez y Luis Alberto Spinetta inician en los Estudios Panda de Buenos Aires las sesiones de grabación del álbum doble conjunto 'La La La'."
+        "fecha": "1986-08-30",
+        "descripcion": "Comienzan y se intensifican en los estudios ION de Buenos Aires las sesiones de grabación del álbum doble 'La la la', proyecto conjunto entre Fito Páez y Luis Alberto Spinetta, con el técnico Carlos Piriz y la participación de Tweety González."
       },
       {
-        "fecha": "1986-09-09",
-        "descripcion": "Soda Stereo concluye en los estudios Moebio las sesiones de grabación del álbum 'Signos' antes de viajar a su gira internacional."
+        "fecha": "1986-09-05",
+        "descripcion": "Se realiza en Buenos Aires el festival 'Amnesty International / Derechos Humanos' y ciclos de recitales primaverales donde Las Ligas (la banda de apoyo de Charly García) y la banda de Fito Páez ajustan repertorio en pubs y teatros porteños como Palladium."
       },
       {
-        "fecha": "1986-09-12",
-        "descripcion": "Charly García realiza presentaciones informales y avanza en la composición de los temas que formarán parte de su próximo trabajo solista."
+        "fecha": "1986-09-11",
+        "descripcion": "En Chile, tras el atentado contra Augusto Pinochet ocurrido días antes, se decreta el estado de sitio y es asesinado el periodista José Carrasco Tapia; el hecho conmociona al ambiente artístico argentino, que venía realizando giras constantes a Santiago."
+      },
+      {
+        "fecha": "1986-09-17",
+        "descripcion": "Fito Páez y Fabiana Cantilo alternan jornadas en los estudios Panda e ION trabajando en las mezclas de canciones para el proyecto 'La la la' y los arreglos del maxi 'Corazón clandestino'."
       }
     ],
     "proximos": [
       {
-        "fecha": "1986-09-27",
-        "descripcion": "Muere repentinamente en Suecia Cliff Burton, bajista de Metallica, conmocionando a la comunidad musical internacional."
+        "fecha": "1986-09-21",
+        "descripcion": "Festejos masivos por el Día de la Primavera y del Estudiante en parques y clubes de Buenos Aires, con recitales de rock nacional en Obras Sanitarias, Barrancas de Belgrano y el circuito de pubs."
+      },
+      {
+        "fecha": "1986-10-02",
+        "descripcion": "Se estrena en los cines argentinos 'El exilio de Gardel (Tangos)', película de Fernando 'Pino' Solanas con música de Astor Piazzolla y José Luis Castiñeira de Dios, muy comentada en el ambiente cultural."
       },
       {
         "fecha": "1986-10-04",
-        "descripcion": "Patricio Rey y sus Redonditos de Ricota lanzan oficialmente su segundo álbum de estudio, 'Oktubre', grabado en Panda."
+        "descripcion": "Patricio Rey y sus Redonditos de Ricota lanzan su segundo álbum de estudio, 'Oktubre', grabado en los estudios Panda, que marca un hito en la escena del rock argentino de mediados de los ochenta."
       },
       {
-        "fecha": "1986-10-18",
-        "descripcion": "Concluye el proceso de mezcla y masterización del disco 'La La La' de Spinetta y Páez en Buenos Aires."
+        "fecha": "1986-10-13",
+        "descripcion": "El presidente Raúl Alfonsín inicia una gira oficial histórica por la Unión Soviética (donde se reúne con Mijaíl Gorbachov) y luego por Cuba (donde se entrevista con Fidel Castro)."
       },
       {
-        "fecha": "1986-10-25",
-        "descripcion": "Los Redondos presentan 'Oktubre' en vivo en el pub Paladium de Buenos Aires con gran repercusión en la prensa underground."
+        "fecha": "1986-10-23",
+        "descripcion": "Carlos Alberto García Moreno (Charly García) cumple 35 años, celebrándolo en medio de sesiones nocturnas y rodeado de su círculo íntimo de músicos (Fito Páez, Zoca, Fabiana Cantilo, Andrés Calamaro y los integrantes de Las Ligas)."
       },
       {
-        "fecha": "1986-10-31",
-        "descripcion": "Finalizan los preparativos para el lanzamiento masivo de los grandes discos de fin de año en la industria discográfica argentina."
+        "fecha": "1986-10-29",
+        "descripcion": "River Plate se consagra campeón de la Copa Libertadores de América por primera vez en su historia tras vencer 1-0 a América de Cali en el estadio Monumental con gol de Juan Gilberto Funes."
+      },
+      {
+        "fecha": "1986-11-01",
+        "descripcion": "Se ultiman los detalles de imprenta y masterización de 'La la la' de Spinetta y Páez (que sale a la venta en noviembre) mientras Fito Páez prepara las presentaciones en el Estadio Obras Sanitarias."
       }
     ],
-    "escenaSugerida": "De madrugada en la sala de control de los Estudios Panda, entre teclados Yamaha DX7, cintas abiertas de 24 canales y tazas de café frío. Charly y Fito prueban arreglos en el piano y discuten la mezcla de 'Rezo por vos' y pasajes de 'La La La'.",
+    "escenaSugerida": "Madrugada del sábado 20 de septiembre de 1986 en los estudios ION (o Panda) de Buenos Aires, en vísperas del Día de la Primavera. Entre cables, ceniceros llenos, vasos de whisky y un piano eléctrico Yamaha CP-70 o un sintetizador Roland DX7 encendido, Fito Páez le hace escuchar a Charly García las tomas recién grabadas junto a Luis Alberto Spinetta para 'La la la' (como 'Hay otra canción' o 'Folis Verghet'), mientras Charly improvisa sobre los teclados ideas para la música del filme 'Lo que vendrá' y opina sin filtro sobre la convivencia artística de su ex tecladista con el 'Flaco' Spinetta.",
     "criticadosSugeridos": [
-      "Raúl Porchetto",
-      "Miguel Cantilo",
-      "Pipo Cipolatti"
+      "Gustavo Cerati (y Soda Stereo, blanco habitual de las ironías de Charly sobre los 'modernos' y peinados raros, pese al respeto mutuo)",
+      "Juan Carlos Mateyko (símbolo de la televisión comercial y la música melódica liviana que ambos solían ridiculizar)",
+      "Raúl Alfonsín (por el desencanto progresivo de la juventud rockera frente a las concesiones políticas y la crisis económica del Plan Austral)"
     ],
     "alabadosSugeridos": [
-      "Luis Alberto Spinetta",
-      "Pedro Aznar",
-      "Mercedes Sosa"
+      "Luis Alberto Spinetta (con quien Fito está grabando 'La la la' y a quien Charly admira profundamente desde su intento de proyecto conjunto en 1985)",
+      "Caetano Veloso (referente absoluto de ambos; ese mismo año graba con Fito una versión en portugués de 'Corazón clandestino')",
+      "Prince (cuyo disco 'Parade' de 1986 y su uso de cajas de ritmos y funk moderno obsesionaban a Charly y Fito en el estudio)"
     ],
-    "fuentes": [
+    "participantesSugeridos": [
       {
-        "titulo": "La historia detrás de La La La, el disco de Spinetta y Fito Páez - Diario La Nación (citada por el modelo, sin verificar)",
-        "url": "https://www.lanacion.com.ar"
+        "nombre": "Fabiana Cantilo",
+        "vinculo": "Cantante, corista de ambos y pareja de Fito Páez en 1986, presente de manera constante en las sesiones de grabación."
       },
       {
-        "titulo": "Discografía y cronología de grabaciones en Estudios Panda (1986) - Rock.com.ar (citada por el modelo, sin verificar)",
-        "url": "https://www.rock.com.ar"
+        "nombre": "Luis Alberto Spinetta",
+        "vinculo": "Músico y coautor con Fito Páez del álbum doble 'La la la', en plena grabación durante septiembre y octubre de 1986."
+      },
+      {
+        "nombre": "Zoca (Marisa Pederneiras)",
+        "vinculo": "Bailarina brasileña y pareja de Charly García en ese período, vínculo clave en sus viajes y estadías en Río de Janeiro."
+      },
+      {
+        "nombre": "Andrés Calamaro",
+        "vinculo": "Tecladista, productor e integrante de Las Ligas (la banda de Charly en 1986) y amigo cercano de ambos en las noches de estudio."
+      },
+      {
+        "nombre": "Tweety González",
+        "vinculo": "Tecladista y programador rosarino, mano derecha de Fito Páez en la banda y participante directo de las sesiones de 'La la la' en ION."
+      },
+      {
+        "nombre": "Fernando Samalea",
+        "vinculo": "Baterista de Fricción y de Las Ligas, convocado por Charly García en 1986 para grabar la música de 'Lo que vendrá' y tocar en vivo."
       }
     ],
+    "fuentes": [],
     "desde": "1986-09-20",
     "hasta": "1986-11-01",
-    "conBusquedaWeb": false
+    "conBusquedaWeb": true
   },
   "entrada": {
     "dias": [
@@ -139,101 +163,104 @@
         "fecha": "1986-09-20",
         "anio": "1986",
         "encabezado": "Sábado, 20 de septiembre.",
-        "situacion": "En el estudio Panda, de madrugada, con García. Bebemos té helado mientras esperamos a Mario Breuer para retocar unas cintas de «La La La».",
+        "situacion": "En el estudio, de madrugada, García y yo.",
         "parrafos": [
-          "García escucha un pasaje de teclado de un demo ajeno y pone cara de asco. «Es espantoso», dice. «Tiene la solemnidad marchita de Raúl Porchetto intentando parecer profundo después de tres whiskies».",
-          "Le respondo que el problema no es el tono sino la falta absoluta de armónicos interesantes. Ríe y me saca el paquete de cigarrillos del bolsillo.",
-          "«La música en este país se dividió entre los que tienen miedo de desafinar y los que desafinan para demostrar que son libres», sentencia García. «Por suerte nos queda Spinetta, que desafina las melodías con una elegancia imperial»."
+          "Interrumpe la mezcla de mi disco doble con Spinetta para mostrarme un tema de la película de Gustavo Mosquera; apoya un vaso de whisky sobre la consola del técnico Piriz y borra sin querer un canal de teclados. Le grito que me acaba de arruinar tres horas de trabajo con Tweety González. García ni parpadea: «Te hice un favor estético, ese colchón de cuerdas parecía una cortina de Mateyko. Poné un bajo octavado como hace Prince en Parade y dejate de llorar». Tiene razón, aunque me cueste admitirlo: sacamos el arreglo y la canción respira de golpe."
         ]
       },
       {
         "fecha": "1986-09-28",
         "anio": "1986",
         "encabezado": "Domingo, 28 de septiembre.",
-        "situacion": "Llega García a mi departamento con un ejemplar de la prensa extranjera bajo el brazo. Nos preparamos dos tostadas con manteca.",
+        "situacion": "Almuerza en casa García, con Fabiana Cantilo.",
         "parrafos": [
-          "Comenta la muerte de Cliff Burton, el bajista que se mató en el micro de gira. Le impresiona la violencia absurda de las ruedas en la ruta helada.",
-          "«El rock pesado tiene esa fatalidad torpe», reflexiona García. «Se la pasan jugando con el fuego del infierno y se terminan volcando en un zanja porque el chofer tenía frío».",
-          "Opino que la energía de esa banda era desbordante, pero él prefiere volver a Pedro Aznar. «Pedro agarra cuatro cuerdas y te arma una catedral sin despeinarse», dice."
+          "Trae una bolsa de facturas aplastadas y se queja de que el café de filtro que prepara Fabiana parece agua de zanja. Le pongo el casete recién traído de Río con la voz que grabó Caetano Veloso para mi maxi; García escucha en silencio, con los ojos cerrados, moviendo apenas el pie derecho.",
+          "«Caetano canta como si estuviera tirado en una hamaca viendo caer un imperio», dictamina al terminar la cinta. Aventuro que los brasileños tienen una cadencia que nosotros perdimos por culpa del tango. Me tira una medialuna por la cabeza: «Vos no perdiste nada porque sos de Rosario, donde el único ritmo autóctono es el acoplado de los camiones en la ruta nueve»."
         ]
       },
       {
         "fecha": "1986-10-05",
         "anio": "1986",
         "encabezado": "Domingo, 5 de octubre.",
-        "situacion": "Cena en un restaurante de Palermo, con García y Fabiana Cantilo. La comida llega fría y la luz del local es demasiado blanca.",
+        "situacion": "Por teléfono, García.",
         "parrafos": [
-          "Salió el disco nuevo de Los Redondos. García dice que la tapa le parece una postal soviética para intelectuales despistados.",
-          "«Lo de Miguel Cantilo tampoco ayuda», suelta de la nada, mirando el plato. «Sigue escribiendo protestas como si todavía estuviera atrapado en una asamblea universitaria de 1972».",
-          "Fabiana se ríe y le dice que no sea tan duro, pero él arremete: «La poesía no es un folleto municipal. Escuchás a Mercedes Sosa cantar tres palabras y hay más verdad ahí que en diez libros de sociología»."
+          "Llama a las cuatro de la mañana para hacerme escuchar una base de caja de ritmos que programó con Fernando Samalea. Le digo que suena demasiado fría, casi como un grupo de modernos con sobretodo. «No seas sordo, los de Soda Stereo usan máquinas para tapar que Gustavo Cerati se pasa media hora frente al espejo batiéndose el flequillo con spray», retruca desde el otro lado de la línea. Corta sin despedirse cuando le recuerdo que él mismo se tiñó un mechón de rubio hace dos años."
         ]
       },
       {
-        "fecha": "1986-10-19",
+        "fecha": "1986-10-15",
         "anio": "1986",
-        "encabezado": "Domingo, 19 de octubre.",
-        "situacion": "En el control de Panda, con García y Mario Breuer. Celebramos que terminamos la última mezcla de «La La La» tras semanas interminables.",
+        "encabezado": "Miércoles, 15 de octubre.",
+        "situacion": "En el departamento de Coronel Díaz, García, Zoca y yo.",
         "parrafos": [
-          "Breuer destapa una cerveza para festejar la cinta máster. García la examina con sospecha antes de darle un sorbo corto.",
-          "«Tenés que estar orgulloso», me dice. «El disco quedó tan complejo que la radio va a preferir pasar a Pipo Cipolatti haciendo chistes de televisión antes que esto».",
-          "Le digo que prefiero el riesgo al confort de las canciones chicle. Menea la cabeza: «Cipolatti cree que la ironía es ponerse un saco de color y decir tonterías, pero la verdadera ironía es hacer un álbum doble y pretender que lo entiendan»."
+          "Mientras Zoca intenta ordenarle una pila de cables y revistas viejas, él busca en el televisor sin volumen las imágenes de Raúl Alfonsín en Moscú. Señala la pantalla con el control remoto: «Mirá a ese hombre abrazado a los rusos, parece un tío radical que se equivocó de casamiento y ahora nos va a cobrar el cubierto en australes devaluados». Le digo que por lo menos no nos gobiernan los militares como en Chile, donde el mes pasado mataron al periodista José Carrasco Tapia. García apaga el aparato de un golpe seco y se sienta al piano de pared sin decir palabra."
         ]
       },
       {
-        "fecha": "1986-10-31",
+        "fecha": "1986-10-23",
         "anio": "1986",
-        "encabezado": "Viernes, 31 de octubre.",
-        "situacion": "Por teléfono, García. Me llama temprano desde su piso mientras los sellos preparan los grandes lanzamientos comerciales del verano.",
+        "encabezado": "Jueves, 23 de octubre.",
+        "situacion": "Festejamos su cumpleaños en un bar de Palermo, García, Andrés Calamaro y yo.",
         "parrafos": [
-          "Dice que la industria parece un mercado de frutas donde todos gritan para vender la misma manzana podrida. «Están todos desesperados por el hit de la temporada», protesta.",
-          "Le comento que nuestro trabajo con Luis ya está en la fábrica de pasta y que no hay vuelta atrás. Se queda en silencio un segundo.",
-          "«Mejor así», concluye García. «Dejalos que peleen por los migas del banquete. Nosotros ya nos comimos el pastel»."
+          "Cumple treinta y cinco años hoy. Pide que le cambien la mesa tres veces porque dice que el tubo fluorescente del mostrador está afinado en un si bemol defectuoso y le arruina la digestión. Andrés le regala un casete virgen de cromo envuelto en papel de diario; García lo huele como si fuera un habano importado y lo guarda en el bolsillo del saco junto a un destornillador chiquito que lleva siempre para ajustar las perillas de los sintetizadores.",
+          "Hablamos de las sesiones finales en ION; le confieso que a veces me intimida la perfección con la que Spinetta resuelve una armonía en dos minutos. «Spinetta es un marciano que aterrizó en Bajo Belgrano por un desperfecto técnico», dice él, mojando una papa frita en el vaso de ginebra. «Nosotros hacemos canciones para salir en la radio; ese tipo compone para que Dios no se aburra los domingos a la tarde». Cuando quiero pagar la cuenta, descubre que se olvidó la billetera en los pantalones de cuero y termina firmando una servilleta de papel para el mozo, convencido de que el autógrafo vale más que el consumo."
+        ]
+      },
+      {
+        "fecha": "1986-10-30",
+        "anio": "1986",
+        "encabezado": "Jueves, 30 de octubre.",
+        "situacion": "Caminamos por la avenida Santa Fe, García y yo.",
+        "parrafos": [
+          "A un día de mandar a imprenta las tapas de La la la, la vereda sigue sucia de papeles por los festejos de anoche en el Monumental, cuando River ganó su primera Copa Libertadores con el gol de Funes. García lleva puestos unos anteojos de sol con un cristal rajado y avanza esquivando las baldosas flojas con un cuidado maniático, sin soltar una bolsa de plástico con dos cajas de sahumerios hindúes.",
+          "Un chico desde un colectivo lo reconoce y le grita algo sobre sus próximos temas con Las Ligas; él saluda levantando dos dedos sin mirarlo. «Se creen que uno vive adentro de un escenario, con los equipos encendidos las veinticuatro horas», murmura mientras se detiene frente a una vidriera de electrodomésticos. Le pregunto si le molesta que lo quieran tanto. «Me gusta que compren los discos», contesta mirándose en el reflejo del vidrio, «pero preferiría que aplaudan en silencio, como en el tenis»."
         ]
       }
     ],
     "paginas": [
-      3,
+      4,
       2
     ],
     "notas": [
-      "1. El álbum doble 'La La La', firmado por Spinetta y Páez, fue finalmente lanzado en noviembre de 1986."
+      "En noviembre de 1986 se editó el álbum doble La la la, grabado por Spinetta y Fito Páez en los estudios ION.",
+      "Ese mismo año, Fito Páez lanzó el maxi-simple Corazón clandestino, que incluía una versión con la participación de Caetano Veloso."
     ],
     "escena": "En el estudio, de madrugada",
     "criticados": [
-      "Raúl Porchetto",
-      "Miguel Cantilo",
-      "Pipo Cipolatti"
+      "Gustavo Cerati",
+      "Juan Carlos Mateyko",
+      "Raúl Alfonsín"
     ],
     "alabados": [
       "Luis Alberto Spinetta",
-      "Pedro Aznar",
-      "Mercedes Sosa"
+      "Caetano Veloso",
+      "Prince"
     ],
-    "palabras": 541,
+    "palabras": 793,
     "revision": {
-      "hecha": false,
+      "hecha": true,
       "problemasDetectados": [
-        "La página 2 tiene solo 205 palabras; el mínimo es 350.",
-        "La palabra «llega» se repite en las líneas de situación de las entradas 2 y 3."
+        "En la narración se nombra a Carlos Alberto García Moreno (Charly García) como «Carlos»: el diarista lo nombra siempre por el apellido («García»).",
+        "En la narración se nombra a Carlos Alberto García Moreno (Charly García) como «Alberto»: el diarista lo nombra siempre por el apellido («García»)."
       ],
-      "problemasRestantes": [
-        "La página 2 tiene solo 205 palabras; el mínimo es 350.",
-        "La palabra «llega» se repite en las líneas de situación de las entradas 2 y 3."
-      ]
+      "problemasRestantes": []
     }
   },
   "titulo": "García",
   "proveedores": {
-    "texto": "gemini:gemini-3.5-flash",
-    "imagen": "none"
+    "texto": "gemini:gemini-4-argon",
+    "imagen": "none",
+    "modelos": {
+      "validacion": "gemini-4-argon (Google AI Studio)",
+      "contexto": "gemini-4-argon (Google AI Studio)",
+      "entrada": "gemini-4-argon (Google AI Studio)",
+      "revision": "gemini-4-argon (Google AI Studio)"
+    }
   },
   "advertencias": [
-    "La validación se hizo sin búsqueda web: depende del conocimiento del modelo.",
-    "El contexto histórico se armó sin búsqueda web (sin cuota de búsqueda o desactivada): verificá los hechos.",
-    "No se pudo hacer la revisión de estilo: Sin tiempo para otra llamada al modelo",
-    "El inicio de la relación (1983) es aproximado; se toma la fecha documentada más conservadora."
+    "La validación se hizo sin búsqueda web: depende del conocimiento del modelo."
   ],
   "version": 2,
-  "id": "4wtkc94MpC",
-  "creada": "2026-10-25T21:09:52.485Z"
+  "id": "argon5demo",
+  "creada": "2026-10-27T12:00:00.000Z"
 }

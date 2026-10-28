@@ -10,7 +10,8 @@ export type AmbitoDemo =
   | "tenis"
   | "tecnología"
   | "cine"
-  | "negocios";
+  | "negocios"
+  | "básquet";
 
 export interface PersonaDemo {
   nombre: string;
@@ -34,6 +35,8 @@ export interface ParejaDemo {
   ambito: AmbitoDemo;
   fechaEjemplo: string;
   escenaEjemplo: string;
+  /** Tema optativo que se manda con el ejemplo (campo «tema» del formulario). */
+  temaEjemplo?: string;
   fuentes: { titulo: string; url: string }[];
 }
 
@@ -66,10 +69,12 @@ export const PAREJAS_DEMO: ParejaDemo[] = [
     inicioRelacion: "1932",
     inicioAproximado: false,
     relacion:
-      "Amigos íntimos y colaboradores literarios desde 1932; en este diario apócrifo cenan en casa de Bioy en octubre de 1956.",
+      "Amigos íntimos y colaboradores literarios desde 1932; en este diario apócrifo (ucronía) Borges viene a comer a casa de Bioy la víspera del anuncio del Nobel de Literatura 2026 a Anne Carson, y siguen sus repercusiones.",
     ambito: "literatura",
-    fechaEjemplo: "1956-10-08",
+    fechaEjemplo: "2026-10-07",
     escenaEjemplo: "Come en casa Borges",
+    temaEjemplo:
+      "La víspera del anuncio del Premio Nobel de Literatura 2026 (8 de octubre), el anuncio del premio a Anne Carson y sus repercusiones en las semanas siguientes",
     fuentes: [
       wiki("Jorge Luis Borges", "Jorge_Luis_Borges"),
       wiki("Adolfo Bioy Casares", "Adolfo_Bioy_Casares"),
@@ -221,10 +226,10 @@ export const PAREJAS_DEMO: ParejaDemo[] = [
     inicioRelacion: "1985",
     inicioAproximado: false,
     relacion:
-      "Cóppola fue su representante y amigo inseparable desde 1985; en este diario apócrifo comparten en Nápoles los días del primer scudetto del Napoli, en mayo de 1987.",
+      "Cóppola fue su representante y amigo inseparable desde 1985; en este diario apócrifo (ucronía) comparten en Doha los días de la final del Mundial 2022.",
     ambito: "fútbol",
-    fechaEjemplo: "1987-05-10",
-    escenaEjemplo: "Come en casa Maradona, en Nápoles",
+    fechaEjemplo: "2022-12-16",
+    escenaEjemplo: "Come en casa Maradona, en Doha",
     fuentes: [wiki("Diego Maradona", "Diego_Maradona"), wiki("Guillermo Cóppola", "Guillermo_C%C3%B3ppola")],
   },
   {
@@ -346,6 +351,41 @@ export const PAREJAS_DEMO: ParejaDemo[] = [
     fechaEjemplo: "2023-05-19",
     escenaEjemplo: "Almuerzo en el hotel de Cannes antes del estreno",
     fuentes: [wiki("Martin Scorsese", "Martin_Scorsese"), wiki("Robert De Niro", "Robert_De_Niro")],
+  },
+  {
+    id: "ginobili-scola",
+    borges: {
+      nombre: "Manu Ginóbili",
+      corto: "Ginóbili",
+      apodos: ["Manu"],
+      alias: ["ginobili", "ginóbili", "manu ginobili", "manu ginóbili", "emanuel ginóbili", "emanuel ginobili", "emanuel david ginóbili"],
+      nacimiento: "1977-07-28",
+      muerte: null,
+      descripcion: "basquetbolista argentino",
+    },
+    bioy: {
+      nombre: "Luis Scola",
+      corto: "Scola",
+      apodos: ["Luifa"],
+      alias: ["scola", "luis scola", "luis alberto scola"],
+      nacimiento: "1980-04-30",
+      muerte: null,
+      descripcion: "basquetbolista argentino",
+    },
+    inicioRelacion: "1999",
+    inicioAproximado: true,
+    relacion:
+      "Compañeros en la selección argentina de básquet desde fines de los noventa; integraron la Generación Dorada que ganó la medalla de oro en los Juegos Olímpicos de Atenas 2004.",
+    ambito: "básquet",
+    fechaEjemplo: "2004-08-26",
+    escenaEjemplo: "En la Villa Olímpica de Atenas, con Ginóbili, la víspera de la semifinal contra Estados Unidos",
+    temaEjemplo:
+      "La semifinal olímpica contra Estados Unidos y la final contra Italia en Atenas 2004: la medalla de oro de la Generación Dorada",
+    fuentes: [
+      wiki("Emanuel Ginóbili", "Emanuel_Gin%C3%B3bili"),
+      wiki("Luis Scola", "Luis_Scola"),
+      wiki("Generación Dorada", "Generaci%C3%B3n_Dorada"),
+    ],
   },
 ];
 

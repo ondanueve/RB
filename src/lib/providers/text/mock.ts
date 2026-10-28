@@ -1,7 +1,7 @@
 /**
  * Proveedor de texto para las parejas de ejemplo y respaldo sin red.
  *
- * - Cada pareja de PAREJAS_DEMO cuenta con su propio diario completo de 6 entradas
+ * - Las parejas de PAREJAS_DEMO con entrada en DIARIOS_POR_ID cuentan con su propio diario completo de 6 entradas
  *   (dos páginas enfrentadas), escrito a medida al estilo del libro "Borges" de Adolfo
  *   Bioy Casares, con encabezados de diálogo en MAYÚSCULAS («APELLIDO: «Texto».») y
  *   atribución inequívoca en cada cita.
@@ -79,7 +79,7 @@ interface DiarioPreescrito {
 }
 
 /**
- * Diarios íntegros y exclusivos, uno por cada pareja de PAREJAS_DEMO.
+ * Diarios íntegros y exclusivos de las parejas de PAREJAS_DEMO (las que no figuran usan el respaldo libre).
  * Marcadores:
  *   {B}  = Apellido del rol "Borges" en narración ("Borges", "Messi", "Buffett")
  *   {BU} = Apellido del rol "Borges" en MAYÚSCULAS para parlamentos ("BORGES", "MESSI")
@@ -881,8 +881,9 @@ function contextoMock(
   v: Validacion,
   w: { desde: string; hasta: string; n: number },
 ) {
+  // Parejas de ejemplo sin diario preescrito (p. ej. Ginóbili/Scola) van por el respaldo libre.
   const hallado = buscarPareja(p.borges, p.bioy);
-  if (!hallado) {
+  if (!hallado || !DIARIOS_POR_ID[hallado.par.id]) {
     const saltos = [0, 2, 5, 8, 12, 16].slice(0, Math.min(w.n, 6));
     return {
       resumen: `Período de conversaciones entre ${v.borges.nombre} y ${v.bioy.nombre} a partir del ${w.desde}.`,
@@ -916,8 +917,9 @@ function entradaMock(
   c: Contexto,
   fechas: string[],
 ) {
+  // Parejas de ejemplo sin diario preescrito (p. ej. Ginóbili/Scola) van por el respaldo libre.
   const hallado = buscarPareja(p.borges, p.bioy);
-  if (!hallado) {
+  if (!hallado || !DIARIOS_POR_ID[hallado.par.id]) {
     return diarioRespaldoLibre(p, v, fechas);
   }
   const id = hallado.par.id;
