@@ -14,6 +14,11 @@ import { LibroAbierto } from './components/PaginaLibro';
 import { BarraAccionesDiario, textoCompartir } from './components/Compartir';
 import { sincronizarSeoPagina } from './lib/seoHead';
 
+/** Con un enlace ?id=… el visitante viene por esa entrada: bajar hasta ella tras renderizarla. */
+function irAlLibro() {
+  setTimeout(() => document.getElementById('libro')?.scrollIntoView({ behavior: 'auto' }), 80);
+}
+
 export default function App() {
   // Form state (default: Borges / Bioy, index 0)
   const [borges, setBorges] = useState<string>(PAREJAS_DEMO[0].borges.nombre);
@@ -56,6 +61,7 @@ export default function App() {
           setTema(encontrada.parametros.tema ?? '');
           setPaginaActiva(encontrada);
           sincronizarSeoPagina(encontrada);
+          irAlLibro();
           return;
         }
         try {
@@ -77,6 +83,7 @@ export default function App() {
               setIndiceDemoActivo(-1);
               setPaginaActiva(pageData.pagina);
               sincronizarSeoPagina(pageData.pagina);
+              irAlLibro();
               return;
             }
           }
@@ -203,64 +210,15 @@ export default function App() {
           </p>
         </header>
 
-        {/* Curated Pairs Selector */}
-        <section className="space-y-6">
-          <div className="p-4 bg-[#fbf6ea]/70 border border-[#d4c5a6] space-y-2.5">
-            <div className="text-[14.5px] text-[#5b5246]">
-              <strong>Ejemplos:</strong>
-            </div>
-            <div className="flex flex-wrap items-center gap-2">
-              {PAREJAS_DEMO.map((par, i) => {
-                const activo =
-                  indiceDemoActivo === i ||
-                  (borges.toLowerCase() === par.borges.nombre.toLowerCase() &&
-                    bioy.toLowerCase() === par.bioy.nombre.toLowerCase() &&
-                    fecha === par.fechaEjemplo);
-                return (
-                  <button
-                    key={par.id}
-                    type="button"
-                    onClick={() => seleccionarEjemplo(i)}
-                    className={`px-3 py-1.5 text-[14.5px] transition-colors cursor-pointer whitespace-nowrap shrink-0 ${
-                      activo
-                        ? 'bg-[#7a1f1f] text-[#fbf3e2]'
-                        : 'bg-[#fffdf7] text-[#1d1a16] border border-[#c9b994] hover:border-[#7a1f1f]'
-                    }`}
-                  >
-                    {par.borges.corto} / {par.bioy.corto} ({par.fechaEjemplo.slice(0, 4)})
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-
-          {/* Active Open-Book Spread */}
-          {paginaActiva && (
-            <div id="libro" className="space-y-4 scroll-mt-10 pt-2">
-              <div className="text-center space-y-1">
-                <h2 className="text-2xl sm:text-3xl font-normal text-[#1d1a16] m-0">
-                  {textoCompartir(paginaActiva)}
-                </h2>
-                <p className="text-[14.5px] italic text-[#5b5246] m-0">
-                  {MARCA}. Todo diálogo es inventado.
-                </p>
-              </div>
-
-              <LibroAbierto entrada={paginaActiva.entrada} titulo={tituloDe(paginaActiva)} />
-
-              <BarraAccionesDiario pagina={paginaActiva} />
-            </div>
-          )}
-        </section>
-
         {/* Composition Form */}
-        <section id="escribir" className="pt-6 border-t border-[#d4c5a6] space-y-6">
+        <section id="escribir" className="space-y-6 scroll-mt-6">
           <div className="text-center max-w-2xl mx-auto">
-            <h2 className="text-2xl font-normal text-[#1d1a16] m-0">
-              Escribir otro diario
+            <h2 className="text-3xl sm:text-4xl font-normal text-[#1d1a16] m-0">
+              Escribí tu diario
             </h2>
             <p className="text-[15.5px] italic text-[#5b5246] mt-1">
-              Elegí dos figuras públicas y una fecha para componer dos páginas del diario.
+              Elegí dos figuras públicas y una fecha para componer dos páginas del diario. ¿Sin ideas?{' '}
+              <a href="#ejemplos" className="text-[#7a1f1f] underline">Mirá los ejemplos</a>.
             </p>
           </div>
 
@@ -501,6 +459,62 @@ export default function App() {
               </div>
             </section>
           )}
+        </section>
+
+        {/* Resultado del generador o ejemplo activo, y selector de ejemplos (contenido secundario) */}
+        <section id="ejemplos" className="pt-6 border-t border-[#d4c5a6] space-y-6 scroll-mt-6">
+          {/* Active Open-Book Spread */}
+          {paginaActiva && (
+            <div id="libro" className="space-y-4 scroll-mt-10 pt-2">
+              <div className="text-center space-y-1">
+                <p className="text-[13.5px] uppercase tracking-widest text-[#7a1f1f] font-semibold m-0">
+                  {indiceDemoActivo >= 0 ? 'Ejemplo' : 'Diario generado'}
+                </p>
+                <h2 className="text-xl sm:text-2xl font-normal text-[#1d1a16] m-0">
+                  {textoCompartir(paginaActiva)}
+                </h2>
+                <p className="text-[14.5px] italic text-[#5b5246] m-0">
+                  {MARCA}. Todo diálogo es inventado.
+                </p>
+              </div>
+
+              <LibroAbierto entrada={paginaActiva.entrada} titulo={tituloDe(paginaActiva)} />
+
+              <BarraAccionesDiario pagina={paginaActiva} />
+            </div>
+          )}
+
+          <div className="p-4 bg-[#fbf6ea]/70 border border-[#d4c5a6] space-y-2.5">
+            <div className="text-[14.5px] text-[#5b5246]">
+              <strong>Más ejemplos:</strong> elegí uno para leerlo y precargar el formulario.
+            </div>
+            <div className="flex flex-wrap items-center gap-2">
+              {PAREJAS_DEMO.map((par, i) => {
+                const activo =
+                  indiceDemoActivo === i ||
+                  (borges.toLowerCase() === par.borges.nombre.toLowerCase() &&
+                    bioy.toLowerCase() === par.bioy.nombre.toLowerCase() &&
+                    fecha === par.fechaEjemplo);
+                return (
+                  <button
+                    key={par.id}
+                    type="button"
+                    onClick={() => {
+                      seleccionarEjemplo(i);
+                      document.getElementById('libro')?.scrollIntoView({ behavior: 'smooth' });
+                    }}
+                    className={`px-3 py-1.5 text-[14.5px] transition-colors cursor-pointer whitespace-nowrap shrink-0 ${
+                      activo
+                        ? 'bg-[#7a1f1f] text-[#fbf3e2]'
+                        : 'bg-[#fffdf7] text-[#1d1a16] border border-[#c9b994] hover:border-[#7a1f1f]'
+                    }`}
+                  >
+                    {par.borges.corto} / {par.bioy.corto} ({par.fechaEjemplo.slice(0, 4)})
+                  </button>
+                );
+              })}
+            </div>
+          </div>
         </section>
       </main>
 
