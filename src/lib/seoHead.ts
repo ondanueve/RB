@@ -72,7 +72,7 @@ export function sincronizarSeoPagina(p: PaginaPublica | null) {
     isPartOf: {
       '@type': 'WebApplication',
       name: NOMBRE_SITIO,
-      url: 'https://bitcoinizate.com/borgesdebioyizador/',
+      url: 'https://ondanueve.github.io/RB/',
     },
   });
 }

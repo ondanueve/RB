@@ -75,7 +75,7 @@ export default function App() {
         }
         try {
           const isStaticHub =
-            typeof window !== 'undefined' && window.location.hostname.endsWith('bitcoinizate.com');
+            typeof window !== 'undefined' && window.location.hostname.endsWith('github.io');
           let pageRes = await fetch(
             isStaticHub
               ? `${SUPABASE_FUNCTIONS_API}/page?id=${encodeURIComponent(idParam)}`
@@ -159,7 +159,7 @@ export default function App() {
         extension: 'media',
       });
       const isStaticHub =
-        typeof window !== 'undefined' && window.location.hostname.endsWith('bitcoinizate.com');
+        typeof window !== 'undefined' && window.location.hostname.endsWith('github.io');
       let res = await fetch(isStaticHub ? `${SUPABASE_FUNCTIONS_API}/generate` : '/api/generate', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -521,9 +521,6 @@ export default function App() {
             </a>
             <a href={REPOSITORIO_GITHUB} target="_blank" rel="noreferrer noopener">
               Código
-            </a>
-            <a href="https://bitcoinizate.com/" target="_blank" rel="noreferrer noopener">
-              Bitcoinizate
             </a>
           </div>
         </div>

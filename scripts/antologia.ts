@@ -41,7 +41,7 @@ if (i > 0) {
   };
   const r = await fetch(ENDPOINT, {
     method: 'POST',
-    headers: { 'content-type': 'application/json', origin: 'https://bitcoinizate.com' },
+    headers: { 'content-type': 'application/json', origin: 'https://ondanueve.github.io' },
     body: JSON.stringify(cuerpo),
   });
   const d = (await r.json()) as { ok: boolean; pagina?: PaginaPublica; mensaje?: string; detalle?: string };
