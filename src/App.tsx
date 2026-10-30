@@ -502,6 +502,51 @@ export default function App() {
             </div>
           )}
         </section>
+
+        <section id="privacidad" className="seccion privacidad" aria-labelledby="titulo-privacidad">
+          <div className="seccion-cab">
+            <h2 id="titulo-privacidad">Privacidad</h2>
+            <p>Qué guarda este sitio cuando generás un diario, y qué no.</p>
+          </div>
+          <div className="privacidad-texto">
+            <p>
+              <strong>Lo que escribís se guarda y es público.</strong> Al generar un diario, el
+              servidor (funciones de Supabase) guarda la página resultante: los nombres, la fecha, la
+              escena, el tema y el tono que ingresaste, la validación de los participantes, el
+              contexto histórico y el texto generado, con un identificador corto al azar y la fecha de
+              creación. Esa página queda con un enlace para compartir, y cualquiera que lo tenga
+              puede leerla. El servidor también ofrece una lista pública de las páginas guardadas
+              (identificador, fecha y primeras líneas). El código no las borra solo: no escribas datos
+              personales ni nada que no quieras hacer público. Si querés que se elimine una página,
+              abrí un{' '}
+              <a href={`${REPOSITORIO_GITHUB}/issues`} target="_blank" rel="noreferrer noopener">
+                issue en el repositorio
+              </a>
+              .
+            </p>
+            <p>
+              <strong>Límite de uso.</strong> Para cuidar la cuota gratuita, el servidor cuenta cuántos
+              diarios se piden por hora desde cada conexión y cuántos se piden en el día en total. Para
+              eso guarda un hash con sal de tu dirección IP junto con un contador, nunca la dirección
+              en sí. Los contadores se reinician por ventanas y los de más de dos días se borran
+              periódicamente.
+            </p>
+            <p>
+              <strong>Procesamiento por Google.</strong> Para escribir el diario, el texto que
+              ingresás se envía a la API de Gemini de Google, que lo procesa según sus propias
+              condiciones.
+            </p>
+            <p>
+              <strong>Sin cuentas, cookies ni analítica.</strong> El sitio no pide registro, no usa
+              cookies y no incluye herramientas de analítica ni publicidad. Lo único que se guarda en
+              tu navegador es tu elección de modo claro u oscuro (localStorage, clave{' '}
+              <code>bdb-tema</code>). Las tipografías se sirven desde este mismo sitio. Los botones de
+              compartir son simples enlaces a WhatsApp y X: solo se abren si los tocás. Como en
+              cualquier servicio web, GitHub Pages (que aloja el sitio) y Supabase (que aloja el
+              servidor) pueden mantener sus propios registros técnicos de las conexiones.
+            </p>
+          </div>
+        </section>
       </main>
 
       <footer className="pie">
@@ -519,6 +564,7 @@ export default function App() {
             <a href={`${REPOSITORIO_GITHUB}/blob/main/DISCLAIMER.md`} target="_blank" rel="noreferrer noopener">
               Aviso completo
             </a>
+            <a href="#privacidad">Privacidad</a>
             <a href={REPOSITORIO_GITHUB} target="_blank" rel="noreferrer noopener">
               Código
             </a>

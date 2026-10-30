@@ -820,6 +820,42 @@ a:hover {
   }
 }
 
+/* ───────────────────────── Privacidad ───────────────────────── */
+.privacidad {
+  border-top: 1px solid var(--line);
+  margin-top: 1rem;
+}
+.privacidad-texto {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 1.1rem 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 0.6rem;
+  background: var(--surface, transparent);
+  color: var(--text-soft);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+.privacidad-texto p {
+  margin: 0 0 0.9rem;
+}
+.privacidad-texto p:last-child {
+  margin-bottom: 0;
+}
+.privacidad-texto strong {
+  color: var(--text);
+  font-weight: 600;
+}
+.privacidad-texto a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.18em;
+}
+.privacidad-texto code {
+  font-size: 0.92em;
+  color: var(--text);
+}
+
 /* ───────────────────────── Pie ───────────────────────── */
 .pie {
   margin-top: 1.5rem;
