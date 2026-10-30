@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="es-AR" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#15110e" />
+    <meta name="color-scheme" content="dark light" />
+    <!-- Tema: oscuro por defecto; solo pasa a claro si el visitante lo eligió. Corre antes de pintar (sin parpadeo). -->
+    <script>
+      try {
+        if (localStorage.getItem('bdb-tema') === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f4ecdc');
+        }
+      } catch (e) {}
+    </script>
+    <style>html{--lightningcss-light: ;--lightningcss-dark:initial;color-scheme:dark;background:#15110e}html[data-theme=light]{--lightningcss-light:initial;--lightningcss-dark: ;color-scheme:light;background:#f4ecdc}</style>
+    <title>rayo borgesdebioyizador — Diarios apócrifos al estilo de Bioy y Borges</title>
+    <link rel="preload" href="./assets/eb-garamond-latin-400-normal-BCNrxLz_.woff2" as="font" type="font/woff2" crossorigin />
+    <meta
+      name="description"
+      content="Diarios apócrifos al estilo de las anotaciones de Adolfo Bioy Casares sobre Jorge Luis Borges."
+    />
+    <meta
+      name="keywords"
+      content="rayo borgesdebioyizador, Borges, Adolfo Bioy Casares, diario apócrifo, pastiche literario, literatura argentina, generador literario"
+    />
+    <meta name="author" content="ondanueve" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <link rel="canonical" href="https://ondanueve.github.io/RB/" />
+
+    <!-- OpenGraph Social Cards -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="rayo borgesdebioyizador" />
+    <meta property="og:locale" content="es_AR" />
+    <meta
+      property="og:title"
+      content="rayo borgesdebioyizador — Diarios apócrifos al estilo de Bioy y Borges"
+    />
+    <meta
+      property="og:description"
+      content="Diarios apócrifos al estilo de las anotaciones de Adolfo Bioy Casares sobre Jorge Luis Borges."
+    />
+    <meta property="og:url" content="https://ondanueve.github.io/RB/" />
+    <meta property="og:image" content="https://ondanueve.github.io/RB/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="rayo borgesdebioyizador · Parodia · Ficción generada por IA"
+    />
+
+    <!-- Twitter / X Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="rayo borgesdebioyizador — Diarios apócrifos al estilo de Bioy y Borges"
+    />
+    <meta
+      name="twitter:description"
+      content="Diarios apócrifos al estilo de las anotaciones de Adolfo Bioy Casares sobre Jorge Luis Borges."
+    />
+    <meta name="twitter:image" content="https://ondanueve.github.io/RB/og.png" />
+
+    <!-- Schema.org Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebApplication",
+            "@id": "https://ondanueve.github.io/RB/#webapp",
+            "name": "rayo borgesdebioyizador",
+            "alternateName": "Borgesdebioyizador — Creador de diarios apócrifos",
+            "url": "https://ondanueve.github.io/RB/",
+            "applicationCategory": "EntertainmentApplication",
+            "applicationSubCategory": "Literary Pastiche Generator",
+            "operatingSystem": "All",
+            "inLanguage": "es-AR",
+            "description": "Diarios apócrifos al estilo de las anotaciones de Adolfo Bioy Casares sobre Jorge Luis Borges.",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://ondanueve.github.io/RB/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "¿Qué es el rayo borgesdebioyizador?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Una aplicación web que compone dos páginas enfrentadas de diario apócrifo al modo del libro póstumo Borges (2006) de Adolfo Bioy Casares, eligiendo dos figuras públicas reales con relación personal documentada y una fecha histórica real."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "¿Cómo verifica los datos históricos y el estilo literario?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "El sistema valida que ambas personas sean figuras públicas con vínculo real, comprueba sus fechas vitales, reúne el contexto histórico exacto del período y ejecuta un corrector automático de estilo que controla monólogos, vocativos, uso del apellido en la narración y extensión por página."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
+
+    <script type="module" crossorigin src="./assets/index-C27bxDlK.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DgdD806k.css">
+  </head>
+  <body>
+    <div id="root"><div class="min-h-screen flex flex-col"><a href="#escribir" class="saltar">Saltar al generador</a><header class="topbar"><div class="topbar-in"><a href="#top" class="marca-sitio" aria-label="rayo borgesdebioyizador"><span class="sello" aria-hidden="true">❦</span><span><span class="rayo">rayo </span>borgesdebioyizador</span></a><nav class="nav-sitio" aria-label="Secciones"><a href="#escribir">Escribir</a><a href="#ejemplos">Ejemplos</a></nav><button type="button" class="btn-tema" aria-label="Cambiar a modo claro" title="Modo claro"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon ico-luna" aria-hidden="true"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun ico-sol" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg><span class="txt">Claro</span></button></div></header><main id="top" class="flex-1 contenedor"><section class="hero" aria-labelledby="titulo-sitio"><p class="sobretitulo">Parodia literaria · Diarios apócrifos</p><h1 id="titulo-sitio">rayo borgesdebioyizador</h1><div class="ornamento" aria-hidden="true">❦</div><p class="lema">Diarios apócrifos al estilo de las anotaciones de Adolfo Bioy Casares sobre Jorge Luis Borges.</p></section><section id="escribir" class="seccion" aria-labelledby="titulo-escribir"><div class="seccion-cab"><h2 id="titulo-escribir">Escribí tu diario</h2><p>Elegí dos figuras públicas y una fecha para componer dos páginas del diario. ¿Sin ideas?<!-- --> <a href="#ejemplos">Mirá los ejemplos</a>.</p></div><form class="panel"><fieldset><legend>Protagonistas y fecha</legend><div class="roles"><label class="campo"><span class="etq">Rol «Borges» <span class="req">*</span></span><input required="" placeholder="Quien habla, sentencia y deslumbra" name="borges" value="Jorge Luis Borges"/><span class="ayuda">Quien lleva la voz cantante en las conversaciones.</span></label><button type="button" title="Invertir quién hace de Borges y quién anota como Bioy" class="btn-invertir"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left-right" aria-hidden="true"><path d="M8 3 4 7l4 4"></path><path d="M4 7h16"></path><path d="m16 21 4-4-4-4"></path><path d="M20 17H4"></path></svg><span>Invertir roles</span></button><label class="campo"><span class="etq">Rol «Bioy» (el diarista) <span class="req">*</span></span><input required="" placeholder="Quien lleva el diario, opina y discute" name="bioy" value="Adolfo Bioy Casares"/><span class="ayuda">El amigo íntimo que anota por la noche lo conversado.</span></label></div><div class="fila-extra"><label class="campo"><span class="etq">Fecha de la primera entrada <span class="req">*</span></span><input type="date" required="" class="tabular-nums" name="fecha" value="2026-10-07"/><span class="ayuda">Fecha en la que comienza el diario.</span></label><label class="campo"><span class="etq">Escena inicial</span><input list="escenas" placeholder="Come en casa, vestuario, estudio de grabación…" name="escena" value="Come en casa Borges"/><datalist id="escenas"><option value="Cena en casa"></option><option value="Almuerzo en un restaurante"></option><option value="Caminata nocturna por el barrio"></option><option value="Llamada telefónica"></option><option value="Conferencia de prensa"></option><option value="Cena en la concentración"></option><option value="Práctica / entrenamiento"></option><option value="Vestuario post-partido"></option><option value="Llamada telefónica pre-torneo"></option><option value="Viaje (avión, micro, tren)"></option><option value="Rodaje"></option><option value="Ensayo"></option><option value="Camarín antes de la función"></option><option value="Estudio de grabación"></option><option value="Sobremesa en un congreso o festival"></option></datalist><span class="ayuda">Situación con la que abre la primera entrada.</span></label></div></fieldset><div class="opcionales"><button type="button" aria-expanded="false" aria-controls="opciones-adicionales"><span>Opciones adicionales (criticados, alabados, presentes, tema y tono)</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></div><div class="enviar"><button type="submit" class="btn-primario">Borgesdebioyizar</button></div></form></section><section id="ejemplos" class="seccion ejemplos-zona" aria-labelledby="titulo-ejemplos"><div class="seccion-cab"><h2 id="titulo-ejemplos">Ejemplos</h2><p>12<!-- --> diarios de muestra. Elegí uno para leerlo y precargar el formulario.</p></div><ul class="rejilla-ejemplos"><li><button type="button" aria-pressed="true" class="tarjeta-ej"><span class="nombres">Borges<!-- --> <i>/</i> <!-- -->Bioy</span><span class="meta"><span class="amb">literatura</span><span class="tabular-nums">7 oct 2026</span></span></button></li><li><button type="button" aria-pressed="false" class="tarjeta-ej"><span class="nombres">Messi<!-- --> <i>/</i> <!-- -->Scaloni</span><span class="meta"><span class="amb">fútbol</span><span class="tabular-nums">16 dic 2022</span></span></button></li><li><button type="button" aria-pressed="false" class="tarjeta-ej"><span class="nombres">Buffett<!-- --> <i>/</i> <!-- -->Munger</span><span class="meta"><span class="amb">negocios</span><span class="tabular-nums">5 may 2023</span></span></button></li><li><button type="button" aria-pressed="false" class="tarjeta-ej"><span class="nombres">Riquelme<!-- --> <i>/</i> <!-- -->Delgado</span><span class="meta"><span class="amb">fútbol</span><span class="tabular-nums">14 may 2024</span></span></button></li><li><button type="button" aria-pressed="false" class="tarjeta-ej"><span class="nombres">García<!-- --> <i>/</i> <!-- -->Páez</span><span class="meta"><span class="amb">música</span><span class="tabular-nums">20 sep 1986</span></span></button></li><li><button type="button" aria-pressed="false" class="tarjeta-ej"><span class="nombres">Maradona<!-- --> <i>/</i> <!-- -->Cóppola</span><span class="meta"><span class="amb">fútbol</span><span class="tabular-nums">16 dic 2022</span></span></button></li><li><button type="button" aria-pressed="false" class="tarjeta-ej"><span class="nombres">Bilardo<!-- --> <i>/</i> <!-- -->Ruggeri</span><span class="meta"><span class="amb">fútbol</span><span class="tabular-nums">25 jun 1986</span></span></button></li><li><button type="button" aria-pressed="false" class="tarjeta-ej"><span class="nombres">Solari<!-- --> <i>/</i> <!-- -->Rocambole</span><span class="meta"><span class="amb">música</span><span class="tabular-nums">10 oct 2001</span></span></button></li><li><button type="button" aria-pressed="false" class="tarjeta-ej"><span class="nombres">Musk<!-- --> <i>/</i> <!-- -->Trump</span><span class="meta"><span class="amb">política</span><span class="tabular-nums">6 nov 2024</span></span></button></li><li><button type="button" aria-pressed="false" class="tarjeta-ej"><span class="nombres">Scorsese<!-- --> <i>/</i> <!-- -->De Niro</span><span class="meta"><span class="amb">cine</span><span class="tabular-nums">19 may 2023</span></span></button></li><li><button type="button" aria-pressed="false" class="tarjeta-ej"><span class="nombres">Ginóbili<!-- --> <i>/</i> <!-- -->Scola</span><span class="meta"><span class="amb">básquet</span><span class="tabular-nums">26 ago 2004</span></span></button></li><li><button type="button" aria-pressed="false" class="tarjeta-ej"><span class="nombres">Perry<!-- --> <i>/</i> <!-- -->Aniston</span><span class="meta"><span class="amb">televisión</span><span class="tabular-nums">15 abr 1997</span></span></button></li></ul><div id="libro" class="libro-zona"><div class="libro-cab"><p class="tipo">Ejemplo</p><h3>Jorge Luis Borges, según Adolfo Bioy Casares: dos páginas del diario apócrifo</h3><p>Parodia · Ficción generada por IA<!-- -->. Todo diálogo es inventado.</p></div><div class="libro dos"><article class="pagina-libro izquierda" aria-label="Página 544 del diario"><div class="cornisa">Borges</div><div class="anio">2026</div><section class="entrada-dia"><p class="fecha sin-sangria"><em>Miércoles, 7 de octubre.</em> <!-- -->Come en casa Borges. Mañana anuncian en Estocolmo el Nobel de Literatura.</p><p>Antes de sentarnos a tomar la sopa de arroz, me pide que le lea los pronósticos de las casas de apuestas inglesas. Cuando pronuncio el apellido de Gerald Murnane, sonríe complacido: «Un hombre sensato, que vive en el campo australiano y jamás pisó un avión; escribe como si el mundo fuera una llanura mental». Agrego que guarda su archivo en cajones de lata ordenados según los colores del hipódromo. Borges aprueba con un gesto: «Si los dieciocho caballeros del Comité Nobel tuvieran algo de pudor literario, premiarían esa geometría secreta en vez de buscar alegorías sociológicas. Pero la Academia Sueca es una antigua costumbre escandinava fundada en el remordimiento y la mala puntería».</p><p>Durante el postre de dulce de batata, le cuento que en el reciente festival de Buenos Aires una mesa entera de jóvenes críticos discutió la influencia de Roberto Bolaño en nuestra literatura. Deja caer la cucharita sobre el plato: «He intentado que me leyeran veinte páginas de sus novelas interminables; todo sucede entre talleres de poesía, llamadas telefónicas y pensiones mexicanas. Confunde la mera acumulación de poetas vagabundos con una epopeya romántica». Le recuerdo, para provocarlo, que a los treinta años nosotros también fundábamos revistas inútiles en las confiterías. «Sí, pero teníamos la decencia de olvidarlas al día siguiente y no obligar al lector a compartir el alquiler», me retruca, y me deja sin respuesta.</p></section><section class="entrada-dia"><p class="fecha sin-sangria"><em>Viernes, 9 de octubre.</em> <!-- -->Caminamos por la avenida Quintana, Borges y yo.</p><p>El viento frío de la tarde nos detiene frente a una vidriera de platería criolla mientras comentamos el premio otorgado ayer en Estocolmo a Anne Carson. Él apoya ambas manos en el bastón: «Una canadiense que traduce a Eurípides y prefiere las notas al pie antes que las novelas psicológicas merece nuestra gratitud. Que armara un libro entero con los restos de un papiro roto de Estesícoro parece una broma erudita de Bustos Domecq». Le observo que la autora declaró alguna vez que el griego antiguo es más preciso que el inglés moderno para nombrar la escarcha. «Tiene razón; después de Homero, toda la literatura occidental es apenas un borrador apresurado», sentencia, y me toma del brazo para cruzar la bocacalle.</p></section><div class="folio">544</div><div class="marca">Parodia · Ficción generada por IA</div></article><article class="pagina-libro derecha" aria-label="Página 545 del diario"><div class="cornisa">Borges</div><div class="anio">2026</div><section class="entrada-dia"><p class="fecha sin-sangria"><em>Viernes, 16 de octubre.</em> <!-- -->Cena en el departamento de Posadas, con Borges y Alberto Manguel.</p><p>Traigo de la cocina una fuente de zapallitos rellenos mientras los diarios españoles sobre la mesa ratona detallan el millón de euros entregado ayer en Barcelona por el Premio Planeta. Manguel comenta con suavidad: «En Madrid sigue reinando Arturo Pérez-Reverte, que publica una aventura histórica por semestre como quien despacha mercadería naval». Borges tantea el borde del mantel hasta dar con su vaso de agua: «Ese escritor supone que el coraje consiste en prodigar interjecciones castrenses y describir el filo de los sables durante quinientas páginas. Stevenson resolvía un duelo a muerte en dos líneas adjetivadas con pudor; estos españoles necesitan tres tomos de esgrima y un diccionario de marina».</p><p>Cuando Manguel se retira cerca de las once, nos quedamos recordando sus viejas lecturas vespertinas. «Conoce el lomo exacto de cada volumen visto hace cuarenta años sin jactarse jamás de su biblioteca», murmura Borges mientras guarda el bastón en el paragüero. «Cuando me leía a Kipling en la adolescencia, ya tenía esa cadencia serena que mejora cualquier párrafo ajeno».</p></section><section class="entrada-dia"><p class="fecha sin-sangria"><em>Domingo, 25 de octubre.</em> <!-- -->Por teléfono, Borges.</p><p>Llama pasadas las nueve de la noche, indignado porque en la clausura de la feria de Fráncfort los editores debatieron hoy el uso de inteligencia artificial para traducir los poemas de Carson. Me suelta sin preámbulo: «Imaginan que un diccionario mecánico puede elegir entre dos epítetos griegos sin equivocar la música del verso. Es como pedirle a un molino de viento que juzgue un soneto de Quevedo». Le sugiero que un aparato programado al azar tal vez evite las rimas ripiosas de ciertos catedráticos de Madrid. «No seas perverso; la estupidez humana tiene al menos el mérito de la fatiga, pero una máquina puede cometer solecismos toda la eternidad», rezonga antes de cortar.</p></section><section class="entrada-dia"><p class="fecha sin-sangria"><em>Viernes, 13 de noviembre.</em> <!-- -->Toma el té en la biblioteca, Borges.</p><p>Rechaza las tostadas porque las migas le molestan en el chaleco y pide solamente leche tibia. Mientras hojeo las crónicas sobre el Premio Cervantes anunciado ayer en Madrid y el reciente fallo del Booker en Londres, le pregunto si no le cansa haber sobrevivido a otro otoño de condecoraciones ajenas. Acaricia el lomo gastado de un tomo de la enciclopedia Chambers: «Nuestra ventaja de ser dos caballeros antiguos y ya casi invisibles es que nadie nos exige discursos de agradecimiento ante un rey escandinavo. Además, todavía debemos corregir el tercer capítulo de Suárez Lynch, que nos salió demasiado verosímil».</p></section><div class="notas"><p><sup>1</sup> <!-- -->Anne Carson publicó en 1998 Autobiography of Red, novela en verso basada en los fragmentos sobrevivientes de la Gerioneida del poeta griego Estesícoro.</p><p><sup>2</sup> <!-- -->Alberto Manguel conoció a Borges en 1964 en la librería Pygmalion de Buenos Aires y trabajó como su lector vespertino hasta 1968.</p></div><div class="folio">545</div><div class="marca">Parodia · Ficción generada por IA</div></article></div><div class="acciones" role="group" aria-label="Compartir y descargar este diario"><div class="grupo"><p class="grupo-t">Compartir</p><div class="botones"><button type="button" class="btn-ac">Copiar link</button><button type="button" class="btn-ac">Copiar texto</button><a href="https://wa.me/?text=Jorge%20Luis%20Borges%2C%20seg%C3%BAn%20Adolfo%20Bioy%20Casares%3A%20dos%20p%C3%A1ginas%20del%20diario%20ap%C3%B3crifo%20https%3A%2F%2Fondanueve.github.io%2FRB%2F%3Fid%3Ddemo1borges" target="_blank" rel="noreferrer noopener" class="btn-ac">WhatsApp</a><a href="https://x.com/intent/post?text=Jorge%20Luis%20Borges%2C%20seg%C3%BAn%20Adolfo%20Bioy%20Casares%3A%20dos%20p%C3%A1ginas%20del%20diario%20ap%C3%B3crifo&amp;url=https%3A%2F%2Fondanueve.github.io%2FRB%2F%3Fid%3Ddemo1borges" target="_blank" rel="noreferrer noopener" class="btn-ac">Publicar en X</a></div></div><div class="grupo"><p class="grupo-t">Descargar edición</p><div class="botones"><button type="button" class="btn-ac llena ancho">Páginas PNG (Libro abierto)</button><button type="button" class="btn-ac">Tarjeta redes (1200×630)</button><button type="button" class="btn-ac">Páginas HTML</button></div></div></div></div></section></main><footer class="pie"><div class="contenedor"><div class="ornamento" aria-hidden="true" style="margin-bottom:1.2rem">❦</div><p><strong>Parodia · Ficción generada por IA.</strong> Pastiche y homenaje no oficial: no está afiliado ni avalado por los herederos de Jorge Luis Borges o Adolfo Bioy Casares, sus editoriales ni las personas representadas. Todo diálogo es inventado y no constituye declaraciones reales.</p><div class="enlaces"><a href="https://github.com/ondanueve/RB/blob/main/DISCLAIMER.md" target="_blank" rel="noreferrer noopener">Aviso completo</a><a href="https://github.com/ondanueve/RB" target="_blank" rel="noreferrer noopener">Código</a></div></div></footer></div></div>
+    <noscript>
+      <p style="max-width:40rem;margin:1rem auto;padding:0 1rem;font-family:Georgia,serif;color:inherit">
+        <strong>rayo borgesdebioyizador</strong> compone diarios apócrifos al modo del <em>Borges</em> de Adolfo
+        Bioy Casares: dos figuras públicas reales con vínculo documentado, una fecha histórica y dos páginas de
+        diario. Arriba podés leer una página de muestra; para generar nuevas hace falta activar JavaScript.
+        Parodia · Ficción generada por IA.
+      </p>
+    </noscript>
+  </body>
+</html>
+

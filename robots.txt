@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ondanueve.github.io/RB/sitemap.xml
