@@ -228,7 +228,6 @@ export default function App() {
       <main id="top" className="flex-1 contenedor">
         {/* Cabecera editorial */}
         <section className="hero" aria-labelledby="titulo-sitio">
-          <p className="sobretitulo">Parodia literaria · Diarios apócrifos</p>
           <h1 id="titulo-sitio">{NOMBRE_SITIO}</h1>
           <div className="ornamento" aria-hidden="true">
             ❦
