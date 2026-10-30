@@ -1,0 +1,274 @@
+{
+  "parametros": {
+    "borges": "Matthew Perry",
+    "bioy": "Jennifer Aniston",
+    "fecha": "1997-04-15",
+    "criticados": [],
+    "alabados": [],
+    "escena": "En el camarín de Perry, en los estudios de Warner Bros. en Burbank, entre tomas de la tercera temporada de Friends",
+    "presentes": [],
+    "tema": "Los peores momentos de la adicción de Matthew Perry al Vicodin y al alcohol durante el rodaje de Friends, vistos por su compañera Jennifer Aniston, hasta su primera internación",
+    "tono": "melancólico",
+    "extension": "media",
+    "paginas": 2
+  },
+  "validacion": {
+    "aceptado": true,
+    "justificacion": "Matthew Perry y Jennifer Aniston son figuras públicas ampliamente reconocidas a nivel internacional. Compartieron elenco principal en la serie 'Friends' durante diez temporadas (1994-2004) y mantuvieron una estrecha amistad personal documentada desde antes del inicio del programa hasta el fallecimiento de Perry en 2023.",
+    "relacion": "Compañeros de elenco principal en la serie 'Friends' (1994-2004) y amigos cercanos durante más de tres décadas.",
+    "inicioRelacion": "1991",
+    "inicioAproximado": true,
+    "ambito": "televisión",
+    "borges": {
+      "nombre": "Matthew Perry",
+      "conocido": true,
+      "descripcion": "Actor y escritor estadounidense-canadiense, mundialmente famoso por interpretar a Chandler Bing en la serie de televisión 'Friends'.",
+      "nacimiento": "1969-08-19",
+      "muerte": "2023-10-28",
+      "apodos": [],
+      "apellido": "Perry"
+    },
+    "bioy": {
+      "nombre": "Jennifer Aniston",
+      "conocido": true,
+      "descripcion": "Actriz y productora estadounidense, reconocida mundialmente por interpretar a Rachel Green en la serie de televisión 'Friends'.",
+      "nacimiento": "1969-02-11",
+      "muerte": null,
+      "apodos": [],
+      "apellido": "Aniston"
+    },
+    "noVerificados": [],
+    "fuentes": [],
+    "conBusquedaWeb": false
+  },
+  "chequeoFecha": {
+    "ok": true,
+    "motivos": [],
+    "advertencias": [
+      "El inicio de la relación (1991) es aproximado; se toma la fecha documentada más conservadora."
+    ]
+  },
+  "fechas": [
+    "1997-04-15",
+    "1997-05-01",
+    "1997-05-12",
+    "1997-05-26"
+  ],
+  "contexto": {
+    "fechasSugeridas": [
+      "1997-04-15",
+      "1997-05-01",
+      "1997-05-12",
+      "1997-05-26"
+    ],
+    "resumen": "Entre mediados de abril y finales de mayo de 1997, Matthew Perry y Jennifer Aniston atraviesan el cierre de la tercera temporada de 'Friends' en el Estudio 24 de Warner Bros. en Burbank, emitida por NBC hasta su episodio final el 15 de mayo. Detrás del éxito masivo de la serie, Perry sufre el punto más crítico de la primera etapa de su adicción al Vicodin —iniciada tras su accidente de moto de agua en el rodaje de 'Fools Rush In'— combinada con el consumo excesivo de alcohol. En sus memorias y entrevistas posteriores, Perry señaló que fue precisamente hacia abril de 1997 cuando tomó conciencia de la gravedad extrema de su estado y recordó el momento en que Aniston lo confrontó en su camarín diciéndole que todo el elenco sabía que estaba bebiendo. Mientras se emiten los últimos cinco episodios de la temporada (con invitados como Ben Stiller, Jon Favreau, Robin Williams y Billy Crystal), el mundo del espectáculo estadounidense vive hitos históricos como la salida del clóset de Ellen DeGeneres en 'The Puppy Episode' y las tensas negociaciones salariales del elenco de 'Seinfeld' en NBC. Al concluir las grabaciones y emisiones de la temporada en mayo, Aniston se prepara para viajar a Nueva York a rodar 'The Object of My Affection' junto a Paul Rudd, mientras que Perry gestiona su primera internación de 28 días en la clínica de rehabilitación Hazelden, en Minnesota.",
+    "recientes": [
+      {
+        "fecha": "1997-03-24",
+        "descripcion": "Se celebra en el Shrine Auditorium de Los Ángeles la 69.ª entrega de los Premios Óscar, conducida por Billy Crystal, con el triunfo de 'The English Patient' como mejor película."
+      },
+      {
+        "fecha": "1997-03-25",
+        "descripcion": "El reverendo conservador Jerry Falwell ataca públicamente a Ellen DeGeneres llamándola 'Ellen DeGenerate' y pide un boicot de anunciantes ante el inminente episodio donde su personaje saldrá del clóset."
+      },
+      {
+        "fecha": "1997-03-26",
+        "descripcion": "La policía halla los cuerpos de 39 miembros de la secta Heaven's Gate tras un suicidio colectivo en una mansión de Rancho Santa Fe, California, noticia que sacude a todo el estado."
+      },
+      {
+        "fecha": "1997-03-27",
+        "descripcion": "NBC emite el episodio 19 de la tercera temporada de 'Friends', 'The One with the Tiny T-Shirt', visto por 23,7 millones de espectadores."
+      },
+      {
+        "fecha": "1997-04-10",
+        "descripcion": "NBC emite el episodio 20 de la tercera temporada de 'Friends', 'The One with the Dollhouse', con 24,4 millones de televidentes."
+      },
+      {
+        "fecha": "1997-04-13",
+        "descripcion": "Con apenas 21 años, Tiger Woods gana el Masters de Augusta por un margen récord de 12 golpes (con 270 golpes, 18 bajo par), convirtiéndose en el campeón más joven de la historia del torneo."
+      }
+    ],
+    "proximos": [
+      {
+        "fecha": "1997-04-17",
+        "descripcion": "NBC emite el episodio 21 de la tercera temporada de 'Friends', 'The One with a Chick and a Duck' (dirigido por Michael Lembeck), donde Chandler y Joey adoptan un pollito y un pato."
+      },
+      {
+        "fecha": "1997-04-24",
+        "descripcion": "Se emite el episodio 22 de 'Friends', 'The One with the Screamer', con la participación especial de Ben Stiller como el novio agresivo de Rachel y Dina Meyer como Kate."
+      },
+      {
+        "fecha": "1997-04-30",
+        "descripcion": "ABC emite el histórico episodio doble 'The Puppy Episode' de la sitcom 'Ellen', en el que el personaje de Ellen DeGeneres sale del clóset ante 42 millones de espectadores, con apariciones de Oprah Winfrey y Laura Dern."
+      },
+      {
+        "fecha": "1997-05-01",
+        "descripcion": "En el Reino Unido, el Partido Laborista liderado por Tony Blair logra una victoria aplastante en las elecciones generales tras 18 años de gobiernos conservadores. Esa noche en EE. UU., NBC emite el episodio 23 de 'Friends', 'The One with Ross's Thing'."
+      },
+      {
+        "fecha": "1997-05-02",
+        "descripcion": "La policía de Los Ángeles detiene el vehículo de Eddie Murphy en Santa Monica Boulevard durante la madrugada y arresta a su pasajera, una trabajadora sexual transgénero con orden de captura, desatando un escándalo en los tabloides."
+      },
+      {
+        "fecha": "1997-05-08",
+        "descripcion": "NBC emite el penúltimo episodio de la temporada 3 de 'Friends', 'The One with the Ultimate Fighting Champion', con Jon Favreau, Christine Taylor y el cameo improvisado de Billy Crystal y Robin Williams. Esa misma noche, los Lakers vencen 104-84 al Utah Jazz en el Forum de Inglewood (Juego 3 de las semifinales del Oeste de la NBA)."
+      },
+      {
+        "fecha": "1997-05-09",
+        "descripcion": "Se estrena en cines de Estados Unidos la comedia 'Father's Day', protagonizada por Robin Williams y Billy Crystal, quienes habían grabado su cameo en el set de 'Friends' para promocionarla."
+      },
+      {
+        "fecha": "1997-05-11",
+        "descripcion": "En Nueva York, la supercomputadora Deep Blue de IBM derrota por 3,5 a 2,5 al campeón mundial de ajedrez Garry Kasparov tras su rendición en 19 jugadas en la sexta partida."
+      },
+      {
+        "fecha": "1997-05-12",
+        "descripcion": "NBC anuncia que Jason Alexander, Julia Louis-Dreyfus y Michael Richards, coprotagonistas de 'Seinfeld', acuerdan renovar contrato por 600.000 dólares por episodio tras una dura disputa salarial. Ese mismo día, los Lakers quedan eliminados de los playoffs de la NBA al caer 98-93 ante el Utah Jazz en el Juego 5."
+      },
+      {
+        "fecha": "1997-05-15",
+        "descripcion": "NBC emite el episodio final de la tercera temporada de 'Friends' (episodio 25, 'The One at the Beach'), dirigido por Pamela Fryman y visto por 28,8 millones de espectadores."
+      },
+      {
+        "fecha": "1997-05-19",
+        "descripcion": "Se celebra en Los Ángeles la premiere mundial de 'The Lost World: Jurassic Park', de Steven Spielberg, y en Nueva York se casan en secreto los actores Sarah Jessica Parker y Matthew Broderick."
+      },
+      {
+        "fecha": "1997-05-20",
+        "descripcion": "ABC emite el episodio final de la histórica sitcom 'Roseanne' tras nueve temporadas en el aire."
+      },
+      {
+        "fecha": "1997-05-23",
+        "descripcion": "Paramount Pictures confirma oficialmente que la superproducción 'Titanic', de James Cameron, no llegará a su estreno previsto del 2 de julio por demoras de posproducción y se posterga hasta diciembre."
+      }
+    ],
+    "escenaSugerida": "Martes 15 de abril de 1997 en el camarín de Matthew Perry dentro del Estudio 24 de Warner Bros. en Burbank, durante un receso de los ensayos y grabaciones de los episodios finales de la tercera temporada de 'Friends' (a dos días de emitirse 'The One with a Chick and a Duck'). Perry, con las manos temblorosas y transpirando frío por la resaca y la abstinencia entre dosis de Vicodin, intenta repasar sus líneas mientras oculta un frasco de pastillas; Jennifer Aniston entra tras golpear la puerta, cierra detrás de sí y, con una mezcla de ternura y firmeza implacable, le dice la frase que él recordará toda su vida ('Sabemos que estás tomando'), dejándolo devastado frente al espejo.",
+    "criticadosSugeridos": [
+      "Jerry Falwell",
+      "Ted Turner",
+      "Rupert Murdoch"
+    ],
+    "alabadosSugeridos": [
+      "Ellen DeGeneres",
+      "Robin Williams",
+      "Billy Crystal"
+    ],
+    "participantesSugeridos": [
+      {
+        "nombre": "Tate Donovan",
+        "vinculo": "Actor y pareja sentimental de Jennifer Aniston en 1997 (salieron entre 1995 y principios de 1998) y amigo cercano de Matthew Perry."
+      },
+      {
+        "nombre": "Courteney Cox",
+        "vinculo": "Compañera de elenco principal en 'Friends' (Monica Geller) y mejor amiga de Jennifer Aniston en el set."
+      },
+      {
+        "nombre": "Matt LeBlanc",
+        "vinculo": "Compañero de elenco en 'Friends' (Joey Tribbiani), con quien Perry compartía la mayor parte de sus escenas en esa etapa de la tercera temporada."
+      },
+      {
+        "nombre": "David Schwimmer",
+        "vinculo": "Compañero de elenco en 'Friends' (Ross Geller) y pareja en la ficción de Jennifer Aniston."
+      },
+      {
+        "nombre": "Lisa Kudrow",
+        "vinculo": "Compañera de elenco en 'Friends' (Phoebe Buffay) y confidente cercana de ambos actores en los estudios de Burbank."
+      },
+      {
+        "nombre": "Marta Kauffman",
+        "vinculo": "Cocreadora y productora ejecutiva de 'Friends', presente a diario en las grabaciones en el Estudio 24 de Warner Bros."
+      }
+    ],
+    "fuentes": [],
+    "desde": "1997-04-15",
+    "hasta": "1997-05-27",
+    "conBusquedaWeb": true
+  },
+  "entrada": {
+    "dias": [
+      {
+        "fecha": "1997-04-15",
+        "anio": "1997",
+        "encabezado": "Martes, 15 de abril.",
+        "situacion": "En el camarín de Perry, en los estudios de Warner Bros. en Burbank, entre tomas de la tercera temporada de Friends, Perry y yo.",
+        "parrafos": [
+          "Mastica chicles de menta de a tres y esconde el vaso de plástico detrás de un guion arrugado. Le digo sin rodeos que todos en el Estudio 24 sabemos que sigue tomando; el olor traspasa el caramelo. Se mira las zapatillas, que tienen los cordones desatados desde la lectura de mesa de la mañana. «Uno cree que levanta una pared de ladrillos y resulta que es de vidrio», murmura. Intento aflojar la tensión comentando las plumas que dejó el pato del episodio que sale el jueves. «Ese bicho actúa con más sobriedad que la mitad del sindicato», contesta Perry, pero no se ríe.",
+          "Hablamos del paso de Robin Williams y Billy Crystal por el set para grabar su aparición sorpresa antes del estreno de mayo. Recordamos cómo improvisaron todo el diálogo en el sillón mientras Matt LeBlanc intentaba no tentarse. «Williams es una tormenta eléctrica embotellada; Crystal es el pararrayos que le da forma y tiempo», define Perry. Yo agrego que al lado de ellos dos parecemos empleados municipales marcando tarjeta. «Peor», me corrige mientras apaga el televisor donde pasan el triunfo de Tiger Woods en Augusta, «parecemos actores de televisión»."
+        ]
+      },
+      {
+        "fecha": "1997-05-01",
+        "anio": "1997",
+        "encabezado": "Jueves, 1 de mayo.",
+        "situacion": "Almorzamos en el patio de Courteney Cox, con ella y Perry.",
+        "parrafos": [
+          "Nadie prueba la ensalada de atún; él apenas revuelve el hielo de su gaseosa dietética con el dedo índice y transpira bajo una camisa de franela demasiado gruesa para el sol de California. Comentamos los cuarenta y dos millones de personas que miraron anoche el episodio de Ellen DeGeneres. Courteney Cox festeja la valentía de la cadena frente a las amenazas de los patrocinadores y el sermón de Jerry Falwell. «A Falwell no le molesta el pecado, le indigna no cobrar derechos de transmisión por el infierno», suelta Perry. Le digo que Ellen demostró que se puede decir la verdad en horario central sin perder la gracia. «Hizo algo más difícil», responde él mirando el cerco de ligustrina: «logró que la sinceridad no parezca un trámite pedagógico».",
+          "Courteney entra a atender el teléfono antes de que salgamos para el canal, donde esta noche emiten el capítulo veintitrés. En el diario abierto sobre la mesa de hierro aparece una nota sobre Rupert Murdoch y sus compras de satélites. «Murdoch junta países como quien junta tapitas; Ted Turner al menos tenía la decencia de parecer un pirata borracho en un velero», observa Perry. Cuando le pregunto si durmió algo, se pone los anteojos oscuros y pide que manejemos despacio por Olive Avenue."
+        ]
+      },
+      {
+        "fecha": "1997-05-12",
+        "anio": "1997",
+        "encabezado": "Lunes, 12 de mayo.",
+        "situacion": "Comen en casa Perry y Tate Donovan.",
+        "parrafos": [
+          "Traen comida tailandesa que se enfría en las cajas de cartón porque nos quedamos escuchando el final del partido en la radio de la cocina; el Utah Jazz acaba de eliminar a los Lakers. Tate Donovan lamenta la derrota como si fuera un asunto de familia y busca consuelo hablando de la derrota de Kasparov ayer en Nueva York contra la máquina de IBM. «Nos ganan los mormones en el básquet y las tostadoras en el ajedrez», se queja Tate.",
+          "Perry, que hoy tiene el pulso más firme pero una palidez de papel de calcar, dobla su servilleta en triángulos minúsculos. «Lo humillante para Kasparov no es perder contra un electrodoméstico», dice. «Lo triste es saber que la máquina, después de darle mate en diecinueve jugadas, ni siquiera se va a tomar un café para festejarlo». Sacamos la cuenta de lo que acaban de conseguir los actores de Seinfeld en su arreglo con NBC: seiscientos mil dólares por media hora. Yo digo que con esas cifras uno ya no tiene derecho a estar de mal humor los lunes. «La plata en Burbank solo sirve para cambiar la marca del agua mineral y el tamaño de la angustia», replica él, y se va antes del postre."
+        ]
+      },
+      {
+        "fecha": "1997-05-26",
+        "anio": "1997",
+        "encabezado": "Lunes, 26 de mayo.",
+        "situacion": "En su casa de las colinas, con las valijas abiertas en el pasillo, Perry.",
+        "parrafos": [
+          "Terminaron las emisiones de la temporada hace once días; yo viajo pasado mañana a Nueva York para filmar con Paul Rudd y él parte al amanecer hacia la clínica Hazelden, en Minnesota, por cuatro semanas. Doblamos remeras de algodón gris en silencio mientras afuera ladra el perro del vecino. Me muestra un frasco vacío de calmantes que encontró en el bolsillo de un saco viejo, recuerdo del accidente con la moto de agua del año pasado. «Al principio tomás para no sentir la rodilla; al final tomás para no sentir que estás en el cuarto», dice sin lástima por sí mismo.",
+          "Para cambiar de aire le cuento que Paramount acaba de postergar hasta diciembre la película de James Cameron sobre el transatlántico porque no llegan a terminar los efectos especiales para julio. «Qué falta de puntería», comenta cerrando el cierre relámpago del bolso de lona. «Tardaron menos en construir el barco de verdad y hundirlo en el Atlántico que en dibujarlo en una computadora». Me acompaña hasta la puerta de calle con las manos en los bolsillos del pantalón deportivo. Cuando lo abrazo, me pide que en Nueva York no deje que me peinen con flequillo."
+        ]
+      }
+    ],
+    "paginas": [
+      2,
+      2
+    ],
+    "notas": [
+      "1. «The One with a Chick and a Duck» (temporada 3, episodio 21), emitido por NBC el 17 de abril de 1997.",
+      "2. Se refiere a «The Object of My Affection», comedia dirigida por Nicholas Hytner y rodada a mediados de 1997."
+    ],
+    "escena": "En el camarín de Perry, en los estudios de Warner Bros. en Burbank, entre tomas de la tercera temporada de Friends",
+    "criticados": [
+      "Jerry Falwell",
+      "Rupert Murdoch",
+      "Ted Turner"
+    ],
+    "alabados": [
+      "Robin Williams",
+      "Billy Crystal",
+      "Ellen DeGeneres"
+    ],
+    "palabras": 858,
+    "revision": {
+      "hecha": false,
+      "problemasDetectados": [],
+      "problemasRestantes": []
+    }
+  },
+  "titulo": "Perry",
+  "proveedores": {
+    "texto": "gemini:gemini-4-argon",
+    "imagen": "none",
+    "modelos": {
+      "validacion": "gemini-4-argon (Google AI Studio)",
+      "contexto": "gemini-4-argon (Google AI Studio)",
+      "entrada": "gemini-4-argon (Google AI Studio)",
+      "revision": "gemini-4-argon (Google AI Studio)"
+    }
+  },
+  "advertencias": [
+    "La validación se hizo sin búsqueda web: depende del conocimiento del modelo.",
+    "El inicio de la relación (1991) es aproximado; se toma la fecha documentada más conservadora."
+  ],
+  "version": 2,
+  "id": "argon12demo",
+  "creada": "2026-10-27T12:00:00.000Z"
+}

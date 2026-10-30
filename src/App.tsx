@@ -118,6 +118,7 @@ export default function App() {
     setFecha(par.fechaEjemplo);
     setEscena(par.escenaEjemplo);
     setTema(par.temaEjemplo ?? '');
+    setTono(par.tonoEjemplo ?? 'irónico');
     setError(null);
     setRechazo(null);
 

@@ -11,7 +11,8 @@ export type AmbitoDemo =
   | "tecnología"
   | "cine"
   | "negocios"
-  | "básquet";
+  | "básquet"
+  | "televisión";
 
 export interface PersonaDemo {
   nombre: string;
@@ -37,6 +38,8 @@ export interface ParejaDemo {
   escenaEjemplo: string;
   /** Tema optativo que se manda con el ejemplo (campo «tema» del formulario). */
   temaEjemplo?: string;
+  /** Tono optativo que se manda con el ejemplo (campo «tono» del formulario); por defecto «irónico». */
+  tonoEjemplo?: string;
   fuentes: { titulo: string; url: string }[];
 }
 
@@ -385,6 +388,43 @@ export const PAREJAS_DEMO: ParejaDemo[] = [
       wiki("Emanuel Ginóbili", "Emanuel_Gin%C3%B3bili"),
       wiki("Luis Scola", "Luis_Scola"),
       wiki("Generación Dorada", "Generaci%C3%B3n_Dorada"),
+    ],
+  },
+  {
+    id: "perry-aniston",
+    borges: {
+      nombre: "Matthew Perry",
+      corto: "Perry",
+      apodos: ["Matty"],
+      alias: ["perry", "matthew perry", "matthew langford perry", "matty perry"],
+      nacimiento: "1969-08-19",
+      muerte: "2023-10-28",
+      descripcion: "actor estadounidense, Chandler Bing en Friends",
+    },
+    bioy: {
+      nombre: "Jennifer Aniston",
+      corto: "Aniston",
+      apodos: ["Jen"],
+      alias: ["aniston", "jennifer aniston", "jen aniston", "jennifer joanna aniston"],
+      nacimiento: "1969-02-11",
+      muerte: null,
+      descripcion: "actriz estadounidense, Rachel Green en Friends",
+    },
+    inicioRelacion: "1994",
+    inicioAproximado: false,
+    relacion:
+      "Compañeros de reparto en Friends desde su estreno en 1994 y amigos hasta la muerte de Perry en 2023; en este diario apócrifo Aniston escribe sobre los peores momentos de la adicción de Perry durante el rodaje.",
+    ambito: "televisión",
+    fechaEjemplo: "1997-04-15",
+    escenaEjemplo:
+      "En el camarín de Perry, en los estudios de Warner Bros. en Burbank, entre tomas de la tercera temporada de Friends",
+    temaEjemplo:
+      "Los peores momentos de la adicción de Matthew Perry al Vicodin y al alcohol durante el rodaje de Friends, vistos por su compañera Jennifer Aniston, hasta su primera internación",
+    tonoEjemplo: "melancólico",
+    fuentes: [
+      wiki("Matthew Perry", "Matthew_Perry"),
+      wiki("Jennifer Aniston", "Jennifer_Aniston"),
+      wiki("Friends", "Friends"),
     ],
   },
 ];
