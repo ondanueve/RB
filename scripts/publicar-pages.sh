@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-# Publica el sitio estático en https://ondanueve.github.io/RB/ (GitHub Pages desde la rama gh-pages).
+# NOTA: desde que existe .github/workflows/pages.yml, cada push a main publica solo (Pages con build_type=workflow).
+# Este script queda como respaldo manual: publica en la rama gh-pages, que ya NO sirve el sitio.
+# Publica el sitio estático (respaldo) en la rama gh-pages.
 # Corre tests, arma out/ y sube un commit nuevo a gh-pages (sin force-push ni reescribir historia).
 # Uso: scripts/publicar-pages.sh
 set -euo pipefail

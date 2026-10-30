@@ -1,0 +1,58 @@
+# Publica rayo borgesdebioyizador en https://ondanueve.github.io/RB/ (GitHub Pages del repo).
+# Corre en cada push a main y a mano (Actions o `gh workflow run pages.yml -R ondanueve/RB`).
+# No necesita secretos: el build solo contiene configuración pública (el backend está en Supabase).
+name: pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      motivo:
+        description: "Motivo opcional (lo usa el backend al avisar de una página nueva)"
+        required: false
+        type: string
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Build (tests + export estático)
+        run: |
+          npm ci --no-audit --no-fund
+          npm test
+          npm run build
+
+      - name: Huella del build
+        run: printf '{"rb":"%s","built_at":"%s"}\n' "$GITHUB_SHA" "$(date -u +%Y-%m-%dT%H:%M:%SZ)" > out/build.json
+
+      - uses: actions/configure-pages@v6
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
