@@ -248,8 +248,17 @@ a:hover {
     gap: 0.25rem;
   }
   .marca-sitio {
-    font-size: 0.95rem;
-    letter-spacing: 0.01em;
+    font-size: 0.9rem;
+    letter-spacing: 0;
+  }
+  .marca-sitio .nombre {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.05;
+  }
+  .marca-sitio .rayo {
+    font-size: 0.78rem;
+    color: var(--accent);
   }
   .marca-sitio .sello {
     margin-right: 0.35rem;

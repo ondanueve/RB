@@ -213,7 +213,7 @@ export default function App() {
             <span className="sello" aria-hidden="true">
               ❦
             </span>
-            <span>
+            <span className="nombre">
               <span className="rayo">rayo </span>borgesdebioyizador
             </span>
           </a>
