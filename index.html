@@ -1,8 +1,23 @@
 <!doctype html>
-<html lang="es-AR">
+<html lang="es-AR" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#15110e" />
+    <meta name="color-scheme" content="dark light" />
+    <!-- Tema: oscuro por defecto; solo pasa a claro si el visitante lo eligió. Corre antes de pintar (sin parpadeo). -->
+    <script>
+      try {
+        if (localStorage.getItem('bdb-tema') === 'light') {
+          document.documentElement.setAttribute('data-theme', 'light');
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f4ecdc');
+        }
+      } catch (e) {}
+    </script>
+    <style>
+      html { background: #15110e; color-scheme: dark; }
+      html[data-theme='light'] { background: #f4ecdc; color-scheme: light; }
+    </style>
     <title>rayo borgesdebioyizador — Diarios apócrifos al estilo de Bioy y Borges</title>
     <meta
       name="description"
@@ -106,7 +121,7 @@
   <body>
     <div id="root"></div>
     <noscript>
-      <p style="max-width:40rem;margin:1rem auto;padding:0 1rem;font-family:Georgia,serif;color:#1d1a16">
+      <p style="max-width:40rem;margin:1rem auto;padding:0 1rem;font-family:Georgia,serif;color:inherit">
         <strong>rayo borgesdebioyizador</strong> compone diarios apócrifos al modo del <em>Borges</em> de Adolfo
         Bioy Casares: dos figuras públicas reales con vínculo documentado, una fecha histórica y dos páginas de
         diario. Arriba podés leer una página de muestra; para generar nuevas hace falta activar JavaScript.

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsx server.ts",
     "start": "node server.ts",
-    "build": "vite build && vite build --ssr src/entry-server.tsx --outDir dist-ssr && node scripts/prerender.mjs && rm -rf out && cp -r dist out && mkdir -p out/p && printf '<!doctype html><meta charset=\"utf-8\"><script>location.replace(\"../\"+location.search+location.hash)</script>' > out/p/index.html",
+    "build": "vite build && vite build --ssr src/entry-server.tsx --outDir dist-ssr && node scripts/prerender.mjs && rm -rf out && cp -r dist out && mkdir -p out/p && printf '<!doctype html><meta charset=\"utf-8\"><meta name=\"theme-color\" content=\"#15110e\"><style>html{background:#15110e}</style><script>location.replace(\"../\"+location.search+location.hash)</script>' > out/p/index.html",
     "antologia": "tsx scripts/antologia.ts",
     "preview": "vite preview",
     "clean": "rm -rf dist dist-ssr out server.js",

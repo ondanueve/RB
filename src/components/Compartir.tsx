@@ -90,57 +90,43 @@ export function BarraAccionesDiario({ pagina }: { pagina: PaginaPublica }) {
   )}&url=${encodeURIComponent(shareUrl)}`;
 
   return (
-    <div className="space-y-3 my-4">
-      <div className="flex flex-wrap items-center justify-between gap-3 p-3.5 bg-[#fbf6ea]/85 border border-[#d4c5a6]">
-        {/* Compartir y copiar */}
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="text-[14px] text-[#5b5246] mr-1">Compartir:</span>
+    <div className="acciones" role="group" aria-label="Compartir y descargar este diario">
+      <div className="grupo">
+        <p className="grupo-t">Compartir</p>
+        <div className="botones">
           {puedeShareNativo && (
             <button
               type="button"
               onClick={() =>
                 navigator.share({ title: texto, text: texto, url: shareUrl }).catch(() => {})
               }
-              className="px-3 py-1.5 text-[14px] bg-[#7a1f1f] text-[#fbf3e2] hover:bg-[#5e1616] transition-colors cursor-pointer whitespace-nowrap shrink-0"
+              className="btn-ac llena"
             >
               Compartir…
             </button>
           )}
-          <button
-            type="button"
-            onClick={() => copiarAlPortapapeles(shareUrl, 'link')}
-            className="px-3 py-1.5 text-[14px] border border-[#7a1f1f] text-[#7a1f1f] hover:bg-[#7a1f1f]/10 transition-colors cursor-pointer whitespace-nowrap shrink-0"
-          >
+          <button type="button" onClick={() => copiarAlPortapapeles(shareUrl, 'link')} className="btn-ac">
             {copiadoLink ? '¡Enlace copiado!' : 'Copiar link'}
           </button>
           <button
             type="button"
             onClick={() => copiarAlPortapapeles(textoPlanoDiario(pagina), 'texto')}
-            className="px-3 py-1.5 text-[14px] border border-[#7a1f1f] text-[#7a1f1f] hover:bg-[#7a1f1f]/10 transition-colors cursor-pointer whitespace-nowrap shrink-0"
+            className="btn-ac"
           >
             {copiadoTexto ? '¡Texto copiado!' : 'Copiar texto'}
           </button>
-          <a
-            href={waHref}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="px-3 py-1.5 text-[14px] border border-[#7a1f1f] text-[#7a1f1f] hover:bg-[#7a1f1f]/10 transition-colors no-underline whitespace-nowrap shrink-0"
-          >
+          <a href={waHref} target="_blank" rel="noreferrer noopener" className="btn-ac">
             WhatsApp
           </a>
-          <a
-            href={xHref}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="px-3 py-1.5 text-[14px] border border-[#7a1f1f] text-[#7a1f1f] hover:bg-[#7a1f1f]/10 transition-colors no-underline whitespace-nowrap shrink-0"
-          >
+          <a href={xHref} target="_blank" rel="noreferrer noopener" className="btn-ac">
             Publicar en X
           </a>
         </div>
+      </div>
 
-        {/* Descargas tipográficas */}
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="text-[14px] text-[#5b5246] mr-1">Descargar edición:</span>
+      <div className="grupo">
+        <p className="grupo-t">Descargar edición</p>
+        <div className="botones">
           <button
             type="button"
             disabled={Boolean(ocupado)}
@@ -151,7 +137,7 @@ export function BarraAccionesDiario({ pagina }: { pagina: PaginaPublica }) {
                 `borgesdebioyizador-${pagina.id}.png`
               )
             }
-            className="px-3 py-1.5 text-[14px] bg-[#7a1f1f] text-[#fbf3e2] hover:bg-[#5e1616] disabled:opacity-50 transition-colors cursor-pointer whitespace-nowrap shrink-0"
+            className="btn-ac llena ancho"
           >
             {ocupado === 'pagina'
               ? 'Componiendo PNG…'
@@ -169,7 +155,7 @@ export function BarraAccionesDiario({ pagina }: { pagina: PaginaPublica }) {
                 `borgesdebioyizador-${pagina.id}-tarjeta.png`
               )
             }
-            className="px-3 py-1.5 text-[14px] border border-[#7a1f1f] text-[#7a1f1f] hover:bg-[#7a1f1f]/10 disabled:opacity-50 transition-colors cursor-pointer whitespace-nowrap shrink-0"
+            className="btn-ac"
           >
             {ocupado === 'og' ? 'Generando…' : 'Tarjeta redes (1200×630)'}
           </button>
@@ -183,7 +169,7 @@ export function BarraAccionesDiario({ pagina }: { pagina: PaginaPublica }) {
                 `borgesdebioyizador-${pagina.id}.html`
               )
             }
-            className="px-3 py-1.5 text-[14px] border border-[#7a1f1f] text-[#7a1f1f] hover:bg-[#7a1f1f]/10 transition-colors cursor-pointer whitespace-nowrap shrink-0"
+            className="btn-ac"
           >
             {nPags > 1 ? 'Páginas HTML' : 'Página HTML'}
           </button>
@@ -191,7 +177,7 @@ export function BarraAccionesDiario({ pagina }: { pagina: PaginaPublica }) {
       </div>
 
       {errorDescarga && (
-        <div className="p-3 bg-[#7a1f1f]/10 border border-[#7a1f1f] text-[15px] text-[#7a1f1f]">
+        <div className="aviso" role="alert" style={{ gridColumn: '1 / -1', margin: 0 }}>
           {errorDescarga}
         </div>
       )}
