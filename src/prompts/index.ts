@@ -236,6 +236,21 @@ TRATO, NOMBRES Y ATRIBUCIÓN DE CITAS (obligatorio, se revisa cita por cita):
   externas, jamás como vocativo entre ${B} y ${Y}): ${B}: ${ap(v.borges)}; ${Y}: ${ap(v.bioy)}.`.trim();
 }
 
+/**
+ * Sujeto explícito (pedido del usuario): el sujeto tácito solo vale entre dos personas y
+ * si la persona ya apareció antes en la entrada. Compartido por la escritura y la revisión.
+ */
+const REGLA_SUJETO = `- SUJETO EXPLÍCITO (obligatorio): un sujeto tácito (verbo sin sujeto) o un «él»/«ella» suelto
+  que deje dudas sobre quién habla o actúa SOLO se permite cuando se cumplen las DOS
+  condiciones a la vez: (a) la entrada trata de solo 2 personas (el diarista y otra) y
+  (b) esa persona ya fue mencionada antes en la entrada (en la línea de situación o en una
+  oración anterior). Si la entrada tiene 3 o más personas, o el sujeto todavía no apareció,
+  nombralo con el apellido o el nombre que usa el texto, variándolo para no repetir:
+  «Messi me corta», «Aimar, sin dormir desde los penales, mira por la ventanilla», no «me
+  corta». Vale también para el comienzo de cada párrafo y para cada atribución de una cita
+  («…», dice Fulano; nunca «…», dice). El diarista en primera persona («yo», «digo», «le
+  contesto») no cuenta como sujeto tácito.`;
+
 function reglaApertura(v: Validacion): string {
   const apB = apellidoDe(v.borges);
   return `- APERTURA DE CADA ENTRADA (obligatoria): la línea de situación introduce la escena y
@@ -250,7 +265,11 @@ function reglaApertura(v: Validacion): string {
   novelescas. Si ${apB} no está ese día, la línea dice quién está y dónde, y el cuerpo
   explica por qué falta. El primer párrafo NO repite la presentación: entra directo en lo
   que se dijo o pasó. Las aperturas varían de una entrada a otra (lugar, verbo, presentes)
-  y no repiten palabras entre sí, salvo los nombres propios.`;
+  y no repiten palabras entre sí, salvo los nombres propios. La línea tiene que leerse natural, como la diría
+  una persona: nada de «En pantalla desde París, Messi.» ni «Habla por audio de madrugada Messi.»;
+  mejor «Por videollamada desde París, Messi.», «Audios de Messi, de madrugada.», «Por teléfono, Messi.».
+  El verbo concuerda con quiénes están (si el diarista está, va en primera persona del plural) y
+  la línea nunca deja un sujeto colgado ni una fórmula torpe.`;
 }
 
 function reglasPagina(v: Validacion, reparto: number[], min: number, max: number): string {
@@ -282,6 +301,7 @@ ${forma}
 - Variedad retórica: no repitas fórmulas ("Creen que…", "Esa gente…", "Es incapaz
   de…", "El problema es que…"). Variá los comienzos de oración y el tipo de entrada.
 ${reglaApertura(v)}
+${REGLA_SUJETO}
 
 ${reglasTrato(v)}`.trim();
 }
@@ -342,7 +362,7 @@ Antes de responder, revisá tu borrador y corregilo: (1) ninguna cita de más de
 oraciones; (2) cada cita tiene interlocutor inequívoco y los encabezados con dos puntos
 van en MAYÚSCULAS («${apBUpper}: «…»», «${apYUpper}: «…»»); (3) cero acotaciones novelescas y
 cero clichés de laberintos/espejos ajenos al personaje; (4) cada entrada abre presentando la escena y a los
-participantes (quiénes están, dónde) y esas líneas no repiten palabras, salvo los nombres propios; (5) ningún vocativo entre ${v.borges.nombre} y ${v.bioy.nombre} en las
+participantes (quiénes están, dónde) y esas líneas no repiten palabras, salvo los nombres propios; (4b) ningún sujeto tácito ni «él»/«ella» ambiguo salvo que la entrada tenga solo 2 personas y esa persona ya haya sido mencionada antes en ella, y cada línea de situación se lee natural; (5) ningún vocativo entre ${v.borges.nombre} y ${v.bioy.nombre} en las
 citas y ${apB} siempre por el apellido en la narración; (6) cada página entra en ${min}-${max} palabras.
 
 ${SALIDA_JSON}
@@ -413,6 +433,10 @@ CHEQUEO ACTIVO DE ATRIBUCIÓN, MAYÚSCULAS Y SEQUEDAD (hacelo cita por cita):
    apodo o diminutivo usado para dirigirse al otro. Eliminalo y dejá la frase dicha directamente.
 3. Buscá en la narración cada mención de ${B}: si aparece por el nombre de pila, un
    diminutivo o un apodo, cambialo por «${apB}».
+3b. Buscá sujetos tácitos y «él»/«ella» sueltos, párrafo por párrafo y en cada atribución de
+   cita: solo se aceptan si la entrada trata de 2 personas y esa persona ya fue mencionada
+   antes en la entrada; si no, nombrá a quien habla o actúa. Y releé cada línea de situación:
+   tiene que sonar natural («Por videollamada desde París, Messi.»).
 4. Eliminá cualquier acotación novelesca y dejá el tono seco, malicioso y conversacional
    del libro original de Bioy Casares.
 
