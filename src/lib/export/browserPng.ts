@@ -3,6 +3,7 @@
  * Las fuentes (Liberation, OFL) se incrustan en el SVG como data URL para que el resultado
  * sea fiel en cualquier dispositivo.
  */
+import { baseSitio } from '../sitio';
 
 const FUENTES: [string, string, string, string][] = [
   ['Liberation Serif', 'normal', 'normal', 'LiberationSerif-Regular.ttf'],
@@ -17,7 +18,7 @@ function fuentesCSS(): Promise<string> {
   css ??= Promise.all(
     FUENTES.map(async ([fam, estilo, peso, archivo]) => {
       try {
-        let res = await fetch(`./fonts/${archivo}`);
+        let res = await fetch(`${baseSitio()}fonts/${archivo}`);
         if (!res.ok) res = await fetch(`/fonts/${archivo}`);
         if (!res.ok) return '';
         const b = await res.blob();

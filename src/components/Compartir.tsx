@@ -5,13 +5,10 @@ import { datosCompartir, svgCompartir } from '../lib/export/compartirSvg';
 import { svgPaginaTipografica } from '../lib/export/paginaSvg';
 import { htmlPagina } from '../lib/export/html';
 import { repartoDe, tituloDe } from '../lib/paginas';
-import { SITIO_POR_DEFECTO } from '../lib/sitio';
+import { tituloDiario, urlDiario } from '../lib/seoDiario';
 
 export function textoCompartir(p: PaginaPublica): string {
-  const dos = repartoDe(p.entrada).length > 1;
-  return `${p.validacion?.borges?.nombre || p.parametros.borges}, según ${
-    p.validacion?.bioy?.nombre || p.parametros.bioy
-  }: ${dos ? 'dos páginas' : 'una página'} del diario apócrifo`;
+  return tituloDiario(p);
 }
 
 export function textoPlanoDiario(p: PaginaPublica): string {
@@ -36,12 +33,10 @@ export function BarraAccionesDiario({ pagina }: { pagina: PaginaPublica }) {
   const texto = textoCompartir(pagina);
   const titulo = tituloDe(pagina);
   const nPags = repartoDe(pagina.entrada).length;
-  // URL base canónica en el prerender (sin window); la real del navegador después de hidratar.
-  const [baseUrl, setBaseUrl] = useState(`${SITIO_POR_DEFECTO}/`);
-  const shareUrl = `${baseUrl}?id=${encodeURIComponent(pagina.id)}`;
+  // Enlace canónico estático (/d/<id>/, con vista previa propia); igual en prerender y cliente.
+  const shareUrl = urlDiario(pagina.id);
 
   useEffect(() => {
-    setBaseUrl(`${window.location.origin}${window.location.pathname}`);
     setPuedeShareNativo(
       typeof navigator !== 'undefined' && typeof navigator.share === 'function'
     );

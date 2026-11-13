@@ -1,5 +1,5 @@
 // Inyecta el HTML prerenderizado de la portada en dist/index.html y precarga la fuente principal.
-import { readFileSync, writeFileSync, readdirSync, rmSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
@@ -18,5 +18,5 @@ if (fuentes.length) {
   html = html.replace('</title>', `</title>\n    <link rel="preload" href="./assets/${fuentes[0]}" as="font" type="font/woff2" crossorigin />`);
 }
 writeFileSync(archivo, html);
-rmSync(resolve(raiz, 'dist-ssr'), { recursive: true, force: true });
+// dist-ssr lo usa después scripts/diarios.mjs (y lo borra).
 console.log(`prerender: ${cuerpo.length} caracteres en #root${fuentes.length ? ', fuente precargada' : ''}`);

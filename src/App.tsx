@@ -7,7 +7,7 @@ import type { PaginaPublica } from './lib/storage/tipos';
 
 /** Páginas de demo precalculadas en build (scripts/antologia.ts): el navegador no carga el pipeline. */
 const ANTOLOGIA_INICIAL = ANTOLOGIA_DEMO as unknown as PaginaPublica[];
-import { MARCA, NOMBRE_SITIO, REPOSITORIO_GITHUB, SUPABASE_FUNCTIONS_API } from './lib/sitio';
+import { MARCA, NOMBRE_SITIO, REPOSITORIO_GITHUB, SUPABASE_FUNCTIONS_API, baseSitio } from './lib/sitio';
 import { tituloDe } from './lib/paginas';
 import ANTOLOGIA_DEMO from './generated/antologia.json';
 import { LibroAbierto } from './components/PaginaLibro';
@@ -28,7 +28,14 @@ function irAlLibro() {
   setTimeout(() => document.getElementById('libro')?.scrollIntoView({ behavior: 'auto' }), 80);
 }
 
-export default function App() {
+/** URL de la portada con ?id= (desde /d/<id>/ también vuelve a la raíz del sitio). */
+function urlConId(id: string): string {
+  const u = new URL(baseSitio());
+  u.searchParams.set('id', id);
+  return u.toString();
+}
+
+export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica } = {}) {
   // Form state (default: Borges / Bioy, index 0)
   const [borges, setBorges] = useState<string>(PAREJAS_DEMO[0].borges.nombre);
   const [bioy, setBioy] = useState<string>(PAREJAS_DEMO[0].bioy.nombre);
@@ -43,8 +50,10 @@ export default function App() {
 
   // Anthology & Active Book Page state
   const [antologia, setAntologia] = useState<PaginaPublica[]>(ANTOLOGIA_INICIAL);
-  const [paginaActiva, setPaginaActiva] = useState<PaginaPublica | null>(ANTOLOGIA_INICIAL[0] ?? null);
-  const [indiceDemoActivo, setIndiceDemoActivo] = useState<number>(0);
+  const [paginaActiva, setPaginaActiva] = useState<PaginaPublica | null>(
+    paginaInicial ?? ANTOLOGIA_INICIAL[0] ?? null
+  );
+  const [indiceDemoActivo, setIndiceDemoActivo] = useState<number>(paginaInicial ? -1 : 0);
 
   // Generation status
   const [cargando, setCargando] = useState<boolean>(false);
@@ -55,6 +64,13 @@ export default function App() {
   useEffect(() => {
     async function inicializar() {
       const locales = ANTOLOGIA_INICIAL;
+
+      // Página estática /d/<id>/: el diario ya vino prerenderizado e incrustado.
+      if (paginaInicial) {
+        sincronizarSeoPagina(paginaInicial);
+        irAlLibro();
+        return;
+      }
 
       const params = new URLSearchParams(window.location.search);
       const idParam = params.get('id');
@@ -126,9 +142,7 @@ export default function App() {
     if (precomputada) {
       setPaginaActiva(precomputada);
       sincronizarSeoPagina(precomputada);
-      const url = new URL(window.location.href);
-      url.searchParams.set('id', precomputada.id);
-      window.history.replaceState({}, '', url.toString());
+      window.history.replaceState({}, '', urlConId(precomputada.id));
     }
   }
 
@@ -181,9 +195,7 @@ export default function App() {
         setAntologia((prev) => [nueva, ...prev.filter((x) => x.id !== nueva.id)]);
         sincronizarSeoPagina(nueva);
 
-        const url = new URL(window.location.href);
-        url.searchParams.set('id', nueva.id);
-        window.history.pushState({}, '', url.toString());
+        window.history.pushState({}, '', urlConId(nueva.id));
 
         document.getElementById('libro')?.scrollIntoView({ behavior: 'smooth' });
         return;
