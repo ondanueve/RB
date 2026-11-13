@@ -1,11 +1,17 @@
 # Publica rayo borgesdebioyizador en https://ondanueve.github.io/RB/ (GitHub Pages del repo).
-# Corre en cada push a main y a mano (Actions o `gh workflow run pages.yml -R ondanueve/RB`).
-# No necesita secretos: el build solo contiene configuración pública (el backend está en Supabase).
+# Corre en cada push a main, a mano (Actions o `gh workflow run pages.yml -R ondanueve/RB`), cuando
+# el backend avisa de un diario nuevo (workflow_dispatch desde la función «generate», si tiene token)
+# y cada 30 minutos como red de seguridad: así cada diario guardado tiene su página estática
+# /d/<id>/ con vista previa propia (scripts/diarios.mjs). La corrida programada solo publica si hay
+# diarios que todavía no están en el sitio.
+# No necesita secretos: el build solo lee datos públicos (el backend está en Supabase).
 name: pages
 
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: "7,37 * * * *"
   workflow_dispatch:
     inputs:
       motivo:
@@ -25,30 +31,48 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    outputs:
+      publicar: ${{ steps.cambios.outputs.publicar }}
     steps:
+      - name: ¿Hay diarios nuevos? (solo en la corrida programada)
+        id: cambios
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then echo "publicar=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          api="https://xhewdrhfofwpzfogthai.supabase.co/functions/v1/lista"
+          nuevos=$(curl -fsS --max-time 30 "$api" | jq -r '[.paginas[].id] | sort | join(",")') || { echo "publicar=false" >> "$GITHUB_OUTPUT"; exit 0; }
+          publicados=$(curl -fsS --max-time 30 "https://ondanueve.github.io/RB/d/index.json" | jq -r '.ids | sort | join(",")' || true)
+          if [ -n "$nuevos" ] && [ "$nuevos" != "$publicados" ]; then echo "publicar=true"; else echo "publicar=false"; fi | tee -a "$GITHUB_OUTPUT"
+
       - uses: actions/checkout@v7
+        if: steps.cambios.outputs.publicar == 'true'
 
       - uses: actions/setup-node@v7
+        if: steps.cambios.outputs.publicar == 'true'
         with:
           node-version: 22
 
-      - name: Build (tests + export estático)
+      - name: Build (tests + export estático + páginas /d/<id>/)
+        if: steps.cambios.outputs.publicar == 'true'
         run: |
           npm ci --no-audit --no-fund
           npm test
           npm run build
 
       - name: Huella del build
+        if: steps.cambios.outputs.publicar == 'true'
         run: printf '{"rb":"%s","built_at":"%s"}\n' "$GITHUB_SHA" "$(date -u +%Y-%m-%dT%H:%M:%SZ)" > out/build.json
 
       - uses: actions/configure-pages@v6
+        if: steps.cambios.outputs.publicar == 'true'
 
       - uses: actions/upload-pages-artifact@v5
+        if: steps.cambios.outputs.publicar == 'true'
         with:
           path: out
 
   deploy:
     needs: build
+    if: needs.build.outputs.publicar == 'true'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
