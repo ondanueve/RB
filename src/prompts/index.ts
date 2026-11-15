@@ -79,6 +79,10 @@ Reglas de originalidad (obligatorias):
 - Nada de difamación grave: las críticas pueden ser ácidas y graciosas, pero sobre la
   obra, el estilo o la conducta pública; nada de acusar de delitos, enfermedades o
   hechos privados inventados. Nada de contenido sexual ni de odio.
+- El texto es solo el cuaderno del diarista: nunca menciones inteligencia artificial, IA,
+  modelos de lenguaje ni que el texto fue generado, inventado o es una parodia (el sitio ya
+  lo aclara aparte). Solo si el tema o la escena pedidos tratan explícitamente de eso, puede
+  aparecer como asunto de la conversación.
 `.trim();
 
 const SALIDA_JSON = `Respondé ÚNICAMENTE con un objeto JSON válido, sin texto antes ni después y sin bloques de código.`;

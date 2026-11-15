@@ -1,4 +1,5 @@
 import type { PaginaPublica } from './storage/tipos';
+import { paraPublicar } from './publicable';
 
 /**
  * Antología de demo: páginas generadas DE VERDAD por el endpoint público `generate`
@@ -38,6 +39,6 @@ export function ensamblarAntologia(fuentes: PaginaPublica[], correcciones: Corre
       })),
       notas: p.entrada.notas.map((x) => corregir(x, cs)),
     };
-    return { ...p, entrada, id, creada: `${p.parametros.fecha}T12:00:00Z` } as PaginaPublica;
+    return paraPublicar({ ...p, entrada, id, creada: `${p.parametros.fecha}T12:00:00Z` } as PaginaPublica);
   });
 }

@@ -22,7 +22,7 @@ describe("antología de demo (generada por el endpoint real, no por el mock)", (
   it("cada demo salió del proveedor real (Gemini) con los parámetros de su pareja", () => {
     guardada.forEach((p, i) => {
       const par = PAREJAS_DEMO[i];
-      expect(p.proveedores.texto, p.id).toMatch(/^gemini:/);
+      expect(fuentes[i].proveedores.texto, p.id).toMatch(/^gemini:/);
       expect(p.parametros.borges).toBe(par.borges.nombre);
       expect(p.parametros.bioy).toBe(par.bioy.nombre);
       expect(p.parametros.fecha).toBe(par.fechaEjemplo);
@@ -55,9 +55,10 @@ describe("antología de demo (generada por el endpoint real, no por el mock)", (
     }
   });
 
-  it("la página aclara que el diálogo es imaginario (parodia, ficción generada por IA)", () => {
+  it("la página aclara que el diálogo es imaginario (parodia, ficción, diálogo inventado)", () => {
     const libro = readFileSync(new URL("../src/components/PaginaLibro.tsx", import.meta.url), "utf8");
-    expect(libro).toMatch(/Parodia · Ficción generada por IA/);
+    expect(libro).toMatch(/Parodia · Ficción/);
+    expect(libro).not.toMatch(/\bIA\b/);
     const app = readFileSync(new URL("../src/App.tsx", import.meta.url), "utf8");
     expect(app).toMatch(/Diarios apócrifos/);
   });

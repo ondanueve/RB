@@ -1,5 +1,5 @@
 /**
- * Marca visible "Parodia · Ficción generada por IA" sobre cualquier imagen.
+ * Marca visible "Parodia · Ficción" sobre cualquier imagen.
  * Sin dependencias nativas: envuelve la imagen en un SVG con una franja de texto.
  */
 import { MARCA_PARODIA } from "../../marca";

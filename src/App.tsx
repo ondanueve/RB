@@ -216,7 +216,7 @@ export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica }
   return (
     <div className="min-h-screen flex flex-col">
       <a href="#escribir" className="saltar">
-        Saltar al generador
+        Saltar al creador
       </a>
 
       <header className="topbar">
@@ -502,7 +502,7 @@ export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica }
           {paginaActiva && (
             <div id="libro" className="libro-zona">
               <div className="libro-cab">
-                <p className="tipo">{indiceDemoActivo >= 0 ? 'Ejemplo' : 'Diario generado'}</p>
+                <p className="tipo">{indiceDemoActivo >= 0 ? 'Ejemplo' : 'Diario'}</p>
                 <h3>{textoCompartir(paginaActiva)}</h3>
                 <p>{MARCA}. Todo diálogo es inventado.</p>
               </div>
@@ -524,7 +524,7 @@ export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica }
               <strong>Lo que escribís se guarda y es público.</strong> Al generar un diario, el
               servidor (funciones de Supabase) guarda la página resultante: los nombres, la fecha, la
               escena, el tema y el tono que ingresaste, la validación de los participantes, el
-              contexto histórico y el texto generado, con un identificador corto al azar y la fecha de
+              contexto histórico y el texto del diario, con un identificador corto al azar y la fecha de
               creación. Esa página queda con un enlace para compartir, y cualquiera que lo tenga
               puede leerla. El servidor también ofrece una lista pública de las páginas guardadas
               (identificador, fecha y primeras líneas). El código no las borra solo: no escribas datos
@@ -543,9 +543,8 @@ export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica }
               periódicamente.
             </p>
             <p>
-              <strong>Procesamiento por Google.</strong> Para escribir el diario, el texto que
-              ingresás se envía a la API de Gemini de Google, que lo procesa según sus propias
-              condiciones.
+              <strong>Servicios de terceros.</strong> Para escribir el diario, el texto que ingresás
+              se envía a servicios de Google, que lo procesan según sus propias condiciones.
             </p>
             <p>
               <strong>Sin cuentas, cookies ni analítica.</strong> El sitio no pide registro, no usa
@@ -566,7 +565,7 @@ export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica }
             ❦
           </div>
           <p>
-            <strong>Parodia · Ficción generada por IA.</strong> Pastiche y homenaje no oficial: no
+            <strong>Parodia · Ficción.</strong> Pastiche y homenaje no oficial: no
             está afiliado ni avalado por los herederos de Jorge Luis Borges o Adolfo Bioy Casares,
             sus editoriales ni las personas representadas. Todo diálogo es inventado y no
             constituye declaraciones reales.

@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "id": "demo1borges",
+    "buscar": "los editores debatieron hoy el uso de inteligencia artificial para traducir los poemas de Carson.",
+    "reemplazo": "los editores debatieron hoy si conviene encargarle a una máquina la traducción de los poemas de Carson.",
+    "motivo": "El sitio no menciona la IA en ningún texto visible (pedido del autor del sitio, 15/11/2026)."
+  }
+]

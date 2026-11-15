@@ -1,6 +1,6 @@
 /** Nombre visible del proyecto (en minúsculas, tal cual). */
 export const NOMBRE_SITIO = "rayo borgesdebioyizador";
-export const MARCA = "Parodia · Ficción generada por IA";
+export const MARCA = "Parodia · Ficción";
 /** Sitio estático publicado (GitHub Pages del repo ondanueve/RB). */
 export const SITIO_POR_DEFECTO = "https://ondanueve.github.io/RB";
 /** Repositorio fuente en GitHub. */

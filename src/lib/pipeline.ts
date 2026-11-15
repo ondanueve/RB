@@ -150,7 +150,7 @@ function asegurarLlamadasNotas(
 }
 
 function marcarSinVerificar(fs: Fuente[], conBusqueda: boolean): Fuente[] {
-  return conBusqueda ? fs : fs.map((f) => ({ ...f, titulo: `${f.titulo} (citada por el modelo, sin verificar)` }));
+  return conBusqueda ? fs : fs.map((f) => ({ ...f, titulo: `${f.titulo} (sin verificar)` }));
 }
 
 function unirFuentes(a: Fuente[], b: Fuente[]): Fuente[] {

@@ -18,4 +18,5 @@ export function render(paginaInicial?: PaginaPublica): string {
 // Para scripts/diarios.mjs (páginas estáticas /d/<id>/).
 export { htmlDiario, metaDiario, sitemapXml, urlDiario, esDemo } from './lib/seoDiario';
 export { ID_VALIDO, parecePagina } from './lib/storage/tipos';
+export { paraPublicar } from './lib/publicable';
 export { SITIO_POR_DEFECTO, SUPABASE_FUNCTIONS_API } from './lib/sitio';

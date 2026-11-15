@@ -20,7 +20,7 @@ export function textoPlanoDiario(p: PaginaPublica): string {
     p.entrada.notas.length > 0
       ? `\nNotas:\n${p.entrada.notas.map((n, i) => `[${i + 1}] ${n}`).join('\n')}`
       : '';
-  return `${titulo.toUpperCase()}\n\n${lineas.join('\n\n')}${notas}\n\n— rayo borgesdebioyizador (Parodia · Ficción generada por IA)`;
+  return `${titulo.toUpperCase()}\n\n${lineas.join('\n\n')}${notas}\n\n— rayo borgesdebioyizador (Parodia · Ficción)`;
 }
 
 export function BarraAccionesDiario({ pagina }: { pagina: PaginaPublica }) {

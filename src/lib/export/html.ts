@@ -46,7 +46,7 @@ export function htmlPagina(entrada: Pick<Entrada, "dias" | "notas" | "paginas">,
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(titulo)} · ${esc(entrada.dias[0]?.anio ?? "")} · ${esc(MARCA_PARODIA)}</title>
-<!-- ${esc(MARCA_PARODIA)}. Texto original generado; no reproduce ninguna obra. Personas reales en situaciones ficticias. -->
+<!-- ${esc(MARCA_PARODIA)} Texto original; no reproduce ninguna obra. Personas reales en situaciones ficticias. -->
 <style>
   body { background: #3b2f25; margin: 0; padding: 2rem 1rem; font-family: "Liberation Serif", Georgia, "Times New Roman", serif; }
   .libro { display: flex; gap: 1.5rem; justify-content: center; align-items: flex-start; flex-wrap: wrap; }

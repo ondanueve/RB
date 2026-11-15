@@ -18,7 +18,11 @@ import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const raiz = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const ssr = await import(pathToFileURL(resolve(raiz, 'dist-ssr/entry-server.js')).href);
-const { render, htmlDiario, metaDiario, sitemapXml, ID_VALIDO, parecePagina, SITIO_POR_DEFECTO, SUPABASE_FUNCTIONS_API } = ssr;
+const { render, htmlDiario, metaDiario, sitemapXml, ID_VALIDO, parecePagina, paraPublicar, SITIO_POR_DEFECTO, SUPABASE_FUNCTIONS_API } = ssr;
+
+// Versión de las tarjetas og.png: si cambia el diseño o el texto de la tarjeta (función «og»),
+// se sube este número y el primer build vuelve a pedirlas todas en vez de reutilizar las publicadas.
+const VERSION_TARJETAS = 2;
 
 const env = process.env;
 const API = (env.RB_API || SUPABASE_FUNCTIONS_API).replace(/\/+$/, '');
@@ -52,12 +56,16 @@ async function pagina(id) {
   return parecePagina(r?.pagina) && r.pagina.id === id ? { p: r.pagina, de: 'api' } : { p: null };
 }
 
+// Solo se reutilizan las tarjetas publicadas si son de la versión actual.
+const indicePublicado = PUBLICADO ? await pedir(`${PUBLICADO}/d/index.json`, 'json') : null;
+const reutilizarTarjetas = Boolean(PUBLICADO) && indicePublicado?.tarjetas === VERSION_TARJETAS;
+
 async function tarjeta(id) {
-  if (PUBLICADO) {
+  if (reutilizarTarjetas) {
     const b = await pedir(`${PUBLICADO}/d/${id}/og.png`, 'bin');
     if (esPng(b)) return b;
   }
-  const b = await pedir(`${API}/og?id=${encodeURIComponent(id)}`, 'bin', 45000);
+  const b = await pedir(`${API}/og?id=${encodeURIComponent(id)}&v=${VERSION_TARJETAS}`, 'bin', 45000);
   return esPng(b) ? b : null;
 }
 
@@ -91,8 +99,9 @@ if (env.RB_DIARIOS !== '0') {
 const fallas = [];
 const contados = { publicado: 0, api: 0 };
 await enParalelo(resumenes, 4, async ({ id }) => {
-  const { p, de } = await pagina(id);
-  if (!p) return fallas.push(id);
+  const { p: cruda, de } = await pagina(id);
+  if (!cruda) return fallas.push(id);
+  const p = paraPublicar(cruda);
   contados[de]++;
   const png = await tarjeta(id);
   const m = metaDiario(p, png ? {} : { imagen: `${SITIO_POR_DEFECTO}/og.png` });
@@ -109,7 +118,7 @@ mkdirSync(resolve(dist, 'd'), { recursive: true });
 // Índice público de lo publicado: lo usa el workflow programado para saber si hay diarios nuevos.
 writeFileSync(
   resolve(dist, 'd', 'index.json'),
-  JSON.stringify({ total: hechos.length, ids: hechos.map((h) => h.id), generado: new Date().toISOString() })
+  JSON.stringify({ total: hechos.length, ids: hechos.map((h) => h.id), tarjetas: VERSION_TARJETAS, actualizado: new Date().toISOString() })
 );
 writeFileSync(
   resolve(dist, 'sitemap.xml'),
@@ -122,7 +131,7 @@ rmSync(resolve(raiz, 'dist-ssr'), { recursive: true, force: true });
 
 const sinImg = hechos.filter((h) => !h.conImagen).length;
 console.log(
-  `diarios: ${hechos.length} páginas /d/<id>/ (${contados.publicado} reutilizadas del sitio, ${contados.api} pedidas a la API)` +
+  `diarios: ${hechos.length} páginas /d/<id>/ (${contados.publicado} reutilizadas del sitio, ${contados.api} pedidas a la API; tarjetas ${reutilizarTarjetas ? 'reutilizadas' : 'pedidas de nuevo'})` +
     (sinImg ? `, ${sinImg} con imagen de marca` : '') +
     (fallas.length ? `, ${fallas.length} sin datos: ${fallas.join(', ')}` : '')
 );

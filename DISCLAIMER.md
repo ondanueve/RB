@@ -2,8 +2,8 @@
 
 ## Qué es esto
 
-**Borgesdebioyizador** es una **parodia, pastiche y homenaje no oficial**. Genera, con
-inteligencia artificial, entradas de diario ficticias "a la manera de" las conversaciones
+**Borgesdebioyizador** es una **parodia, pastiche y homenaje no oficial**. Compone entradas de diario ficticias
+"a la manera de" las conversaciones
 que Adolfo Bioy Casares registró sobre Jorge Luis Borges, protagonizadas por figuras
 públicas reales elegidas por quien usa la herramienta.
 
@@ -14,15 +14,15 @@ públicas reales elegidas por quien usa la herramienta.
   generadas fue dicho realmente por esas personas ni debe presentarse como una cita o
   declaración real.
 - **No reproduce obra protegida.** El proyecto no incluye ni copia texto del libro *Borges*
-  ni de otras obras. El estilo se describe en términos generales y se instruye a los
-  modelos para que escriban texto original y no reproduzcan pasajes reales.
+  ni de otras obras. El estilo se describe en términos generales y las instrucciones de
+  escritura piden texto original, sin reproducir pasajes reales.
 - **Las páginas son un diseño inventado** (HTML/CSS propio), sin tapa ni editorial. No
   imitan el diseño, los logos ni la identidad de ninguna editorial real, ni de clubes,
   marcas u organizaciones. Las páginas,
   la imagen para redes (Open Graph) y los PNG llevan la marca visible
-  **"Parodia · Ficción generada por IA"**.
+  **"Parodia · Ficción"**.
 - Las figuras públicas aparecen por su notoriedad y su relación pública documentada. Las
-  críticas y elogios son ficción humorística; la herramienta pide a los modelos evitar
+  críticas y elogios son ficción humorística; las instrucciones de escritura piden evitar
   acusaciones de hechos graves, datos privados o contenido ofensivo.
 
 ## Marco legal (información general, no asesoramiento legal)
@@ -55,30 +55,30 @@ personas mencionadas, ni sobre marcas de terceros. Las fuentes tipográficas de
 la SIL Open Font License 1.1 (ver `assets/fonts/LICENSE-OFL.txt`).
 
 Las exportaciones PNG se generan en el servidor y siempre llevan estampada la franja
-"Parodia · Ficción generada por IA". Quitarla al difundir una imagen va contra el espíritu
+"Parodia · Ficción" Quitarla al difundir una imagen va contra el espíritu
 de este aviso.
 
 ## Pedidos de baja / contacto
 
 Si sos una persona representada, titular de derechos o su representante y querés que se
 retire o modifique algo, abrí un *issue* en
-<https://github.com/ondanueve/RBB/issues>. Este repositorio no publica
+<https://github.com/ondanueve/RB/issues>. Este repositorio no publica
 contenido generado: cada instalación es responsabilidad de quien la despliega.
 
 ---
 
 ## English summary
 
-*Borgesdebioyizador* is an **unofficial parody / pastiche and homage** that uses AI to
-write fictional diary entries in the general manner of Adolfo Bioy Casares's recorded
+*Borgesdebioyizador* is an **unofficial parody / pastiche and homage** that
+writes fictional diary entries in the general manner of Adolfo Bioy Casares's recorded
 conversations with Jorge Luis Borges, starring real public figures. It is **not affiliated
 with or endorsed by** the estates of Borges or Bioy Casares, their publishers, or any person
 depicted. **All dialogue is fictional** and is not an actual statement by anyone. The project
 contains no text from the book *Borges* or any other copyrighted work, uses no publisher
 branding, imitates no real book design or logo, and every generated image carries a visible
-"Parodia · Ficción generada por IA" label. In the US, parody may be protected as fair use
+"Parodia · Ficción" (parody · fiction) label. In the US, parody may be protected as fair use
 (17 U.S.C. § 107); Argentina's Law 11.723 has no general parody exception, so the project
 creates original works evoking a genre rather than adapting any specific work. The MIT
 license covers the code only — not generated outputs, names, or likenesses. **Not legal
 advice.** Takedown or correction requests: open an issue at
-<https://github.com/ondanueve/RBB/issues>.
+<https://github.com/ondanueve/RB/issues>.

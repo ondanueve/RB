@@ -89,7 +89,7 @@ export function PaginaLibro({
         </div>
       )}
       <div className="folio">{folio}</div>
-      <div className="marca">Parodia · Ficción generada por IA</div>
+      <div className="marca">Parodia · Ficción</div>
     </article>
   );
 }
