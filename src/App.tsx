@@ -12,7 +12,7 @@ import { tituloDe } from './lib/paginas';
 import ANTOLOGIA_DEMO from './generated/antologia.json';
 import { LibroAbierto } from './components/PaginaLibro';
 import { BarraAccionesDiario, textoCompartir } from './components/Compartir';
-import { PedidoDiario, pedidoDelDiario } from './components/PedidoDiario';
+import { pedidoDelDiario } from './lib/pedido';
 import { sincronizarSeoPagina } from './lib/seoHead';
 import { BotonTema } from './components/BotonTema';
 
@@ -37,8 +37,10 @@ function urlConId(id: string): string {
 }
 
 export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica } = {}) {
-  // Form state (default: Borges / Bioy, index 0). En /d/<id>/, el pedido de ese diario.
-  const pedidoInicial = paginaInicial ? pedidoDelDiario(paginaInicial) : null;
+  // Form state: siempre el pedido exacto del diario que se muestra (en /d/<id>/, ese diario;
+  // en la portada, el primer ejemplo). Los campos vacíos del pedido quedan vacíos.
+  const diarioInicial = paginaInicial ?? ANTOLOGIA_INICIAL[0] ?? null;
+  const pedidoInicial = diarioInicial ? pedidoDelDiario(diarioInicial) : null;
   const [borges, setBorges] = useState<string>(pedidoInicial?.borges ?? PAREJAS_DEMO[0].borges.nombre);
   const [bioy, setBioy] = useState<string>(pedidoInicial?.bioy ?? PAREJAS_DEMO[0].bioy.nombre);
   const [fecha, setFecha] = useState<string>(pedidoInicial?.fecha ?? PAREJAS_DEMO[0].fechaEjemplo);
@@ -48,7 +50,8 @@ export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica }
   const [presentes, setPresentes] = useState<string>(pedidoInicial?.presentes ?? '');
   const [tema, setTema] = useState<string>(pedidoInicial?.tema ?? PAREJAS_DEMO[0].temaEjemplo ?? '');
   const [tono, setTono] = useState<string>(pedidoInicial?.tono ?? 'irónico');
-  const [mostrarOptativos, setMostrarOptativos] = useState<boolean>(false);
+  // Con un diario abierto (/d/<id>/), las opciones adicionales se ven desplegadas.
+  const [mostrarOptativos, setMostrarOptativos] = useState<boolean>(Boolean(paginaInicial));
 
   /** Carga en el formulario el pedido completo de un diario (todos los campos). */
   function cargarPedido(p: PaginaPublica) {
@@ -62,6 +65,7 @@ export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica }
     setPresentes(x.presentes);
     setTema(x.tema);
     setTono(x.tono);
+    setMostrarOptativos(true);
   }
 
   // Anthology & Active Book Page state
@@ -529,8 +533,6 @@ export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica }
 
               <LibroAbierto entrada={paginaActiva.entrada} titulo={tituloDe(paginaActiva)} />
 
-              <PedidoDiario pagina={paginaActiva} />
-
               <BarraAccionesDiario pagina={paginaActiva} />
             </div>
           )}
@@ -546,7 +548,7 @@ export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica }
               <strong>Lo que escribís se guarda y es público.</strong> Al generar un diario, el
               servidor (funciones de Supabase) guarda la página resultante: todo lo que escribiste en el
               formulario (nombres, fecha, escena, criticados, alabados, presentes, tema y tono), que se
-              muestra junto al diario, la validación de los participantes, el
+              vuelve a cargar en el formulario al abrir el diario, la validación de los participantes, el
               contexto histórico y el texto del diario, con un identificador corto al azar y la fecha de
               creación. Esa página queda con un enlace para compartir, y cualquiera que lo tenga
               puede leerla. El servidor también ofrece una lista pública de las páginas guardadas

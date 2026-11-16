@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { pedidoDelDiario } from '../src/components/PedidoDiario';
+import { pedidoDelDiario } from '../src/lib/pedido';
 import type { PaginaPublica } from '../src/lib/storage/tipos';
 
 const base = {
