@@ -9,7 +9,14 @@ export interface PaginaPublica extends Omit<ResultadoOk, "imagenes" | "ok" | "id
   id: string;
   /** ISO 8601 (UTC). */
   creada: string;
+  /** El pedido tal como llegó del formulario (texto literal de cada campo). Ausente en diarios viejos. */
+  pedido?: Pedido;
 }
+
+/** Campos del formulario que el backend guarda literales junto al diario. */
+export type Pedido = Partial<
+  Record<'borges' | 'bioy' | 'fecha' | 'escena' | 'criticados' | 'alabados' | 'presentes' | 'tema' | 'tono', string>
+>;
 
 export interface Almacen {
   nombre: string;

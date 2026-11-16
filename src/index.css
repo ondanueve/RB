@@ -1111,3 +1111,44 @@ a:hover {
     padding: 1.9rem 1.2rem 3.2rem;
   }
 }
+
+/* ───────────────────────── Pedido que generó el diario ───────────────────────── */
+.pedido {
+  max-width: 62rem;
+  margin: 1.25rem auto 0;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 1rem;
+}
+.pedido h4 {
+  margin: 0 0 0.75rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 600;
+}
+.pedido dl {
+  margin: 0;
+  display: grid;
+  gap: 0.55rem 1.5rem;
+}
+@media (min-width: 900px) {
+  .pedido dl {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.pedido-fila dt {
+  font-size: 0.82rem;
+  color: var(--text-faint);
+}
+.pedido-fila dd {
+  margin: 0.1rem 0 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.pedido-fila dd.vacio {
+  color: var(--text-faint);
+  font-style: italic;
+}

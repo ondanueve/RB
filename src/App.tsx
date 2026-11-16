@@ -12,6 +12,7 @@ import { tituloDe } from './lib/paginas';
 import ANTOLOGIA_DEMO from './generated/antologia.json';
 import { LibroAbierto } from './components/PaginaLibro';
 import { BarraAccionesDiario, textoCompartir } from './components/Compartir';
+import { PedidoDiario, pedidoDelDiario } from './components/PedidoDiario';
 import { sincronizarSeoPagina } from './lib/seoHead';
 import { BotonTema } from './components/BotonTema';
 
@@ -36,17 +37,32 @@ function urlConId(id: string): string {
 }
 
 export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica } = {}) {
-  // Form state (default: Borges / Bioy, index 0)
-  const [borges, setBorges] = useState<string>(PAREJAS_DEMO[0].borges.nombre);
-  const [bioy, setBioy] = useState<string>(PAREJAS_DEMO[0].bioy.nombre);
-  const [fecha, setFecha] = useState<string>(PAREJAS_DEMO[0].fechaEjemplo);
-  const [escena, setEscena] = useState<string>(PAREJAS_DEMO[0].escenaEjemplo);
-  const [criticados, setCriticados] = useState<string>('');
-  const [alabados, setAlabados] = useState<string>('');
-  const [presentes, setPresentes] = useState<string>('');
-  const [tema, setTema] = useState<string>(PAREJAS_DEMO[0].temaEjemplo ?? '');
-  const [tono, setTono] = useState<string>('irónico');
+  // Form state (default: Borges / Bioy, index 0). En /d/<id>/, el pedido de ese diario.
+  const pedidoInicial = paginaInicial ? pedidoDelDiario(paginaInicial) : null;
+  const [borges, setBorges] = useState<string>(pedidoInicial?.borges ?? PAREJAS_DEMO[0].borges.nombre);
+  const [bioy, setBioy] = useState<string>(pedidoInicial?.bioy ?? PAREJAS_DEMO[0].bioy.nombre);
+  const [fecha, setFecha] = useState<string>(pedidoInicial?.fecha ?? PAREJAS_DEMO[0].fechaEjemplo);
+  const [escena, setEscena] = useState<string>(pedidoInicial?.escena ?? PAREJAS_DEMO[0].escenaEjemplo);
+  const [criticados, setCriticados] = useState<string>(pedidoInicial?.criticados ?? '');
+  const [alabados, setAlabados] = useState<string>(pedidoInicial?.alabados ?? '');
+  const [presentes, setPresentes] = useState<string>(pedidoInicial?.presentes ?? '');
+  const [tema, setTema] = useState<string>(pedidoInicial?.tema ?? PAREJAS_DEMO[0].temaEjemplo ?? '');
+  const [tono, setTono] = useState<string>(pedidoInicial?.tono ?? 'irónico');
   const [mostrarOptativos, setMostrarOptativos] = useState<boolean>(false);
+
+  /** Carga en el formulario el pedido completo de un diario (todos los campos). */
+  function cargarPedido(p: PaginaPublica) {
+    const x = pedidoDelDiario(p);
+    setBorges(x.borges);
+    setBioy(x.bioy);
+    setFecha(x.fecha);
+    setEscena(x.escena);
+    setCriticados(x.criticados);
+    setAlabados(x.alabados);
+    setPresentes(x.presentes);
+    setTema(x.tema);
+    setTono(x.tono);
+  }
 
   // Anthology & Active Book Page state
   const [antologia, setAntologia] = useState<PaginaPublica[]>(ANTOLOGIA_INICIAL);
@@ -79,11 +95,7 @@ export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica }
         if (idxLocal >= 0) {
           const encontrada = locales[idxLocal];
           setIndiceDemoActivo(idxLocal);
-          setBorges(encontrada.parametros.borges);
-          setBioy(encontrada.parametros.bioy);
-          setFecha(encontrada.parametros.fecha);
-          setEscena(encontrada.parametros.escena ?? '');
-          setTema(encontrada.parametros.tema ?? '');
+          cargarPedido(encontrada);
           setPaginaActiva(encontrada);
           sincronizarSeoPagina(encontrada);
           irAlLibro();
@@ -106,6 +118,7 @@ export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica }
             const pageData = await pageRes.json();
             if (pageData?.pagina) {
               setIndiceDemoActivo(-1);
+              cargarPedido(pageData.pagina);
               setPaginaActiva(pageData.pagina);
               sincronizarSeoPagina(pageData.pagina);
               irAlLibro();
@@ -129,16 +142,23 @@ export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica }
     const par = PAREJAS_DEMO[i];
     if (!par) return;
     setIndiceDemoActivo(i);
-    setBorges(par.borges.nombre);
-    setBioy(par.bioy.nombre);
-    setFecha(par.fechaEjemplo);
-    setEscena(par.escenaEjemplo);
-    setTema(par.temaEjemplo ?? '');
-    setTono(par.tonoEjemplo ?? 'irónico');
+    const precomputada = ANTOLOGIA_INICIAL[i];
+    if (precomputada) {
+      cargarPedido(precomputada);
+    } else {
+      setBorges(par.borges.nombre);
+      setBioy(par.bioy.nombre);
+      setFecha(par.fechaEjemplo);
+      setEscena(par.escenaEjemplo);
+      setCriticados('');
+      setAlabados('');
+      setPresentes('');
+      setTema(par.temaEjemplo ?? '');
+      setTono(par.tonoEjemplo ?? 'irónico');
+    }
     setError(null);
     setRechazo(null);
 
-    const precomputada = ANTOLOGIA_INICIAL[i];
     if (precomputada) {
       setPaginaActiva(precomputada);
       sincronizarSeoPagina(precomputada);
@@ -509,6 +529,8 @@ export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica }
 
               <LibroAbierto entrada={paginaActiva.entrada} titulo={tituloDe(paginaActiva)} />
 
+              <PedidoDiario pagina={paginaActiva} />
+
               <BarraAccionesDiario pagina={paginaActiva} />
             </div>
           )}
@@ -522,8 +544,9 @@ export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica }
           <div className="privacidad-texto">
             <p>
               <strong>Lo que escribís se guarda y es público.</strong> Al generar un diario, el
-              servidor (funciones de Supabase) guarda la página resultante: los nombres, la fecha, la
-              escena, el tema y el tono que ingresaste, la validación de los participantes, el
+              servidor (funciones de Supabase) guarda la página resultante: todo lo que escribiste en el
+              formulario (nombres, fecha, escena, criticados, alabados, presentes, tema y tono), que se
+              muestra junto al diario, la validación de los participantes, el
               contexto histórico y el texto del diario, con un identificador corto al azar y la fecha de
               creación. Esa página queda con un enlace para compartir, y cualquiera que lo tenga
               puede leerla. El servidor también ofrece una lista pública de las páginas guardadas
