@@ -15,6 +15,9 @@ import { BarraAccionesDiario, textoCompartir } from './components/Compartir';
 import { pedidoDelDiario } from './lib/pedido';
 import { sincronizarSeoPagina } from './lib/seoHead';
 import { BotonTema } from './components/BotonTema';
+import { VotosDiario } from './components/Votos';
+import { ListaDiarios } from './components/ListaDiarios';
+import { sePuedeVotar } from './lib/votos';
 
 const MESES = ['ene', 'feb', 'mar', 'abr', 'may', 'jun', 'jul', 'ago', 'sep', 'oct', 'nov', 'dic'];
 /** «2026-10-07» → «7 oct 2026» (sin Intl, para que el prerender y el cliente coincidan). */
@@ -256,6 +259,7 @@ export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica }
           <nav className="nav-sitio" aria-label="Secciones">
             <a href="#escribir">Escribir</a>
             <a href="#ejemplos">Ejemplos</a>
+            <a href="#diarios">Diarios</a>
           </nav>
           <BotonTema />
         </div>
@@ -533,10 +537,14 @@ export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica }
 
               <LibroAbierto entrada={paginaActiva.entrada} titulo={tituloDe(paginaActiva)} />
 
+              {indiceDemoActivo < 0 && sePuedeVotar(paginaActiva.id) && <VotosDiario id={paginaActiva.id} />}
+
               <BarraAccionesDiario pagina={paginaActiva} />
             </div>
           )}
         </section>
+
+        <ListaDiarios urlDe={urlConId} />
 
         <section id="privacidad" className="seccion privacidad" aria-labelledby="titulo-privacidad">
           <div className="seccion-cab">
@@ -552,7 +560,7 @@ export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica }
               contexto histórico y el texto del diario, con un identificador corto al azar y la fecha de
               creación. Esa página queda con un enlace para compartir, y cualquiera que lo tenga
               puede leerla. El servidor también ofrece una lista pública de las páginas guardadas
-              (identificador, fecha y primeras líneas). El código no las borra solo: no escribas datos
+              (identificador, fecha, primeras líneas y votos), que también se muestra en el sitio. El código no las borra solo: no escribas datos
               personales ni nada que no quieras hacer público. Si querés que se elimine una página,
               abrí un{' '}
               <a href={`${REPOSITORIO_GITHUB}/issues`} target="_blank" rel="noreferrer noopener">
@@ -568,14 +576,22 @@ export default function App({ paginaInicial }: { paginaInicial?: PaginaPublica }
               periódicamente.
             </p>
             <p>
+              <strong>Votos.</strong> Para votar no hace falta cuenta. Tu navegador guarda un
+              identificador anónimo hecho al azar y los votos que diste (localStorage, claves{' '}
+              <code>bdb-votante</code> y <code>bdb-votos</code>), para que cada navegador vote una sola
+              vez por diario y pueda cambiar o quitar su voto. El servidor guarda el voto con un hash con
+              sal de ese identificador y otro de tu dirección IP (para frenar abusos), nunca los datos en
+              sí. Los totales de cada diario son públicos.
+            </p>
+            <p>
               <strong>Servicios de terceros.</strong> Para escribir el diario, el texto que ingresás
               se envía a servicios de Google, que lo procesan según sus propias condiciones.
             </p>
             <p>
               <strong>Sin cuentas, cookies ni analítica.</strong> El sitio no pide registro, no usa
-              cookies y no incluye herramientas de analítica ni publicidad. Lo único que se guarda en
-              tu navegador es tu elección de modo claro u oscuro (localStorage, clave{' '}
-              <code>bdb-tema</code>). Las tipografías se sirven desde este mismo sitio. Los botones de
+              cookies y no incluye herramientas de analítica ni publicidad. En tu navegador se guarda
+              tu elección de modo claro u oscuro (localStorage, clave <code>bdb-tema</code>) y, si
+              votás, lo descripto en «Votos». Las tipografías se sirven desde este mismo sitio. Los botones de
               compartir son simples enlaces a WhatsApp y X: solo se abren si los tocás. Como en
               cualquier servicio web, GitHub Pages (que aloja el sitio) y Supabase (que aloja el
               servidor) pueden mantener sus propios registros técnicos de las conexiones.
